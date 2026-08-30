@@ -4,9 +4,9 @@ from pathlib import Path
 from urllib.parse import urlsplit, parse_qs, unquote
 
 SRC = Path("vless_working_full_unique.txt")
-OUT = Path("v2rayxs_top5.json")
+OUT = Path("v2rayxs_top10.json")
 OUT_DIR = Path("outbounds-auto")
-COUNT = 5
+COUNT = 10
 
 
 def q1(q, name, default=""):
