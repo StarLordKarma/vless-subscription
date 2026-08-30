@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-08-211Mb",
+  "tag": "AUTO-09-185Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "95.85.232.112",
+        "address": "2.27.209.60",
         "port": 443,
         "users": [
           {
-            "id": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
+            "id": "13b54a52-a29f-4737-9941-26f54a4f87c4",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "duchland1.vodniki.monster",
+      "serverName": "www.yandex.ru",
       "fingerprint": "firefox",
-      "publicKey": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
-      "shortId": "0c13e8822e7f58aa",
+      "publicKey": "ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4",
+      "shortId": "b4c823",
       "spiderX": ""
     }
   }

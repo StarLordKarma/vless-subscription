@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-05-262Mb",
+  "tag": "AUTO-10-185Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "84.32.189.22",
+        "address": "fin2.helper-internet.com",
         "port": 443,
         "users": [
           {
-            "id": "f73681a4-1654-446f-a7eb-bda3bfd9e521",
+            "id": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "app23.jarvestip.ru",
+      "serverName": "fin2.helper-internet.com",
       "fingerprint": "firefox",
-      "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-      "shortId": "2aef5875",
+      "publicKey": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+      "shortId": "ff776ff77be48b88",
       "spiderX": ""
     }
   }

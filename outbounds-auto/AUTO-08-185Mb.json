@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-07-212Mb",
+  "tag": "AUTO-08-185Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "app23.jarvestip.ru",
+        "address": "82.152.223.140",
         "port": 443,
         "users": [
           {
-            "id": "f73681a4-1654-446f-a7eb-bda3bfd9e521",
+            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "app23.jarvestip.ru",
+      "serverName": "public-auth.savesafe.cc",
       "fingerprint": "firefox",
-      "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-      "shortId": "2aef5875",
+      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+      "shortId": "c37c2ae6f6eb0d71",
       "spiderX": ""
     }
   }

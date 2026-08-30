@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-03-319Mb",
+  "tag": "AUTO-07-200Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "82.118.18.224",
+        "address": "duchland1.vodniki.monster",
         "port": 443,
         "users": [
           {
-            "id": "bfb66910-f920-42c6-b52a-5f56e1dabcb4",
+            "id": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,11 +20,11 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.cloudflare.com",
+      "serverName": "duchland1.vodniki.monster",
       "fingerprint": "firefox",
-      "publicKey": "mx0NhP2x4HYUumJ1r0RV411imRCjKQDfDf5ApSz5cCE",
-      "shortId": "63499b2eceaee61e",
-      "spiderX": ""
+      "publicKey": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
+      "shortId": "0c13e8822e7f58aa",
+      "spiderX": "/"
     }
   }
 }

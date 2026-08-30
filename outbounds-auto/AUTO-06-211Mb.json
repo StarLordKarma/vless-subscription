@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-06-232Mb",
+  "tag": "AUTO-06-211Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "public-auth.savesafe.cc",
+        "address": "95.85.232.112",
         "port": 443,
         "users": [
           {
-            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+            "id": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "public-auth.savesafe.cc",
+      "serverName": "duchland1.vodniki.monster",
       "fingerprint": "firefox",
-      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-      "shortId": "c37c2ae6f6eb0d71",
+      "publicKey": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
+      "shortId": "0c13e8822e7f58aa",
       "spiderX": ""
     }
   }
