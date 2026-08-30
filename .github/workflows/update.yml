@@ -31,6 +31,10 @@ jobs:
           grep '^vless://' speed_tested.txt | head -n 50 > speed_tested_50.txt
           base64 -w 0 speed_tested_50.txt > speed_tested_50_base64.txt
 
+          # Один VLESS-сервер для диагностики
+          grep '^vless://' speed_tested.txt | head -n 1 > speed_tested_1.txt
+          base64 -w 0 speed_tested_1.txt > speed_tested_1_base64.txt
+
       - name: Save updated subscriptions
         run: |
           git config user.name "github-actions[bot]"
@@ -38,6 +42,7 @@ jobs:
 
           git add speed_tested_base64.txt
           git add speed_tested_50_base64.txt
+          git add speed_tested_1_base64.txt
 
           if git diff --cached --quiet; then
             echo "No changes"
