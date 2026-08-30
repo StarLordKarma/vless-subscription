@@ -1,0 +1,30 @@
+{
+  "tag": "AUTO-08-187Mb",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "172.232.196.241",
+        "port": 32396,
+        "users": [
+          {
+            "id": "bd6ebd72-25cd-4209-a418-a8c72946da90",
+            "encryption": "none",
+            "flow": "xtls-rprx-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "www.sony.com",
+      "fingerprint": "ios",
+      "publicKey": "Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU",
+      "shortId": "dd6ce6af95001a",
+      "spiderX": ""
+    }
+  }
+}
