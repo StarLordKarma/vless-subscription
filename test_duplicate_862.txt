@@ -1,0 +1,2 @@
+vless://0cfee0f7-de6d-4d72-95c5-bb5d35094974@wl-1.myfreedom.rest:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&headertype=none&pbk=sdnD0vxmj8kHBOoVM8TE9IyBCGwnKNB8hZVaHp_Zfjk&security=reality&sid=c427&sni=ads.vk.ru&type=tcp#862Mb
+vless://0cfee0f7-de6d-4d72-95c5-bb5d35094974@wl-1.myfreedom.rest:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&headertype=none&pbk=sdnD0vxmj8kHBOoVM8TE9IyBCGwnKNB8hZVaHp_Zfjk&security=reality&sid=c427&sni=ads.vk.ru&type=tcp#TEST-2
