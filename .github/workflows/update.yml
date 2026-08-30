@@ -137,13 +137,13 @@ jobs:
           echo "Working full VLESS count: $(grep -c '^vless://' vless_working_full.txt || true)"
           echo "Unique working full endpoints: $(grep -c '^vless://' vless_working_full_unique.txt || true)"
 
-      - name: Build automatic top-5 Outbounds for V2RayXS
+      - name: Build automatic top-10 Outbounds for V2RayXS
         run: |
           python3 scripts/build_v2rayxs_outbounds.py
-          python3 -m json.tool v2rayxs_top5.json >/dev/null
+          python3 -m json.tool v2rayxs_top10.json >/dev/null
           echo "Automatic V2RayXS profiles: $(python3 - <<'PY'
           import json
-          print(len(json.load(open('v2rayxs_top5.json'))))
+          print(len(json.load(open('v2rayxs_top10.json'))))
           PY
           )"
 
@@ -167,7 +167,7 @@ jobs:
           git add vless_test_results_full.tsv
           git add subscription.txt
           git add subscription20.txt
-          git add v2rayxs_top5.json
+          git add v2rayxs_top10.json
           git add outbounds-auto
 
           if git diff --cached --quiet; then
