@@ -22,19 +22,26 @@ jobs:
             "https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/speed_tested.txt" \
             -o speed_tested.txt
 
-      - name: Convert to Base64
+      - name: Create subscriptions
         run: |
+          # Полная подписка
           base64 -w 0 speed_tested.txt > speed_tested_base64.txt
 
-      - name: Save updated subscription
+          # Первые 50 непустых VLESS-серверов
+          grep '^vless://' speed_tested.txt | head -n 50 > speed_tested_50.txt
+          base64 -w 0 speed_tested_50.txt > speed_tested_50_base64.txt
+
+      - name: Save updated subscriptions
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add speed_tested_base64.txt
+          git add speed_tested_50_base64.txt
 
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update VLESS subscription"
+            git commit -m "Update VLESS subscriptions"
             git push
           fi
