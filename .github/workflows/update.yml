@@ -1,0 +1,40 @@
+name: Update VLESS subscription
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download VLESS list
+        run: |
+          curl -fL --retry 3 \
+            "https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/speed_tested.txt" \
+            -o speed_tested.txt
+
+      - name: Convert to Base64
+        run: |
+          base64 -w 0 speed_tested.txt > speed_tested_base64.txt
+
+      - name: Save updated subscription
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add speed_tested_base64.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update VLESS subscription"
+            git push
+          fi
