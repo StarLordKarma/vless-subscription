@@ -22,17 +22,81 @@ jobs:
             "https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/speed_tested.txt" \
             -o speed_tested.txt
 
-      - name: Create subscriptions
+      - name: Normalize VLESS links for V2RayXS 1.5.9
         run: |
-          # Полная подписка
-          base64 -w 0 speed_tested.txt > speed_tested_base64.txt
+          python3 - <<'PY'
+          from urllib.parse import urlsplit, parse_qsl, urlencode, quote
+          import re
 
-          # Первые 50 непустых VLESS-серверов
-          grep '^vless://' speed_tested.txt | head -n 50 > speed_tested_50.txt
+          src = "speed_tested.txt"
+          dst = "speed_tested_v2rayxs.txt"
+
+          # Keep parameters V2RayXS/Xray actually needs. Drop tracker/noise
+          # parameters that old V2RayXS may parse poorly.
+          allowed = {
+              "encryption", "flow", "security", "sni", "fp", "pbk", "sid",
+              "type", "headerType", "headertype", "host", "path", "spx",
+              "alpn", "packetEncoding", "packetencoding", "serviceName", "mode"
+          }
+
+          def ascii_name(fragment, index):
+              # Prefer the speed marker from names such as "🌐862Mb | ...".
+              m = re.search(r"(\d+(?:\.\d+)?\s*(?:Mb|Mbps|ms))", fragment, re.I)
+              if m:
+                  name = m.group(1).replace(" ", "")
+              else:
+                  name = f"VLESS-{index:03d}"
+              return re.sub(r"[^A-Za-z0-9._-]", "-", name)
+
+          output = []
+          with open(src, "r", encoding="utf-8", errors="ignore") as f:
+              for index, raw in enumerate((x.strip() for x in f), 1):
+                  if not raw.startswith("vless://"):
+                      continue
+                  try:
+                      u = urlsplit(raw)
+                      params = []
+                      seen = set()
+                      for key, value in parse_qsl(u.query, keep_blank_values=True):
+                          if key in allowed:
+                              params.append((key, value))
+                              seen.add(key.lower())
+
+                      # VLESS requires encryption=none. Older V2RayXS imports
+                      # more reliably when it is explicit in the share link.
+                      if "encryption" not in seen:
+                          params.insert(0, ("encryption", "none"))
+
+                      # Keep REALITY explicitly when present in the source.
+                      # Do not invent REALITY for ordinary VLESS nodes.
+                      query = urlencode(params, doseq=True, safe="-._~")
+                      name = ascii_name(u.fragment, index)
+
+                      # Rebuild the URI while preserving UUID, host and port.
+                      authority = u.netloc
+                      normalized = f"vless://{authority}?{query}#{quote(name, safe='-._')}"
+                      output.append(normalized)
+                  except Exception as e:
+                      print(f"Skipping malformed line {index}: {e}")
+
+          with open(dst, "w", encoding="ascii", newline="\n") as f:
+              for line in output:
+                  f.write(line + "\n")
+
+          print(f"Normalized {len(output)} VLESS links")
+          PY
+
+      - name: Create V2RayXS subscriptions
+        run: |
+          # Full normalized subscription
+          base64 -w 0 speed_tested_v2rayxs.txt > speed_tested_base64.txt
+
+          # First 50 normalized servers
+          head -n 50 speed_tested_v2rayxs.txt > speed_tested_50.txt
           base64 -w 0 speed_tested_50.txt > speed_tested_50_base64.txt
 
-          # Один VLESS-сервер для диагностики
-          grep '^vless://' speed_tested.txt | head -n 1 > speed_tested_1.txt
+          # First normalized server for diagnostics
+          head -n 1 speed_tested_v2rayxs.txt > speed_tested_1.txt
           base64 -w 0 speed_tested_1.txt > speed_tested_1_base64.txt
 
       - name: Save updated subscriptions
@@ -40,14 +104,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          git add speed_tested_v2rayxs.txt
           git add speed_tested_base64.txt
+          git add speed_tested_50.txt
           git add speed_tested_50_base64.txt
-          git add speed_tested_1_base64.txt
           git add speed_tested_1.txt
+          git add speed_tested_1_base64.txt
 
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update VLESS subscriptions"
+            git commit -m "Update normalized VLESS subscriptions"
             git push
           fi
