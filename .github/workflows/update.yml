@@ -83,6 +83,7 @@ jobs:
           base64 -w 0 speed_tested_50.txt > speed_tested_50_base64.txt
           head -n 1 speed_tested_v2rayxs.txt > speed_tested_1.txt
           base64 -w 0 speed_tested_1.txt > speed_tested_1_base64.txt
+          echo "Total normalized VLESS: $(grep -c '^vless://' speed_tested_v2rayxs.txt || true)"
 
       - name: Install Xray 1.8.4
         run: |
@@ -93,28 +94,27 @@ jobs:
           chmod +x /tmp/xray/xray
           /tmp/xray/xray version
 
-      - name: Validate first 50 VLESS servers end-to-end
+      - name: Validate ALL VLESS servers end-to-end
         run: |
           python3 scripts/validate_vless.py \
-            --input speed_tested_50.txt \
+            --input speed_tested_v2rayxs.txt \
             --xray /tmp/xray/xray \
-            --working vless_working.txt \
-            --report vless_test_results.tsv \
+            --working vless_working_full.txt \
+            --report vless_test_results_full.tsv \
             --timeout 8 \
-            --workers 10
+            --workers 20
 
-      - name: Create working subscriptions for V2RayXS
+      - name: Create full working subscriptions for V2RayXS
         run: |
-          base64 -w 0 vless_working.txt > vless_working_base64.txt
-          head -n 10 vless_working.txt > vless_working_10.txt
-          base64 -w 0 vless_working_10.txt > vless_working_10_base64.txt
+          base64 -w 0 vless_working_full.txt > vless_working_full_base64.txt
 
           python3 - <<'PY'
           from pathlib import Path
           from urllib.parse import urlsplit
+
           seen = set()
           unique = []
-          for line in Path("vless_working.txt").read_text().splitlines():
+          for line in Path("vless_working_full.txt").read_text().splitlines():
               if not line.startswith("vless://"):
                   continue
               u = urlsplit(line)
@@ -122,11 +122,17 @@ jobs:
               if key not in seen:
                   seen.add(key)
                   unique.append(line)
-          Path("vless_working_unique.txt").write_text("".join(x + "\n" for x in unique))
+
+          Path("vless_working_full_unique.txt").write_text("".join(x + "\n" for x in unique))
           print(f"Unique working endpoints: {len(unique)}")
           PY
-          base64 -w 0 vless_working_unique.txt > vless_working_unique_base64.txt
-          echo "Working VLESS count: $(grep -c '^vless://' vless_working.txt || true)"
+
+          base64 -w 0 vless_working_full_unique.txt > vless_working_full_unique_base64.txt
+          head -n 20 vless_working_full_unique.txt > vless_working_full_unique_20.txt
+          base64 -w 0 vless_working_full_unique_20.txt > vless_working_full_unique_20_base64.txt
+
+          echo "Working full VLESS count: $(grep -c '^vless://' vless_working_full.txt || true)"
+          echo "Unique working full endpoints: $(grep -c '^vless://' vless_working_full_unique.txt || true)"
 
       - name: Save updated subscriptions
         run: |
@@ -139,17 +145,17 @@ jobs:
           git add speed_tested_50_base64.txt
           git add speed_tested_1.txt
           git add speed_tested_1_base64.txt
-          git add vless_working.txt
-          git add vless_working_base64.txt
-          git add vless_working_10.txt
-          git add vless_working_10_base64.txt
-          git add vless_working_unique.txt
-          git add vless_working_unique_base64.txt
-          git add vless_test_results.tsv
+          git add vless_working_full.txt
+          git add vless_working_full_base64.txt
+          git add vless_working_full_unique.txt
+          git add vless_working_full_unique_base64.txt
+          git add vless_working_full_unique_20.txt
+          git add vless_working_full_unique_20_base64.txt
+          git add vless_test_results_full.tsv
 
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update validated VLESS subscriptions"
+            git commit -m "Update full validated VLESS subscriptions"
             git push
           fi
