@@ -104,7 +104,7 @@ jobs:
             --timeout 8 \
             --workers 20
 
-      - name: Create full working subscriptions for V2RayXS
+      - name: Create full working subscriptions for V2RayXS and Pages
         run: |
           base64 -w 0 vless_working_full.txt > vless_working_full_base64.txt
 
@@ -131,6 +131,10 @@ jobs:
           head -n 20 vless_working_full_unique.txt > vless_working_full_unique_20.txt
           base64 -w 0 vless_working_full_unique_20.txt > vless_working_full_unique_20_base64.txt
 
+          # Stable short filenames intended specifically for GitHub Pages / old V2RayXS.
+          cp vless_working_full_unique_base64.txt subscription.txt
+          cp vless_working_full_unique_20_base64.txt subscription20.txt
+
           echo "Working full VLESS count: $(grep -c '^vless://' vless_working_full.txt || true)"
           echo "Unique working full endpoints: $(grep -c '^vless://' vless_working_full_unique.txt || true)"
 
@@ -152,6 +156,8 @@ jobs:
           git add vless_working_full_unique_20.txt
           git add vless_working_full_unique_20_base64.txt
           git add vless_test_results_full.tsv
+          git add subscription.txt
+          git add subscription20.txt
 
           if git diff --cached --quiet; then
             echo "No changes"
