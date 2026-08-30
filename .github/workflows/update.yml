@@ -2,6 +2,10 @@ name: Update VLESS subscription
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "manual-trigger.txt"
   schedule:
     - cron: "17 * * * *"
 
