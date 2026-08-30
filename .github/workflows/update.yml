@@ -131,12 +131,21 @@ jobs:
           head -n 20 vless_working_full_unique.txt > vless_working_full_unique_20.txt
           base64 -w 0 vless_working_full_unique_20.txt > vless_working_full_unique_20_base64.txt
 
-          # Stable short filenames intended specifically for GitHub Pages / old V2RayXS.
           cp vless_working_full_unique_base64.txt subscription.txt
           cp vless_working_full_unique_20_base64.txt subscription20.txt
 
           echo "Working full VLESS count: $(grep -c '^vless://' vless_working_full.txt || true)"
           echo "Unique working full endpoints: $(grep -c '^vless://' vless_working_full_unique.txt || true)"
+
+      - name: Build automatic top-5 Outbounds for V2RayXS
+        run: |
+          python3 scripts/build_v2rayxs_outbounds.py
+          python3 -m json.tool v2rayxs_top5.json >/dev/null
+          echo "Automatic V2RayXS profiles: $(python3 - <<'PY'
+          import json
+          print(len(json.load(open('v2rayxs_top5.json'))))
+          PY
+          )"
 
       - name: Save updated subscriptions
         run: |
@@ -158,6 +167,8 @@ jobs:
           git add vless_test_results_full.tsv
           git add subscription.txt
           git add subscription20.txt
+          git add v2rayxs_top5.json
+          git add outbounds-auto
 
           if git diff --cached --quiet; then
             echo "No changes"
