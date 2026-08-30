@@ -8,7 +8,7 @@ import tempfile
 import time
 
 DOMAIN = "cenmrev.V2RayXS"
-URL = "https://starlordkarma.github.io/vless-subscription/v2rayxs_top5.json"
+URL = "https://starlordkarma.github.io/vless-subscription/v2rayxs_top10.json"
 PREFIX = "AUTO-"
 
 
@@ -42,7 +42,7 @@ def is_auto(profile):
 
 def main():
     tmpdir = tempfile.mkdtemp(prefix="v2rayxs-auto-")
-    bundle = os.path.join(tmpdir, "top5.json")
+    bundle = os.path.join(tmpdir, "top10.json")
     prefs = os.path.join(tmpdir, "prefs.plist")
     newprefs = os.path.join(tmpdir, "prefs-new.plist")
 
@@ -84,7 +84,6 @@ def main():
 
     quit_app()
 
-    # Re-export after quitting so V2RayXS has flushed its latest settings.
     if export_prefs(prefs):
         data = plistlib.readPlist(prefs)
         current = data.get("profiles", []) or []
@@ -92,7 +91,6 @@ def main():
     manual = [p for p in current if not is_auto(p)]
     data["profiles"] = manual + new_auto
 
-    # Keep V2RayXS in the useful state we already tested: core enabled + Global Mode.
     status = data.get("appStatus", {}) or {}
     status["proxyState"] = True
     status["proxyMode"] = 1
