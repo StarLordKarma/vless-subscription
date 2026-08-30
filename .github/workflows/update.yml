@@ -34,7 +34,6 @@ jobs:
 
           src = "speed_tested.txt"
           dst = "speed_tested_v2rayxs.txt"
-
           allowed = {
               "encryption", "flow", "security", "sni", "fp", "pbk", "sid",
               "type", "headerType", "headertype", "host", "path", "spx",
@@ -62,14 +61,11 @@ jobs:
                           if key in allowed:
                               params.append((key, value))
                               seen.add(key.lower())
-
                       if "encryption" not in seen:
                           params.insert(0, ("encryption", "none"))
-
                       query = urlencode(params, doseq=True, safe="-._~")
                       name = ascii_name(u.fragment, index)
-                      authority = u.netloc
-                      normalized = f"vless://{authority}?{query}#{quote(name, safe='-._')}"
+                      normalized = f"vless://{u.netloc}?{query}#{quote(name, safe='-._')}"
                       output.append(normalized)
                   except Exception as e:
                       print(f"Skipping malformed line {index}: {e}")
@@ -77,7 +73,6 @@ jobs:
           with open(dst, "w", encoding="ascii", newline="\n") as f:
               for line in output:
                   f.write(line + "\n")
-
           print(f"Normalized {len(output)} VLESS links")
           PY
 
@@ -105,13 +100,32 @@ jobs:
             --xray /tmp/xray/xray \
             --working vless_working.txt \
             --report vless_test_results.tsv \
-            --timeout 8
+            --timeout 8 \
+            --workers 10
 
       - name: Create working subscriptions for V2RayXS
         run: |
           base64 -w 0 vless_working.txt > vless_working_base64.txt
           head -n 10 vless_working.txt > vless_working_10.txt
           base64 -w 0 vless_working_10.txt > vless_working_10_base64.txt
+
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          seen = set()
+          unique = []
+          for line in Path("vless_working.txt").read_text().splitlines():
+              if not line.startswith("vless://"):
+                  continue
+              u = urlsplit(line)
+              key = (u.hostname, u.port or 443)
+              if key not in seen:
+                  seen.add(key)
+                  unique.append(line)
+          Path("vless_working_unique.txt").write_text("".join(x + "\n" for x in unique))
+          print(f"Unique working endpoints: {len(unique)}")
+          PY
+          base64 -w 0 vless_working_unique.txt > vless_working_unique_base64.txt
           echo "Working VLESS count: $(grep -c '^vless://' vless_working.txt || true)"
 
       - name: Save updated subscriptions
@@ -129,6 +143,8 @@ jobs:
           git add vless_working_base64.txt
           git add vless_working_10.txt
           git add vless_working_10_base64.txt
+          git add vless_working_unique.txt
+          git add vless_working_unique_base64.txt
           git add vless_test_results.tsv
 
           if git diff --cached --quiet; then
