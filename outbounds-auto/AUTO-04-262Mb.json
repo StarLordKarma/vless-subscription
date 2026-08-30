@@ -1,0 +1,30 @@
+{
+  "tag": "AUTO-04-262Mb",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "84.32.189.22",
+        "port": 443,
+        "users": [
+          {
+            "id": "f73681a4-1654-446f-a7eb-bda3bfd9e521",
+            "encryption": "none",
+            "flow": "xtls-rprx-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "app23.jarvestip.ru",
+      "fingerprint": "firefox",
+      "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
+      "shortId": "2aef5875",
+      "spiderX": ""
+    }
+  }
+}

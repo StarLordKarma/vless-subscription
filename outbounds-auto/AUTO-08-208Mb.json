@@ -1,0 +1,30 @@
+{
+  "tag": "AUTO-08-208Mb",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "84.32.177.5",
+        "port": 443,
+        "users": [
+          {
+            "id": "f73681a4-1654-446f-a7eb-bda3bfd9e521",
+            "encryption": "none",
+            "flow": "xtls-rprx-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "mst15ch.jarvesitw.ru",
+      "fingerprint": "firefox",
+      "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+      "shortId": "cf41f778",
+      "spiderX": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "tag": "AUTO-05-232Mb",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "public-auth.savesafe.cc",
+        "port": 443,
+        "users": [
+          {
+            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+            "encryption": "none",
+            "flow": "xtls-rprx-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "public-auth.savesafe.cc",
+      "fingerprint": "firefox",
+      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+      "shortId": "c37c2ae6f6eb0d71",
+      "spiderX": ""
+    }
+  }
+}

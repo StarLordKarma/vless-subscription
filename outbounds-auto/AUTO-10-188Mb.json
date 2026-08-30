@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-03-339Mb",
+  "tag": "AUTO-10-188Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "2.24.131.46",
+        "address": "chmstnd1.jarvesitw.ru",
         "port": 443,
         "users": [
           {
-            "id": "be960e90-ada1-4a29-83ad-d20b06084f67",
+            "id": "f73681a4-1654-446f-a7eb-bda3bfd9e521",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.cloudflare.com",
-      "fingerprint": "chrome",
-      "publicKey": "em5MbaJeZoe--syIy7L8MEoNBwN1mLB2ur_YAY8PuQ0",
-      "shortId": "daf012feff3b00d0",
+      "serverName": "app72.jarvestip.ru",
+      "fingerprint": "firefox",
+      "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+      "shortId": "cf41f778",
       "spiderX": ""
     }
   }

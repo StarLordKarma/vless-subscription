@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-05-262Mb",
+  "tag": "AUTO-07-211Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "84.32.189.22",
+        "address": "95.85.232.112",
         "port": 443,
         "users": [
           {
-            "id": "f73681a4-1654-446f-a7eb-bda3bfd9e521",
+            "id": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "app23.jarvestip.ru",
+      "serverName": "duchland1.vodniki.monster",
       "fingerprint": "firefox",
-      "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-      "shortId": "2aef5875",
+      "publicKey": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
+      "shortId": "0c13e8822e7f58aa",
       "spiderX": ""
     }
   }
