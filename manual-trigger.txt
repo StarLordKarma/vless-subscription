@@ -1,1 +1,1 @@
-trigger 2026-08-30 full
+trigger 2026-08-30 auto-v2rayxs
