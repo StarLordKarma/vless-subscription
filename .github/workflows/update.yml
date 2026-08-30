@@ -31,8 +31,6 @@ jobs:
           src = "speed_tested.txt"
           dst = "speed_tested_v2rayxs.txt"
 
-          # Keep parameters V2RayXS/Xray actually needs. Drop tracker/noise
-          # parameters that old V2RayXS may parse poorly.
           allowed = {
               "encryption", "flow", "security", "sni", "fp", "pbk", "sid",
               "type", "headerType", "headertype", "host", "path", "spx",
@@ -40,7 +38,6 @@ jobs:
           }
 
           def ascii_name(fragment, index):
-              # Prefer the speed marker from names such as "🌐862Mb | ...".
               m = re.search(r"(\d+(?:\.\d+)?\s*(?:Mb|Mbps|ms))", fragment, re.I)
               if m:
                   name = m.group(1).replace(" ", "")
@@ -62,17 +59,11 @@ jobs:
                               params.append((key, value))
                               seen.add(key.lower())
 
-                      # VLESS requires encryption=none. Older V2RayXS imports
-                      # more reliably when it is explicit in the share link.
                       if "encryption" not in seen:
                           params.insert(0, ("encryption", "none"))
 
-                      # Keep REALITY explicitly when present in the source.
-                      # Do not invent REALITY for ordinary VLESS nodes.
                       query = urlencode(params, doseq=True, safe="-._~")
                       name = ascii_name(u.fragment, index)
-
-                      # Rebuild the URI while preserving UUID, host and port.
                       authority = u.netloc
                       normalized = f"vless://{authority}?{query}#{quote(name, safe='-._')}"
                       output.append(normalized)
@@ -86,18 +77,38 @@ jobs:
           print(f"Normalized {len(output)} VLESS links")
           PY
 
-      - name: Create V2RayXS subscriptions
+      - name: Create V2RayXS source subscriptions
         run: |
-          # Full normalized subscription
           base64 -w 0 speed_tested_v2rayxs.txt > speed_tested_base64.txt
-
-          # First 50 normalized servers
           head -n 50 speed_tested_v2rayxs.txt > speed_tested_50.txt
           base64 -w 0 speed_tested_50.txt > speed_tested_50_base64.txt
-
-          # First normalized server for diagnostics
           head -n 1 speed_tested_v2rayxs.txt > speed_tested_1.txt
           base64 -w 0 speed_tested_1.txt > speed_tested_1_base64.txt
+
+      - name: Install Xray 1.8.4
+        run: |
+          curl -fL --retry 3 \
+            "https://github.com/XTLS/Xray-core/releases/download/v1.8.4/Xray-linux-64.zip" \
+            -o /tmp/xray.zip
+          unzip -q /tmp/xray.zip xray -d /tmp/xray
+          chmod +x /tmp/xray/xray
+          /tmp/xray/xray version
+
+      - name: Validate first 50 VLESS servers end-to-end
+        run: |
+          python3 scripts/validate_vless.py \
+            --input speed_tested_50.txt \
+            --xray /tmp/xray/xray \
+            --working vless_working.txt \
+            --report vless_test_results.tsv \
+            --timeout 8
+
+      - name: Create working subscriptions for V2RayXS
+        run: |
+          base64 -w 0 vless_working.txt > vless_working_base64.txt
+          head -n 10 vless_working.txt > vless_working_10.txt
+          base64 -w 0 vless_working_10.txt > vless_working_10_base64.txt
+          echo "Working VLESS count: $(grep -c '^vless://' vless_working.txt || true)"
 
       - name: Save updated subscriptions
         run: |
@@ -110,10 +121,15 @@ jobs:
           git add speed_tested_50_base64.txt
           git add speed_tested_1.txt
           git add speed_tested_1_base64.txt
+          git add vless_working.txt
+          git add vless_working_base64.txt
+          git add vless_working_10.txt
+          git add vless_working_10_base64.txt
+          git add vless_test_results.tsv
 
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update normalized VLESS subscriptions"
+            git commit -m "Update validated VLESS subscriptions"
             git push
           fi
