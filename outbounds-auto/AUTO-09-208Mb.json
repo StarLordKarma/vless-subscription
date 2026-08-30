@@ -1,10 +1,10 @@
 {
-  "tag": "AUTO-06-212Mb",
+  "tag": "AUTO-09-208Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "app23.jarvestip.ru",
+        "address": "84.32.177.5",
         "port": 443,
         "users": [
           {
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "app23.jarvestip.ru",
+      "serverName": "mst15ch.jarvesitw.ru",
       "fingerprint": "firefox",
-      "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-      "shortId": "2aef5875",
+      "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+      "shortId": "cf41f778",
       "spiderX": ""
     }
   }
