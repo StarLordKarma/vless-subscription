@@ -5,6 +5,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "public-auth.savesafe.cc",
+          "port": 443,
+          "users": [
+            {
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "82.152.223.140",
           "port": 443,
           "users": [
@@ -30,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -60,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-04-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -85,36 +115,6 @@
         "fingerprint": "chrome",
         "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
         "shortId": "16498ac98306ce31",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "public-auth.savesafe.cc",
-          "port": 443,
-          "users": [
-            {
-              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "public-auth.savesafe.cc",
-        "fingerprint": "firefox",
-        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-        "shortId": "c37c2ae6f6eb0d71",
         "spiderX": ""
       }
     }
@@ -240,28 +240,32 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-09-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "51.15.57.139",
-          "port": 8080,
+          "address": "82.152.223.130",
+          "port": 443,
           "users": [
             {
-              "id": "11af1c47-865a-47c6-92ff-118013655d78",
-              "encryption": "none"
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "",
-      "wsSettings": {
-        "path": "/?ed=2048",
-        "headers": {}
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
+        "spiderX": ""
       }
     }
   },
@@ -271,25 +275,27 @@
     "settings": {
       "vnext": [
         {
-          "address": "ez-681940.ezaccess117ab43.workers.dev",
-          "port": 80,
+          "address": "t17.qifei.app",
+          "port": 443,
           "users": [
             {
-              "id": "50414e45-4c5f-5a45-5553-46f80d9f130a",
-              "encryption": "none"
+              "id": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/46f80d9f130a/loc-0",
-        "headers": {
-          "Host": "ez-681940.ezaccess117ab43.workers.dev"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.amazon.com",
+        "fingerprint": "ios",
+        "publicKey": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
+        "shortId": "1a",
+        "spiderX": ""
       }
     }
   }
