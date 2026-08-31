@@ -53,6 +53,28 @@ def is_auto(profile):
     return isinstance(profile, dict) and str(profile.get("tag", "")).startswith(PREFIX)
 
 
+def desired_status(data, first_auto_index):
+    status = data.get("appStatus", {}) or {}
+    return (
+        status.get("proxyState") is True and
+        int(status.get("proxyMode", -1)) == 1 and
+        int(status.get("selectedServerIndex", -1)) == int(first_auto_index) and
+        status.get("useCusProfile") is False and
+        status.get("useMultipleServer") is False
+    )
+
+
+def apply_status(data, first_auto_index):
+    status = data.get("appStatus", {}) or {}
+    status["proxyState"] = True
+    status["proxyMode"] = 1
+    status["selectedServerIndex"] = int(first_auto_index)
+    status["selectedCusServerIndex"] = -1
+    status["useCusProfile"] = False
+    status["useMultipleServer"] = False
+    data["appStatus"] = status
+
+
 def main():
     tmpdir = tempfile.mkdtemp(prefix="v2rayxs-auto-")
     bundle = os.path.join(tmpdir, "top10.json")
@@ -93,9 +115,15 @@ def main():
         return 6
 
     current = data.get("profiles", []) or []
+    manual = [p for p in current if not is_auto(p)]
     old_auto = [p for p in current if is_auto(p)]
-    if json.dumps(old_auto, sort_keys=True) == json.dumps(new_auto, sort_keys=True):
-        print("Automatic servers are already current (10 profiles)")
+    first_auto_index = len(manual)
+
+    profiles_current = json.dumps(old_auto, sort_keys=True) == json.dumps(new_auto, sort_keys=True)
+    status_current = desired_status(data, first_auto_index)
+
+    if profiles_current and status_current:
+        print("Automatic servers and AUTO-01 selection are already current")
         if not app_running():
             open_app()
         return 0
@@ -113,13 +141,12 @@ def main():
             return 7
 
     manual = [p for p in current if not is_auto(p)]
+    first_auto_index = len(manual)
     data["profiles"] = manual + new_auto
 
-    # Preserve the useful state already tested on this Mac.
-    status = data.get("appStatus", {}) or {}
-    status["proxyState"] = True
-    status["proxyMode"] = 1
-    data["appStatus"] = status
+    # Start V2RayXS in the state already proven to work on this Mac:
+    # Global Mode, core enabled, single server, first AUTO profile selected.
+    apply_status(data, first_auto_index)
 
     plistlib.writePlist(data, newprefs)
     if run(["/usr/bin/defaults", "import", DOMAIN, newprefs], True) != 0:
@@ -129,7 +156,7 @@ def main():
 
     time.sleep(0.5)
     open_app()
-    print("Updated 10 automatic V2RayXS servers")
+    print("Updated 10 automatic V2RayXS servers; AUTO-01 selected")
     return 0
 
 
