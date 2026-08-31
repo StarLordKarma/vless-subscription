@@ -5,36 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "2.24.131.46",
-          "port": 443,
-          "users": [
-            {
-              "id": "be960e90-ada1-4a29-83ad-d20b06084f67",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.cloudflare.com",
-        "fingerprint": "chrome",
-        "publicKey": "em5MbaJeZoe--syIy7L8MEoNBwN1mLB2ur_YAY8PuQ0",
-        "shortId": "daf012feff3b00d0",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "public-auth.savesafe.cc",
           "port": 443,
           "users": [
@@ -60,7 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-UK",
+    "tag": "AUTO-04-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -150,7 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -175,6 +145,36 @@
         "fingerprint": "chrome",
         "publicKey": "XImbM2wWs5wGcIB2ooFmtancJkhnWJZmsBPlM76gWG0",
         "shortId": "285be4ed203a22fd",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "82.152.223.130",
+          "port": 443,
+          "users": [
+            {
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
         "spiderX": ""
       }
     }
@@ -245,36 +245,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "216.167.21.32",
-          "port": 40573,
-          "users": [
-            {
-              "id": "095d1015-70da-4eff-af6d-962ff619a679",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "firefox",
-        "publicKey": "aqAR_yPgXQtOazW4nR1Q5RmGIVLQ5TV2ztUWmsjSFVw",
-        "shortId": "2012d3de918e0d20",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "t17.qifei.app",
           "port": 443,
           "users": [
@@ -296,6 +266,32 @@
         "publicKey": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
         "shortId": "1a",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "51.15.57.139",
+          "port": 8080,
+          "users": [
+            {
+              "id": "11af1c47-865a-47c6-92ff-118013655d78",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "",
+      "wsSettings": {
+        "path": "/?ed=2048",
+        "headers": {}
       }
     }
   }
