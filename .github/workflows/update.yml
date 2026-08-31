@@ -31,48 +31,28 @@ jobs:
           python3 - <<'PY'
           from urllib.parse import urlsplit, parse_qsl, urlencode, quote
           import re
-
           src = "speed_tested.txt"
           dst = "speed_tested_v2rayxs.txt"
-          allowed = {
-              "encryption", "flow", "security", "sni", "fp", "pbk", "sid",
-              "type", "headerType", "headertype", "host", "path", "spx",
-              "alpn", "packetEncoding", "packetencoding", "serviceName", "mode"
-          }
-
+          allowed = {"encryption", "flow", "security", "sni", "fp", "pbk", "sid", "type", "headerType", "headertype", "host", "path", "spx", "alpn", "packetEncoding", "packetencoding", "serviceName", "mode"}
           def ascii_name(fragment, index):
               m = re.search(r"(\d+(?:\.\d+)?\s*(?:Mb|Mbps|ms))", fragment, re.I)
-              if m:
-                  name = m.group(1).replace(" ", "")
-              else:
-                  name = f"VLESS-{index:03d}"
+              name = m.group(1).replace(" ", "") if m else f"VLESS-{index:03d}"
               return re.sub(r"[^A-Za-z0-9._-]", "-", name)
-
           output = []
           with open(src, "r", encoding="utf-8", errors="ignore") as f:
               for index, raw in enumerate((x.strip() for x in f), 1):
-                  if not raw.startswith("vless://"):
-                      continue
+                  if not raw.startswith("vless://"): continue
                   try:
-                      u = urlsplit(raw)
-                      params = []
-                      seen = set()
+                      u = urlsplit(raw); params = []; seen = set()
                       for key, value in parse_qsl(u.query, keep_blank_values=True):
                           if key in allowed:
-                              params.append((key, value))
-                              seen.add(key.lower())
-                      if "encryption" not in seen:
-                          params.insert(0, ("encryption", "none"))
+                              params.append((key, value)); seen.add(key.lower())
+                      if "encryption" not in seen: params.insert(0, ("encryption", "none"))
                       query = urlencode(params, doseq=True, safe="-._~")
-                      name = ascii_name(u.fragment, index)
-                      normalized = f"vless://{u.netloc}?{query}#{quote(name, safe='-._')}"
-                      output.append(normalized)
-                  except Exception as e:
-                      print(f"Skipping malformed line {index}: {e}")
-
+                      output.append(f"vless://{u.netloc}?{query}#{quote(ascii_name(u.fragment, index), safe='-._')}")
+                  except Exception as e: print(f"Skipping malformed line {index}: {e}")
           with open(dst, "w", encoding="ascii", newline="\n") as f:
-              for line in output:
-                  f.write(line + "\n")
+              for line in output: f.write(line + "\n")
           print(f"Normalized {len(output)} VLESS links")
           PY
 
@@ -83,96 +63,65 @@ jobs:
           base64 -w 0 speed_tested_50.txt > speed_tested_50_base64.txt
           head -n 1 speed_tested_v2rayxs.txt > speed_tested_1.txt
           base64 -w 0 speed_tested_1.txt > speed_tested_1_base64.txt
-          echo "Total normalized VLESS: $(grep -c '^vless://' speed_tested_v2rayxs.txt || true)"
 
       - name: Install Xray 1.8.4
         run: |
-          curl -fL --retry 3 \
-            "https://github.com/XTLS/Xray-core/releases/download/v1.8.4/Xray-linux-64.zip" \
-            -o /tmp/xray.zip
+          curl -fL --retry 3 "https://github.com/XTLS/Xray-core/releases/download/v1.8.4/Xray-linux-64.zip" -o /tmp/xray.zip
           unzip -q /tmp/xray.zip xray -d /tmp/xray
           chmod +x /tmp/xray/xray
-          /tmp/xray/xray version
 
-      - name: Validate ALL VLESS servers end-to-end
+      - name: Validate ALL VLESS servers and Gemini access
         run: |
           python3 scripts/validate_vless.py \
             --input speed_tested_v2rayxs.txt \
             --xray /tmp/xray/xray \
             --working vless_working_full.txt \
+            --gemini-working vless_gemini_working.txt \
             --report vless_test_results_full.tsv \
-            --timeout 8 \
+            --timeout 10 \
             --workers 20
 
-      - name: Create full working subscriptions for V2RayXS and Pages
+      - name: Create working subscriptions and Gemini-first AUTO source
         run: |
           base64 -w 0 vless_working_full.txt > vless_working_full_base64.txt
-
           python3 - <<'PY'
           from pathlib import Path
           from urllib.parse import urlsplit
-
-          seen = set()
-          unique = []
-          for line in Path("vless_working_full.txt").read_text().splitlines():
-              if not line.startswith("vless://"):
-                  continue
-              u = urlsplit(line)
-              key = (u.hostname, u.port or 443)
-              if key not in seen:
-                  seen.add(key)
-                  unique.append(line)
-
-          Path("vless_working_full_unique.txt").write_text("".join(x + "\n" for x in unique))
-          print(f"Unique working endpoints: {len(unique)}")
+          def unique(lines):
+              seen=set(); out=[]
+              for line in lines:
+                  if not line.startswith("vless://"): continue
+                  u=urlsplit(line); key=(u.hostname,u.port or 443)
+                  if key not in seen: seen.add(key); out.append(line)
+              return out
+          all_working=unique(Path("vless_working_full.txt").read_text().splitlines())
+          gemini=unique(Path("vless_gemini_working.txt").read_text().splitlines())
+          Path("vless_working_full_unique.txt").write_text("".join(x+"\n" for x in all_working))
+          Path("vless_gemini_working_unique.txt").write_text("".join(x+"\n" for x in gemini))
+          # AUTO profiles use Gemini-reachable servers first; ordinary working servers fill any shortage.
+          gemini_keys={(urlsplit(x).hostname,urlsplit(x).port or 443) for x in gemini}
+          auto_source=gemini + [x for x in all_working if (urlsplit(x).hostname,urlsplit(x).port or 443) not in gemini_keys]
+          Path("vless_auto_candidates.txt").write_text("".join(x+"\n" for x in auto_source))
+          print(f"Working unique={len(all_working)} Gemini unique={len(gemini)} AUTO candidates={len(auto_source)}")
           PY
-
           base64 -w 0 vless_working_full_unique.txt > vless_working_full_unique_base64.txt
           head -n 20 vless_working_full_unique.txt > vless_working_full_unique_20.txt
           base64 -w 0 vless_working_full_unique_20.txt > vless_working_full_unique_20_base64.txt
-
           cp vless_working_full_unique_base64.txt subscription.txt
           cp vless_working_full_unique_20_base64.txt subscription20.txt
 
-          echo "Working full VLESS count: $(grep -c '^vless://' vless_working_full.txt || true)"
-          echo "Unique working full endpoints: $(grep -c '^vless://' vless_working_full_unique.txt || true)"
-
       - name: Build automatic top-10 Outbounds for V2RayXS
         run: |
+          cp vless_auto_candidates.txt vless_working_full_unique.txt
           python3 scripts/build_v2rayxs_outbounds.py
           python3 -m json.tool v2rayxs_top10.json >/dev/null
-          echo "Automatic V2RayXS profiles: $(python3 - <<'PY'
-          import json
-          print(len(json.load(open('v2rayxs_top10.json'))))
-          PY
-          )"
 
       - name: Save updated subscriptions
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add speed_tested_v2rayxs.txt
-          git add speed_tested_base64.txt
-          git add speed_tested_50.txt
-          git add speed_tested_50_base64.txt
-          git add speed_tested_1.txt
-          git add speed_tested_1_base64.txt
-          git add vless_working_full.txt
-          git add vless_working_full_base64.txt
-          git add vless_working_full_unique.txt
-          git add vless_working_full_unique_base64.txt
-          git add vless_working_full_unique_20.txt
-          git add vless_working_full_unique_20_base64.txt
-          git add vless_test_results_full.tsv
-          git add subscription.txt
-          git add subscription20.txt
-          git add v2rayxs_top10.json
-          git add outbounds-auto
-
-          if git diff --cached --quiet; then
-            echo "No changes"
-          else
-            git commit -m "Update full validated VLESS subscriptions"
-            git push
-          fi
+          git add speed_tested_v2rayxs.txt speed_tested_base64.txt speed_tested_50.txt speed_tested_50_base64.txt speed_tested_1.txt speed_tested_1_base64.txt
+          git add vless_working_full.txt vless_working_full_base64.txt vless_working_full_unique.txt vless_working_full_unique_base64.txt vless_working_full_unique_20.txt vless_working_full_unique_20_base64.txt
+          git add vless_gemini_working.txt vless_gemini_working_unique.txt vless_auto_candidates.txt vless_test_results_full.tsv
+          git add subscription.txt subscription20.txt v2rayxs_top10.json outbounds-auto
+          if git diff --cached --quiet; then echo "No changes"; else git commit -m "Update Gemini-tested VLESS subscriptions"; git push; fi
