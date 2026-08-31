@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-03-339Mb",
+  "tag": "AUTO-06-232Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "2.24.131.46",
+        "address": "public-auth.savesafe.cc",
         "port": 443,
         "users": [
           {
-            "id": "be960e90-ada1-4a29-83ad-d20b06084f67",
+            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.cloudflare.com",
-      "fingerprint": "chrome",
-      "publicKey": "em5MbaJeZoe--syIy7L8MEoNBwN1mLB2ur_YAY8PuQ0",
-      "shortId": "daf012feff3b00d0",
+      "serverName": "public-auth.savesafe.cc",
+      "fingerprint": "firefox",
+      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+      "shortId": "c37c2ae6f6eb0d71",
       "spiderX": ""
     }
   }

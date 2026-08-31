@@ -8,35 +8,35 @@ FAIL	646Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	635Mb	82.40.62.229	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	610Mb	141.148.232.137	62145	HTTP=000 curl=28 net=tcp sec=none
 FAIL	505Mb	176.124.200.214	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	500Mb	rf5.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	500Mb	rf5.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	494Mb	lt.superbuba.top	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	494Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	479Mb	157.90.165.181	11762	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:17:55 [Info] infra/conf/serial: Reading config: /tmp/tmpf9bmuh7s.json Failed to start: main: failed to load config files: [/tmp/tmpf9bmuh7s.json] > infra/conf: Failed to build REALITY config. > infra/conf: empty "fingerprint" 
+FAIL	479Mb	157.90.165.181	11762	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:17:55 [Info] infra/conf/serial: Reading config: /tmp/tmppcinizyx.json Failed to start: main: failed to load config files: [/tmp/tmppcinizyx.json] > infra/conf: Failed to build REALITY config. > infra/conf: empty "fingerprint" 
 FAIL	462Mb	176.124.200.214	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	461Mb	84.32.151.203	443	HTTP=204 curl=0 net=tcp sec=reality
 WORKS	460Mb	84.32.151.203	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	458Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	440Mb	194.55.239.164	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	431Mb	rf5.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	418Mb	nl8.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	440Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	431Mb	rf5.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	418Mb	nl8.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	405Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	401Mb	165.231.157.70	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:17:56 [Info] infra/conf/serial: Reading config: /tmp/tmpi_ge1sou.json Failed to start: main: failed to load config files: [/tmp/tmpi_ge1sou.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	398Mb	194.55.239.164	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	393Mb	wl-1.myfreedom.rest	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	401Mb	165.231.157.70	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmpjmgb7e1g.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	398Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	393Mb	wl-1.myfreedom.rest	443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	390Mb	lt.superbuba.top	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	377Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	374Mb	165.231.157.14	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:17:59 [Info] infra/conf/serial: Reading config: /tmp/tmpex6ejmbg.json Failed to start: main: failed to load config files: [/tmp/tmpex6ejmbg.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	369Mb	144.31.183.177	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	374Mb	165.231.157.14	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:17:58 [Info] infra/conf/serial: Reading config: /tmp/tmpto_m_7an.json Failed to start: main: failed to load config files: [/tmp/tmpto_m_7an.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	369Mb	144.31.183.177	443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	368Mb	lt.superbuba.top	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	339Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:17:59 [Info] infra/conf/serial: Reading config: /tmp/tmpzpn6kuqp.json Failed to start: main: failed to load config files: [/tmp/tmpzpn6kuqp.json] > infra/conf: Config: unknown transport protocol: xhttp 
-WORKS	339Mb	2.24.131.46	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	335Mb	144.31.183.177	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	325Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:17:59 [Info] infra/conf/serial: Reading config: /tmp/tmpbe119r0b.json Failed to start: main: failed to load config files: [/tmp/tmpbe119r0b.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	339Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:17:59 [Info] infra/conf/serial: Reading config: /tmp/tmp5lbv1gfh.json Failed to start: main: failed to load config files: [/tmp/tmp5lbv1gfh.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	339Mb	2.24.131.46	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	335Mb	144.31.183.177	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	325Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:17:59 [Info] infra/conf/serial: Reading config: /tmp/tmpkf4jwtc4.json Failed to start: main: failed to load config files: [/tmp/tmpkf4jwtc4.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	324Mb	84.32.151.203	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	321Mb	45.133.210.83	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	319Mb	82.118.18.224	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	318Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	317Mb	144.31.183.177	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	317Mb	144.31.183.177	443	HTTP=000 curl=28 net=tcp sec=reality
 FAIL	316Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	297Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	297Mb	140.82.33.78	20827	HTTP=000 curl=28 net=tcp sec=none
@@ -46,300 +46,300 @@ FAIL	289Mb	185.209.15.198	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	289Mb	167.104.223.29	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	289Mb	140.82.33.78	20827	HTTP=000 curl=28 net=tcp sec=none
 FAIL	285Mb	203.23.179.222	8443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	282Mb	165.231.157.70	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:01 [Info] infra/conf/serial: Reading config: /tmp/tmpu9mmokvb.json Failed to start: main: failed to load config files: [/tmp/tmpu9mmokvb.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	282Mb	165.231.157.70	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:00 [Info] infra/conf/serial: Reading config: /tmp/tmpj25cczyg.json Failed to start: main: failed to load config files: [/tmp/tmpj25cczyg.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	281Mb	exit-nl-1.dost-self.co.uk	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	279Mb	exit-de-5.dost-self.co.uk	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	279Mb	82.40.62.229	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	278Mb	165.231.157.22	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:01 [Info] infra/conf/serial: Reading config: /tmp/tmpt9dsixvc.json Failed to start: main: failed to load config files: [/tmp/tmpt9dsixvc.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	278Mb	165.231.157.22	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:00 [Info] infra/conf/serial: Reading config: /tmp/tmpjfz3tgof.json Failed to start: main: failed to load config files: [/tmp/tmpjfz3tgof.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	275Mb	140.82.33.78	20827	HTTP=000 curl=28 net=tcp sec=none
-FAIL	273Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:02 [Info] infra/conf/serial: Reading config: /tmp/tmpaiv3juum.json Failed to start: main: failed to load config files: [/tmp/tmpaiv3juum.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	273Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:01 [Info] infra/conf/serial: Reading config: /tmp/tmp2ushwr4a.json Failed to start: main: failed to load config files: [/tmp/tmp2ushwr4a.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	272Mb	54.37.136.194	2053	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	272Mb	141.148.232.137	62145	HTTP=000 curl=28 net=tcp sec=
 FAIL	270Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	270Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	263Mb	lt.superbuba.top	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	262Mb	84.32.189.22	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	260Mb	167.104.223.29.sslip.io	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	260Mb	167.104.223.29.sslip.io	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	258Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	257Mb	179.198.50.131	8443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmp_aphdfug.json Failed to start: main: failed to load config files: [/tmp/tmp_aphdfug.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	257Mb	179.198.50.131	8443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:03 [Info] infra/conf/serial: Reading config: /tmp/tmp1f1q9hdj.json Failed to start: main: failed to load config files: [/tmp/tmp1f1q9hdj.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	254Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	253Mb	82.152.220.11	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpk3gqsogb.json Failed to start: main: failed to load config files: [/tmp/tmpk3gqsogb.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	251Mb	165.231.157.22	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpbu3mzio_.json Failed to start: main: failed to load config files: [/tmp/tmpbu3mzio_.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	251Mb	165.231.157.62	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpbq3_c4si.json Failed to start: main: failed to load config files: [/tmp/tmpbq3_c4si.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	253Mb	82.152.220.11	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:03 [Info] infra/conf/serial: Reading config: /tmp/tmpczupkp5s.json Failed to start: main: failed to load config files: [/tmp/tmpczupkp5s.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	251Mb	165.231.157.22	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:03 [Info] infra/conf/serial: Reading config: /tmp/tmpcdfjlil0.json Failed to start: main: failed to load config files: [/tmp/tmpcdfjlil0.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	251Mb	165.231.157.62	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:03 [Info] infra/conf/serial: Reading config: /tmp/tmpfzv33h30.json Failed to start: main: failed to load config files: [/tmp/tmpfzv33h30.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	251Mb	140.82.33.78	20827	HTTP=000 curl=28 net=tcp sec=none
-FAIL	249Mb	165.231.157.70	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpgz0hmac8.json Failed to start: main: failed to load config files: [/tmp/tmpgz0hmac8.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	248Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpu0whzyk2.json Failed to start: main: failed to load config files: [/tmp/tmpu0whzyk2.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	249Mb	165.231.157.70	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:03 [Info] infra/conf/serial: Reading config: /tmp/tmpse9myknu.json Failed to start: main: failed to load config files: [/tmp/tmpse9myknu.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	248Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:03 [Info] infra/conf/serial: Reading config: /tmp/tmpsftita8q.json Failed to start: main: failed to load config files: [/tmp/tmpsftita8q.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	247Mb	141.148.232.137	62145	HTTP=000 curl=28 net=tcp sec=none
 FAIL	243Mb	141.148.232.137	62145	HTTP=000 curl=28 net=tcp sec=none
 FAIL	242Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	242Mb	165.231.157.62	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpfzmkrwf4.json Failed to start: main: failed to load config files: [/tmp/tmpfzmkrwf4.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	242Mb	144.31.183.177	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	242Mb	pol1.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	242Mb	165.231.157.62	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpxosyuosx.json Failed to start: main: failed to load config files: [/tmp/tmpxosyuosx.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	242Mb	144.31.183.177	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	242Mb	pol1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	239Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	234Mb	140.82.33.78	20827	HTTP=000 curl=28 net=tcp sec=none
 WORKS	232Mb	public-auth.savesafe.cc	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	232Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	229Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:05 [Info] infra/conf/serial: Reading config: /tmp/tmpaiv_3q9y.json Failed to start: main: failed to load config files: [/tmp/tmpaiv_3q9y.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	228Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:05 [Info] infra/conf/serial: Reading config: /tmp/tmp9gj3r5yl.json Failed to start: main: failed to load config files: [/tmp/tmp9gj3r5yl.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	228Mb	pol2.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	228Mb	pol1.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	229Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmp6k1onsf9.json Failed to start: main: failed to load config files: [/tmp/tmp6k1onsf9.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	228Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:04 [Info] infra/conf/serial: Reading config: /tmp/tmpyugtni5n.json Failed to start: main: failed to load config files: [/tmp/tmpyugtni5n.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	228Mb	pol2.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	228Mb	pol1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	226Mb	magazin6.mervi.icu	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	225Mb	165.231.157.94	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:06 [Info] infra/conf/serial: Reading config: /tmp/tmpvp6zvcme.json Failed to start: main: failed to load config files: [/tmp/tmpvp6zvcme.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	225Mb	165.231.157.94	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:05 [Info] infra/conf/serial: Reading config: /tmp/tmprf0to5k_.json Failed to start: main: failed to load config files: [/tmp/tmprf0to5k_.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	224Mb	89.40.70.124	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	223Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:06 [Info] infra/conf/serial: Reading config: /tmp/tmpmf1z03p9.json Failed to start: main: failed to load config files: [/tmp/tmpmf1z03p9.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	223Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:05 [Info] infra/conf/serial: Reading config: /tmp/tmplh54_f0m.json Failed to start: main: failed to load config files: [/tmp/tmplh54_f0m.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	222Mb	203.23.179.147	8443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	221Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:07 [Info] infra/conf/serial: Reading config: /tmp/tmpux8x6iqn.json Failed to start: main: failed to load config files: [/tmp/tmpux8x6iqn.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	216Mb	165.231.157.86	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:07 [Info] infra/conf/serial: Reading config: /tmp/tmp8iu06kf1.json Failed to start: main: failed to load config files: [/tmp/tmp8iu06kf1.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	215Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:07 [Info] infra/conf/serial: Reading config: /tmp/tmpxqwvnlam.json Failed to start: main: failed to load config files: [/tmp/tmpxqwvnlam.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	221Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:06 [Info] infra/conf/serial: Reading config: /tmp/tmpywk1_2oy.json Failed to start: main: failed to load config files: [/tmp/tmpywk1_2oy.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	216Mb	165.231.157.86	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:06 [Info] infra/conf/serial: Reading config: /tmp/tmpn5q8f5em.json Failed to start: main: failed to load config files: [/tmp/tmpn5q8f5em.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	215Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:06 [Info] infra/conf/serial: Reading config: /tmp/tmpvri75sn_.json Failed to start: main: failed to load config files: [/tmp/tmpvri75sn_.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	215Mb	185.209.15.198	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	214Mb	81.90.17.117	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	214Mb	185.209.15.198	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	214Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpz8a88d50.json Failed to start: main: failed to load config files: [/tmp/tmpz8a88d50.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	213Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpj2pmzb7z.json Failed to start: main: failed to load config files: [/tmp/tmpj2pmzb7z.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	212Mb	pol2.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	214Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:06 [Info] infra/conf/serial: Reading config: /tmp/tmpsmcm880j.json Failed to start: main: failed to load config files: [/tmp/tmpsmcm880j.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	213Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:06 [Info] infra/conf/serial: Reading config: /tmp/tmpsvzumbxb.json Failed to start: main: failed to load config files: [/tmp/tmpsvzumbxb.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	212Mb	pol2.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	212Mb	exit-de-3.dost-self.co.uk	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	212Mb	app23.jarvestip.ru	443	HTTP=000 curl=35 net=tcp sec=reality
-WORKS	211Mb	95.85.232.112	443	HTTP=204 curl=0 net=tcp sec=reality
+FAIL	211Mb	95.85.232.112	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	211Mb	167.104.223.29	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	208Mb	84.32.177.5	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	206Mb	api-de.data-media-social.org	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	206Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpwws_ds92.json Failed to start: main: failed to load config files: [/tmp/tmpwws_ds92.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	203Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpj1gt6xhd.json Failed to start: main: failed to load config files: [/tmp/tmpj1gt6xhd.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	201Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmprkwod5p8.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	201Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpsfj8_c8p.json Failed to start: main: failed to load config files: [/tmp/tmpsfj8_c8p.json] > infra/conf: Config: unknown transport protocol: xhttp 
-WORKS	200Mb	duchland1.vodniki.monster	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	199Mb	165.231.157.86	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpt6rywh8e.json Failed to start: main: failed to load config files: [/tmp/tmpt6rywh8e.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	206Mb	api-de.data-media-social.org	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	206Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpfkbzxi2e.json Failed to start: main: failed to load config files: [/tmp/tmpfkbzxi2e.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	203Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmp34r_lkh4.json Failed to start: main: failed to load config files: [/tmp/tmp34r_lkh4.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	201Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpckv9ssjc.json Failed to start: main: failed to load config files: [/tmp/tmpckv9ssjc.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	201Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmp2292zve4.json Failed to start: main: failed to load config files: [/tmp/tmp2292zve4.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	200Mb	duchland1.vodniki.monster	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	199Mb	165.231.157.86	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpncujcf2n.json Failed to start: main: failed to load config files: [/tmp/tmpncujcf2n.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	199Mb	api-de.data-media-social.org	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	199Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpo155lf3v.json Failed to start: main: failed to load config files: [/tmp/tmpo155lf3v.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	198Mb	api-de.data-media-social.org	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	198Mb	179.198.50.131	8443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpdeaupwif.json Failed to start: main: failed to load config files: [/tmp/tmpdeaupwif.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	198Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmp49470lk8.json Failed to start: main: failed to load config files: [/tmp/tmp49470lk8.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	197Mb	167.104.223.29.sslip.io	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	199Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpg9y6fbaf.json Failed to start: main: failed to load config files: [/tmp/tmpg9y6fbaf.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	198Mb	api-de.data-media-social.org	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	198Mb	179.198.50.131	8443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmp6i0uxpzh.json Failed to start: main: failed to load config files: [/tmp/tmp6i0uxpzh.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	198Mb	165.231.157.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpe3ax4w81.json Failed to start: main: failed to load config files: [/tmp/tmpe3ax4w81.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	197Mb	167.104.223.29.sslip.io	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	196Mb	94.183.157.200	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	195Mb	165.231.157.94	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmph8vx0g3q.json Failed to start: main: failed to load config files: [/tmp/tmph8vx0g3q.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	195Mb	165.231.157.94	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:08 [Info] infra/conf/serial: Reading config: /tmp/tmpqepsn1ca.json Failed to start: main: failed to load config files: [/tmp/tmpqepsn1ca.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	195Mb	185.209.15.198	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	194Mb	165.231.157.22	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmp6sjyqafr.json Failed to start: main: failed to load config files: [/tmp/tmp6sjyqafr.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	194Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmpqqetzdyo.json Failed to start: main: failed to load config files: [/tmp/tmpqqetzdyo.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	194Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmpub4gvkdk.json Failed to start: main: failed to load config files: [/tmp/tmpub4gvkdk.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	194Mb	165.231.157.22	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmpt70hqqug.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	194Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpz_psjdn9.json Failed to start: main: failed to load config files: [/tmp/tmpz_psjdn9.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	194Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpsmne26sy.json Failed to start: main: failed to load config files: [/tmp/tmpsmne26sy.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	193Mb	185.209.15.198	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	193Mb	magazin6.mervi.icu	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	191Mb	165.231.157.62	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmp9ufovau2.json Failed to start: main: failed to load config files: [/tmp/tmp9ufovau2.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	190Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmpqu4e84dk.json Failed to start: main: failed to load config files: [/tmp/tmpqu4e84dk.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	189Mb	82.152.220.81	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmpp_8jjvxp.json Failed to start: main: failed to load config files: [/tmp/tmpp_8jjvxp.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	189Mb	pol1.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	188Mb	144.31.140.127	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	193Mb	magazin6.mervi.icu	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	191Mb	165.231.157.62	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpckv7jved.json Failed to start: main: failed to load config files: [/tmp/tmpckv7jved.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	190Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpxdnba6mx.json Failed to start: main: failed to load config files: [/tmp/tmpxdnba6mx.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	189Mb	82.152.220.81	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:09 [Info] infra/conf/serial: Reading config: /tmp/tmpnyx34eg3.json Failed to start: main: failed to load config files: [/tmp/tmpnyx34eg3.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	189Mb	pol1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	188Mb	144.31.140.127	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	188Mb	chmstnd1.jarvesitw.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	187Mb	94.183.157.246	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	187Mb	151.244.237.100	2053	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	187Mb	172.232.196.241	32396	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	186Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:11 [Info] infra/conf/serial: Reading config: /tmp/tmpfaui8ih0.json Failed to start: main: failed to load config files: [/tmp/tmpfaui8ih0.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	186Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:10 [Info] infra/conf/serial: Reading config: /tmp/tmptq_4ynwh.json Failed to start: main: failed to load config files: [/tmp/tmptq_4ynwh.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	185Mb	84.32.177.5	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	185Mb	82.152.223.140	443	HTTP=204 curl=0 net=tcp sec=reality
 WORKS	185Mb	2.27.209.60	443	HTTP=204 curl=0 net=tcp sec=reality
 WORKS	185Mb	fin2.helper-internet.com	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	185Mb	194.67.111.218	443	HTTP=000 curl=28 net=tcp sec=reality
 FAIL	185Mb	31.77.182.49	5000	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	184Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:12 [Info] infra/conf/serial: Reading config: /tmp/tmptjb61mo6.json Failed to start: main: failed to load config files: [/tmp/tmptjb61mo6.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	184Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:11 [Info] infra/conf/serial: Reading config: /tmp/tmpkm9820hk.json Failed to start: main: failed to load config files: [/tmp/tmpkm9820hk.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	183Mb	95.133.240.114	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	183Mb	chmstnd1.jarvesitw.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	182Mb	wl-1.myfreedom.rest	443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	182Mb	95.154.196.62	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	181Mb	202.165.67.16	8443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	181Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:13 [Info] infra/conf/serial: Reading config: /tmp/tmppohalwhk.json Failed to start: main: failed to load config files: [/tmp/tmppohalwhk.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	181Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:11 [Info] infra/conf/serial: Reading config: /tmp/tmpygi0641v.json Failed to start: main: failed to load config files: [/tmp/tmpygi0641v.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	180Mb	84.32.177.5	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	180Mb	kz6.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	180Mb	kz6.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	179Mb	public-auth.savesafe.cc	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	178Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:14 [Info] infra/conf/serial: Reading config: /tmp/tmpokutijyw.json Failed to start: main: failed to load config files: [/tmp/tmpokutijyw.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	178Mb	162.35.231.31.sslip.io	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	178Mb	165.231.157.54	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:12 [Info] infra/conf/serial: Reading config: /tmp/tmpi7kkx5w9.json Failed to start: main: failed to load config files: [/tmp/tmpi7kkx5w9.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	178Mb	162.35.231.31.sslip.io	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	178Mb	82.152.223.140	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	178Mb	165.231.157.14	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:14 [Info] infra/conf/serial: Reading config: /tmp/tmpzt_pdr2u.json Failed to start: main: failed to load config files: [/tmp/tmpzt_pdr2u.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	178Mb	165.231.157.14	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:12 [Info] infra/conf/serial: Reading config: /tmp/tmp31689pe4.json Failed to start: main: failed to load config files: [/tmp/tmp31689pe4.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	177Mb	194.67.111.218	443	HTTP=000 curl=28 net=tcp sec=reality
 FAIL	177Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	176Mb	31.77.182.49	5000	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	176Mb	pol2.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	176Mb	pol2.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	176Mb	pol1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	176Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	176Mb	213.130.137.170	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:15 [Info] infra/conf/serial: Reading config: /tmp/tmp82qzdkaq.json Failed to start: main: failed to load config files: [/tmp/tmp82qzdkaq.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	175Mb	pol1.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	176Mb	213.130.137.170	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:13 [Info] infra/conf/serial: Reading config: /tmp/tmp0h6l3sbb.json Failed to start: main: failed to load config files: [/tmp/tmp0h6l3sbb.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	175Mb	pol1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	175Mb	exit-de-2.dost-self.co.uk	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	175Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:15 [Info] infra/conf/serial: Reading config: /tmp/tmp69k6jus9.json Failed to start: main: failed to load config files: [/tmp/tmp69k6jus9.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	175Mb	165.231.157.46	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:13 [Info] infra/conf/serial: Reading config: /tmp/tmps_wlldy7.json Failed to start: main: failed to load config files: [/tmp/tmps_wlldy7.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	173Mb	144.31.243.148	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	173Mb	157.137.239.113	62145	HTTP=000 curl=28 net=tcp sec=none
-FAIL	173Mb	162.35.231.31.sslip.io	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	173Mb	162.35.231.31.sslip.io	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	173Mb	pol1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	172Mb	46.8.29.207	31010	HTTP=000 curl=28 net=tcp sec=reality
-WORKS	171Mb	95.85.232.112	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	171Mb	87.199.130.184	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	172Mb	46.8.29.207	31010	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	171Mb	95.85.232.112	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	171Mb	87.199.130.184	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	171Mb	chmstnd1.jarvesitw.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	169Mb	chmstnd1.jarvesitw.ru	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	169Mb	87.199.130.184	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	169Mb	87.199.130.184	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	169Mb	140.82.33.78	20827	HTTP=000 curl=28 net=tcp sec=none
 FAIL	169Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	168Mb	chmstnd1.jarvesitw.ru	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	165Mb	213.130.137.110	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:17 [Info] infra/conf/serial: Reading config: /tmp/tmpz2udwi7q.json Failed to start: main: failed to load config files: [/tmp/tmpz2udwi7q.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	165Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:18 [Info] infra/conf/serial: Reading config: /tmp/tmpx6m3b0w2.json Failed to start: main: failed to load config files: [/tmp/tmpx6m3b0w2.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	165Mb	213.130.137.110	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:16 [Info] infra/conf/serial: Reading config: /tmp/tmpj2ehos0t.json Failed to start: main: failed to load config files: [/tmp/tmpj2ehos0t.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	165Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:16 [Info] infra/conf/serial: Reading config: /tmp/tmpvtjui3iu.json Failed to start: main: failed to load config files: [/tmp/tmpvtjui3iu.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	164Mb	94.183.157.246	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	163Mb	nl8.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	163Mb	pl1.cnyvpn.com	2053	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	163Mb	pl1.cnyvpn.com	2053	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	162Mb	84.32.177.5	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	162Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmp_8j47mc6.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	162Mb	178.236.254.132	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:18 [Info] infra/conf/serial: Reading config: /tmp/tmpo6ax3wap.json Failed to start: main: failed to load config files: [/tmp/tmpo6ax3wap.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	162Mb	144.31.140.127	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	162Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:16 [Info] infra/conf/serial: Reading config: /tmp/tmpgrze8919.json Failed to start: main: failed to load config files: [/tmp/tmpgrze8919.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	162Mb	178.236.254.132	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:16 [Info] infra/conf/serial: Reading config: /tmp/tmp3ervswgm.json Failed to start: main: failed to load config files: [/tmp/tmp3ervswgm.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	162Mb	144.31.140.127	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	160Mb	216.167.27.227	41478	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	160Mb	213.130.137.60	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:18 [Info] infra/conf/serial: Reading config: /tmp/tmp4tzwkzdr.json Failed to start: main: failed to load config files: [/tmp/tmp4tzwkzdr.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	160Mb	213.130.137.150	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:19 [Info] infra/conf/serial: Reading config: /tmp/tmp5_x4gl1h.json Failed to start: main: failed to load config files: [/tmp/tmp5_x4gl1h.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	160Mb	213.130.137.60	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:17 [Info] infra/conf/serial: Reading config: /tmp/tmpvpc6kn_r.json Failed to start: main: failed to load config files: [/tmp/tmpvpc6kn_r.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	160Mb	213.130.137.150	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:17 [Info] infra/conf/serial: Reading config: /tmp/tmpe9v04f4i.json Failed to start: main: failed to load config files: [/tmp/tmpe9v04f4i.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	159Mb	37.49.224.155	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	158Mb	165.231.157.86	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:19 [Info] infra/conf/serial: Reading config: /tmp/tmpn7zkkh2w.json Failed to start: main: failed to load config files: [/tmp/tmpn7zkkh2w.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	158Mb	165.231.157.86	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:17 [Info] infra/conf/serial: Reading config: /tmp/tmpgm6iw0qu.json Failed to start: main: failed to load config files: [/tmp/tmpgm6iw0qu.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	158Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	158Mb	165.231.157.94	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmp3jwq9rdg.json] > infra/conf: Config: unknown transport protocol: xhttp 2026/08/31 01:18:19 [Info] infra/conf/serial: Reading config: /tmp/tmp3jwq9rdg.json 
+FAIL	158Mb	165.231.157.94	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:17 [Info] infra/conf/serial: Reading config: /tmp/tmpl_snetsh.json Failed to start: main: failed to load config files: [/tmp/tmpl_snetsh.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	157Mb	46.250.250.149	2053	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	157Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	157Mb	144.31.140.127	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	157Mb	144.31.140.127	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	156Mb	202.165.67.16	8443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	156Mb	kz6.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	156Mb	kz6.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	155Mb	172.232.196.241	32396	HTTP=204 curl=0 net=tcp sec=reality
 WORKS	155Mb	public-auth.savesafe.cc	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	155Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:19 [Info] infra/conf/serial: Reading config: /tmp/tmpyemfbws1.json Failed to start: main: failed to load config files: [/tmp/tmpyemfbws1.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	155Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:18 [Info] infra/conf/serial: Reading config: /tmp/tmpfznmr_28.json Failed to start: main: failed to load config files: [/tmp/tmpfznmr_28.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	155Mb	162.35.231.31.sslip.io	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	154Mb	37.49.224.155	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	154Mb	213.130.137.40	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:20 [Info] infra/conf/serial: Reading config: /tmp/tmpj_vee3mr.json Failed to start: main: failed to load config files: [/tmp/tmpj_vee3mr.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	154Mb	144.31.228.225	8443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:20 [Info] infra/conf/serial: Reading config: /tmp/tmpj9fxx4gb.json Failed to start: main: failed to load config files: [/tmp/tmpj9fxx4gb.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	154Mb	213.130.137.40	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:18 [Info] infra/conf/serial: Reading config: /tmp/tmpa1yik7fz.json Failed to start: main: failed to load config files: [/tmp/tmpa1yik7fz.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	154Mb	144.31.228.225	8443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:18 [Info] infra/conf/serial: Reading config: /tmp/tmpnuvogk31.json Failed to start: main: failed to load config files: [/tmp/tmpnuvogk31.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	154Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	152Mb	app23.jarvestip.ru	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	151Mb	nl1.cnyvpn.com	2096	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	150Mb	144.31.140.127	443	HTTP=000 curl=28 net=tcp sec=reality
-WORKS	150Mb	82.152.223.130	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	150Mb	panel.freesavesafe.com	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:21 [Info] infra/conf/serial: Reading config: /tmp/tmp35siaqx3.json Failed to start: main: failed to load config files: [/tmp/tmp35siaqx3.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	151Mb	nl1.cnyvpn.com	2096	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	150Mb	144.31.140.127	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	150Mb	82.152.223.130	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	150Mb	panel.freesavesafe.com	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:19 [Info] infra/conf/serial: Reading config: /tmp/tmpt9s35tfx.json Failed to start: main: failed to load config files: [/tmp/tmpt9s35tfx.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	149Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	148Mb	46.8.29.207	2053	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	148Mb	213.130.137.190	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:21 [Info] infra/conf/serial: Reading config: /tmp/tmp7xin8wa7.json Failed to start: main: failed to load config files: [/tmp/tmp7xin8wa7.json] > infra/conf: Config: unknown transport protocol: xhttp 
-WORKS	148Mb	duchland1.vodniki.monster	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	148Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:21 [Info] infra/conf/serial: Reading config: /tmp/tmpynyem6cp.json Failed to start: main: failed to load config files: [/tmp/tmpynyem6cp.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	148Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmp6h3l6y8h.json Failed to start: main: failed to load config files: [/tmp/tmp6h3l6y8h.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	148Mb	213.130.137.190	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:19 [Info] infra/conf/serial: Reading config: /tmp/tmp9wndfhj5.json Failed to start: main: failed to load config files: [/tmp/tmp9wndfhj5.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	148Mb	duchland1.vodniki.monster	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	148Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:20 [Info] infra/conf/serial: Reading config: /tmp/tmpcva1f4bx.json Failed to start: main: failed to load config files: [/tmp/tmpcva1f4bx.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	148Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:20 [Info] infra/conf/serial: Reading config: /tmp/tmp4n2qqp9_.json Failed to start: main: failed to load config files: [/tmp/tmp4n2qqp9_.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	147Mb	84.32.177.5	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	147Mb	5.34.182.23	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	147Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	146Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmpdzwsoevp.json Failed to start: main: failed to load config files: [/tmp/tmpdzwsoevp.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	146Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:20 [Info] infra/conf/serial: Reading config: /tmp/tmp549rxbgi.json Failed to start: main: failed to load config files: [/tmp/tmp549rxbgi.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	146Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	145Mb	94.183.157.200	443	HTTP=000 curl=35 net=tcp sec=reality
-WORKS	144Mb	95.85.232.112	443	HTTP=204 curl=0 net=tcp sec=reality
+FAIL	144Mb	95.85.232.112	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	143Mb	172.232.196.241	32396	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	142Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	141Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	140Mb	5.34.182.23	443	HTTP=204 curl=0 net=tcp sec=reality
 WORKS	140Mb	95.154.196.62	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	139Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	139Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:23 [Info] infra/conf/serial: Reading config: /tmp/tmpk8h31lzd.json Failed to start: main: failed to load config files: [/tmp/tmpk8h31lzd.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	139Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:23 [Info] infra/conf/serial: Reading config: /tmp/tmp9rau2ssu.json Failed to start: main: failed to load config files: [/tmp/tmp9rau2ssu.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	139Mb	panel.freesavesafe.com	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmp9pa9c1uk.json Failed to start: main: failed to load config files: [/tmp/tmp9pa9c1uk.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	138Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmpewwr0n35.json Failed to start: main: failed to load config files: [/tmp/tmpewwr0n35.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	139Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:21 [Info] infra/conf/serial: Reading config: /tmp/tmp9niqgtg8.json Failed to start: main: failed to load config files: [/tmp/tmp9niqgtg8.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	139Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:21 [Info] infra/conf/serial: Reading config: /tmp/tmp5_jsfu66.json Failed to start: main: failed to load config files: [/tmp/tmp5_jsfu66.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	139Mb	panel.freesavesafe.com	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmp6uybn6vc.json Failed to start: main: failed to load config files: [/tmp/tmp6uybn6vc.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	138Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmpup3p9az0.json Failed to start: main: failed to load config files: [/tmp/tmpup3p9az0.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	138Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	138Mb	alban6.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	137Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmp_0l8h2q5.json Failed to start: main: failed to load config files: [/tmp/tmp_0l8h2q5.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	137Mb	165.231.157.6	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmpx4z_si5l.json Failed to start: main: failed to load config files: [/tmp/tmpx4z_si5l.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	137Mb	162.35.231.31.sslip.io	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	137Mb	213.130.137.90	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmpdzgblgy2.json Failed to start: main: failed to load config files: [/tmp/tmpdzgblgy2.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	137Mb	213.130.137.90	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmpxxypkido.json Failed to start: main: failed to load config files: [/tmp/tmpxxypkido.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	137Mb	151.244.237.100	2053	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	136Mb	213.130.137.50	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmpl7azw8kl.json Failed to start: main: failed to load config files: [/tmp/tmpl7azw8kl.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	136Mb	213.130.137.50	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmppl3o1mmi.json Failed to start: main: failed to load config files: [/tmp/tmppl3o1mmi.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	134Mb	srv15.buddygpt.ru	443	HTTP=000 curl=28 net=tcp sec=reality
 FAIL	134Mb	202.165.67.16	8443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	134Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmp7_wyo189.json Failed to start: main: failed to load config files: [/tmp/tmp7_wyo189.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	134Mb	213.130.137.80	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:22 [Info] infra/conf/serial: Reading config: /tmp/tmpz22ij1c2.json Failed to start: main: failed to load config files: [/tmp/tmpz22ij1c2.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	133Mb	us1.cnyvpn.com	2083	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	133Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	133Mb	82.152.220.131	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmpct1p7sop.json Failed to start: main: failed to load config files: [/tmp/tmpct1p7sop.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	133Mb	82.152.220.131	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:23 [Info] infra/conf/serial: Reading config: /tmp/tmpb7bhit4e.json Failed to start: main: failed to load config files: [/tmp/tmpb7bhit4e.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	130Mb	fin2.helper-internet.com	443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	130Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	130Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	129Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmp41smfmul.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	128Mb	144.31.140.127	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	127Mb	144.31.140.127	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	127Mb	213.130.137.190	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmpiu9unev_.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	129Mb	165.231.157.38	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:23 [Info] infra/conf/serial: Reading config: /tmp/tmpqtx6refk.json Failed to start: main: failed to load config files: [/tmp/tmpqtx6refk.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	128Mb	144.31.140.127	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	127Mb	144.31.140.127	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	127Mb	213.130.137.190	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:23 [Info] infra/conf/serial: Reading config: /tmp/tmpvwicm7_g.json Failed to start: main: failed to load config files: [/tmp/tmpvwicm7_g.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	124Mb	151.242.160.11	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	124Mb	139.28.169.107	443	HTTP=000 curl=28 net=tcp sec=reality
 FAIL	123Mb	130.17.6.235	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	123Mb	213.130.137.90	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:26 [Info] infra/conf/serial: Reading config: /tmp/tmplvzyd56h.json Failed to start: main: failed to load config files: [/tmp/tmplvzyd56h.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	123Mb	213.130.137.90	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmps74t9v4v.json Failed to start: main: failed to load config files: [/tmp/tmps74t9v4v.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	123Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	123Mb	216.167.27.101	27278	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	123Mb	31.58.50.8	8443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	122Mb	213.130.137.40	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:27 [Info] infra/conf/serial: Reading config: /tmp/tmpoefhr229.json Failed to start: main: failed to load config files: [/tmp/tmpoefhr229.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	122Mb	213.130.137.180	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:27 [Info] infra/conf/serial: Reading config: /tmp/tmpmz9xknfb.json Failed to start: main: failed to load config files: [/tmp/tmpmz9xknfb.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	121Mb	213.130.137.50	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:27 [Info] infra/conf/serial: Reading config: /tmp/tmp2xf72g7u.json Failed to start: main: failed to load config files: [/tmp/tmp2xf72g7u.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	122Mb	213.130.137.40	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmpo_wbm0o9.json Failed to start: main: failed to load config files: [/tmp/tmpo_wbm0o9.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	122Mb	213.130.137.180	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmpnwsk3wws.json Failed to start: main: failed to load config files: [/tmp/tmpnwsk3wws.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	121Mb	213.130.137.50	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:24 [Info] infra/conf/serial: Reading config: /tmp/tmp_paogfyx.json Failed to start: main: failed to load config files: [/tmp/tmp_paogfyx.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	121Mb	exit-de-1.dost-self.co.uk	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	120Mb	176.108.245.3	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	120Mb	176.108.245.3	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	120Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	120Mb	213.130.137.120	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmpn1qpn7zw.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	119Mb	api-de.data-media-social.org	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	119Mb	213.130.137.140	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:27 [Info] infra/conf/serial: Reading config: /tmp/tmprfs09en7.json Failed to start: main: failed to load config files: [/tmp/tmprfs09en7.json] > infra/conf: Config: unknown transport protocol: xhttp 
-WORKS	118Mb	duchland1.vodniki.monster	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	118Mb	213.130.137.130	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:28 [Info] infra/conf/serial: Reading config: /tmp/tmp9nyuc0nl.json Failed to start: main: failed to load config files: [/tmp/tmp9nyuc0nl.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	117Mb	213.130.137.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:28 [Info] infra/conf/serial: Reading config: /tmp/tmp96189az7.json Failed to start: main: failed to load config files: [/tmp/tmp96189az7.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	120Mb	213.130.137.120	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:25 [Info] infra/conf/serial: Reading config: /tmp/tmp9tflau_h.json Failed to start: main: failed to load config files: [/tmp/tmp9tflau_h.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	119Mb	api-de.data-media-social.org	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	119Mb	213.130.137.140	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:25 [Info] infra/conf/serial: Reading config: /tmp/tmpb54xarbr.json Failed to start: main: failed to load config files: [/tmp/tmpb54xarbr.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	118Mb	duchland1.vodniki.monster	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	118Mb	213.130.137.130	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:25 [Info] infra/conf/serial: Reading config: /tmp/tmptck5r9_w.json Failed to start: main: failed to load config files: [/tmp/tmptck5r9_w.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	117Mb	213.130.137.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:25 [Info] infra/conf/serial: Reading config: /tmp/tmpbfov5ldj.json Failed to start: main: failed to load config files: [/tmp/tmpbfov5ldj.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	117Mb	fin2.helper-internet.com	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	117Mb	165.231.157.14	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:28 [Info] infra/conf/serial: Reading config: /tmp/tmp21ck6q6t.json Failed to start: main: failed to load config files: [/tmp/tmp21ck6q6t.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	117Mb	165.231.157.14	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:26 [Info] infra/conf/serial: Reading config: /tmp/tmpqnsnhu4e.json Failed to start: main: failed to load config files: [/tmp/tmpqnsnhu4e.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	116Mb	premium-tr.geodema.network	8443	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	116Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	115Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	114Mb	ch-xh01.tcp-reset-club.net	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:28 [Info] infra/conf/serial: Reading config: /tmp/tmp5odg4odu.json Failed to start: main: failed to load config files: [/tmp/tmp5odg4odu.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	114Mb	213.130.137.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:28 [Info] infra/conf/serial: Reading config: /tmp/tmp19jrw3op.json Failed to start: main: failed to load config files: [/tmp/tmp19jrw3op.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	112Mb	kz6.helper-internet.com	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	112Mb	213.130.137.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:29 [Info] infra/conf/serial: Reading config: /tmp/tmpfmv96i4k.json Failed to start: main: failed to load config files: [/tmp/tmpfmv96i4k.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	114Mb	ch-xh01.tcp-reset-club.net	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:26 [Info] infra/conf/serial: Reading config: /tmp/tmpb07tygtn.json Failed to start: main: failed to load config files: [/tmp/tmpb07tygtn.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	114Mb	213.130.137.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:26 [Info] infra/conf/serial: Reading config: /tmp/tmp464bj3rt.json Failed to start: main: failed to load config files: [/tmp/tmp464bj3rt.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	112Mb	kz6.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	112Mb	213.130.137.30	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:26 [Info] infra/conf/serial: Reading config: /tmp/tmpplf2p83w.json Failed to start: main: failed to load config files: [/tmp/tmpplf2p83w.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	112Mb	95.133.240.114	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	112Mb	143.246.223.73	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	111Mb	151.243.93.179	2083	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	110Mb	213.130.137.60	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:29 [Info] infra/conf/serial: Reading config: /tmp/tmp2eps8k4j.json Failed to start: main: failed to load config files: [/tmp/tmp2eps8k4j.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	110Mb	213.130.137.60	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:27 [Info] infra/conf/serial: Reading config: /tmp/tmpgntt2j3h.json Failed to start: main: failed to load config files: [/tmp/tmpgntt2j3h.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	110Mb	217.217.254.126	2053	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	110Mb	176.108.245.3	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	109Mb	46.8.29.207	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	110Mb	176.108.245.3	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	109Mb	46.8.29.207	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	109Mb	84.32.61.79	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	109Mb	mold2.freeinternat.com	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	108Mb	213.130.137.20	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:30 [Info] infra/conf/serial: Reading config: /tmp/tmpd5lz128z.json Failed to start: main: failed to load config files: [/tmp/tmpd5lz128z.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	109Mb	mold2.freeinternat.com	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	108Mb	213.130.137.20	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:27 [Info] infra/conf/serial: Reading config: /tmp/tmpgstwarom.json Failed to start: main: failed to load config files: [/tmp/tmpgstwarom.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	108Mb	217.60.23.218	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	107Mb	eng4.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	107Mb	159.195.242.180	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	106Mb	202.165.67.16	8443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	106Mb	157.137.239.113	62145	HTTP=000 curl=28 net=tcp sec=none
-FAIL	106Mb	213.130.137.10	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:30 [Info] infra/conf/serial: Reading config: /tmp/tmp655oeccb.json Failed to start: main: failed to load config files: [/tmp/tmp655oeccb.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	105Mb	213.130.137.40	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmp4qhnueg2.json Failed to start: main: failed to load config files: [/tmp/tmp4qhnueg2.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	106Mb	213.130.137.10	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:28 [Info] infra/conf/serial: Reading config: /tmp/tmpu7e77jef.json Failed to start: main: failed to load config files: [/tmp/tmpu7e77jef.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	105Mb	213.130.137.40	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:28 [Info] infra/conf/serial: Reading config: /tmp/tmp8nr6vd39.json Failed to start: main: failed to load config files: [/tmp/tmp8nr6vd39.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	105Mb	95.133.240.114	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	105Mb	ch-xh01.tcp-reset-club.net	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmp1aazn0bt.json Failed to start: main: failed to load config files: [/tmp/tmp1aazn0bt.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	105Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmpgmtfnrih.json Failed to start: main: failed to load config files: [/tmp/tmpgmtfnrih.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	104Mb	213.130.137.60	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmpjbe1z86h.json Failed to start: main: failed to load config files: [/tmp/tmpjbe1z86h.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	105Mb	ch-xh01.tcp-reset-club.net	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:29 [Info] infra/conf/serial: Reading config: /tmp/tmprtp44yb0.json Failed to start: main: failed to load config files: [/tmp/tmprtp44yb0.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	105Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:29 [Info] infra/conf/serial: Reading config: /tmp/tmpn12fxdju.json Failed to start: main: failed to load config files: [/tmp/tmpn12fxdju.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	104Mb	213.130.137.60	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:29 [Info] infra/conf/serial: Reading config: /tmp/tmp97apzbkg.json Failed to start: main: failed to load config files: [/tmp/tmp97apzbkg.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	103Mb	mold2.freeinternat.com	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	103Mb	151.242.160.11	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	103Mb	217.60.23.218	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	102Mb	api-de.data-media-social.org	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	102Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	101Mb	213.130.137.100	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:32 [Info] infra/conf/serial: Reading config: /tmp/tmpykvoh4v4.json Failed to start: main: failed to load config files: [/tmp/tmpykvoh4v4.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	101Mb	213.130.137.100	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:30 [Info] infra/conf/serial: Reading config: /tmp/tmpezgm2t65.json Failed to start: main: failed to load config files: [/tmp/tmpezgm2t65.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	101Mb	185.209.15.198	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	101Mb	213.109.202.94	7443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	101Mb	216.167.21.162	39035	HTTP=204 curl=0 net=tcp sec=reality
 WORKS	100Mb	216.167.21.162	39035	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	100Mb	81.90.17.117	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	100Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:33 [Info] infra/conf/serial: Reading config: /tmp/tmpbeu1f9o4.json Failed to start: main: failed to load config files: [/tmp/tmpbeu1f9o4.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	99Mb	ch-xh01.tcp-reset-club.net	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:33 [Info] infra/conf/serial: Reading config: /tmp/tmp7jm8kaj3.json Failed to start: main: failed to load config files: [/tmp/tmp7jm8kaj3.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	100Mb	ice.noooo.win	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:30 [Info] infra/conf/serial: Reading config: /tmp/tmpxz5hb_0s.json Failed to start: main: failed to load config files: [/tmp/tmpxz5hb_0s.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	99Mb	ch-xh01.tcp-reset-club.net	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmp2dgnbl0r.json Failed to start: main: failed to load config files: [/tmp/tmp2dgnbl0r.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	98Mb	45.133.210.83	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	98Mb	213.130.137.130	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. Failed to start: main: failed to load config files: [/tmp/tmp_7rh8rno.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	98Mb	213.130.137.130	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmpb4uckkcw.json Failed to start: main: failed to load config files: [/tmp/tmpb4uckkcw.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	98Mb	eng4.helper-internet.com	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	98Mb	216.167.21.162	39035	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	97Mb	213.130.137.150	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:34 [Info] infra/conf/serial: Reading config: /tmp/tmprnntmx0u.json Failed to start: main: failed to load config files: [/tmp/tmprnntmx0u.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	97Mb	213.130.137.150	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmpmxyne9fj.json Failed to start: main: failed to load config files: [/tmp/tmpmxyne9fj.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	97Mb	46.8.29.207	31005	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	96Mb	213.130.137.90	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:34 [Info] infra/conf/serial: Reading config: /tmp/tmpto9lpcse.json Failed to start: main: failed to load config files: [/tmp/tmpto9lpcse.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	96Mb	213.130.137.90	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:31 [Info] infra/conf/serial: Reading config: /tmp/tmp3ut6boqm.json Failed to start: main: failed to load config files: [/tmp/tmp3ut6boqm.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	95Mb	216.167.94.71	25711	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	94Mb	api-de.data-media-social.org	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	94Mb	api-de.data-media-social.org	443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	93Mb	138.124.8.117	443	HTTP=204 curl=0 net=tcp sec=reality
-WORKS	92Mb	45.89.60.235	443	HTTP=204 curl=0 net=tcp sec=reality
+FAIL	92Mb	45.89.60.235	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	92Mb	143.246.223.73	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	89Mb	158.247.126.244	62145	HTTP=000 curl=28 net=tcp sec=none
-FAIL	88Mb	176.108.245.3	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	88Mb	yt-ads.adsmoba.com	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	88Mb	176.108.245.3	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	88Mb	yt-ads.adsmoba.com	443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	88Mb	216.167.21.162	39035	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	87Mb	213.130.137.170	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:35 [Info] infra/conf/serial: Reading config: /tmp/tmpy5zqsdz1.json Failed to start: main: failed to load config files: [/tmp/tmpy5zqsdz1.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	87Mb	213.130.137.170	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:33 [Info] infra/conf/serial: Reading config: /tmp/tmp9chorp7i.json Failed to start: main: failed to load config files: [/tmp/tmp9chorp7i.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	87Mb	216.167.27.227	41478	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	85Mb	132.243.235.53	2096	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	85Mb	65.109.215.50	39633	HTTP=204 curl=0 net=tcp sec=none
 WORKS	84Mb	216.167.21.162	39035	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	84Mb	gr1.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	83Mb	46.8.29.207	30006	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	84Mb	gr1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	83Mb	46.8.29.207	30006	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	83Mb	216.167.94.71	25711	HTTP=000 curl=28 net=tcp sec=reality
-WORKS	83Mb	45.89.60.235	443	HTTP=204 curl=0 net=tcp sec=reality
+FAIL	83Mb	45.89.60.235	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	83Mb	216.167.21.32	40573	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	82Mb	108.165.189.88	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	82Mb	91.107.190.175	8080	HTTP=204 curl=0 net=ws sec=none
@@ -353,41 +353,41 @@ FAIL	76Mb	5.188.26.176	7443	HTTP=000 curl=28 net=tcp sec=reality
 FAIL	76Mb	us1.app-sync-data.space	443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	75Mb	t17.qifei.app	443	HTTP=204 curl=0 net=tcp sec=reality
 WORKS	75Mb	216.167.27.227	41478	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	74Mb	213.130.137.110	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:38 [Info] infra/conf/serial: Reading config: /tmp/tmpbdpra9c3.json Failed to start: main: failed to load config files: [/tmp/tmpbdpra9c3.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	74Mb	213.130.137.110	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:35 [Info] infra/conf/serial: Reading config: /tmp/tmpk2jqf8wk.json Failed to start: main: failed to load config files: [/tmp/tmpk2jqf8wk.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	74Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	73Mb	us1.app-sync-data.space	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	73Mb	213.130.137.180	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:38 [Info] infra/conf/serial: Reading config: /tmp/tmp4w1lytxh.json Failed to start: main: failed to load config files: [/tmp/tmp4w1lytxh.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	72Mb	194.48.250.31	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:38 [Info] infra/conf/serial: Reading config: /tmp/tmpt4q0dmvl.json Failed to start: main: failed to load config files: [/tmp/tmpt4q0dmvl.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	72Mb	gr1.panel11.ru	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	73Mb	213.130.137.180	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:36 [Info] infra/conf/serial: Reading config: /tmp/tmpbbts5tsz.json Failed to start: main: failed to load config files: [/tmp/tmpbbts5tsz.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	72Mb	194.48.250.31	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:36 [Info] infra/conf/serial: Reading config: /tmp/tmpcvpcloyt.json Failed to start: main: failed to load config files: [/tmp/tmpcvpcloyt.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	72Mb	gr1.panel11.ru	443	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	71Mb	51.15.57.139	8080	HTTP=204 curl=0 net=ws sec=
-FAIL	71Mb	78.159.247.57	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	70Mb	46.8.29.207	31012	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	71Mb	78.159.247.57	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	70Mb	46.8.29.207	31012	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	69Mb	exit-jp-1.dost-self.co.uk	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	69Mb	213.130.137.50	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:39 [Info] infra/conf/serial: Reading config: /tmp/tmpnttvu3hf.json Failed to start: main: failed to load config files: [/tmp/tmpnttvu3hf.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	68Mb	78.159.247.89	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	69Mb	213.130.137.50	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:36 [Info] infra/conf/serial: Reading config: /tmp/tmp1knqcqd_.json Failed to start: main: failed to load config files: [/tmp/tmp1knqcqd_.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	68Mb	78.159.247.89	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	68Mb	exit-nl-2.dost-self.co.uk	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	68Mb	31.58.50.8	8443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	67Mb	wl-1.myfreedom.rest	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	67Mb	wl-1.myfreedom.rest	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	67Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	66Mb	213.130.137.160	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:40 [Info] infra/conf/serial: Reading config: /tmp/tmphw0yeqs_.json Failed to start: main: failed to load config files: [/tmp/tmphw0yeqs_.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	66Mb	213.130.137.160	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:37 [Info] infra/conf/serial: Reading config: /tmp/tmp55954cph.json Failed to start: main: failed to load config files: [/tmp/tmp55954cph.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	66Mb	130.17.6.235	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	66Mb	91.239.7.73	443	HTTP=000 curl=28 net=tcp sec=reality
 WORKS	66Mb	216.167.27.101	27278	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	64Mb	213.130.137.120	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:41 [Info] infra/conf/serial: Reading config: /tmp/tmp5efak9wt.json Failed to start: main: failed to load config files: [/tmp/tmp5efak9wt.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	64Mb	213.130.137.120	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:38 [Info] infra/conf/serial: Reading config: /tmp/tmpf34an_d6.json Failed to start: main: failed to load config files: [/tmp/tmpf34an_d6.json] > infra/conf: Config: unknown transport protocol: xhttp 
 WORKS	64Mb	216.167.21.32	40573	HTTP=204 curl=0 net=tcp sec=reality
 FAIL	63Mb	5.188.26.176	7443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	62Mb	213.130.137.200	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:41 [Info] infra/conf/serial: Reading config: /tmp/tmp5o5jylh8.json Failed to start: main: failed to load config files: [/tmp/tmp5o5jylh8.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	62Mb	213.130.137.200	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:38 [Info] infra/conf/serial: Reading config: /tmp/tmppgc74725.json Failed to start: main: failed to load config files: [/tmp/tmppgc74725.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	62Mb	5.188.26.176	7443	HTTP=000 curl=28 net=tcp sec=reality
 FAIL	62Mb	162.35.231.31	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	61Mb	46.8.29.207	31002	HTTP=000 curl=35 net=tcp sec=reality
 WORKS	61Mb	5.34.182.23	443	HTTP=204 curl=0 net=tcp sec=reality
-FAIL	61Mb	213.130.137.120	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:42 [Info] infra/conf/serial: Reading config: /tmp/tmpxccdvs_0.json Failed to start: main: failed to load config files: [/tmp/tmpxccdvs_0.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	61Mb	213.130.137.120	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:39 [Info] infra/conf/serial: Reading config: /tmp/tmpccs77ihe.json Failed to start: main: failed to load config files: [/tmp/tmpccs77ihe.json] > infra/conf: Config: unknown transport protocol: xhttp 
 FAIL	61Mb	mold2.freeinternat.com	443	HTTP=000 curl=35 net=tcp sec=reality
-FAIL	60Mb	78.159.247.206	443	HTTP=000 curl=28 net=tcp sec=reality
-FAIL	60Mb	213.130.137.20	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:42 [Info] infra/conf/serial: Reading config: /tmp/tmpiwvwu_om.json Failed to start: main: failed to load config files: [/tmp/tmpiwvwu_om.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	59Mb	194.55.239.164	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	60Mb	78.159.247.206	443	HTTP=000 curl=35 net=tcp sec=reality
+FAIL	60Mb	213.130.137.20	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:39 [Info] infra/conf/serial: Reading config: /tmp/tmp4x8vsgbl.json Failed to start: main: failed to load config files: [/tmp/tmp4x8vsgbl.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	59Mb	194.55.239.164	443	HTTP=000 curl=35 net=tcp sec=reality
 FAIL	59Mb	158.247.126.244	62145	HTTP=000 curl=28 net=tcp sec=none
-FAIL	59Mb	213.130.137.160	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:43 [Info] infra/conf/serial: Reading config: /tmp/tmpdu8aql0w.json Failed to start: main: failed to load config files: [/tmp/tmpdu8aql0w.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	57Mb	213.130.137.160	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:43 [Info] infra/conf/serial: Reading config: /tmp/tmpq5bkkpjc.json Failed to start: main: failed to load config files: [/tmp/tmpq5bkkpjc.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	57Mb	213.130.137.100	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 01:18:43 [Info] infra/conf/serial: Reading config: /tmp/tmpult3179y.json Failed to start: main: failed to load config files: [/tmp/tmpult3179y.json] > infra/conf: Config: unknown transport protocol: xhttp 
-FAIL	56Mb	78.159.247.196	443	HTTP=000 curl=28 net=tcp sec=reality
+FAIL	59Mb	213.130.137.160	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:40 [Info] infra/conf/serial: Reading config: /tmp/tmpx2ztuq6a.json Failed to start: main: failed to load config files: [/tmp/tmpx2ztuq6a.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	57Mb	213.130.137.160	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:40 [Info] infra/conf/serial: Reading config: /tmp/tmpnxewqf17.json Failed to start: main: failed to load config files: [/tmp/tmpnxewqf17.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	57Mb	213.130.137.100	443	xray-start-failed Xray 1.8.4 (Xray, Penetrates Everything.) Custom (go1.21.0 linux/amd64) A unified platform for anti-censorship. 2026/08/31 02:18:40 [Info] infra/conf/serial: Reading config: /tmp/tmpklfnyum2.json Failed to start: main: failed to load config files: [/tmp/tmpklfnyum2.json] > infra/conf: Config: unknown transport protocol: xhttp 
+FAIL	56Mb	78.159.247.196	443	HTTP=000 curl=35 net=tcp sec=reality

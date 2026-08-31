@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-07-232Mb",
+  "tag": "AUTO-07-187Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "public-auth.savesafe.cc",
-        "port": 443,
+        "address": "172.232.196.241",
+        "port": 32396,
         "users": [
           {
-            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+            "id": "bd6ebd72-25cd-4209-a418-a8c72946da90",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "public-auth.savesafe.cc",
-      "fingerprint": "firefox",
-      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-      "shortId": "c37c2ae6f6eb0d71",
+      "serverName": "www.sony.com",
+      "fingerprint": "ios",
+      "publicKey": "Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU",
+      "shortId": "dd6ce6af95001a",
       "spiderX": ""
     }
   }
