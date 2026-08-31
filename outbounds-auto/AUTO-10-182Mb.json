@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-10-185Mb",
+  "tag": "AUTO-10-182Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "fin2.helper-internet.com",
+        "address": "95.154.196.62",
         "port": 443,
         "users": [
           {
-            "id": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
+            "id": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "fin2.helper-internet.com",
-      "fingerprint": "firefox",
-      "publicKey": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-      "shortId": "ff776ff77be48b88",
+      "serverName": "foodnetwork.com",
+      "fingerprint": "chrome",
+      "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
+      "shortId": "16498ac98306ce31",
       "spiderX": ""
     }
   }
