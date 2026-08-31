@@ -7,7 +7,6 @@ from urllib.request import Request, urlopen
 
 SRC = Path("vless_working_full_unique.txt")
 OUT = Path("v2rayxs_top10.json")
-OUT_DIR = Path("outbounds-auto")
 COUNT = 10
 
 PREFERRED = {"US", "GB", "CH", "NL", "NO"}
@@ -84,9 +83,8 @@ def outbound_from_link(link, index, country_code):
         }
 
     country_name = COUNTRY_NAMES.get(country_code, country_code if country_code != "XX" else "Unknown")
-    tag = "AUTO-%02d-%s" % (index, country_name)
     return {
-        "tag": tag,
+        "tag": "AUTO-%02d-%s" % (index, country_name),
         "protocol": "vless",
         "settings": {"vnext": [{"address": host, "port": port, "users": [user]}]},
         "streamSettings": stream,
@@ -103,17 +101,13 @@ def main():
         enriched.append((0 if code in PREFERRED else 1, order, link, code))
         print("%s -> %s" % (host, COUNTRY_NAMES.get(code, code)))
 
-    # Preferred countries first; within each tier keep the original speed order.
     enriched.sort(key=lambda x: (x[0], x[1]))
     selected = enriched[:COUNT]
-    outbounds = [outbound_from_link(link, i, code) for i, (_, _, link, code) in enumerate(selected, 1)]
+    if len(selected) != COUNT:
+        raise SystemExit("Need exactly %d working candidates, got %d" % (COUNT, len(selected)))
 
+    outbounds = [outbound_from_link(link, i, code) for i, (_, _, link, code) in enumerate(selected, 1)]
     OUT.write_text(json.dumps(outbounds, indent=2, ensure_ascii=True) + "\n")
-    OUT_DIR.mkdir(exist_ok=True)
-    for old in OUT_DIR.glob("AUTO-*.json"):
-        old.unlink()
-    for outbound in outbounds:
-        (OUT_DIR / (outbound["tag"] + ".json")).write_text(json.dumps(outbound, indent=2, ensure_ascii=True) + "\n")
 
     print("Created %d automatic V2RayXS outbounds" % len(outbounds))
     print("Selected countries: %s" % ", ".join(x["tag"].split("-", 2)[-1] for x in outbounds))
