@@ -35,7 +35,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "public-auth.savesafe.cc",
+          "address": "82.152.223.140",
           "port": 443,
           "users": [
             {
@@ -65,7 +65,37 @@
     "settings": {
       "vnext": [
         {
-          "address": "82.152.223.140",
+          "address": "95.154.196.62",
+          "port": 443,
+          "users": [
+            {
+              "id": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "foodnetwork.com",
+        "fingerprint": "chrome",
+        "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
+        "shortId": "16498ac98306ce31",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "public-auth.savesafe.cc",
           "port": 443,
           "users": [
             {
@@ -90,67 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "216.167.27.227",
-          "port": 41478,
-          "users": [
-            {
-              "id": "a5c9b82e-b971-4502-bce4-693f1eb97229",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "chrome",
-        "publicKey": "XImbM2wWs5wGcIB2ooFmtancJkhnWJZmsBPlM76gWG0",
-        "shortId": "285be4ed203a22fd",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "95.154.196.62",
-          "port": 443,
-          "users": [
-            {
-              "id": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "foodnetwork.com",
-        "fingerprint": "firefox",
-        "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
-        "shortId": "16498ac98306ce31",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -180,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,6 +202,36 @@
       "wsSettings": {
         "path": "/?ed=2048",
         "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "t17.qifei.app",
+          "port": 443,
+          "users": [
+            {
+              "id": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.amazon.com",
+        "fingerprint": "ios",
+        "publicKey": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
+        "shortId": "1a",
+        "spiderX": ""
       }
     }
   },
