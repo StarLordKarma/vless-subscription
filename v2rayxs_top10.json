@@ -35,7 +35,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "82.152.223.140",
+          "address": "public-auth.savesafe.cc",
           "port": 443,
           "users": [
             {
@@ -65,37 +65,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "95.154.196.62",
-          "port": 443,
-          "users": [
-            {
-              "id": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "foodnetwork.com",
-        "fingerprint": "chrome",
-        "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
-        "shortId": "16498ac98306ce31",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "public-auth.savesafe.cc",
+          "address": "82.152.223.140",
           "port": 443,
           "users": [
             {
@@ -120,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -150,16 +120,16 @@
     }
   },
   {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-05-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "82.152.223.130",
+          "address": "95.154.196.62",
           "port": 443,
           "users": [
             {
-              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+              "id": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -171,16 +141,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "public-auth.savesafe.cc",
+        "serverName": "foodnetwork.com",
         "fingerprint": "firefox",
-        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-        "shortId": "c37c2ae6f6eb0d71",
+        "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
+        "shortId": "16498ac98306ce31",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,16 +180,16 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-07-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "t17.qifei.app",
+          "address": "82.152.223.130",
           "port": 443,
           "users": [
             {
-              "id": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -231,16 +201,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.amazon.com",
-        "fingerprint": "ios",
-        "publicKey": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
-        "shortId": "1a",
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -266,12 +236,42 @@
     }
   },
   {
-    "tag": "AUTO-10-LT",
+    "tag": "AUTO-09-LT",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
           "address": "lt.superbuba.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "lt.superbuba.top",
+        "fingerprint": "firefox",
+        "publicKey": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
+        "shortId": "4fa44664f6a566d3",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-LT",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "84.32.151.203",
           "port": 443,
           "users": [
             {
