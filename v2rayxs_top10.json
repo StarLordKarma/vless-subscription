@@ -177,16 +177,16 @@
     }
   },
   {
-    "tag": "AUTO-07-187Mb",
+    "tag": "AUTO-07-232Mb",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "172.232.196.241",
-          "port": 32396,
+          "address": "public-auth.savesafe.cc",
+          "port": 443,
           "users": [
             {
-              "id": "bd6ebd72-25cd-4209-a418-a8c72946da90",
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -198,10 +198,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.sony.com",
-        "fingerprint": "ios",
-        "publicKey": "Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU",
-        "shortId": "dd6ce6af95001a",
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
         "spiderX": ""
       }
     }
@@ -242,6 +242,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "2.27.209.60",
+          "port": 443,
+          "users": [
+            {
+              "id": "13b54a52-a29f-4737-9941-26f54a4f87c4",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.yandex.ru",
+        "fingerprint": "firefox",
+        "publicKey": "ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4",
+        "shortId": "b4c823",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-185Mb",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "fin2.helper-internet.com",
           "port": 443,
           "users": [
@@ -262,36 +292,6 @@
         "fingerprint": "firefox",
         "publicKey": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
         "shortId": "ff776ff77be48b88",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-182Mb",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "95.154.196.62",
-          "port": 443,
-          "users": [
-            {
-              "id": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "foodnetwork.com",
-        "fingerprint": "chrome",
-        "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
-        "shortId": "16498ac98306ce31",
         "spiderX": ""
       }
     }
