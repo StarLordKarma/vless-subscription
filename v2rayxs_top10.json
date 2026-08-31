@@ -60,32 +60,30 @@
     }
   },
   {
-    "tag": "AUTO-03-319Mb",
+    "tag": "AUTO-03-291Mb",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "82.118.18.224",
-          "port": 443,
+          "address": "ez-681940.ezaccess117ab43.workers.dev",
+          "port": 80,
           "users": [
             {
-              "id": "bfb66910-f920-42c6-b52a-5f56e1dabcb4",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "50414e45-4c5f-5a45-5553-46f80d9f130a",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.cloudflare.com",
-        "fingerprint": "firefox",
-        "publicKey": "mx0NhP2x4HYUumJ1r0RV411imRCjKQDfDf5ApSz5cCE",
-        "shortId": "63499b2eceaee61e",
-        "spiderX": ""
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/46f80d9f130a/loc-0",
+        "headers": {
+          "Host": "ez-681940.ezaccess117ab43.workers.dev"
+        }
       }
     }
   },
