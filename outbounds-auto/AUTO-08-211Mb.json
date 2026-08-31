@@ -1,10 +1,10 @@
 {
-  "tag": "AUTO-07-200Mb",
+  "tag": "AUTO-08-211Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "duchland1.vodniki.monster",
+        "address": "95.85.232.112",
         "port": 443,
         "users": [
           {
@@ -24,7 +24,7 @@
       "fingerprint": "firefox",
       "publicKey": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
       "shortId": "0c13e8822e7f58aa",
-      "spiderX": "/"
+      "spiderX": ""
     }
   }
 }

@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-08-187Mb",
+  "tag": "AUTO-04-319Mb",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "172.232.196.241",
-        "port": 32396,
+        "address": "82.118.18.224",
+        "port": 443,
         "users": [
           {
-            "id": "bd6ebd72-25cd-4209-a418-a8c72946da90",
+            "id": "bfb66910-f920-42c6-b52a-5f56e1dabcb4",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.sony.com",
-      "fingerprint": "ios",
-      "publicKey": "Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU",
-      "shortId": "dd6ce6af95001a",
+      "serverName": "www.cloudflare.com",
+      "fingerprint": "firefox",
+      "publicKey": "mx0NhP2x4HYUumJ1r0RV411imRCjKQDfDf5ApSz5cCE",
+      "shortId": "63499b2eceaee61e",
       "spiderX": ""
     }
   }
