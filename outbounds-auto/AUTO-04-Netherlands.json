@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-10-185Mb",
+  "tag": "AUTO-04-Netherlands",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "fin2.helper-internet.com",
+        "address": "2.27.209.60",
         "port": 443,
         "users": [
           {
-            "id": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
+            "id": "13b54a52-a29f-4737-9941-26f54a4f87c4",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "fin2.helper-internet.com",
+      "serverName": "www.yandex.ru",
       "fingerprint": "firefox",
-      "publicKey": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-      "shortId": "ff776ff77be48b88",
+      "publicKey": "ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4",
+      "shortId": "b4c823",
       "spiderX": ""
     }
   }

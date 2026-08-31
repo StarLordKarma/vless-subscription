@@ -1,0 +1,30 @@
+{
+  "tag": "AUTO-10-USA",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "216.167.21.32",
+        "port": 40573,
+        "users": [
+          {
+            "id": "095d1015-70da-4eff-af6d-962ff619a679",
+            "encryption": "none",
+            "flow": "xtls-rprx-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "www.tesla.com",
+      "fingerprint": "firefox",
+      "publicKey": "aqAR_yPgXQtOazW4nR1Q5RmGIVLQ5TV2ztUWmsjSFVw",
+      "shortId": "2012d3de918e0d20",
+      "spiderX": ""
+    }
+  }
+}

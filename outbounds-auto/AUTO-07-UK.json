@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-04-319Mb",
+  "tag": "AUTO-07-UK",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "82.118.18.224",
+        "address": "82.152.223.130",
         "port": 443,
         "users": [
           {
-            "id": "bfb66910-f920-42c6-b52a-5f56e1dabcb4",
+            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.cloudflare.com",
+      "serverName": "public-auth.savesafe.cc",
       "fingerprint": "firefox",
-      "publicKey": "mx0NhP2x4HYUumJ1r0RV411imRCjKQDfDf5ApSz5cCE",
-      "shortId": "63499b2eceaee61e",
+      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+      "shortId": "c37c2ae6f6eb0d71",
       "spiderX": ""
     }
   }
