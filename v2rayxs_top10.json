@@ -5,6 +5,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "2.24.131.46",
+          "port": 443,
+          "users": [
+            {
+              "id": "be960e90-ada1-4a29-83ad-d20b06084f67",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.cloudflare.com",
+        "fingerprint": "chrome",
+        "publicKey": "em5MbaJeZoe--syIy7L8MEoNBwN1mLB2ur_YAY8PuQ0",
+        "shortId": "daf012feff3b00d0",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "public-auth.savesafe.cc",
           "port": 443,
           "users": [
@@ -30,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-03-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -60,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-04-UK",
+    "tag": "AUTO-05-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -150,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -180,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,7 +240,7 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -235,36 +265,6 @@
         "fingerprint": "firefox",
         "publicKey": "aqAR_yPgXQtOazW4nR1Q5RmGIVLQ5TV2ztUWmsjSFVw",
         "shortId": "2012d3de918e0d20",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "82.152.223.130",
-          "port": 443,
-          "users": [
-            {
-              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "public-auth.savesafe.cc",
-        "fingerprint": "firefox",
-        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-        "shortId": "c37c2ae6f6eb0d71",
         "spiderX": ""
       }
     }
