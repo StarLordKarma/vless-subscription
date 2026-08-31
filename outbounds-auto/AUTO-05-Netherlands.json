@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-07-UK",
+  "tag": "AUTO-05-Netherlands",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "82.152.223.130",
+        "address": "2.27.209.60",
         "port": 443,
         "users": [
           {
-            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+            "id": "13b54a52-a29f-4737-9941-26f54a4f87c4",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "public-auth.savesafe.cc",
+      "serverName": "www.yandex.ru",
       "fingerprint": "firefox",
-      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-      "shortId": "c37c2ae6f6eb0d71",
+      "publicKey": "ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4",
+      "shortId": "b4c823",
       "spiderX": ""
     }
   }

@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-05-UK",
+  "tag": "AUTO-08-UK",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "95.154.196.62",
+        "address": "82.152.223.130",
         "port": 443,
         "users": [
           {
-            "id": "a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474",
+            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "foodnetwork.com",
-      "fingerprint": "chrome",
-      "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
-      "shortId": "16498ac98306ce31",
+      "serverName": "public-auth.savesafe.cc",
+      "fingerprint": "firefox",
+      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+      "shortId": "c37c2ae6f6eb0d71",
       "spiderX": ""
     }
   }

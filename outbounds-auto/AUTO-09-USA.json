@@ -4,11 +4,11 @@
   "settings": {
     "vnext": [
       {
-        "address": "216.167.21.162",
-        "port": 39035,
+        "address": "216.167.27.101",
+        "port": 27278,
         "users": [
           {
-            "id": "5e130ea4-8a35-43b3-809a-b33b4bf15d2a",
+            "id": "98a28376-ce73-48be-a6f4-abfa74377b65",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.tesla.com",
+      "serverName": "www.nvidia.com",
       "fingerprint": "firefox",
-      "publicKey": "iDi_qBUd7W0hkodhE-RCnOY9-RwD3C7acLQAV-abrwQ",
-      "shortId": "3f88951857dd6d",
+      "publicKey": "Mmuxa6Y9h2thCEMFlQQi26umkKnsirNXQ5btCCyl3EU",
+      "shortId": "994469a256d8",
       "spiderX": ""
     }
   }
