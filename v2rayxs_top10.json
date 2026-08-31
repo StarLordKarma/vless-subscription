@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "2.24.131.46",
+          "address": "public-auth.savesafe.cc",
           "port": 443,
           "users": [
             {
-              "id": "be960e90-ada1-4a29-83ad-d20b06084f67",
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -21,10 +21,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.cloudflare.com",
-        "fingerprint": "chrome",
-        "publicKey": "em5MbaJeZoe--syIy7L8MEoNBwN1mLB2ur_YAY8PuQ0",
-        "shortId": "daf012feff3b00d0",
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
         "spiderX": ""
       }
     }
@@ -35,7 +35,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "public-auth.savesafe.cc",
+          "address": "82.152.223.140",
           "port": 443,
           "users": [
             {
@@ -65,7 +65,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "82.152.223.140",
+          "address": "82.152.223.130",
           "port": 443,
           "users": [
             {
@@ -112,7 +112,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "foodnetwork.com",
-        "fingerprint": "chrome",
+        "fingerprint": "firefox",
         "publicKey": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
         "shortId": "16498ac98306ce31",
         "spiderX": ""
@@ -120,37 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-05-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "82.152.223.130",
-          "port": 443,
-          "users": [
-            {
-              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "public-auth.savesafe.cc",
-        "fingerprint": "firefox",
-        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-        "shortId": "c37c2ae6f6eb0d71",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -180,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -206,7 +176,7 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -236,7 +206,7 @@
     }
   },
   {
-    "tag": "AUTO-09-LT",
+    "tag": "AUTO-08-LT",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -266,7 +236,7 @@
     }
   },
   {
-    "tag": "AUTO-10-LT",
+    "tag": "AUTO-09-LT",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -291,6 +261,35 @@
         "fingerprint": "firefox",
         "publicKey": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
         "shortId": "4fa44664f6a566d3",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-PL",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "54.37.136.194",
+          "port": 2053,
+          "users": [
+            {
+              "id": "7061b26c-0f6c-49b5-be42-af2c011c04bc",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.apple.com",
+        "fingerprint": "firefox",
+        "publicKey": "TtGgrgk1OLMjWBaomJ1JkUOvmtMx7sLJdvvN0bxmZF8",
+        "shortId": "bdc1efeb01044e93",
         "spiderX": ""
       }
     }
