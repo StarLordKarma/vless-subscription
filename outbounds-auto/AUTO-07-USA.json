@@ -4,11 +4,11 @@
   "settings": {
     "vnext": [
       {
-        "address": "216.167.27.227",
-        "port": 41478,
+        "address": "216.167.27.101",
+        "port": 27278,
         "users": [
           {
-            "id": "a5c9b82e-b971-4502-bce4-693f1eb97229",
+            "id": "98a28376-ce73-48be-a6f4-abfa74377b65",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.intel.com",
-      "fingerprint": "chrome",
-      "publicKey": "XImbM2wWs5wGcIB2ooFmtancJkhnWJZmsBPlM76gWG0",
-      "shortId": "285be4ed203a22fd",
+      "serverName": "www.nvidia.com",
+      "fingerprint": "firefox",
+      "publicKey": "Mmuxa6Y9h2thCEMFlQQi26umkKnsirNXQ5btCCyl3EU",
+      "shortId": "994469a256d8",
       "spiderX": ""
     }
   }

@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-05-Netherlands",
+  "tag": "AUTO-05-USA",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "2.27.209.60",
-        "port": 443,
+        "address": "216.167.27.227",
+        "port": 41478,
         "users": [
           {
-            "id": "13b54a52-a29f-4737-9941-26f54a4f87c4",
+            "id": "a5c9b82e-b971-4502-bce4-693f1eb97229",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.yandex.ru",
-      "fingerprint": "firefox",
-      "publicKey": "ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4",
-      "shortId": "b4c823",
+      "serverName": "www.intel.com",
+      "fingerprint": "chrome",
+      "publicKey": "XImbM2wWs5wGcIB2ooFmtancJkhnWJZmsBPlM76gWG0",
+      "shortId": "285be4ed203a22fd",
       "spiderX": ""
     }
   }

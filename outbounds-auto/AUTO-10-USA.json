@@ -4,11 +4,11 @@
   "settings": {
     "vnext": [
       {
-        "address": "216.167.21.32",
-        "port": 40573,
+        "address": "t17.qifei.app",
+        "port": 443,
         "users": [
           {
-            "id": "095d1015-70da-4eff-af6d-962ff619a679",
+            "id": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "www.tesla.com",
-      "fingerprint": "firefox",
-      "publicKey": "aqAR_yPgXQtOazW4nR1Q5RmGIVLQ5TV2ztUWmsjSFVw",
-      "shortId": "2012d3de918e0d20",
+      "serverName": "www.amazon.com",
+      "fingerprint": "ios",
+      "publicKey": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
+      "shortId": "1a",
       "spiderX": ""
     }
   }
