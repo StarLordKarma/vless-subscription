@@ -1,14 +1,14 @@
 {
-  "tag": "AUTO-08-UK",
+  "tag": "AUTO-08-USA",
   "protocol": "vless",
   "settings": {
     "vnext": [
       {
-        "address": "82.152.223.130",
-        "port": 443,
+        "address": "216.167.27.101",
+        "port": 27278,
         "users": [
           {
-            "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+            "id": "98a28376-ce73-48be-a6f4-abfa74377b65",
             "encryption": "none",
             "flow": "xtls-rprx-vision"
           }
@@ -20,10 +20,10 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-      "serverName": "public-auth.savesafe.cc",
+      "serverName": "www.nvidia.com",
       "fingerprint": "firefox",
-      "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
-      "shortId": "c37c2ae6f6eb0d71",
+      "publicKey": "Mmuxa6Y9h2thCEMFlQQi26umkKnsirNXQ5btCCyl3EU",
+      "shortId": "994469a256d8",
       "spiderX": ""
     }
   }
