@@ -60,7 +60,35 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.97.6",
+          "port": 8080,
+          "users": [
+            {
+              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
+        "headers": {
+          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +118,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-05-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -116,34 +144,6 @@
         "publicKey": "rWpM1YULmwcQynCxVoOo-Nw7BCPlC7LjD1_ou_vWsGo",
         "shortId": "04e35a9e",
         "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-ef859652a80e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/TrexBridge/ef859652a80e",
-        "headers": {
-          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
-        }
       }
     }
   },
@@ -178,7 +178,37 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-07-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "82.152.223.130",
+          "port": 443,
+          "users": [
+            {
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -205,28 +235,6 @@
         "shortId": "cf41f778",
         "spiderX": ""
       }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "134.98.129.48",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
     }
   },
   {
