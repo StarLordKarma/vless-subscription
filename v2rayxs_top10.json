@@ -5,7 +5,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "134.98.129.48",
+          "address": "158.178.147.174",
           "port": 62145,
           "users": [
             {
@@ -200,7 +200,37 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-08-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "public-auth.savesafe.cc",
+          "port": 443,
+          "users": [
+            {
+              "id": "39c42b0a-b823-4c93-bb99-74b4183e518d",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -230,48 +260,17 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "chmstnd1.jarvesitw.ru",
-          "port": 443,
-          "users": [
-            {
-              "id": "2f600710-9f4e-4eab-8de1-89f60a878e55",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "app72.jarvestip.ru",
-        "fingerprint": "firefox",
-        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
-        "shortId": "cf41f778",
-        "spiderX": ""
-      }
-    }
-  },
-  {
     "tag": "AUTO-10-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "45.143.167.154",
-          "port": 8443,
+          "address": "158.101.208.5",
+          "port": 62145,
           "users": [
             {
-              "id": "f374a660-2dc5-11f1-9ec5-baabcd4be2cd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
             }
           ]
         }
@@ -279,14 +278,7 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.apple.com",
-        "fingerprint": "chrome",
-        "publicKey": "FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc",
-        "shortId": "deadbeef42",
-        "spiderX": ""
-      }
+      "security": "none"
     }
   }
 ]
