@@ -95,11 +95,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "chmstnd1.jarvesitw.ru",
-          "port": 443,
+          "address": "78.17.38.184",
+          "port": 8443,
           "users": [
             {
-              "id": "d3815c21-ef06-43e2-82e1-ca313962b489",
+              "id": "9f57df7b-0a59-4e6b-bbda-e6ce44619869",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -111,10 +111,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "app72.jarvestip.ru",
-        "fingerprint": "firefox",
-        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
-        "shortId": "cf41f778",
+        "serverName": "www.cloudflare.com",
+        "fingerprint": "chrome",
+        "publicKey": "NPIKgDPGs6rIwTjYaWuxvcekFruIBmdcNnoxvqPb0n4",
+        "shortId": "21cc0615b9aa1ef4",
         "spiderX": ""
       }
     }
@@ -207,11 +207,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "84.32.102.168",
+          "address": "chmstnd1.jarvesitw.ru",
           "port": 443,
           "users": [
             {
-              "id": "d3815c21-ef06-43e2-82e1-ca313962b489",
+              "id": "2f600710-9f4e-4eab-8de1-89f60a878e55",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -223,10 +223,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "app23.jarvestip.ru",
+        "serverName": "app72.jarvestip.ru",
         "fingerprint": "firefox",
-        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-        "shortId": "2aef5875",
+        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+        "shortId": "cf41f778",
         "spiderX": ""
       }
     }
@@ -237,11 +237,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "104.21.70.21",
+          "address": "188.114.97.6",
           "port": 8080,
           "users": [
             {
-              "id": "75bc1bab-ff62-4c7c-a946-ec49fd53f89f",
+              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
               "encryption": "none"
             }
           ]
@@ -252,9 +252,9 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/jige?ed=2048",
+        "path": "/vless",
         "headers": {
-          "Host": "jpb2.jjjjjj.eu.cc"
+          "Host": "sgdo1.cassanova.biz.id"
         }
       }
     }
