@@ -125,36 +125,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "78.17.38.184",
-          "port": 8443,
-          "users": [
-            {
-              "id": "9f57df7b-0a59-4e6b-bbda-e6ce44619869",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.cloudflare.com",
-        "fingerprint": "chrome",
-        "publicKey": "NPIKgDPGs6rIwTjYaWuxvcekFruIBmdcNnoxvqPb0n4",
-        "shortId": "21cc0615b9aa1ef4",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "77.74.123.177",
           "port": 443,
           "users": [
@@ -180,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -240,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,7 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -288,6 +258,36 @@
         "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
         "shortId": "2aef5875",
         "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "84.32.102.168",
+          "port": 443,
+          "users": [
+            {
+              "id": "d3815c21-ef06-43e2-82e1-ca313962b489",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "app23.jarvestip.ru",
+        "fingerprint": "firefox",
+        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
+        "shortId": "2aef5875",
+        "spiderX": ""
       }
     }
   }
