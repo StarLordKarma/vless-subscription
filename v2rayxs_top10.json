@@ -202,35 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "104.21.70.21",
-          "port": 8080,
-          "users": [
-            {
-              "id": "75bc1bab-ff62-4c7c-a946-ec49fd53f89f",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/jige?ed=2048",
-        "headers": {
-          "Host": "jpb2.jjjjjj.eu.cc"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-Norway",
+    "tag": "AUTO-08-Norway",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -260,7 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -286,6 +258,34 @@
         "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
         "shortId": "cf41f778",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.97.6",
+          "port": 8080,
+          "users": [
+            {
+              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/vless",
+        "headers": {
+          "Host": "sgdo1.cassanova.biz.id"
+        }
       }
     }
   }
