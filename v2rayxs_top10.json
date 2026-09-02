@@ -5,6 +5,28 @@
     "settings": {
       "vnext": [
         {
+          "address": "141.148.240.61",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "141.148.232.137",
           "port": 62145,
           "users": [
@@ -22,7 +44,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -50,7 +72,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -80,7 +102,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-05-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -106,34 +128,6 @@
         "publicKey": "rWpM1YULmwcQynCxVoOo-Nw7BCPlC7LjD1_ou_vWsGo",
         "shortId": "04e35a9e",
         "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        }
       }
     }
   },
@@ -233,28 +227,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "141.148.240.61",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-10-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "app23.jarvestip.ru",
           "port": 443,
           "users": [
@@ -276,6 +248,36 @@
         "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
         "shortId": "2aef5875",
         "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "84.32.177.5",
+          "port": 443,
+          "users": [
+            {
+              "id": "2f600710-9f4e-4eab-8de1-89f60a878e55",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "app72.jarvestip.ru",
+        "fingerprint": "firefox",
+        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+        "shortId": "cf41f778",
+        "spiderX": ""
       }
     }
   }
