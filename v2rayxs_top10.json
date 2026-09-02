@@ -1,36 +1,6 @@
 [
   {
-    "tag": "AUTO-01-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "216.167.27.101",
-          "port": 27278,
-          "users": [
-            {
-              "id": "98a28376-ce73-48be-a6f4-abfa74377b65",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.nvidia.com",
-        "fingerprint": "chrome",
-        "publicKey": "Mmuxa6Y9h2thCEMFlQQi26umkKnsirNXQ5btCCyl3EU",
-        "shortId": "994469a256d8",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -60,7 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -148,37 +118,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "72.56.75.54",
-          "port": 443,
-          "users": [
-            {
-              "id": "2f600710-9f4e-4eab-8de1-89f60a878e55",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "app2.goonars.com",
-        "fingerprint": "chrome",
-        "publicKey": "iTCQz0n0AolvGxU2ZASJIsSVoKOR9PAFbnZVQDnSnF8",
-        "shortId": "c481d750",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -206,7 +146,7 @@
     }
   },
   {
-    "tag": "AUTO-08-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -236,7 +176,37 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-07-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "public-auth.savesafe.cc",
+          "port": 443,
+          "users": [
+            {
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,7 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-10-UK",
+    "tag": "AUTO-09-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -271,7 +241,7 @@
           "port": 443,
           "users": [
             {
-              "id": "39c42b0a-b823-4c93-bb99-74b4183e518d",
+              "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -288,6 +258,35 @@
         "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
         "shortId": "c37c2ae6f6eb0d71",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "89.124.115.125",
+          "port": 443,
+          "users": [
+            {
+              "id": "1f9480a7-ea9e-4c30-8df5-9b4ac4f869ea",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ai.android",
+        "fingerprint": "firefox",
+        "publicKey": "d4yc90PciJ40ZoEd_b1_nJEAbT2H8hUXqrFupAOobWA",
+        "shortId": "05afd49302dd",
+        "spiderX": "/"
       }
     }
   }
