@@ -5,7 +5,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "141.148.240.61",
+          "address": "141.148.232.137",
           "port": 62145,
           "users": [
             {
@@ -27,7 +27,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "141.148.232.137",
+          "address": "141.148.240.61",
           "port": 62145,
           "users": [
             {
@@ -44,16 +44,16 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.21.70.21",
-          "port": 8080,
+          "address": "89.124.115.125",
+          "port": 443,
           "users": [
             {
-              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+              "id": "1f9480a7-ea9e-4c30-8df5-9b4ac4f869ea",
               "encryption": "none"
             }
           ]
@@ -61,27 +61,28 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ai.android",
+        "fingerprint": "firefox",
+        "publicKey": "d4yc90PciJ40ZoEd_b1_nJEAbT2H8hUXqrFupAOobWA",
+        "shortId": "05afd49302dd",
+        "spiderX": "/"
       }
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "72.56.75.54",
-          "port": 443,
+          "address": "216.167.27.101",
+          "port": 27278,
           "users": [
             {
-              "id": "2f600710-9f4e-4eab-8de1-89f60a878e55",
+              "id": "98a28376-ce73-48be-a6f4-abfa74377b65",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -93,104 +94,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "app2.goonars.com",
-        "fingerprint": "firefox",
-        "publicKey": "iTCQz0n0AolvGxU2ZASJIsSVoKOR9PAFbnZVQDnSnF8",
-        "shortId": "c481d750",
+        "serverName": "www.nvidia.com",
+        "fingerprint": "chrome",
+        "publicKey": "Mmuxa6Y9h2thCEMFlQQi26umkKnsirNXQ5btCCyl3EU",
+        "shortId": "994469a256d8",
         "spiderX": ""
       }
     }
   },
   {
     "tag": "AUTO-05-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "147.45.111.103",
-          "port": 443,
-          "users": [
-            {
-              "id": "2f600710-9f4e-4eab-8de1-89f60a878e55",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "app1.goonars.com",
-        "fingerprint": "firefox",
-        "publicKey": "rWpM1YULmwcQynCxVoOo-Nw7BCPlC7LjD1_ou_vWsGo",
-        "shortId": "04e35a9e",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "212.16.78.164",
-          "port": 37057,
-          "users": [
-            {
-              "id": "a8e062fb-de43-599d-9318-9c530c18b1e6",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "amd.com",
-        "fingerprint": "firefox",
-        "publicKey": "5ZTL9NPxkVHjhW-lTuCdpzL5EoseIWPgejnjjVPlgRE",
-        "shortId": "33a55559cdd8",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -220,42 +133,12 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "x-ui.havalvpn.ru",
-          "port": 37057,
-          "users": [
-            {
-              "id": "a8e062fb-de43-599d-9318-9c530c18b1e6",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "amd.com",
-        "fingerprint": "firefox",
-        "publicKey": "5ZTL9NPxkVHjhW-lTuCdpzL5EoseIWPgejnjjVPlgRE",
-        "shortId": "33a55559cdd8",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "app23.jarvestip.ru",
+          "address": "84.32.177.5",
           "port": 443,
           "users": [
             {
@@ -271,11 +154,123 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "app23.jarvestip.ru",
+        "serverName": "app72.jarvestip.ru",
         "fingerprint": "firefox",
-        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-        "shortId": "2aef5875",
+        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+        "shortId": "cf41f778",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.97.6",
+          "port": 8080,
+          "users": [
+            {
+              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/vless",
+        "headers": {
+          "Host": "sgdo1.cassanova.biz.id"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "72.56.75.54",
+          "port": 443,
+          "users": [
+            {
+              "id": "2f600710-9f4e-4eab-8de1-89f60a878e55",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "app2.goonars.com",
+        "fingerprint": "chrome",
+        "publicKey": "iTCQz0n0AolvGxU2ZASJIsSVoKOR9PAFbnZVQDnSnF8",
+        "shortId": "c481d750",
         "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "trolley.proxy.rlwy.net",
+          "port": 17116,
+          "users": [
+            {
+              "id": "961d1f5d-d1e7-48d1-96a9-9826ce2d57c7",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.21.70.21",
+          "port": 8080,
+          "users": [
+            {
+              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/vless",
+        "headers": {
+          "Host": "sgdo1.cassanova.biz.id"
+        }
       }
     }
   }
