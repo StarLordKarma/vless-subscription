@@ -93,6 +93,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "193.160.71.247",
+          "port": 443,
+          "users": [
+            {
+              "id": "252f7811-d86f-4dc2-97e0-83d3172ef4b8",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "edge-uk2.mystatic-cdn.ru",
+        "fingerprint": "edge",
+        "publicKey": "65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI",
+        "shortId": "ee169e93d3c277a1",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "public-auth.savesafe.cc",
           "port": 443,
           "users": [
@@ -113,36 +143,6 @@
         "fingerprint": "firefox",
         "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
         "shortId": "c37c2ae6f6eb0d71",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "193.160.71.247",
-          "port": 443,
-          "users": [
-            {
-              "id": "252f7811-d86f-4dc2-97e0-83d3172ef4b8",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "edge-uk2.mystatic-cdn.ru",
-        "fingerprint": "chrome",
-        "publicKey": "65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI",
-        "shortId": "ee169e93d3c277a1",
         "spiderX": ""
       }
     }
