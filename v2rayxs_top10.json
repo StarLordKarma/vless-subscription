@@ -1,6 +1,28 @@
 [
   {
-    "tag": "AUTO-01-UK",
+    "tag": "AUTO-01-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "158.101.215.201",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -27,28 +49,6 @@
         "shortId": "2e124af254a65e7c",
         "spiderX": ""
       }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "144.21.43.131",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
     }
   },
   {
@@ -202,33 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "51.158.238.49",
-          "port": 8080,
-          "users": [
-            {
-              "id": "11af1c47-865a-47c6-92ff-118013655d78",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -254,17 +228,44 @@
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "89.124.115.125",
+          "address": "51.158.238.49",
+          "port": 8080,
+          "users": [
+            {
+              "id": "11af1c47-865a-47c6-92ff-118013655d78",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-LT",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "lt.superbuba.top",
           "port": 443,
           "users": [
             {
-              "id": "1f9480a7-ea9e-4c30-8df5-9b4ac4f869ea",
-              "encryption": "none"
+              "id": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
@@ -274,11 +275,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "ai.android",
+        "serverName": "lt.superbuba.top",
         "fingerprint": "firefox",
-        "publicKey": "d4yc90PciJ40ZoEd_b1_nJEAbT2H8hUXqrFupAOobWA",
-        "shortId": "05afd49302dd",
-        "spiderX": "/"
+        "publicKey": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
+        "shortId": "4fa44664f6a566d3",
+        "spiderX": ""
       }
     }
   }
