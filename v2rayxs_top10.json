@@ -5,28 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "141.148.245.146",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "158.101.215.201",
           "port": 62145,
           "users": [
@@ -44,7 +22,7 @@
     }
   },
   {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -74,35 +52,7 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -124,7 +74,7 @@
     }
   },
   {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-04-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -154,7 +104,7 @@
     }
   },
   {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-05-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -184,7 +134,7 @@
     }
   },
   {
-    "tag": "AUTO-08-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -214,35 +164,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "104.21.70.21",
-          "port": 8080,
-          "users": [
-            {
-              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -268,6 +190,88 @@
         "publicKey": "mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0",
         "shortId": "",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "public-auth.savesafe.cc",
+          "port": 443,
+          "users": [
+            {
+              "id": "39c42b0a-b823-4c93-bb99-74b4183e518d",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "public-auth.savesafe.cc",
+        "fingerprint": "firefox",
+        "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
+        "shortId": "c37c2ae6f6eb0d71",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "51.158.238.49",
+          "port": 8080,
+          "users": [
+            {
+              "id": "11af1c47-865a-47c6-92ff-118013655d78",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "40.160.68.79",
+          "port": 8080,
+          "users": [
+            {
+              "id": "11af1c47-865a-47c6-92ff-118013655d78",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
       }
     }
   }
