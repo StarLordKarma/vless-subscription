@@ -27,28 +27,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "141.144.205.157",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "158.101.215.201",
           "port": 62145,
           "users": [
@@ -66,29 +44,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "158.178.152.80",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-05-UK",
+    "tag": "AUTO-03-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -118,7 +74,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -146,7 +102,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-05-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -168,7 +124,7 @@
     }
   },
   {
-    "tag": "AUTO-08-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -198,7 +154,7 @@
     }
   },
   {
-    "tag": "AUTO-09-UK",
+    "tag": "AUTO-07-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -228,7 +184,7 @@
     }
   },
   {
-    "tag": "AUTO-10-UK",
+    "tag": "AUTO-08-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -253,6 +209,64 @@
         "fingerprint": "firefox",
         "publicKey": "YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c",
         "shortId": "c37c2ae6f6eb0d71",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.21.70.21",
+          "port": 8080,
+          "users": [
+            {
+              "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/vless",
+        "headers": {
+          "Host": "sgdo1.cassanova.biz.id"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "138.124.60.146",
+          "port": 443,
+          "users": [
+            {
+              "id": "bbfd1f68-ec64-452f-8404-9e2bcf1df951",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "usa.oblaco.bet",
+        "fingerprint": "firefox",
+        "publicKey": "mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0",
+        "shortId": "",
         "spiderX": ""
       }
     }
