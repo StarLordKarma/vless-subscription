@@ -1,200 +1,6 @@
 [
   {
-    "tag": "AUTO-01-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "138.124.60.146",
-          "port": 443,
-          "users": [
-            {
-              "id": "bbfd1f68-ec64-452f-8404-9e2bcf1df951",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "usa.oblaco.bet",
-        "fingerprint": "chrome",
-        "publicKey": "mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "84.235.170.145",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "141.148.225.64",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "147.45.111.103",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.samsung.com",
-        "fingerprint": "qq",
-        "publicKey": "rWpM1YULmwcQynCxVoOo-Nw7BCPlC7LjD1_ou_vWsGo",
-        "shortId": "04e35a9e",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "84.32.61.87",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apiv10.jarvesitw.ru",
-        "fingerprint": "firefox",
-        "publicKey": "vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo",
-        "shortId": "6591f200",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "sv10.jarvesitw.ru",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apiv10.jarvesitw.ru",
-        "fingerprint": "firefox",
-        "publicKey": "vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo",
-        "shortId": "6591f200",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.76.61.232",
-          "port": 443,
-          "users": [
-            {
-              "id": "791a171e-c0af-4bd7-b8ce-43541c7585db",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "policies.google.com",
-        "fingerprint": "chrome",
-        "publicKey": "CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY",
-        "shortId": "e2a4c6b8",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -224,7 +30,59 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "84.235.161.108",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "nl-4.kihsuyhf8jkiugsxb.cfd",
+          "port": 443,
+          "users": [
+            {
+              "id": "0dc1fc26-b8e9-4296-9870-0996de3c2333",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nl-4.kihsuyhf8jkiugsxb.cfd",
+        "fingerprint": "firefox",
+        "publicKey": "T422l5z4xfnyEx0C3o0l61cqDo8QgQZBLiROBHO2QAk",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -249,17 +107,77 @@
         "fingerprint": "firefox",
         "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
         "shortId": "cf41f778",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "138.124.60.146",
+          "port": 443,
+          "users": [
+            {
+              "id": "bbfd1f68-ec64-452f-8404-9e2bcf1df951",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "usa.oblaco.bet",
+        "fingerprint": "firefox",
+        "publicKey": "mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0",
+        "shortId": "",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "app1.goonars.com",
+          "address": "us-1.kihsuyhf8jkiugsxb.cfd",
+          "port": 443,
+          "users": [
+            {
+              "id": "0dc1fc26-b8e9-4296-9870-0996de3c2333",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "us-1.kihsuyhf8jkiugsxb.cfd",
+        "fingerprint": "firefox",
+        "publicKey": "eauHVJZPiLyVugWyAVvZ_b70XryFqSN4K_ssIY7LojQ",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "sv10.jarvesitw.ru",
           "port": 443,
           "users": [
             {
@@ -275,11 +193,101 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.samsung.com",
-        "fingerprint": "qq",
-        "publicKey": "rWpM1YULmwcQynCxVoOo-Nw7BCPlC7LjD1_ou_vWsGo",
-        "shortId": "04e35a9e",
+        "serverName": "apiv10.jarvesitw.ru",
+        "fingerprint": "firefox",
+        "publicKey": "vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo",
+        "shortId": "6591f200",
         "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "84.32.61.87",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "apiv10.jarvesitw.ru",
+        "fingerprint": "firefox",
+        "publicKey": "vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo",
+        "shortId": "6591f200",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "sv5.jarvesitw.ru",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "apiv5.jarvesitw.ru",
+        "fingerprint": "firefox",
+        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+        "shortId": "cf41f778",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-TR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "156.67.63.231",
+          "port": 443,
+          "users": [
+            {
+              "id": "b052df40-d51c-456c-9bd6-57af01a87e4e",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "sync-bridge.org",
+        "fingerprint": "chrome",
+        "publicKey": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
+        "shortId": "5606d4a25c99e7af",
+        "spiderX": ""
       }
     }
   }
