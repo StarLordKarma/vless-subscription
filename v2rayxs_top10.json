@@ -259,16 +259,16 @@
     }
   },
   {
-    "tag": "AUTO-10-Norway",
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "46.29.238.136",
-          "port": 40443,
+          "address": "104.21.70.21",
+          "port": 8080,
           "users": [
             {
-              "id": "374181b9-44bf-44f1-a227-1184f3e9e47b",
+              "id": "50414e45-4c5f-5a45-5553-b45978f6d773",
               "encryption": "none"
             }
           ]
@@ -276,14 +276,13 @@
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "deepl.com",
-        "fingerprint": "chrome",
-        "publicKey": "Ic-S89gGVGw1RnKJHOi3CzAmdU8fIdlMZOd4DBV7A3M",
-        "shortId": "bbb1",
-        "spiderX": ""
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/b45978f6d773/loc-1",
+        "headers": {
+          "Host": "ljz5fuexub6s.nova-705deb.workers.dev"
+        }
       }
     }
   }
