@@ -65,35 +65,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "89.124.115.125",
-          "port": 443,
-          "users": [
-            {
-              "id": "1f9480a7-ea9e-4c30-8df5-9b4ac4f869ea",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ai.android",
-        "fingerprint": "firefox",
-        "publicKey": "d4yc90PciJ40ZoEd_b1_nJEAbT2H8hUXqrFupAOobWA",
-        "shortId": "05afd49302dd",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "sv13.betust.net",
           "port": 443,
           "users": [
@@ -119,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -149,7 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-05-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -179,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -209,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -239,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -269,7 +240,7 @@
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -294,6 +265,35 @@
         "fingerprint": "firefox",
         "publicKey": "rWpM1YULmwcQynCxVoOo-Nw7BCPlC7LjD1_ou_vWsGo",
         "shortId": "04e35a9e",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-Norway",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "46.29.238.136",
+          "port": 40443,
+          "users": [
+            {
+              "id": "374181b9-44bf-44f1-a227-1184f3e9e47b",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "deepl.com",
+        "fingerprint": "chrome",
+        "publicKey": "Ic-S89gGVGw1RnKJHOi3CzAmdU8fIdlMZOd4DBV7A3M",
+        "shortId": "bbb1",
         "spiderX": ""
       }
     }
