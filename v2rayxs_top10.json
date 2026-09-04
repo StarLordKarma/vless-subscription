@@ -108,7 +108,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "app1.goonars.com",
+          "address": "147.45.111.103",
           "port": 443,
           "users": [
             {
@@ -125,10 +125,10 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "www.samsung.com",
-        "fingerprint": "qq",
+        "fingerprint": "firefox",
         "publicKey": "rWpM1YULmwcQynCxVoOo-Nw7BCPlC7LjD1_ou_vWsGo",
         "shortId": "04e35a9e",
-        "spiderX": "/"
+        "spiderX": ""
       }
     }
   },
@@ -138,7 +138,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "147.45.111.103",
+          "address": "app1.goonars.com",
           "port": 443,
           "users": [
             {
