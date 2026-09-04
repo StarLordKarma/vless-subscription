@@ -108,36 +108,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "84.32.102.254",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apiv3.jarvesitw.ru",
-        "fingerprint": "firefox",
-        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-        "shortId": "2aef5875",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "147.45.111.103",
           "port": 443,
           "users": [
@@ -163,7 +133,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -193,7 +163,7 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -223,7 +193,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -253,12 +223,42 @@
     }
   },
   {
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.76.61.232",
+          "port": 443,
+          "users": [
+            {
+              "id": "791a171e-c0af-4bd7-b8ce-43541c7585db",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "policies.google.com",
+        "fingerprint": "chrome",
+        "publicKey": "CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY",
+        "shortId": "e2a4c6b8",
+        "spiderX": ""
+      }
+    }
+  },
+  {
     "tag": "AUTO-10-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "84.32.177.6",
+          "address": "84.32.102.254",
           "port": 443,
           "users": [
             {
@@ -274,10 +274,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apiv5.jarvesitw.ru",
+        "serverName": "apiv3.jarvesitw.ru",
         "fingerprint": "firefox",
-        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
-        "shortId": "cf41f778",
+        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
+        "shortId": "2aef5875",
         "spiderX": ""
       }
     }
