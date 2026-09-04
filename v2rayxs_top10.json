@@ -35,28 +35,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "84.235.161.108",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "nl-4.kihsuyhf8jkiugsxb.cfd",
           "port": 443,
           "users": [
@@ -82,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -112,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -142,7 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -172,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,7 +240,7 @@
     }
   },
   {
-    "tag": "AUTO-10-TR",
+    "tag": "AUTO-09-TR",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -287,6 +265,36 @@
         "fingerprint": "chrome",
         "publicKey": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
         "shortId": "5606d4a25c99e7af",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "de-6.kihsuyhf8jkiugsxb.cfd",
+          "port": 443,
+          "users": [
+            {
+              "id": "0dc1fc26-b8e9-4296-9870-0996de3c2333",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-6.kihsuyhf8jkiugsxb.cfd",
+        "fingerprint": "firefox",
+        "publicKey": "ia6cEEqjnawIhBPzcHFWSNsQIOJcHQU5t5FebSphWGA",
+        "shortId": "",
         "spiderX": ""
       }
     }
