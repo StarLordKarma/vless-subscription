@@ -1,36 +1,6 @@
 [
   {
-    "tag": "AUTO-01-Norway",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "87.120.104.138",
-          "port": 443,
-          "users": [
-            {
-              "id": "1b5e85e9-fda3-4738-8ff1-1696b2bc994d",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "norway.whiteconnect.lol",
-        "fingerprint": "qq",
-        "publicKey": "Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI",
-        "shortId": "671047edbaa38eef",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Switzerland",
+    "tag": "AUTO-01-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -60,7 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -150,37 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "23.94.252.141",
-          "port": 443,
-          "users": [
-            {
-              "id": "1b5e85e9-fda3-4738-8ff1-1696b2bc994d",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "usa.whiteconnect.lol",
-        "fingerprint": "edge",
-        "publicKey": "Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI",
-        "shortId": "671047edbaa38eef",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +172,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,7 +202,37 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-08-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "23.94.252.141",
+          "port": 443,
+          "users": [
+            {
+              "id": "1b5e85e9-fda3-4738-8ff1-1696b2bc994d",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "usa.whiteconnect.lol",
+        "fingerprint": "firefox",
+        "publicKey": "Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI",
+        "shortId": "671047edbaa38eef",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -289,6 +259,28 @@
         "shortId": "1a",
         "spiderX": ""
       }
+    }
+  },
+  {
+    "tag": "AUTO-10-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "144.21.34.116",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
     }
   }
 ]
