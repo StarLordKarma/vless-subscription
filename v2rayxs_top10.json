@@ -5,28 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "193.123.59.111",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "152.70.53.161",
           "port": 62145,
           "users": [
@@ -44,7 +22,7 @@
     }
   },
   {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -74,7 +52,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -104,12 +82,12 @@
     }
   },
   {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "193.123.36.106",
+          "address": "193.123.59.111",
           "port": 62145,
           "users": [
             {
@@ -126,29 +104,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "92.5.231.30",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-07-SE",
+    "tag": "AUTO-05-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -178,7 +134,7 @@
     }
   },
   {
-    "tag": "AUTO-08-SE",
+    "tag": "AUTO-06-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -208,7 +164,7 @@
     }
   },
   {
-    "tag": "AUTO-09-DE",
+    "tag": "AUTO-07-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -238,7 +194,7 @@
     }
   },
   {
-    "tag": "AUTO-10-SG",
+    "tag": "AUTO-08-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -263,6 +219,66 @@
         "fingerprint": "firefox",
         "publicKey": "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ",
         "shortId": "133a3f10a1581047",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-SE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "eu-north-sw-1.hanvpn.biz",
+          "port": 443,
+          "users": [
+            {
+              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "eu-north-sw-1.hanvpn.biz",
+        "fingerprint": "firefox",
+        "publicKey": "ELFdNdI6NYwuEq5OqCkYwnUInHvIpsUhd4z2ud7pOCM",
+        "shortId": "0172b7681806bc97",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "eu-north-fi-1.hanvpn.biz",
+          "port": 443,
+          "users": [
+            {
+              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "eu-north-fi-1.hanvpn.biz",
+        "fingerprint": "firefox",
+        "publicKey": "nnkPnz6R86-6xG92s8k-1DUQPXAJIVMoMWDLPghh4x4",
+        "shortId": "0173b2681806bc97",
         "spiderX": ""
       }
     }
