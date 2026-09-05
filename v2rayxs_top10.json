@@ -185,36 +185,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "178.236.246.69",
-          "port": 443,
-          "users": [
-            {
-              "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "amazon.de",
-        "fingerprint": "firefox",
-        "publicKey": "G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ",
-        "shortId": "eba1498e012ef580",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "144.21.34.116",
           "port": 62145,
           "users": [
@@ -232,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -254,12 +224,42 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
           "address": "sv10.jarvesitw.ru",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "apiv10.jarvesitw.ru",
+        "fingerprint": "firefox",
+        "publicKey": "vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo",
+        "shortId": "6591f200",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "84.32.61.87",
           "port": 443,
           "users": [
             {
