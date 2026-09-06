@@ -5,36 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "172.96.141.210",
-          "port": 8443,
-          "users": [
-            {
-              "id": "2c366360-0333-4738-9423-6d5b378e3594",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "room.rootvana.top",
-        "fingerprint": "firefox",
-        "publicKey": "Y0zCjvOLHuHWgv4HUyqb9O0lSMnTrl26XO8qwnWoQXw",
-        "shortId": "b85875a13da4",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "198.44.36.41",
           "port": 443,
           "users": [
@@ -60,7 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-SE",
+    "tag": "AUTO-04-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -145,6 +115,36 @@
         "fingerprint": "firefox",
         "publicKey": "tTXroX_MhV9m5MsLiAEncsC4u9VoV4fiHC01reGCv0k",
         "shortId": "7c9d968a",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "176.124.200.87",
+          "port": 443,
+          "users": [
+            {
+              "id": "7b13a810-7b04-4c3e-83c6-552cdf9c923f",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "tw-1.kihsuyhf8jkiugsxb.cfd",
+        "fingerprint": "safari",
+        "publicKey": "4t-8LeQkH7txTsku5dNet3yRZ_9910XFa9AT0DPi4mQ",
+        "shortId": "",
         "spiderX": ""
       }
     }
