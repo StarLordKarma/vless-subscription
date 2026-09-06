@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "152.70.53.161",
-          "port": 62145,
+          "address": "188.114.97.6",
+          "port": 8080,
           "users": [
             {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "id": "50414e45-4c5f-5a45-5553-ef859652a80e",
               "encryption": "none"
             }
           ]
@@ -17,51 +17,55 @@
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "82.39.171.12",
-          "port": 443,
-          "users": [
-            {
-              "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/TrexBridge/ef859652a80e",
+        "headers": {
+          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
         }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "yahoo.com",
-        "fingerprint": "edge",
-        "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-        "shortId": "c39cc7310a",
-        "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "eu-west-nl-1.hanvpn.biz",
+          "address": "104.21.70.21",
+          "port": 8080,
+          "users": [
+            {
+              "id": "50414e45-4c5f-5a45-5553-b45978f6d773",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/b45978f6d773/loc-1",
+        "headers": {
+          "Host": "ljz5fuexub6s.nova-705deb.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "t17.qifei.app",
           "port": 443,
           "users": [
             {
-              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "id": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -73,10 +77,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "eu-west-nl-1.hanvpn.biz",
-        "fingerprint": "firefox",
-        "publicKey": "rMUjb_nmpnu5J4weFA5hiItgWT7bWnkRhSChzA_d2S0",
-        "shortId": "13a3b7681806bc97",
+        "serverName": "www.amazon.com",
+        "fingerprint": "chrome",
+        "publicKey": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
+        "shortId": "1a",
         "spiderX": ""
       }
     }
@@ -87,11 +91,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "193.123.59.111",
-          "port": 62145,
+          "address": "51.158.236.122",
+          "port": 8080,
           "users": [
             {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "id": "11af1c47-865a-47c6-92ff-118013655d78",
               "encryption": "none"
             }
           ]
@@ -99,51 +103,25 @@
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-05-SE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "sv11.jarvesitw.ru",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apiv11.jarvesitw.ru",
-        "fingerprint": "firefox",
-        "publicKey": "tTXroX_MhV9m5MsLiAEncsC4u9VoV4fiHC01reGCv0k",
-        "shortId": "7c9d968a",
-        "spiderX": "/"
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
       }
     }
   },
   {
-    "tag": "AUTO-06-SE",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "84.32.154.51",
-          "port": 443,
+          "address": "129.146.187.36",
+          "port": 50159,
           "users": [
             {
-              "id": "c6037cf7-d931-4027-af06-6bfb0f10684c",
+              "id": "01349009-253f-4d40-a082-20f43ba6ca83",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -155,55 +133,25 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apiv11.jarvesitw.ru",
+        "serverName": "www.ibm.com",
         "fingerprint": "chrome",
-        "publicKey": "tTXroX_MhV9m5MsLiAEncsC4u9VoV4fiHC01reGCv0k",
-        "shortId": "7c9d968a",
+        "publicKey": "guGOmrVNZImIpSKzN2hzzX4sTwCj74HdW-dBKxT3g3M",
+        "shortId": "75f4c3a955ab411a",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-07-DE",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "eu-central-de-1.hanvpn.biz",
+          "address": "198.44.36.41",
           "port": 443,
           "users": [
             {
-              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "eu-central-de-1.hanvpn.biz",
-        "fingerprint": "firefox",
-        "publicKey": "B2ZW-mosEf8Cz4PYahKxn_B4Qa3yDZ9qFG7uLan-ngQ",
-        "shortId": "0183b7681806bc97",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-SG",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "206.206.78.36",
-          "port": 443,
-          "users": [
-            {
-              "id": "e3f0c894-0f76-4683-a751-6a93da8fd14d",
+              "id": "da7863a0-5858-4322-840e-0474e423bede",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -217,23 +165,23 @@
       "realitySettings": {
         "serverName": "www.cloudflare.com",
         "fingerprint": "firefox",
-        "publicKey": "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ",
-        "shortId": "133a3f10a1581047",
+        "publicKey": "_0A8M6IEGN2T61KyqQOgiLlDu-dVcp0TFUyfukK5YhI",
+        "shortId": "55a7e6ff3ccf94c9",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-09-SE",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "eu-north-sw-1.hanvpn.biz",
-          "port": 443,
+          "address": "38.150.33.232",
+          "port": 12329,
           "users": [
             {
-              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "id": "6faa980b-4a0f-4b4d-99f2-03b468da8541",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -245,25 +193,25 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "eu-north-sw-1.hanvpn.biz",
-        "fingerprint": "firefox",
-        "publicKey": "ELFdNdI6NYwuEq5OqCkYwnUInHvIpsUhd4z2ud7pOCM",
-        "shortId": "0172b7681806bc97",
+        "serverName": "www.amazon.com",
+        "fingerprint": "chrome",
+        "publicKey": "dpG1tE9V93FM9IJeYC5-n_7RJxX7jOwrWLbQJgZpFFo",
+        "shortId": "",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-10-FI",
+    "tag": "AUTO-08-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "eu-north-fi-1.hanvpn.biz",
+          "address": "46.173.25.146",
           "port": 443,
           "users": [
             {
-              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "id": "8d1a1b09-12d6-4b76-82f0-893cc805d9c0",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -275,10 +223,70 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "eu-north-fi-1.hanvpn.biz",
+        "serverName": "ru.crunch-crunch.com",
         "fingerprint": "firefox",
-        "publicKey": "nnkPnz6R86-6xG92s8k-1DUQPXAJIVMoMWDLPghh4x4",
-        "shortId": "0173b2681806bc97",
+        "publicKey": "djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo",
+        "shortId": "ea1058117be12087",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-EE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "185.155.55.2",
+          "port": 443,
+          "users": [
+            {
+              "id": "29834e2e-729c-491f-af21-d1d9a8bde8c6",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "edge-ee.mystatic-cdn.ru",
+        "fingerprint": "firefox",
+        "publicKey": "NPre9pZ-Lo2WxXCsiggRw9cGbq5nd2CrePeJlldgi2U",
+        "shortId": "afe5c6e01f939419",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-JP",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "50.7.159.123",
+          "port": 443,
+          "users": [
+            {
+              "id": "29834e2e-729c-491f-af21-d1d9a8bde8c6",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "edge-jp2.mystatic-cdn.ru",
+        "fingerprint": "ios",
+        "publicKey": "Qeq99BW8Q4M2obG89q0-oJMTAzsrVgwgH237AC1-NH8",
+        "shortId": "0ee10657e84bbd30",
         "spiderX": ""
       }
     }
