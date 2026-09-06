@@ -91,6 +91,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "167.104.217.251",
+          "port": 8443,
+          "users": [
+            {
+              "id": "29834e2e-729c-491f-af21-d1d9a8bde8c6",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nl250.atlanta-api.com",
+        "fingerprint": "qq",
+        "publicKey": "2YbfBDRn1xu5OOVvC6H7Pq0p0gRtZtvSqFS08-M-DUY",
+        "shortId": "fad7e3b745b23e34",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "51.158.236.122",
           "port": 8080,
           "users": [
@@ -112,7 +142,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -142,7 +172,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -172,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,7 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-08-RU",
+    "tag": "AUTO-09-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +262,7 @@
     }
   },
   {
-    "tag": "AUTO-09-EE",
+    "tag": "AUTO-10-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -257,36 +287,6 @@
         "fingerprint": "firefox",
         "publicKey": "NPre9pZ-Lo2WxXCsiggRw9cGbq5nd2CrePeJlldgi2U",
         "shortId": "afe5c6e01f939419",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-JP",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "50.7.159.123",
-          "port": 443,
-          "users": [
-            {
-              "id": "29834e2e-729c-491f-af21-d1d9a8bde8c6",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "edge-jp2.mystatic-cdn.ru",
-        "fingerprint": "ios",
-        "publicKey": "Qeq99BW8Q4M2obG89q0-oJMTAzsrVgwgH237AC1-NH8",
-        "shortId": "0ee10657e84bbd30",
         "spiderX": ""
       }
     }
