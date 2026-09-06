@@ -9,7 +9,7 @@
           "port": 8080,
           "users": [
             {
-              "id": "50414e45-4c5f-5a45-5553-ef859652a80e",
+              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
               "encryption": "none"
             }
           ]
@@ -20,38 +20,40 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/stream/TrexBridge/ef859652a80e",
+        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
         "headers": {
-          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
+          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.21.70.21",
-          "port": 8080,
+          "address": "167.104.217.251",
+          "port": 8443,
           "users": [
             {
-              "id": "50414e45-4c5f-5a45-5553-b45978f6d773",
-              "encryption": "none"
+              "id": "29834e2e-729c-491f-af21-d1d9a8bde8c6",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/b45978f6d773/loc-1",
-        "headers": {
-          "Host": "ljz5fuexub6s.nova-705deb.workers.dev"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nl250.atlanta-api.com",
+        "fingerprint": "qq",
+        "publicKey": "2YbfBDRn1xu5OOVvC6H7Pq0p0gRtZtvSqFS08-M-DUY",
+        "shortId": "fad7e3b745b23e34",
+        "spiderX": ""
       }
     }
   },
@@ -87,36 +89,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "129.146.187.36",
-          "port": 50159,
-          "users": [
-            {
-              "id": "01349009-253f-4d40-a082-20f43ba6ca83",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.ibm.com",
-        "fingerprint": "chrome",
-        "publicKey": "guGOmrVNZImIpSKzN2hzzX4sTwCj74HdW-dBKxT3g3M",
-        "shortId": "75f4c3a955ab411a",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "198.44.36.41",
           "port": 443,
           "users": [
@@ -142,7 +114,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -168,6 +140,34 @@
         "publicKey": "dpG1tE9V93FM9IJeYC5-n_7RJxX7jOwrWLbQJgZpFFo",
         "shortId": "",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.21.70.21",
+          "port": 8080,
+          "users": [
+            {
+              "id": "50414e45-4c5f-5a45-5553-b45978f6d773",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/b45978f6d773/loc-1",
+        "headers": {
+          "Host": "ljz5fuexub6s.nova-705deb.workers.dev"
+        }
       }
     }
   },
@@ -202,7 +202,67 @@
     }
   },
   {
-    "tag": "AUTO-08-EE",
+    "tag": "AUTO-08-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "129.146.187.36",
+          "port": 50159,
+          "users": [
+            {
+              "id": "01349009-253f-4d40-a082-20f43ba6ca83",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.ibm.com",
+        "fingerprint": "chrome",
+        "publicKey": "guGOmrVNZImIpSKzN2hzzX4sTwCj74HdW-dBKxT3g3M",
+        "shortId": "75f4c3a955ab411a",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "46.173.25.146",
+          "port": 443,
+          "users": [
+            {
+              "id": "8d1a1b09-12d6-4b76-82f0-893cc805d9c0",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ru.crunch-crunch.com",
+        "fingerprint": "firefox",
+        "publicKey": "djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo",
+        "shortId": "ea1058117be12087",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -227,66 +287,6 @@
         "fingerprint": "firefox",
         "publicKey": "NPre9pZ-Lo2WxXCsiggRw9cGbq5nd2CrePeJlldgi2U",
         "shortId": "afe5c6e01f939419",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-JP",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "50.7.159.123",
-          "port": 443,
-          "users": [
-            {
-              "id": "29834e2e-729c-491f-af21-d1d9a8bde8c6",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "edge-jp2.mystatic-cdn.ru",
-        "fingerprint": "ios",
-        "publicKey": "Qeq99BW8Q4M2obG89q0-oJMTAzsrVgwgH237AC1-NH8",
-        "shortId": "0ee10657e84bbd30",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-FR",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.77.61.214",
-          "port": 443,
-          "users": [
-            {
-              "id": "ef5f6054-61c7-4ce8-a35b-dbcec449f242",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "jobinvest.ru",
-        "fingerprint": "firefox",
-        "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-        "shortId": "",
         "spiderX": ""
       }
     }
