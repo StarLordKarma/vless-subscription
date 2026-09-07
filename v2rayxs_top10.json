@@ -131,88 +131,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "144.21.34.170",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-07-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "89.208.105.204",
-          "port": 443,
-          "users": [
-            {
-              "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "amazon.de",
-        "fingerprint": "firefox",
-        "publicKey": "G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ",
-        "shortId": "eba1498e012ef580",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "173.249.200.123",
-          "port": 443,
-          "users": [
-            {
-              "id": "1248e946-1d5e-4e9f-ac74-6c585b62ea4a",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "npm.dytst.dev",
-        "fingerprint": "edge",
-        "publicKey": "ODiM8V0qRy8vHtgYsrzxwSaQb7HKxtIdaba1X94BNmw",
-        "shortId": "6887c0",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "51.158.236.122",
           "port": 8080,
           "users": [
@@ -234,7 +152,7 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -258,6 +176,88 @@
         "headers": {
           "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
         }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "144.21.34.170",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-09-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "flarora.ferreo.sbs",
+          "port": 443,
+          "users": [
+            {
+              "id": "3db8407b-1f96-4b82-bfeb-55258c1e57b4",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "flarora.ferreo.sbs",
+        "fingerprint": "chrome",
+        "publicKey": "HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU",
+        "shortId": "1067b23f928e7618",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "138.124.28.79",
+          "port": 443,
+          "users": [
+            {
+              "id": "14409b0c-2091-4bc7-9845-2485a31ac38a",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "doich.stopingiphatered.shop",
+        "fingerprint": "ios",
+        "publicKey": "EYfpgja4VjpLUnWHtDJQ1XZk6xL5j4rXwf80Sw6keV0",
+        "shortId": "0c13e8822e7f58aa",
+        "spiderX": ""
       }
     }
   }
