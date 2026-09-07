@@ -208,7 +208,33 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "51.158.236.122",
+          "port": 8080,
+          "users": [
+            {
+              "id": "11af1c47-865a-47c6-92ff-118013655d78",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,36 +258,6 @@
         "headers": {
           "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
         }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "flarora.ferreo.sbs",
-          "port": 443,
-          "users": [
-            {
-              "id": "3db8407b-1f96-4b82-bfeb-55258c1e57b4",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "flarora.ferreo.sbs",
-        "fingerprint": "chrome",
-        "publicKey": "HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU",
-        "shortId": "1067b23f928e7618",
-        "spiderX": ""
       }
     }
   }
