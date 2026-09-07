@@ -30,35 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-4d64f1370eeb",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0",
-        "headers": {
-          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -88,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -110,7 +82,7 @@
     }
   },
   {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -132,7 +104,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
+    "tag": "AUTO-05-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -154,7 +126,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -176,7 +148,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -206,7 +178,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -236,16 +208,44 @@
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "147.45.61.81",
+          "address": "188.114.97.6",
+          "port": 8080,
+          "users": [
+            {
+              "id": "50414e45-4c5f-5a45-5553-4d64f1370eeb",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0",
+        "headers": {
+          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "flarora.ferreo.sbs",
           "port": 443,
           "users": [
             {
-              "id": "00d1939a-d03c-4e93-a02b-2040b8429063",
+              "id": "3db8407b-1f96-4b82-bfeb-55258c1e57b4",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -257,10 +257,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "nl-02.file-rkat.online",
-        "fingerprint": "firefox",
-        "publicKey": "1KdHB8WjI4E_Qt43QdY0OByHv9CkLjK_cAtVOcnt1Ug",
-        "shortId": "c8eebab189078461",
+        "serverName": "flarora.ferreo.sbs",
+        "fingerprint": "chrome",
+        "publicKey": "HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU",
+        "shortId": "1067b23f928e7618",
         "spiderX": ""
       }
     }
