@@ -5,6 +5,50 @@
     "settings": {
       "vnext": [
         {
+          "address": "92.5.225.187",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "158.180.12.191",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "107.189.19.27",
           "port": 443,
           "users": [
@@ -22,7 +66,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "cdn.dodostatic.net",
-        "fingerprint": "qq",
+        "fingerprint": "safari",
         "publicKey": "Sgocj9v63XdHU04TV3-Pk141YPIT_E-UgLr9u4OkE0E",
         "shortId": "d27201f7bf5874f9",
         "spiderX": ""
@@ -30,35 +74,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-4d64f1370eeb",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0",
-        "headers": {
-          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-04-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -80,7 +96,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "cdn.dodostatic.net",
-        "fingerprint": "qq",
+        "fingerprint": "edge",
         "publicKey": "HcBAHoLxmHEKHLNpHOn-XOSNsVlJQThcqtov7le50Gg",
         "shortId": "aeb1eee5185a2c19",
         "spiderX": ""
@@ -88,60 +104,16 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "141.144.198.50",
-          "port": 62145,
+          "address": "188.114.97.6",
+          "port": 8080,
           "users": [
             {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-05-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "92.5.228.124",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "104.27.88.172",
-          "port": 80,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-52108a2d5224",
+              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
               "encryption": "none"
             }
           ]
@@ -152,37 +124,15 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/api/ws",
+        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
         "headers": {
-          "Host": "web-app-nr6wpa.app-tp57xz.workers.dev"
+          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "92.5.225.187",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -212,16 +162,38 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "51.158.236.122",
+          "address": "141.144.198.50",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-08-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.21.70.21",
           "port": 8080,
           "users": [
             {
-              "id": "11af1c47-865a-47c6-92ff-118013655d78",
+              "id": "50414e45-4c5f-5a45-5553-b45978f6d773",
               "encryption": "none"
             }
           ]
@@ -232,8 +204,40 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/",
-        "headers": {}
+        "path": "/stream/PANEL_ZEUS/b45978f6d773/loc-1",
+        "headers": {
+          "Host": "ljz5fuexub6s.nova-705deb.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "5.253.59.156",
+          "port": 443,
+          "users": [
+            {
+              "id": "9f2d111d-408e-44e5-bf97-b8323d050443",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nl5.freekeysh110.online",
+        "fingerprint": "firefox",
+        "publicKey": "sgPREsDFJUchKawgXgFGEM4YBjTDur0rgD2GuQmZXzA",
+        "shortId": "04b9f0b2470fae16",
+        "spiderX": ""
       }
     }
   },
