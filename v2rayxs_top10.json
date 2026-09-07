@@ -5,28 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "152.70.56.139",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": ""
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "193.123.57.174",
           "port": 62145,
           "users": [
@@ -44,7 +22,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -66,29 +44,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "141.148.241.72",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -110,7 +66,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -132,7 +88,7 @@
     }
   },
   {
-    "tag": "AUTO-07-SG",
+    "tag": "AUTO-05-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -162,7 +118,7 @@
     }
   },
   {
-    "tag": "AUTO-08-SG",
+    "tag": "AUTO-06-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -192,17 +148,18 @@
     }
   },
   {
-    "tag": "AUTO-09-CO",
+    "tag": "AUTO-07-CZ",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "149.130.188.248",
-          "port": 62145,
+          "address": "194.87.52.142",
+          "port": 443,
           "users": [
             {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
+              "id": "8c9a8787-056f-4b47-b193-0dcfa273d825",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
@@ -210,11 +167,48 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "none"
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ads.x5.ru",
+        "fingerprint": "firefox",
+        "publicKey": "zRVSRinqebogFvlL5GWcaYfLlKGueXknigEI-f-tKAI",
+        "shortId": "d82c4b67f9a13e5c",
+        "spiderX": ""
+      }
     }
   },
   {
-    "tag": "AUTO-10-DE",
+    "tag": "AUTO-08-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "flarora.ferreo.sbs",
+          "port": 443,
+          "users": [
+            {
+              "id": "3db8407b-1f96-4b82-bfeb-55258c1e57b4",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "flarora.ferreo.sbs",
+        "fingerprint": "safari",
+        "publicKey": "HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU",
+        "shortId": "1067b23f928e7618",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -238,6 +232,36 @@
         "headers": {
           "Host": "rb24.ir"
         }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "brightharbor.download",
+          "port": 443,
+          "users": [
+            {
+              "id": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "localhost",
+        "fingerprint": "firefox",
+        "publicKey": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I",
+        "shortId": "",
+        "spiderX": ""
       }
     }
   }
