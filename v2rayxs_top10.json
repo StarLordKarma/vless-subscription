@@ -9,7 +9,7 @@
           "port": 8080,
           "users": [
             {
-              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
+              "id": "50414e45-4c5f-5a45-5553-4d64f1370eeb",
               "encryption": "none"
             }
           ]
@@ -20,9 +20,9 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
+        "path": "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0",
         "headers": {
-          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
+          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
         }
       }
     }
@@ -50,7 +50,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "cdn.dodostatic.net",
-        "fingerprint": "ios",
+        "fingerprint": "safari",
         "publicKey": "lymJAptLKD4NpHVg1r4ybQZuGCxilvHP30DDN9Sz82w",
         "shortId": "522545cf95347d03",
         "spiderX": "/"
@@ -58,7 +58,37 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-03-Norway",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "151.242.168.125",
+          "port": 390,
+          "users": [
+            {
+              "id": "b02ff150-ee30-46e0-9ea1-adbfd7762a06",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "bowandbead.com",
+        "fingerprint": "edge",
+        "publicKey": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
+        "shortId": "b545fe8c5e22f92d",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -83,36 +113,6 @@
         "fingerprint": "firefox",
         "publicKey": "zVEDSKwQEIM6xRD7YEhJakteNI2xPK3xhhKulDo_vWg",
         "shortId": "b664d93e9d7a04f1",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-Norway",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "151.242.168.125",
-          "port": 390,
-          "users": [
-            {
-              "id": "b02ff150-ee30-46e0-9ea1-adbfd7762a06",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "bowandbead.com",
-        "fingerprint": "ios",
-        "publicKey": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
-        "shortId": "b545fe8c5e22f92d",
         "spiderX": ""
       }
     }
@@ -205,7 +205,37 @@
     }
   },
   {
-    "tag": "AUTO-08-FI",
+    "tag": "AUTO-08-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "200.169.182.57",
+          "port": 443,
+          "users": [
+            {
+              "id": "7a97f64d-5fc7-4011-9028-58d2ba751595",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "defaultenginedimly.rivetpress.me",
+        "fingerprint": "firefox",
+        "publicKey": "niL0fb-4IaVHr5VCg2yN_5wDTNYEq9W8wi7pDWLPcVg",
+        "shortId": "7505bfa3b6b933e6",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -230,36 +260,6 @@
         "fingerprint": "chrome",
         "publicKey": "nnkPnz6R86-6xG92s8k-1DUQPXAJIVMoMWDLPghh4x4",
         "shortId": "0173b2681806bc97",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "155.212.164.21",
-          "port": 443,
-          "users": [
-            {
-              "id": "7a97f64d-5fc7-4011-9028-58d2ba751595",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "turtlethriftsuds.spindlehouse.art",
-        "fingerprint": "firefox",
-        "publicKey": "MRh1vF7XBdr5KhoaMOC8BcZJy0xs5ZfD9gwiVyzhN08",
-        "shortId": "79281cd08b6fad6a",
         "spiderX": ""
       }
     }
