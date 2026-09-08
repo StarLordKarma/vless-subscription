@@ -1,34 +1,6 @@
 [
   {
-    "tag": "AUTO-01-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-4d64f1370eeb",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0",
-        "headers": {
-          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -50,7 +22,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "cdn.dodostatic.net",
-        "fingerprint": "safari",
+        "fingerprint": "ios",
         "publicKey": "lymJAptLKD4NpHVg1r4ybQZuGCxilvHP30DDN9Sz82w",
         "shortId": "522545cf95347d03",
         "spiderX": "/"
@@ -58,7 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Norway",
+    "tag": "AUTO-02-Norway",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -88,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -118,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -146,37 +118,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "89.124.95.246",
-          "port": 443,
-          "users": [
-            {
-              "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.booking.com",
-        "fingerprint": "firefox",
-        "publicKey": "Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo",
-        "shortId": "98096455d963bdbb",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -205,7 +147,7 @@
     }
   },
   {
-    "tag": "AUTO-08-RU",
+    "tag": "AUTO-06-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -235,7 +177,7 @@
     }
   },
   {
-    "tag": "AUTO-09-FI",
+    "tag": "AUTO-07-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -265,7 +207,7 @@
     }
   },
   {
-    "tag": "AUTO-10-DE",
+    "tag": "AUTO-08-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -275,6 +217,58 @@
           "users": [
             {
               "id": "4db42a40-9de3-499f-ab5f-85073abb9a46",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-09-SE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "5.157.10.146",
+          "port": 443,
+          "users": [
+            {
+              "id": "732255eb-8ce9-4cd5-8bdc-376bd3fa0b11",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "sweb1.loozerp.wiki",
+        "fingerprint": "chrome",
+        "publicKey": "x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA",
+        "shortId": "fb442438e2223836",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-FR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "13.39.171.238",
+          "port": 22223,
+          "users": [
+            {
+              "id": "e4514801-0d5a-42ba-869f-39bd605aef9e",
               "encryption": "none"
             }
           ]
