@@ -22,7 +22,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "cdn.dodostatic.net",
-        "fingerprint": "edge",
+        "fingerprint": "firefox",
         "publicKey": "lymJAptLKD4NpHVg1r4ybQZuGCxilvHP30DDN9Sz82w",
         "shortId": "522545cf95347d03",
         "spiderX": ""
@@ -59,37 +59,7 @@
     }
   },
   {
-    "tag": "AUTO-03-FR",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "2.26.129.1",
-          "port": 443,
-          "users": [
-            {
-              "id": "90546412-d9c5-4442-831b-e9b7ca3643de",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "stream.indigo.ru",
-        "fingerprint": "chrome",
-        "publicKey": "gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE",
-        "shortId": "5a8e1a04f3d92b67",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-FI",
+    "tag": "AUTO-03-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -119,37 +89,7 @@
     }
   },
   {
-    "tag": "AUTO-05-HU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "2.26.139.66",
-          "port": 443,
-          "users": [
-            {
-              "id": "90546412-d9c5-4442-831b-e9b7ca3643de",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "kukuruza.mycdn-me.ru",
-        "fingerprint": "qq",
-        "publicKey": "-qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM",
-        "shortId": "e17b4d9a8c1f3526",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-SG",
+    "tag": "AUTO-04-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -179,16 +119,74 @@
     }
   },
   {
+    "tag": "AUTO-05-HK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "d77faecf-tl4g00-tnsc3a-1f0gu.hk3.hyhuawei.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "3085fcf8-a69c-11ec-bd7c-f23c913c8d2b",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "updates.cdn-apple.com",
+        "fingerprint": "qq",
+        "publicKey": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-HK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "fe1dcec0-tla000-tonrmx-8n27.hk3.hyhuawei.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "5dc6fa05-a601-aba6-7761-ecde22d2b0fc",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "updates.cdn-apple.com",
+        "fingerprint": "chrome",
+        "publicKey": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
     "tag": "AUTO-07-HK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "456afbf3-tla000-tmj4pk-1kcpe.hk3.hyhuawei.com",
+          "address": "619c9ae2-tla000-tls5or-6gn6.hk3.hyhuawei.com",
           "port": 443,
           "users": [
             {
-              "id": "3f514ea2-4662-11ed-a8bf-f23c91cfbbc9",
+              "id": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
               "encryption": "none"
             }
           ]
@@ -213,11 +211,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com",
+          "address": "94704aca-tla000-tnsc3a-1f0gu.hk3.hyhuawei.com",
           "port": 443,
           "users": [
             {
-              "id": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
+              "id": "3085fcf8-a69c-11ec-bd7c-f23c913c8d2b",
               "encryption": "none"
             }
           ]
@@ -229,7 +227,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "updates.cdn-apple.com",
-        "fingerprint": "ios",
+        "fingerprint": "chrome",
         "publicKey": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4",
         "shortId": "",
         "spiderX": ""
