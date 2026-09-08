@@ -89,36 +89,7 @@
     }
   },
   {
-    "tag": "AUTO-04-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "de13.bexait.ir",
-          "port": 2434,
-          "users": [
-            {
-              "id": "46636681-7c15-4e2c-9a57-9ac3e42e0db7",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "icloud.com",
-        "fingerprint": "chrome",
-        "publicKey": "yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0",
-        "shortId": "9de041877612a718",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-FI",
+    "tag": "AUTO-04-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -148,7 +119,7 @@
     }
   },
   {
-    "tag": "AUTO-06-HU",
+    "tag": "AUTO-05-HU",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -178,7 +149,7 @@
     }
   },
   {
-    "tag": "AUTO-07-SG",
+    "tag": "AUTO-06-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -208,36 +179,7 @@
     }
   },
   {
-    "tag": "AUTO-08-HK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "26a9920c-tla000-tyt0e8-1mh67.hk3.hyhuawei.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "e1c7fbbc-96b6-11ef-8563-f23c913c8d2b",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "updates.cdn-apple.com",
-        "fingerprint": "chrome",
-        "publicKey": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-HK",
+    "tag": "AUTO-07-HK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -266,16 +208,74 @@
     }
   },
   {
+    "tag": "AUTO-08-HK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "updates.cdn-apple.com",
+        "fingerprint": "ios",
+        "publicKey": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-HK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "002282db-tla000-u1dafb-1ro8s.hk3.hyhuawei.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "a18ef18e-293a-11ef-b76e-f23c91cfbbc9",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "updates.cdn-apple.com",
+        "fingerprint": "chrome",
+        "publicKey": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
     "tag": "AUTO-10-HK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "fe1dcec0-tla000-tonrmx-8n27.hk3.hyhuawei.com",
+          "address": "f19ad17e-tl4g00-u1dafb-1ro8s.hk3.hyhuawei.com",
           "port": 443,
           "users": [
             {
-              "id": "5dc6fa05-a601-aba6-7761-ecde22d2b0fc",
+              "id": "a18ef18e-293a-11ef-b76e-f23c91cfbbc9",
               "encryption": "none"
             }
           ]
