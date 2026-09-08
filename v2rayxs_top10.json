@@ -22,7 +22,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "cdn.dodostatic.net",
-        "fingerprint": "firefox",
+        "fingerprint": "edge",
         "publicKey": "lymJAptLKD4NpHVg1r4ybQZuGCxilvHP30DDN9Sz82w",
         "shortId": "522545cf95347d03",
         "spiderX": ""
@@ -30,29 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "158.101.210.31",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -82,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -111,7 +89,7 @@
     }
   },
   {
-    "tag": "AUTO-05-FR",
+    "tag": "AUTO-04-FR",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -137,6 +115,36 @@
         "publicKey": "gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE",
         "shortId": "5a8e1a04f3d92b67",
         "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "defaultenginedimly.rivetpress.me",
+          "port": 443,
+          "users": [
+            {
+              "id": "7a97f64d-5fc7-4011-9028-58d2ba751595",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "defaultenginedimly.rivetpress.me",
+        "fingerprint": "firefox",
+        "publicKey": "niL0fb-4IaVHr5VCg2yN_5wDTNYEq9W8wi7pDWLPcVg",
+        "shortId": "7505bfa3b6b933e6",
+        "spiderX": ""
       }
     }
   },
