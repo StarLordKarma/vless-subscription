@@ -22,7 +22,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "de.cloudtechone.org",
-        "fingerprint": "safari",
+        "fingerprint": "ios",
         "publicKey": "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo",
         "shortId": "f93c9d5127e622e4",
         "spiderX": ""
@@ -52,7 +52,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "de.cloudtechone.org",
-        "fingerprint": "safari",
+        "fingerprint": "edge",
         "publicKey": "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo",
         "shortId": "f93c9d5127e622e4",
         "spiderX": ""
@@ -60,35 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "salavati.shompolexy.shop",
-          "port": 2053,
-          "users": [
-            {
-              "id": "a18d2b89-cbfa-4173-b745-77df6c367d92",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/microsoft/ZoomitForMac",
-        "headers": {
-          "Host": "*.google.com"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -112,6 +84,36 @@
         "fingerprint": "firefox",
         "publicKey": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
         "shortId": "df8611c07d",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "5.34.178.120",
+          "port": 443,
+          "users": [
+            {
+              "id": "9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.cloudflare.com",
+        "fingerprint": "edge",
+        "publicKey": "EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM",
+        "shortId": "55ab5559e3a6d10a",
         "spiderX": ""
       }
     }
