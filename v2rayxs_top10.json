@@ -5,7 +5,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "104.21.70.21",
+          "address": "188.114.97.6",
           "port": 8080,
           "users": [
             {
@@ -28,37 +28,7 @@
     }
   },
   {
-    "tag": "AUTO-02-Switzerland",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.90.59.15",
-          "port": 443,
-          "users": [
-            {
-              "id": "3950b45e-740d-4dca-ac95-505ec8534592",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.cloudflare.com",
-        "fingerprint": "chrome",
-        "publicKey": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
-        "shortId": "19253fae84102271",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -86,7 +56,7 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -116,12 +86,12 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "188.114.97.6",
+          "address": "104.21.70.21",
           "port": 8080,
           "users": [
             {
@@ -144,7 +114,7 @@
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-05-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -174,7 +144,7 @@
     }
   },
   {
-    "tag": "AUTO-07-FI",
+    "tag": "AUTO-06-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,7 +172,7 @@
     }
   },
   {
-    "tag": "AUTO-08-PL",
+    "tag": "AUTO-07-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-09-LV",
+    "tag": "AUTO-08-LV",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,16 +232,16 @@
     }
   },
   {
-    "tag": "AUTO-10-BY",
+    "tag": "AUTO-09-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "45.129.186.205",
+          "address": "206.206.78.36",
           "port": 443,
           "users": [
             {
-              "id": "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35",
+              "id": "e3f0c894-0f76-4683-a751-6a93da8fd14d",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -283,10 +253,40 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "ru.oblaco.bet",
-        "fingerprint": "chrome",
-        "publicKey": "ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8",
-        "shortId": "",
+        "serverName": "www.cloudflare.com",
+        "fingerprint": "firefox",
+        "publicKey": "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ",
+        "shortId": "133a3f10a1581047",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-FR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "fristoofarfromyou.arakphone.ir",
+          "port": 29188,
+          "users": [
+            {
+              "id": "21e26ef9-c061-4ae3-88e4-ecc4513a3bb7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "cdn.diba4movie.xyz",
+        "fingerprint": "ios",
+        "publicKey": "_wJrpmOWloFFitJf2TBZNKSN0fQZGHkBur8MEQyG6yI",
+        "shortId": "57739912cc2f13ec",
         "spiderX": ""
       }
     }
