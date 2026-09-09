@@ -226,36 +226,7 @@
     }
   },
   {
-    "tag": "AUTO-09-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "spser1.mechanicir.ir",
-          "port": 53719,
-          "users": [
-            {
-              "id": "251e9d36-3eec-474f-9eb8-fe508e28ced6",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "play-fe.googleapis.com",
-        "fingerprint": "chrome",
-        "publicKey": "9XG-o5CJH3_h4x6FDeGs-JsE1LzyJSyw5d-xi6LvVTc",
-        "shortId": "5d1caa44e652126d",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-LV",
+    "tag": "AUTO-09-LV",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -279,6 +250,36 @@
         "serverName": "localhost",
         "fingerprint": "edge",
         "publicKey": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-CZ",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "78.159.247.213",
+          "port": 443,
+          "users": [
+            {
+              "id": "0764541b-3e57-4b47-954b-51e996fae5fc",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "on.mcufa.pro",
+        "fingerprint": "firefox",
+        "publicKey": "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo",
         "shortId": "",
         "spiderX": ""
       }
