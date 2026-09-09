@@ -22,7 +22,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "de.cloudtechone.org",
-        "fingerprint": "ios",
+        "fingerprint": "safari",
         "publicKey": "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo",
         "shortId": "f93c9d5127e622e4",
         "spiderX": ""
@@ -232,7 +232,37 @@
     }
   },
   {
-    "tag": "AUTO-09-EE",
+    "tag": "AUTO-09-SG",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "146.235.16.130",
+          "port": 19825,
+          "users": [
+            {
+              "id": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "sg2-8sb.6121999.dpdns.org",
+        "fingerprint": "firefox",
+        "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
+        "shortId": "6ba85179e30d4fc2",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -257,36 +287,6 @@
         "fingerprint": "edge",
         "publicKey": "-qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04",
         "shortId": "abcd1234",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-BY",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.129.186.205",
-          "port": 443,
-          "users": [
-            {
-              "id": "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ru.oblaco.bet",
-        "fingerprint": "firefox",
-        "publicKey": "ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8",
-        "shortId": "",
         "spiderX": ""
       }
     }
