@@ -28,65 +28,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-ef859652a80e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/TrexBridge/ef859652a80e",
-        "headers": {
-          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "178.236.255.9",
-          "port": 443,
-          "users": [
-            {
-              "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "amazon.de",
-        "fingerprint": "firefox",
-        "publicKey": "G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ",
-        "shortId": "eba1498e012ef580",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-Switzerland",
+    "tag": "AUTO-02-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -116,7 +58,7 @@
     }
   },
   {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -144,7 +86,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -174,7 +116,35 @@
     }
   },
   {
-    "tag": "AUTO-07-DE",
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.97.6",
+          "port": 8080,
+          "users": [
+            {
+              "id": "50414e45-4c5f-5a45-5553-ef859652a80e",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/TrexBridge/ef859652a80e",
+        "headers": {
+          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -204,7 +174,7 @@
     }
   },
   {
-    "tag": "AUTO-08-FI",
+    "tag": "AUTO-07-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-09-PL",
+    "tag": "AUTO-08-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,7 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-10-LV",
+    "tag": "AUTO-09-LV",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -287,6 +257,36 @@
         "fingerprint": "chrome",
         "publicKey": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
         "shortId": "5c256336e3b673fa",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-BY",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "45.129.186.205",
+          "port": 443,
+          "users": [
+            {
+              "id": "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ru.oblaco.bet",
+        "fingerprint": "chrome",
+        "publicKey": "ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8",
+        "shortId": "",
         "spiderX": ""
       }
     }
