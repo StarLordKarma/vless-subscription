@@ -28,7 +28,37 @@
     }
   },
   {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "netherlands1.banovano.space",
+          "port": 24382,
+          "users": [
+            {
+              "id": "3c9ed671-8509-4062-9224-87c70ba44fbb",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.yandex.ru",
+        "fingerprint": "ios",
+        "publicKey": "Slau4DRZkIFgAeKGsPz5MWOp5xB1ecTNzLtbCBUGeQM",
+        "shortId": "8059df",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -58,7 +88,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -88,7 +118,7 @@
     }
   },
   {
-    "tag": "AUTO-04-UK",
+    "tag": "AUTO-05-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -118,7 +148,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -146,7 +176,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -176,7 +206,7 @@
     }
   },
   {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-08-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -206,7 +236,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -239,7 +269,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -264,35 +294,6 @@
         "fingerprint": "safari",
         "publicKey": "n25FmewpAEsvLl9Vr0bRFcz044f4IE7orWeWOzu8rwk",
         "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "107.173.237.146",
-          "port": 8443,
-          "users": [
-            {
-              "id": "1d39f715-2740-4d99-bc3b-197cc48dcee7",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "updates.cdn-apple.com",
-        "fingerprint": "firefox",
-        "publicKey": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
-        "shortId": "df8611c07d",
         "spiderX": ""
       }
     }
