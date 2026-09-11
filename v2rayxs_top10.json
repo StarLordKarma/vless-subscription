@@ -1,66 +1,6 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "153.75.89.137",
-          "port": 443,
-          "users": [
-            {
-              "id": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "tradingview.com",
-        "fingerprint": "edge",
-        "publicKey": "USxaWDRKvJlZ-aHR-OGBT2XwVas2j4_1rhZCCfVNCBY",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "netherlands1.banovano.space",
-          "port": 24382,
-          "users": [
-            {
-              "id": "3c9ed671-8509-4062-9224-87c70ba44fbb",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.yandex.ru",
-        "fingerprint": "ios",
-        "publicKey": "Slau4DRZkIFgAeKGsPz5MWOp5xB1ecTNzLtbCBUGeQM",
-        "shortId": "8059df",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-04-UK",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-05-UK",
+    "tag": "AUTO-03-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -150,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-04-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -180,7 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,16 +150,16 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "netherlands1.banovano.space",
-          "port": 30548,
+          "address": "153.75.89.137",
+          "port": 443,
           "users": [
             {
-              "id": "a9925a03-2418-4fda-9a71-e4a74498010a",
+              "id": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -231,25 +171,25 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.nvidia.com",
+        "serverName": "tradingview.com",
         "fingerprint": "edge",
-        "publicKey": "uR9LN49jpOfUDFfcKOPVgSMlKK68hgm_HYMXHzbkyRE",
-        "shortId": "b7f169ff615f569e",
+        "publicKey": "USxaWDRKvJlZ-aHR-OGBT2XwVas2j4_1rhZCCfVNCBY",
+        "shortId": "",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-09-FI",
+    "tag": "AUTO-07-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "194.238.57.219",
-          "port": 443,
+          "address": "sg2-8sb.6121999.dpdns.org",
+          "port": 19825,
           "users": [
             {
-              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "id": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -261,25 +201,25 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "eu-north-sw-2.hanvpn.biz",
-        "fingerprint": "firefox",
-        "publicKey": "EABhMlawKh-zPOVkef-G9n7Ap5PPZRbrtUzYWkVsamc",
-        "shortId": "0172b7681806bc97",
+        "serverName": "",
+        "fingerprint": "chrome",
+        "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
+        "shortId": "6ba85179e30d4fc2",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-10-FI",
+    "tag": "AUTO-08-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "eu-north-sw-2.hanvpn.biz",
+          "address": "162.248.166.35",
           "port": 443,
           "users": [
             {
-              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "id": "d92b6509-8b63-4505-b3a2-1dc5b1c014ac",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -291,11 +231,67 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "eu-north-sw-2.hanvpn.biz",
-        "fingerprint": "firefox",
-        "publicKey": "EABhMlawKh-zPOVkef-G9n7Ap5PPZRbrtUzYWkVsamc",
-        "shortId": "0172b7681806bc97",
+        "serverName": "www.caradisiac.com",
+        "fingerprint": "edge",
+        "publicKey": "NYG48Fv1MF3SqOpHwoa4GqJH5IJrocSrwWzrffY-tCk",
+        "shortId": "c6dc8abb0235dc05",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-SE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "143.246.193.215",
+          "port": 443,
+          "users": [
+            {
+              "id": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.blocket.se",
+        "fingerprint": "chrome",
+        "publicKey": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "91.107.181.197",
+          "port": 8080,
+          "users": [
+            {
+              "id": "11af1c47-865a-47c6-92ff-118013655d78",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/?ed=2048",
+        "headers": {}
       }
     }
   }
