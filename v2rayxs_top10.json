@@ -1,43 +1,15 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.21.70.21",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-ef859652a80e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/TrexBridge/ef859652a80e",
-        "headers": {
-          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "gb1.oshost.network",
+          "address": "153.75.89.137",
           "port": 443,
           "users": [
             {
-              "id": "ea34d4d1-8b87-4a2a-b23e-9927d7c83f46",
+              "id": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -49,46 +21,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "gb1.oshost.network",
-        "fingerprint": "firefox",
-        "publicKey": "fyfX-egDrRvXNW1Gt2P_8rH4jdupAcmhFLOCZCzCowo",
-        "shortId": "fc36b4a584871aa5",
+        "serverName": "tradingview.com",
+        "fingerprint": "edge",
+        "publicKey": "USxaWDRKvJlZ-aHR-OGBT2XwVas2j4_1rhZCCfVNCBY",
+        "shortId": "",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-03-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "164.37.105.90",
-          "port": 443,
-          "users": [
-            {
-              "id": "ea34d4d1-8b87-4a2a-b23e-9927d7c83f46",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "gb1.oshost.network",
-        "fingerprint": "firefox",
-        "publicKey": "fyfX-egDrRvXNW1Gt2P_8rH4jdupAcmhFLOCZCzCowo",
-        "shortId": "fc36b4a584871aa5",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -118,35 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-4d64f1370eeb",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0",
-        "headers": {
-          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-03-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -176,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-04-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -206,7 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-08-UK",
+    "tag": "AUTO-05-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -236,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-09-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -266,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -291,6 +205,96 @@
         "fingerprint": "firefox",
         "publicKey": "n25FmewpAEsvLl9Vr0bRFcz044f4IE7orWeWOzu8rwk",
         "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "netherlands1.banovano.space",
+          "port": 30548,
+          "users": [
+            {
+              "id": "a9925a03-2418-4fda-9a71-e4a74498010a",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.nvidia.com",
+        "fingerprint": "edge",
+        "publicKey": "uR9LN49jpOfUDFfcKOPVgSMlKK68hgm_HYMXHzbkyRE",
+        "shortId": "b7f169ff615f569e",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "194.238.57.219",
+          "port": 443,
+          "users": [
+            {
+              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "eu-north-sw-2.hanvpn.biz",
+        "fingerprint": "firefox",
+        "publicKey": "EABhMlawKh-zPOVkef-G9n7Ap5PPZRbrtUzYWkVsamc",
+        "shortId": "0172b7681806bc97",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "eu-north-sw-2.hanvpn.biz",
+          "port": 443,
+          "users": [
+            {
+              "id": "d9d0f208-d582-41d5-bb7b-742671402810",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "eu-north-sw-2.hanvpn.biz",
+        "fingerprint": "firefox",
+        "publicKey": "EABhMlawKh-zPOVkef-G9n7Ap5PPZRbrtUzYWkVsamc",
+        "shortId": "0172b7681806bc97",
         "spiderX": ""
       }
     }
