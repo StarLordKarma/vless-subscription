@@ -206,16 +206,16 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-08-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "31.56.185.232",
+          "address": "31.76.39.163",
           "port": 443,
           "users": [
             {
-              "id": "418a1c58-7f25-421b-a82f-650c04d049a4",
+              "id": "b691d443-3d5b-47d3-9c6f-9b84beda2b13",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -227,10 +227,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "nll.milas.click",
+        "serverName": "uk1.kramiliantha.sbs",
         "fingerprint": "firefox",
-        "publicKey": "DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY",
-        "shortId": "4fa44664f6a566d3",
+        "publicKey": "UzVp3x9LEOVeF_j_X2XzJrumdyfLEiFS0d6qDGVB_3M",
+        "shortId": "6252784c3b8de71a",
         "spiderX": ""
       }
     }
@@ -241,11 +241,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "31.76.39.14",
+          "address": "uk1.kramiliantha.sbs",
           "port": 443,
           "users": [
             {
-              "id": "418a1c58-7f25-421b-a82f-650c04d049a4",
+              "id": "b691d443-3d5b-47d3-9c6f-9b84beda2b13",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -257,11 +257,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "ukk.milas.click",
-        "fingerprint": "qq",
-        "publicKey": "DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY",
-        "shortId": "4fa44664f6a566d3",
-        "spiderX": "/"
+        "serverName": "uk1.kramiliantha.sbs",
+        "fingerprint": "firefox",
+        "publicKey": "UzVp3x9LEOVeF_j_X2XzJrumdyfLEiFS0d6qDGVB_3M",
+        "shortId": "6252784c3b8de71a",
+        "spiderX": ""
       }
     }
   },
@@ -271,11 +271,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "45.91.248.238",
+          "address": "144.172.104.26",
           "port": 443,
           "users": [
             {
-              "id": "418a1c58-7f25-421b-a82f-650c04d049a4",
+              "id": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -287,11 +287,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "usaa.milas.click",
-        "fingerprint": "qq",
-        "publicKey": "DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY",
-        "shortId": "4fa44664f6a566d3",
-        "spiderX": "/"
+        "serverName": "www.nvidia.com",
+        "fingerprint": "firefox",
+        "publicKey": "n25FmewpAEsvLl9Vr0bRFcz044f4IE7orWeWOzu8rwk",
+        "shortId": "",
+        "spiderX": ""
       }
     }
   }
