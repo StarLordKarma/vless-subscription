@@ -5,7 +5,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn6.goonars.com",
+          "address": "72.56.26.79",
           "port": 443,
           "users": [
             {
@@ -21,11 +21,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apitw3.goonars.com",
-        "fingerprint": "chrome",
-        "publicKey": "VWDBW2RS3o-oFBrSNdpncoaVVU8KixbPNHoj4-Wy7lM",
-        "shortId": "04a69fc6",
-        "spiderX": "/"
+        "serverName": "apitw2.goonars.com",
+        "fingerprint": "ios",
+        "publicKey": "xh_QDA_3avhlauOCH2U5HLlTmuDNPQVe_tS-DV3XQWY",
+        "shortId": "d026eb55",
+        "spiderX": ""
       }
     }
   },
@@ -35,7 +35,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "50.7.193.138",
+          "address": "cdn8tw.goonars.com",
           "port": 443,
           "users": [
             {
@@ -51,10 +51,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apiv12nd.goonars.com",
-        "fingerprint": "firefox",
-        "publicKey": "OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo",
-        "shortId": "535a3304",
+        "serverName": "apitw1.goonars.com",
+        "fingerprint": "chrome",
+        "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
+        "shortId": "9d0791d1",
         "spiderX": ""
       }
     }
@@ -82,7 +82,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "apitw1.goonars.com",
-        "fingerprint": "ios",
+        "fingerprint": "edge",
         "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
         "shortId": "9d0791d1",
         "spiderX": ""
@@ -95,7 +95,67 @@
     "settings": {
       "vnext": [
         {
-          "address": "72.56.26.79",
+          "address": "mst1ndch.goonars.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "02722550-1915-4629-a653-cbe95e594f70",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "apiv1nd.goonars.com",
+        "fingerprint": "qq",
+        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
+        "shortId": "2aef5875",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "cdn6.goonars.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "02722550-1915-4629-a653-cbe95e594f70",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "apitw3.goonars.com",
+        "fingerprint": "safari",
+        "publicKey": "VWDBW2RS3o-oFBrSNdpncoaVVU8KixbPNHoj4-Wy7lM",
+        "shortId": "04a69fc6",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "cdn7tw.goonars.com",
           "port": 443,
           "users": [
             {
@@ -112,45 +172,15 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "apitw2.goonars.com",
-        "fingerprint": "chrome",
+        "fingerprint": "firefox",
         "publicKey": "xh_QDA_3avhlauOCH2U5HLlTmuDNPQVe_tS-DV3XQWY",
         "shortId": "d026eb55",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "cdn8tw.goonars.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "02722550-1915-4629-a653-cbe95e594f70",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apitw1.goonars.com",
-        "fingerprint": "chrome",
-        "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
-        "shortId": "9d0791d1",
         "spiderX": "/"
       }
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -180,12 +210,12 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "cdn7tw.goonars.com",
+          "address": "84.32.177.97",
           "port": 443,
           "users": [
             {
@@ -201,40 +231,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apitw2.goonars.com",
-        "fingerprint": "qq",
-        "publicKey": "xh_QDA_3avhlauOCH2U5HLlTmuDNPQVe_tS-DV3XQWY",
-        "shortId": "d026eb55",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.59.140.124",
-          "port": 443,
-          "users": [
-            {
-              "id": "52d1d193-7a49-4d2e-9d52-c2615704034b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nlv.baboon.digital",
+        "serverName": "apiv1nd.goonars.com",
         "fingerprint": "firefox",
-        "publicKey": "CmEq9C2VI3tVvp4vblfb7Y6vewnDEDkZ_W4gyYE4ahc",
-        "shortId": "8718991b6fe65912",
+        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
+        "shortId": "2aef5875",
         "spiderX": ""
       }
     }
@@ -270,16 +270,16 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-10-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "172.235.43.210",
-          "port": 53957,
+          "address": "13.143.143.217",
+          "port": 443,
           "users": [
             {
-              "id": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
+              "id": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -291,10 +291,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.nvidia.com",
+        "serverName": "pol2.pinkmoon.pro",
         "fingerprint": "firefox",
-        "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
-        "shortId": "44e82fd7b97b14",
+        "publicKey": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
+        "shortId": "8ffa160e608bf539",
         "spiderX": ""
       }
     }
