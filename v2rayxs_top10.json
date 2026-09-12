@@ -215,66 +215,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn7tw.goonars.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "02722550-1915-4629-a653-cbe95e594f70",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apitw2.goonars.com",
-        "fingerprint": "firefox",
-        "publicKey": "xh_QDA_3avhlauOCH2U5HLlTmuDNPQVe_tS-DV3XQWY",
-        "shortId": "d026eb55",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "72.56.26.79",
-          "port": 443,
-          "users": [
-            {
-              "id": "02722550-1915-4629-a653-cbe95e594f70",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apitw2.goonars.com",
-        "fingerprint": "safari",
-        "publicKey": "xh_QDA_3avhlauOCH2U5HLlTmuDNPQVe_tS-DV3XQWY",
-        "shortId": "d026eb55",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "201.51.10.239",
           "port": 443,
           "users": [
@@ -295,6 +235,65 @@
         "fingerprint": "chrome",
         "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
         "shortId": "9d0791d1",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-Norway",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "aldebaran.yokkastars.com",
+          "port": 40443,
+          "users": [
+            {
+              "id": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "deepl.com",
+        "fingerprint": "chrome",
+        "publicKey": "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4",
+        "shortId": "7606",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.235.43.210",
+          "port": 53957,
+          "users": [
+            {
+              "id": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.nvidia.com",
+        "fingerprint": "firefox",
+        "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
+        "shortId": "44e82fd7b97b14",
         "spiderX": ""
       }
     }
