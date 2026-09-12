@@ -155,6 +155,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "172.239.239.53",
+          "port": 22746,
+          "users": [
+            {
+              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.intel.com",
+        "fingerprint": "firefox",
+        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+        "shortId": "d9fd4fa80238cd05",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "cdn7tw.goonars.com",
           "port": 443,
           "users": [
@@ -180,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,7 +240,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -240,38 +270,16 @@
     }
   },
   {
-    "tag": "AUTO-09-DE",
+    "tag": "AUTO-10-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "193.148.253.197",
+          "address": "nlv.baboon.digital",
           "port": 443,
           "users": [
             {
-              "id": "bb051209-acf7-4655-8a45-8f3d4cd93850",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-10-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "13.143.139.165",
-          "port": 443,
-          "users": [
-            {
-              "id": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
+              "id": "52d1d193-7a49-4d2e-9d52-c2615704034b",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -283,10 +291,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "pol2.pinkmoon.pro",
-        "fingerprint": "chrome",
-        "publicKey": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
-        "shortId": "8ffa160e608bf539",
+        "serverName": "nlv.baboon.digital",
+        "fingerprint": "qq",
+        "publicKey": "CmEq9C2VI3tVvp4vblfb7Y6vewnDEDkZ_W4gyYE4ahc",
+        "shortId": "8718991b6fe65912",
         "spiderX": ""
       }
     }
