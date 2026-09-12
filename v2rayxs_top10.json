@@ -150,37 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-06-IN",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "148.113.5.44",
-          "port": 443,
-          "users": [
-            {
-              "id": "72ea5a91-ffcc-43d2-9297-5993c3abf186",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.cloudflare.com",
-        "fingerprint": "chrome",
-        "publicKey": "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI",
-        "shortId": "221873918e0bb74d",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-JP",
+    "tag": "AUTO-06-JP",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-08-SG",
+    "tag": "AUTO-07-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -240,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-09-HK",
+    "tag": "AUTO-08-HK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -269,7 +239,7 @@
     }
   },
   {
-    "tag": "AUTO-10-AZ",
+    "tag": "AUTO-09-AZ",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -288,6 +258,36 @@
     "streamSettings": {
       "network": "tcp",
       "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-10-GT",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "185.47.254.251",
+          "port": 443,
+          "users": [
+            {
+              "id": "878fb7f7-fc65-465e-a352-17c7216c6f3d",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "gateway.icloud.com",
+        "fingerprint": "chrome",
+        "publicKey": "6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q",
+        "shortId": "6c059ecfddf9b179",
+        "spiderX": ""
+      }
     }
   }
 ]
