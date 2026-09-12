@@ -5,7 +5,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "72.56.26.79",
+          "address": "cdn15sw.goonars.com",
           "port": 443,
           "users": [
             {
@@ -21,11 +21,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apitw2.goonars.com",
-        "fingerprint": "ios",
-        "publicKey": "xh_QDA_3avhlauOCH2U5HLlTmuDNPQVe_tS-DV3XQWY",
-        "shortId": "d026eb55",
-        "spiderX": ""
+        "serverName": "cdn15sw.goonars.com",
+        "fingerprint": "firefox",
+        "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+        "shortId": "cf41f778",
+        "spiderX": "/"
       }
     }
   },
@@ -35,7 +35,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn8tw.goonars.com",
+          "address": "cdn4ch.goonars.com",
           "port": 443,
           "users": [
             {
@@ -51,10 +51,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apitw1.goonars.com",
-        "fingerprint": "chrome",
-        "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
-        "shortId": "9d0791d1",
+        "serverName": "apiv6.jarvesitw.ru",
+        "fingerprint": "firefox",
+        "publicKey": "2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o",
+        "shortId": "8ece2039",
         "spiderX": ""
       }
     }
@@ -65,11 +65,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "201.51.10.239",
+          "address": "109.107.166.106",
           "port": 443,
           "users": [
             {
-              "id": "02722550-1915-4629-a653-cbe95e594f70",
+              "id": "158b7cb6-6076-4e35-8a45-29e5275facf7",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -81,10 +81,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apitw1.goonars.com",
-        "fingerprint": "edge",
-        "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
-        "shortId": "9d0791d1",
+        "serverName": "www.amd.com",
+        "fingerprint": "qq",
+        "publicKey": "EGxJpl6UtxBovvg0-E9utvD3VvEIVYwBtRN8yy8enUs",
+        "shortId": "4b82d1f6a5e039c7",
         "spiderX": ""
       }
     }
@@ -112,7 +112,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "apiv1nd.goonars.com",
-        "fingerprint": "qq",
+        "fingerprint": "edge",
         "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
         "shortId": "2aef5875",
         "spiderX": "/"
@@ -125,7 +125,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn6.goonars.com",
+          "address": "cdn8tw.goonars.com",
           "port": 443,
           "users": [
             {
@@ -141,10 +141,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apitw3.goonars.com",
-        "fingerprint": "safari",
-        "publicKey": "VWDBW2RS3o-oFBrSNdpncoaVVU8KixbPNHoj4-Wy7lM",
-        "shortId": "04a69fc6",
+        "serverName": "apitw1.goonars.com",
+        "fingerprint": "firefox",
+        "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
+        "shortId": "9d0791d1",
         "spiderX": "/"
       }
     }
@@ -155,11 +155,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "172.239.239.53",
-          "port": 22746,
+          "address": "84.32.177.97",
+          "port": 443,
           "users": [
             {
-              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "id": "02722550-1915-4629-a653-cbe95e594f70",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -171,10 +171,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "firefox",
-        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
-        "shortId": "d9fd4fa80238cd05",
+        "serverName": "apiv1nd.goonars.com",
+        "fingerprint": "qq",
+        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
+        "shortId": "2aef5875",
         "spiderX": ""
       }
     }
@@ -215,7 +215,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "201.51.10.240",
+          "address": "72.56.26.79",
           "port": 443,
           "users": [
             {
@@ -231,10 +231,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apitw3.goonars.com",
-        "fingerprint": "qq",
-        "publicKey": "VWDBW2RS3o-oFBrSNdpncoaVVU8KixbPNHoj4-Wy7lM",
-        "shortId": "04a69fc6",
+        "serverName": "apitw2.goonars.com",
+        "fingerprint": "safari",
+        "publicKey": "xh_QDA_3avhlauOCH2U5HLlTmuDNPQVe_tS-DV3XQWY",
+        "shortId": "d026eb55",
         "spiderX": ""
       }
     }
@@ -245,7 +245,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "84.32.177.97",
+          "address": "201.51.10.239",
           "port": 443,
           "users": [
             {
@@ -261,27 +261,26 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "apiv1nd.goonars.com",
-        "fingerprint": "firefox",
-        "publicKey": "2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U",
-        "shortId": "2aef5875",
+        "serverName": "apitw1.goonars.com",
+        "fingerprint": "chrome",
+        "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
+        "shortId": "9d0791d1",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-10-RU",
+    "tag": "AUTO-10-Norway",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "188.225.58.153",
-          "port": 443,
+          "address": "aldebaran.yokkastars.com",
+          "port": 40443,
           "users": [
             {
-              "id": "02722550-1915-4629-a653-cbe95e594f70",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
+              "encryption": "none"
             }
           ]
         }
@@ -291,10 +290,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "public.betust.net",
+        "serverName": "deepl.com",
         "fingerprint": "chrome",
-        "publicKey": "j4F4oe2w0O7oqpWeUSa44C9FdBHZEH5fTiXBvEVLIyk",
-        "shortId": "c51d359c",
+        "publicKey": "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4",
+        "shortId": "7606",
         "spiderX": ""
       }
     }
