@@ -240,18 +240,17 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-09-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "nlv.baboon.digital",
+          "address": "193.148.253.197",
           "port": 443,
           "users": [
             {
-              "id": "52d1d193-7a49-4d2e-9d52-c2615704034b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "bb051209-acf7-4655-8a45-8f3d4cd93850",
+              "encryption": "none"
             }
           ]
         }
@@ -259,27 +258,20 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nlv.baboon.digital",
-        "fingerprint": "qq",
-        "publicKey": "CmEq9C2VI3tVvp4vblfb7Y6vewnDEDkZ_W4gyYE4ahc",
-        "shortId": "8718991b6fe65912",
-        "spiderX": ""
-      }
+      "security": "none"
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-10-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "31.59.140.124",
+          "address": "13.143.139.165",
           "port": 443,
           "users": [
             {
-              "id": "52d1d193-7a49-4d2e-9d52-c2615704034b",
+              "id": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -291,10 +283,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "nlv.baboon.digital",
-        "fingerprint": "firefox",
-        "publicKey": "CmEq9C2VI3tVvp4vblfb7Y6vewnDEDkZ_W4gyYE4ahc",
-        "shortId": "8718991b6fe65912",
+        "serverName": "pol2.pinkmoon.pro",
+        "fingerprint": "chrome",
+        "publicKey": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
+        "shortId": "8ffa160e608bf539",
         "spiderX": ""
       }
     }
