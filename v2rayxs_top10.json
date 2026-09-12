@@ -65,6 +65,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "172.239.239.53",
+          "port": 22746,
+          "users": [
+            {
+              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.intel.com",
+        "fingerprint": "chrome",
+        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+        "shortId": "d9fd4fa80238cd05",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "109.107.166.106",
           "port": 443,
           "users": [
@@ -90,7 +120,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-05-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +150,7 @@
     }
   },
   {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -150,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -180,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -210,7 +240,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -240,7 +270,7 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-10-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -265,35 +295,6 @@
         "fingerprint": "chrome",
         "publicKey": "unAvLudgWMwMSCs9ltSr2_Ayp7q3685S7EBxFVk_4Uw",
         "shortId": "9d0791d1",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-Norway",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "aldebaran.yokkastars.com",
-          "port": 40443,
-          "users": [
-            {
-              "id": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "deepl.com",
-        "fingerprint": "chrome",
-        "publicKey": "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4",
-        "shortId": "7606",
         "spiderX": ""
       }
     }
