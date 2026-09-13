@@ -63,6 +63,66 @@
     "settings": {
       "vnext": [
         {
+          "address": "172.239.239.53",
+          "port": 22746,
+          "users": [
+            {
+              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.intel.com",
+        "fingerprint": "firefox",
+        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+        "shortId": "d9fd4fa80238cd05",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.235.43.210",
+          "port": 53957,
+          "users": [
+            {
+              "id": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.nvidia.com",
+        "fingerprint": "chrome",
+        "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
+        "shortId": "44e82fd7b97b14",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "109.121.44.21",
           "port": 443,
           "users": [
@@ -88,7 +148,7 @@
     }
   },
   {
-    "tag": "AUTO-04-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -118,7 +178,7 @@
     }
   },
   {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -151,37 +211,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "nethgio.2clash.ru",
-          "port": 443,
-          "users": [
-            {
-              "id": "3b6a9df3-f1d1-4bc1-94a5-0d8f2d5512b1",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nethgio.2clash.ru",
-        "fingerprint": "firefox",
-        "publicKey": "vREd4uEheT5kCusYCZEGTh3ql4uFpHp4sk_3W0_lang",
-        "shortId": "1999",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-08-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -211,7 +241,37 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-09-Norway",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "151.242.169.119",
+          "port": 443,
+          "users": [
+            {
+              "id": "0d4e04b1-5ab5-4525-bbd4-ffce30149bee",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "yidio.com",
+        "fingerprint": "firefox",
+        "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+        "shortId": "fd55b698ee8c3629",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -235,66 +295,6 @@
         "fingerprint": "chrome",
         "publicKey": "Hv-DNm962AntB7xyaLnaHvui6rOJ092OFOY2E7TqyR0",
         "shortId": "24cbfb05123722",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "192.3.247.109",
-          "port": 43580,
-          "users": [
-            {
-              "id": "25a6a9f3-ad9e-45f2-96e1-be21c9d97789",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apple.com",
-        "fingerprint": "chrome",
-        "publicKey": "smOBJ9RB9nUF3SCGBJ5A1O24Dla9YlQY_YSUjmHRW2g",
-        "shortId": "0123456789abcdef",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.239.239.53",
-          "port": 22746,
-          "users": [
-            {
-              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "firefox",
-        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
-        "shortId": "d9fd4fa80238cd05",
         "spiderX": ""
       }
     }
