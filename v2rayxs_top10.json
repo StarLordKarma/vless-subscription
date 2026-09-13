@@ -97,7 +97,7 @@
           "port": 443,
           "users": [
             {
-              "id": "403c3476-202d-4471-b615-40c8a2b503be",
+              "id": "95900b48-01b8-44a1-a871-756ec65cb57e",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -110,7 +110,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "yidio.com",
-        "fingerprint": "safari",
+        "fingerprint": "firefox",
         "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
         "shortId": "fd55b698ee8c3629",
         "spiderX": ""
@@ -118,7 +118,37 @@
     }
   },
   {
-    "tag": "AUTO-05-UK",
+    "tag": "AUTO-05-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "109.121.44.21",
+          "port": 443,
+          "users": [
+            {
+              "id": "6179ce37-97b2-4ac7-9591-b4b2bfaca09d",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.amd.com",
+        "fingerprint": "firefox",
+        "publicKey": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+        "shortId": "a7b2c9d4",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -148,7 +178,7 @@
     }
   },
   {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-07-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -178,7 +208,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -208,7 +238,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -241,7 +271,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -265,36 +295,6 @@
         "fingerprint": "chrome",
         "publicKey": "Hv-DNm962AntB7xyaLnaHvui6rOJ092OFOY2E7TqyR0",
         "shortId": "24cbfb05123722",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "192.3.247.109",
-          "port": 43580,
-          "users": [
-            {
-              "id": "25a6a9f3-ad9e-45f2-96e1-be21c9d97789",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apple.com",
-        "fingerprint": "chrome",
-        "publicKey": "smOBJ9RB9nUF3SCGBJ5A1O24Dla9YlQY_YSUjmHRW2g",
-        "shortId": "0123456789abcdef",
         "spiderX": ""
       }
     }
