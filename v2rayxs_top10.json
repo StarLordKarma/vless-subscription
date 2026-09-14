@@ -56,7 +56,36 @@
     }
   },
   {
-    "tag": "AUTO-03-SE",
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "107.173.237.146",
+          "port": 8443,
+          "users": [
+            {
+              "id": "1d39f715-2740-4d99-bc3b-197cc48dcee7",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "updates.cdn-apple.com",
+        "fingerprint": "firefox",
+        "publicKey": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
+        "shortId": "df8611c07d",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -85,7 +114,7 @@
     }
   },
   {
-    "tag": "AUTO-04-MD",
+    "tag": "AUTO-05-MD",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -115,7 +144,7 @@
     }
   },
   {
-    "tag": "AUTO-05-DE",
+    "tag": "AUTO-06-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -137,7 +166,7 @@
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-07-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -156,36 +185,6 @@
     "streamSettings": {
       "network": "tcp",
       "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-07-SG",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "sg2-8sb.6121999.dpdns.org",
-          "port": 19825,
-          "users": [
-            {
-              "id": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "sg2-8sb.6121999.dpdns.org",
-        "fingerprint": "chrome",
-        "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
-        "shortId": "6ba85179e30d4fc2",
-        "spiderX": ""
-      }
     }
   },
   {
