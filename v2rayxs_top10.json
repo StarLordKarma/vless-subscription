@@ -200,37 +200,7 @@
     }
   },
   {
-    "tag": "AUTO-08-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "80.91.79.136",
-          "port": 443,
-          "users": [
-            {
-              "id": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.logitech.com",
-        "fingerprint": "chrome",
-        "publicKey": "g9uQwtqcqsPvzqQy2hM4rpvTIGXRQSAt-MAgHpz_gCI",
-        "shortId": "0b0bf0590fb9c138",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-PL",
+    "tag": "AUTO-08-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -260,7 +230,7 @@
     }
   },
   {
-    "tag": "AUTO-10-MD",
+    "tag": "AUTO-09-MD",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -285,6 +255,36 @@
         "fingerprint": "firefox",
         "publicKey": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
         "shortId": "00a61d55a07de885",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "w7tjfftjdt.vk-maps.net",
+          "port": 52006,
+          "users": [
+            {
+              "id": "ad297a2b-ae17-4d2d-8fce-e2eafb89b145",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "api5.vk-maps.net",
+        "fingerprint": "chrome",
+        "publicKey": "o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8",
+        "shortId": "08",
         "spiderX": ""
       }
     }
