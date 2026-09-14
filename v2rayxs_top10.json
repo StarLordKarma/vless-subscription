@@ -202,37 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "146.103.113.170",
-          "port": 56218,
-          "users": [
-            {
-              "id": "15553b23-a621-4dfd-995e-2fe28d124526",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.oracle.com",
-        "fingerprint": "firefox",
-        "publicKey": "aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc",
-        "shortId": "89e0494514ec",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -261,7 +231,7 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -287,6 +257,34 @@
         "publicKey": "oTMDLwY2hloBfA7ShzVsrFhjL4QXR6mY32B93rMLxV0",
         "shortId": "525e0ffc773f48ba",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.97.6",
+          "port": 8080,
+          "users": [
+            {
+              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
+        "headers": {
+          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
+        }
       }
     }
   }
