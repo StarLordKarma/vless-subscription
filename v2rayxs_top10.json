@@ -87,34 +87,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
-        "headers": {
-          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "172.235.38.85",
           "port": 42942,
           "users": [
@@ -140,7 +112,7 @@
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-05-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -170,7 +142,7 @@
     }
   },
   {
-    "tag": "AUTO-07-EE",
+    "tag": "AUTO-06-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -200,7 +172,7 @@
     }
   },
   {
-    "tag": "AUTO-08-PL",
+    "tag": "AUTO-07-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -230,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-09-MD",
+    "tag": "AUTO-08-MD",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -260,7 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-10-DE",
+    "tag": "AUTO-09-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -286,6 +258,36 @@
         "publicKey": "o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8",
         "shortId": "08",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "178.105.61.61",
+          "port": 2083,
+          "users": [
+            {
+              "id": "cb077bf2-70b7-457b-af42-27cdc3e0e544",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "",
+        "fingerprint": "chrome",
+        "publicKey": "H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk",
+        "shortId": "af04ff8094115e93",
+        "spiderX": "/"
       }
     }
   }
