@@ -30,37 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.239.239.53",
-          "port": 22746,
-          "users": [
-            {
-              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "firefox",
-        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
-        "shortId": "d9fd4fa80238cd05",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -85,6 +55,36 @@
         "fingerprint": "firefox",
         "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
         "shortId": "a56d7d8da977f860",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.239.239.53",
+          "port": 22746,
+          "users": [
+            {
+              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.intel.com",
+        "fingerprint": "firefox",
+        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+        "shortId": "d9fd4fa80238cd05",
         "spiderX": ""
       }
     }
@@ -270,16 +270,16 @@
     }
   },
   {
-    "tag": "AUTO-10-FI",
+    "tag": "AUTO-10-IT",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "144.31.90.75",
-          "port": 443,
+          "address": "172.238.232.239",
+          "port": 32833,
           "users": [
             {
-              "id": "3a22ca95-bd99-4c6b-a799-f8f73930ea05",
+              "id": "167ed405-7de9-4bff-b1ea-6e3d49c76b0b",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -291,10 +291,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "fl.convert-flow.net",
-        "fingerprint": "qq",
-        "publicKey": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
-        "shortId": "00a61d55a07de885",
+        "serverName": "www.intel.com",
+        "fingerprint": "firefox",
+        "publicKey": "PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20",
+        "shortId": "a0a305ccc8e94aa8",
         "spiderX": ""
       }
     }
