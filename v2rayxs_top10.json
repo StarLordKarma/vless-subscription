@@ -85,7 +85,37 @@
     }
   },
   {
-    "tag": "AUTO-04-SE",
+    "tag": "AUTO-04-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "80.91.79.136",
+          "port": 443,
+          "users": [
+            {
+              "id": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.logitech.com",
+        "fingerprint": "firefox",
+        "publicKey": "g9uQwtqcqsPvzqQy2hM4rpvTIGXRQSAt-MAgHpz_gCI",
+        "shortId": "0b0bf0590fb9c138",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -114,7 +144,7 @@
     }
   },
   {
-    "tag": "AUTO-05-MD",
+    "tag": "AUTO-06-MD",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -144,7 +174,7 @@
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-07-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -166,7 +196,7 @@
     }
   },
   {
-    "tag": "AUTO-07-DE",
+    "tag": "AUTO-08-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -188,7 +218,7 @@
     }
   },
   {
-    "tag": "AUTO-08-RS",
+    "tag": "AUTO-09-RS",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -213,36 +243,6 @@
         "fingerprint": "qq",
         "publicKey": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
         "shortId": "00a61d55a07de885",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "80.91.79.136",
-          "port": 443,
-          "users": [
-            {
-              "id": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.logitech.com",
-        "fingerprint": "firefox",
-        "publicKey": "g9uQwtqcqsPvzqQy2hM4rpvTIGXRQSAt-MAgHpz_gCI",
-        "shortId": "0b0bf0590fb9c138",
         "spiderX": ""
       }
     }
