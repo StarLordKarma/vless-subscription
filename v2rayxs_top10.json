@@ -33,11 +33,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "551ac.tornadonext.com",
-          "port": 443,
+          "address": "172.239.239.53",
+          "port": 22746,
           "users": [
             {
-              "id": "aea9e420-de22-4dcb-93b8-af1f71a3c264",
+              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -49,46 +49,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "551ac.tornadonext.com",
+        "serverName": "www.intel.com",
         "fingerprint": "firefox",
-        "publicKey": "e_90GPqlV4NPUmq-C1KTzyo_flnUDXzIg1WZUZbDs3s",
-        "shortId": "fe54fc7a",
+        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+        "shortId": "d9fd4fa80238cd05",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "89.105.206.124",
-          "port": 443,
-          "users": [
-            {
-              "id": "4360f941-b541-0028-8507-2de3763e0cfd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nl.convert-flow.net",
-        "fingerprint": "qq",
-        "publicKey": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
-        "shortId": "00a61d55a07de885",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -114,7 +84,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -144,7 +114,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -174,7 +144,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -204,7 +174,7 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -234,7 +204,7 @@
     }
   },
   {
-    "tag": "AUTO-09-UK",
+    "tag": "AUTO-08-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -264,16 +234,16 @@
     }
   },
   {
-    "tag": "AUTO-10-MD",
+    "tag": "AUTO-09-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "131.123.25.4",
+          "address": "551ac.tornadonext.com",
           "port": 443,
           "users": [
             {
-              "id": "4360f941-b541-43d4-8507-2de3763e0cfd",
+              "id": "aea9e420-de22-4dcb-93b8-af1f71a3c264",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -285,10 +255,40 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "fr.convert-flow.net",
-        "fingerprint": "chrome",
-        "publicKey": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
-        "shortId": "00a61d55a07de885",
+        "serverName": "551ac.tornadonext.com",
+        "fingerprint": "firefox",
+        "publicKey": "e_90GPqlV4NPUmq-C1KTzyo_flnUDXzIg1WZUZbDs3s",
+        "shortId": "fe54fc7a",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-EE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "e1f65.selvarieno.cc",
+          "port": 443,
+          "users": [
+            {
+              "id": "aea9e420-de22-4dcb-93b8-af1f71a3c264",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "e1f65.selvarieno.cc",
+        "fingerprint": "firefox",
+        "publicKey": "cKIxCbR_DzhH0EqWPzLAsIe8JuoSokPUU_vf9GPHQRk",
+        "shortId": "adeef0d3",
         "spiderX": ""
       }
     }
