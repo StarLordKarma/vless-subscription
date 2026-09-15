@@ -31,11 +31,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "2d342.selvarieno.cc",
-          "port": 443,
+          "address": "198.46.215.223",
+          "port": 8443,
           "users": [
             {
-              "id": "aea9e420-de22-4dcb-93b8-af1f71a3c264",
+              "id": "6346ee2b-aefa-4a58-963a-bb851ed08f41",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -47,46 +47,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "2d342.selvarieno.cc",
-        "fingerprint": "firefox",
-        "publicKey": "TJYvyUDspqBbTGGHmmBsNWXjOGsttJYBJLCkbT6GDhQ",
-        "shortId": "409e14c1",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.149.172.74",
-          "port": 443,
-          "users": [
-            {
-              "id": "77dc177b-79d9-49ac-92e1-2f1011faa5e3",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.logitech.com",
+        "serverName": "www.intel.com",
         "fingerprint": "chrome",
-        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
-        "shortId": "626d38f0ea642e3b",
+        "publicKey": "L817rvnreaFtFfcqfOizxgY7ZzFeSdtopH9HVrB56hk",
+        "shortId": "0b3bf761ca812ee9",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-04-UK",
+    "tag": "AUTO-03-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -116,16 +86,16 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "198.46.215.223",
-          "port": 8443,
+          "address": "45.149.172.74",
+          "port": 443,
           "users": [
             {
-              "id": "6346ee2b-aefa-4a58-963a-bb851ed08f41",
+              "id": "77dc177b-79d9-49ac-92e1-2f1011faa5e3",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -137,16 +107,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.intel.com",
+        "serverName": "www.logitech.com",
         "fingerprint": "chrome",
-        "publicKey": "L817rvnreaFtFfcqfOizxgY7ZzFeSdtopH9HVrB56hk",
-        "shortId": "0b3bf761ca812ee9",
+        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
+        "shortId": "626d38f0ea642e3b",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-06-LT",
+    "tag": "AUTO-05-LT",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -176,67 +146,7 @@
     }
   },
   {
-    "tag": "AUTO-07-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "1bc35.veloradigital.xyz",
-          "port": 443,
-          "users": [
-            {
-              "id": "aea9e420-de22-4dcb-93b8-af1f71a3c264",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "1bc35.veloradigital.xyz",
-        "fingerprint": "firefox",
-        "publicKey": "ZP54SmNMmjRLVh6P5vCNVNAuOlLcK7jEGzxyFETzoX4",
-        "shortId": "0a41a674",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-IE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "82c0f.tornadonext.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "aea9e420-de22-4dcb-93b8-af1f71a3c264",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "82c0f.tornadonext.com",
-        "fingerprint": "firefox",
-        "publicKey": "R_ax16JLUFGtv5quE08v6l35O7B_-3j5C31ejUBElRU",
-        "shortId": "6bcd199b",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-DE",
+    "tag": "AUTO-06-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,7 +172,29 @@
     }
   },
   {
-    "tag": "AUTO-10-SG",
+    "tag": "AUTO-07-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "88.99.125.243",
+          "port": 15036,
+          "users": [
+            {
+              "id": "783c7211-5349-4c26-8f8f-85f0f4c93ae8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": ""
+    }
+  },
+  {
+    "tag": "AUTO-08-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -289,6 +221,54 @@
         "shortId": "6ba85179e30d4fc2",
         "spiderX": ""
       }
+    }
+  },
+  {
+    "tag": "AUTO-09-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "88.99.125.243",
+          "port": 80,
+          "users": [
+            {
+              "id": "45933928-a410-4206-bd59-01016da08817",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "91.98.102.240",
+          "port": 42718,
+          "users": [
+            {
+              "id": "b775630e-1386-44a6-9d89-61d029d4b5ab",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
     }
   }
 ]
