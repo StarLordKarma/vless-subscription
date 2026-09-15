@@ -266,30 +266,32 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-10-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "188.114.97.6",
-          "port": 8080,
+          "address": "107.189.26.239",
+          "port": 443,
           "users": [
             {
-              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
-              "encryption": "none"
+              "id": "820a850b-6e10-45e6-8142-2df17a394504",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
-        "headers": {
-          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "cdn.dodostatic.net",
+        "fingerprint": "qq",
+        "publicKey": "F3XkvPrGmCOrJpNhpPqkVHrZ58YA0Z8VCp6y7s6We2U",
+        "shortId": "c09a8eae8476d36c",
+        "spiderX": ""
       }
     }
   }
