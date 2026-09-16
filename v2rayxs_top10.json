@@ -1,35 +1,6 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "nl2.x8lab.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "88a247b9-3e0b-4c0e-ba88-61fc63a9c5d1",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "static.yandex.net",
-        "fingerprint": "firefox",
-        "publicKey": "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ",
-        "shortId": "669d7ae5e1611511",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -55,7 +26,7 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -78,6 +49,28 @@
         "path": "/snob-ws",
         "headers": {}
       }
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "92.5.225.103",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
     }
   },
   {
@@ -237,7 +230,36 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "nl2.x8lab.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "88a247b9-3e0b-4c0e-ba88-61fc63a9c5d1",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "static.yandex.net",
+        "fingerprint": "firefox",
+        "publicKey": "k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ",
+        "shortId": "669d7ae5e1611511",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -262,36 +284,6 @@
         "fingerprint": "firefox",
         "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
         "shortId": "44e82fd7b97b14",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.233.139.46",
-          "port": 53734,
-          "users": [
-            {
-              "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "qq",
-        "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
-        "shortId": "a56d7d8da977f860",
         "spiderX": ""
       }
     }
