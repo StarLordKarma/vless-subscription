@@ -236,29 +236,7 @@
     }
   },
   {
-    "tag": "AUTO-09-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "192.248.182.183",
-          "port": 39244,
-          "users": [
-            {
-              "id": "5fc7563b-552d-417f-9409-08ef92284599",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-10-JP",
+    "tag": "AUTO-09-JP",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -283,6 +261,36 @@
         "fingerprint": "firefox",
         "publicKey": "OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4",
         "shortId": "4c8b46e500b0f3ad",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "189.74.114.106",
+          "port": 443,
+          "users": [
+            {
+              "id": "ca83b14f-a1c9-4afd-a1cf-70b1ba76135a",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "api.setevoypotok.cc",
+        "fingerprint": "edge",
+        "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+        "shortId": "a8",
         "spiderX": ""
       }
     }
