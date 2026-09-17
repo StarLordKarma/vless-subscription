@@ -65,36 +65,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "150.251.143.8",
-          "port": 443,
-          "users": [
-            {
-              "id": "129799e0-a9b1-4ae8-80bd-fa92db813f85",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nobnob.shhflow.xyz",
-        "fingerprint": "firefox",
-        "publicKey": "MxrzWQPAwfj7jC0b4_6jlpUlXowcJFh7lOhZSIe0ezE",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "150.251.141.28",
           "port": 443,
           "users": [
@@ -116,6 +86,32 @@
         "publicKey": "iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA",
         "shortId": "",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "fi.snobvpn.online",
+          "port": 80,
+          "users": [
+            {
+              "id": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/snob-ws",
+        "headers": {}
       }
     }
   },
@@ -215,36 +211,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "docs.helpscenter.xyz",
-          "port": 6443,
-          "users": [
-            {
-              "id": "bcc2f72f-62ea-4d2d-914a-8a6ae5409724",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "docs.helpscenter.xyz",
-        "fingerprint": "qq",
-        "publicKey": "o-QrksJtRE_UOjwUEAkN_T_3wo8HWXFo5F97BOmzKAw",
-        "shortId": "4c2f8435d7555b76",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "78.159.245.188",
           "port": 6443,
           "users": [
@@ -270,16 +236,16 @@
     }
   },
   {
-    "tag": "AUTO-10-DE",
+    "tag": "AUTO-09-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "aotocon.ggisopi.su",
-          "port": 443,
+          "address": "docs.helpscenter.xyz",
+          "port": 6443,
           "users": [
             {
-              "id": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
+              "id": "bcc2f72f-62ea-4d2d-914a-8a6ae5409724",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -291,12 +257,34 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "aotocon.ggisopi.su",
-        "fingerprint": "firefox",
-        "publicKey": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
-        "shortId": "",
+        "serverName": "docs.helpscenter.xyz",
+        "fingerprint": "qq",
+        "publicKey": "o-QrksJtRE_UOjwUEAkN_T_3wo8HWXFo5F97BOmzKAw",
+        "shortId": "4c2f8435d7555b76",
         "spiderX": ""
       }
+    }
+  },
+  {
+    "tag": "AUTO-10-CO",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "157.137.226.173",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
     }
   }
 ]
