@@ -90,67 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "177.3.208.167",
-          "port": 443,
-          "users": [
-            {
-              "id": "729425fa-585b-458e-841a-ea30872d4ac2",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.uva.nl",
-        "fingerprint": "firefox",
-        "publicKey": "ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118",
-        "shortId": "940dbf5b",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.233.139.46",
-          "port": 53734,
-          "users": [
-            {
-              "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "chrome",
-        "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -175,6 +115,66 @@
         "fingerprint": "chrome",
         "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
         "shortId": "a56d7d8da977f860",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-EE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "ee.cdn-update.rutube.info",
+          "port": 20443,
+          "users": [
+            {
+              "id": "ad297a2b-ae17-4d2d-8fce-e2eafb89b145",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "dest1.cdn-update.rutube.info",
+        "fingerprint": "chrome",
+        "publicKey": "-AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4",
+        "shortId": "08",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-EE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "89.106.88.22",
+          "port": 20443,
+          "users": [
+            {
+              "id": "ad297a2b-ae17-4d2d-8fce-e2eafb89b145",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "dest1.cdn-update.rutube.info",
+        "fingerprint": "firefox",
+        "publicKey": "-AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4",
+        "shortId": "08",
         "spiderX": ""
       }
     }
