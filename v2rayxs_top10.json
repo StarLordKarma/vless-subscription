@@ -155,36 +155,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "172.233.139.46",
-          "port": 53734,
-          "users": [
-            {
-              "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "chrome",
-        "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "172.235.38.85",
           "port": 42942,
           "users": [
@@ -210,7 +180,7 @@
     }
   },
   {
-    "tag": "AUTO-08-EE",
+    "tag": "AUTO-07-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -240,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-09-EE",
+    "tag": "AUTO-08-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -270,7 +240,7 @@
     }
   },
   {
-    "tag": "AUTO-10-DE",
+    "tag": "AUTO-09-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -297,6 +267,28 @@
         "shortId": "",
         "spiderX": ""
       }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "95.179.169.44",
+          "port": 53224,
+          "users": [
+            {
+              "id": "5f00ca4e-3f26-473e-ad1c-414112abb0a3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
     }
   }
 ]
