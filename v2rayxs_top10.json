@@ -86,16 +86,16 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "45.149.172.74",
+          "address": "78.40.195.140",
           "port": 443,
           "users": [
             {
-              "id": "b2f2d18f-7a9d-411c-aa4e-5a20fe06defe",
+              "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -107,10 +107,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.logitech.com",
-        "fingerprint": "firefox",
-        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
-        "shortId": "626d38f0ea642e3b",
+        "serverName": "www.booking.com",
+        "fingerprint": "chrome",
+        "publicKey": "Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo",
+        "shortId": "98096455d963bdbb",
         "spiderX": ""
       }
     }
@@ -174,16 +174,16 @@
     }
   },
   {
-    "tag": "AUTO-07-DE",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "deutch.snappycore.com",
+          "address": "45.149.172.74",
           "port": 443,
           "users": [
             {
-              "id": "8f9c5260-9456-472b-8ee2-444500ba6cab",
+              "id": "b2f2d18f-7a9d-411c-aa4e-5a20fe06defe",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -195,16 +195,46 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "deutch.snappycore.com",
+        "serverName": "www.logitech.com",
         "fingerprint": "firefox",
-        "publicKey": "SCuasCPva4lPGu-QRP955zZB8f6i7ydHBQh6bsSlrgo",
-        "shortId": "3d87c490ddd41305",
+        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
+        "shortId": "626d38f0ea642e3b",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-08-SG",
+    "tag": "AUTO-08-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.76.111.152",
+          "port": 443,
+          "users": [
+            {
+              "id": "24b84bd3-baa3-4192-9625-23c9690ae6f6",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ads.x5.ru",
+        "fingerprint": "firefox",
+        "publicKey": "yMoulSTnxnbOfAjWPfB244a29ms9HUkjgA1zLZ65Nzw",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -229,36 +259,6 @@
         "fingerprint": "firefox",
         "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
         "shortId": "6ba85179e30d4fc2",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-IT",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.238.232.239",
-          "port": 32833,
-          "users": [
-            {
-              "id": "167ed405-7de9-4bff-b1ea-6e3d49c76b0b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "qq",
-        "publicKey": "PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20",
-        "shortId": "a0a305ccc8e94aa8",
         "spiderX": ""
       }
     }
