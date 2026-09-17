@@ -5,36 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "2.27.7.17",
-          "port": 443,
-          "users": [
-            {
-              "id": "24b84bd3-baa3-4192-9625-23c9690ae6f6",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "node3.gleb.space",
-        "fingerprint": "chrome",
-        "publicKey": "7e0WiztFk-5MNHx9-QGFM8WrinJZ2tbsoWo_fjB-NVs",
-        "shortId": "ff3fc228afdec470",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "estsd1.ggisopi.su",
           "port": 443,
           "users": [
@@ -60,7 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -90,7 +60,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -120,7 +90,7 @@
     }
   },
   {
-    "tag": "AUTO-05-Netherlands",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -145,6 +115,36 @@
         "fingerprint": "firefox",
         "publicKey": "iKiBA7VUMrGy7J3puIr6rbsEj7FMtRazqQywedgGeCA",
         "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "87.199.205.28",
+          "port": 443,
+          "users": [
+            {
+              "id": "501a2da5-cb22-4a3f-915e-e3b821d1d62d",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "vkvd754.okcdn.ru",
+        "fingerprint": "qq",
+        "publicKey": "W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw",
+        "shortId": "ef1d3554c652a436",
         "spiderX": ""
       }
     }
@@ -215,36 +215,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "78.159.245.188",
-          "port": 6443,
-          "users": [
-            {
-              "id": "bcc2f72f-62ea-4d2d-914a-8a6ae5409724",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "docs.helpscenter.xyz",
-        "fingerprint": "firefox",
-        "publicKey": "o-QrksJtRE_UOjwUEAkN_T_3wo8HWXFo5F97BOmzKAw",
-        "shortId": "4c2f8435d7555b76",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "docs.helpscenter.xyz",
           "port": 6443,
           "users": [
@@ -263,6 +233,36 @@
       "realitySettings": {
         "serverName": "docs.helpscenter.xyz",
         "fingerprint": "qq",
+        "publicKey": "o-QrksJtRE_UOjwUEAkN_T_3wo8HWXFo5F97BOmzKAw",
+        "shortId": "4c2f8435d7555b76",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "78.159.245.188",
+          "port": 6443,
+          "users": [
+            {
+              "id": "bcc2f72f-62ea-4d2d-914a-8a6ae5409724",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "docs.helpscenter.xyz",
+        "fingerprint": "firefox",
         "publicKey": "o-QrksJtRE_UOjwUEAkN_T_3wo8HWXFo5F97BOmzKAw",
         "shortId": "4c2f8435d7555b76",
         "spiderX": ""
