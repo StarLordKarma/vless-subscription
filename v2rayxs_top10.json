@@ -228,7 +228,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "www.cloudflare.com",
-        "fingerprint": "ios",
+        "fingerprint": "firefox",
         "publicKey": "StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE",
         "shortId": "19296c9f1bf9c7b1",
         "spiderX": ""
@@ -241,11 +241,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "195.211.98.43",
-          "port": 443,
+          "address": "172.235.38.85",
+          "port": 42942,
           "users": [
             {
-              "id": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -257,10 +257,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.cloudflare.com",
-        "fingerprint": "firefox",
-        "publicKey": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
-        "shortId": "9c56fddf237e8eaf",
+        "serverName": "www.tesla.com",
+        "fingerprint": "chrome",
+        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+        "shortId": "a56d7d8da977f860",
         "spiderX": ""
       }
     }
