@@ -121,11 +121,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "195.211.98.43",
-          "port": 443,
+          "address": "172.235.43.210",
+          "port": 53957,
           "users": [
             {
-              "id": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+              "id": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -137,10 +137,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.cloudflare.com",
+        "serverName": "www.nvidia.com",
         "fingerprint": "firefox",
-        "publicKey": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
-        "shortId": "9c56fddf237e8eaf",
+        "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
+        "shortId": "44e82fd7b97b14",
         "spiderX": ""
       }
     }
@@ -176,37 +176,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.235.38.85",
-          "port": 42942,
-          "users": [
-            {
-              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "ios",
-        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -236,37 +206,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.235.43.210",
-          "port": 53957,
-          "users": [
-            {
-              "id": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.nvidia.com",
-        "fingerprint": "firefox",
-        "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
-        "shortId": "44e82fd7b97b14",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -288,10 +228,69 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "www.cloudflare.com",
-        "fingerprint": "firefox",
+        "fingerprint": "ios",
         "publicKey": "StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE",
         "shortId": "19296c9f1bf9c7b1",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "195.211.98.43",
+          "port": 443,
+          "users": [
+            {
+              "id": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.cloudflare.com",
+        "fingerprint": "firefox",
+        "publicKey": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
+        "shortId": "9c56fddf237e8eaf",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-IR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "jsv-ir.jmovies.ir",
+          "port": 443,
+          "users": [
+            {
+              "id": "c26fe2f0-5c69-11f1-8a1a-bf116ceb9215",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "aparat.com",
+        "fingerprint": "firefox",
+        "publicKey": "fwS6bEyF28VsSapBZZ2vz6LJmVismH0NYupk6STFRWc",
+        "shortId": "f373df45a687eaff",
+        "spiderX": "/"
       }
     }
   }
