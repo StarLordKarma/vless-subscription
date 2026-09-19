@@ -112,67 +112,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.149.172.74",
-          "port": 443,
-          "users": [
-            {
-              "id": "b2f2d18f-7a9d-411c-aa4e-5a20fe06defe",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.logitech.com",
-        "fingerprint": "firefox",
-        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
-        "shortId": "626d38f0ea642e3b",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.235.38.85",
-          "port": 42942,
-          "users": [
-            {
-              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "chrome",
-        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-05-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,17 +142,18 @@
     }
   },
   {
-    "tag": "AUTO-08-UK",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "comte.farxmode.ir",
-          "port": 8080,
+          "address": "45.149.172.74",
+          "port": 443,
           "users": [
             {
-              "id": "23ddda0f-6333-493a-839d-f9c8e561f7e4",
-              "encryption": "none"
+              "id": "b2f2d18f-7a9d-411c-aa4e-5a20fe06defe",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
@@ -222,45 +163,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "play-apps-features.googleusercontent.com",
-        "fingerprint": "ios",
-        "publicKey": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "46.33.9.150",
-          "port": 8080,
-          "users": [
-            {
-              "id": "23ddda0f-6333-493a-839d-f9c8e561f7e4",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "play-apps-features.googleusercontent.com",
+        "serverName": "www.logitech.com",
         "fingerprint": "firefox",
-        "publicKey": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
-        "shortId": "",
+        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
+        "shortId": "626d38f0ea642e3b",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-10-SE",
+    "tag": "AUTO-07-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -285,6 +197,96 @@
         "fingerprint": "firefox",
         "publicKey": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
         "shortId": "711ad7f475c35e5e",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "jujujuj.mervi.icu",
+          "port": 443,
+          "users": [
+            {
+              "id": "9bbd487f-8f84-4ad7-b897-681c3f7d95dc",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "jujujuj.mervi.icu",
+        "fingerprint": "random",
+        "publicKey": "j7_ysAZxK5vBkMqvu0r8_UUuR3Qp7Yml3fXFDGR5x3w",
+        "shortId": "573703f224b75e8c",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-EE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "5.181.201.36",
+          "port": 443,
+          "users": [
+            {
+              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "estomin1.vodniki.monster",
+        "fingerprint": "firefox",
+        "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
+        "shortId": "d98e7afec9c0c359",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-IR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "g2.kxpqus.bestxau.ir",
+          "port": 36171,
+          "users": [
+            {
+              "id": "ccc252f4-7f23-43b4-a8d5-6c0aee8633f0",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "play-apps-features.googleusercontent.com",
+        "fingerprint": "chrome",
+        "publicKey": "IYhfI8lsuJrFV8zzp1XXbh9sPkvBlBNOTtJwBubhxxw",
+        "shortId": "e4eb3ada03de9e92",
         "spiderX": ""
       }
     }
