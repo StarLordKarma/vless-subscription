@@ -5,13 +5,12 @@
     "settings": {
       "vnext": [
         {
-          "address": "172.239.239.53",
-          "port": 22746,
+          "address": "84.235.167.104",
+          "port": 62145,
           "users": [
             {
-              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
             }
           ]
         }
@@ -19,14 +18,7 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "firefox",
-        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
-        "shortId": "d9fd4fa80238cd05",
-        "spiderX": ""
-      }
+      "security": "none"
     }
   },
   {
@@ -35,7 +27,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "158.101.213.194",
+          "address": "158.101.209.32",
           "port": 62145,
           "users": [
             {
@@ -80,18 +72,39 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-04-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "45.149.172.74",
+          "address": "158.101.211.111",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-05-Switzerland",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "34.65.191.159",
           "port": 443,
           "users": [
             {
-              "id": "b2f2d18f-7a9d-411c-aa4e-5a20fe06defe",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "bd93a117-2e9d-4e1e-b9b9-69d8d7089bdb",
+              "encryption": "none"
             }
           ]
         }
@@ -101,37 +114,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.logitech.com",
+        "serverName": "www.cloudflare.com",
         "fingerprint": "chrome",
-        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
-        "shortId": "626d38f0ea642e3b",
+        "publicKey": "DE-S0R0KYYTuBsuQmT-iip6rJ2QsuH6z3SJYlsNyUUI",
+        "shortId": "5214a92cad4ad90e",
         "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "162.35.96.21",
-          "port": 8081,
-          "users": [
-            {
-              "id": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vless-test",
-        "headers": {}
       }
     }
   },
@@ -141,11 +128,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "154.21.89.50",
-          "port": 56782,
+          "address": "172.235.43.210",
+          "port": 53957,
           "users": [
             {
-              "id": "64f776a9-1c2f-4012-a4b7-da4f4958f727",
+              "id": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -157,25 +144,25 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "addons.mozilla.org",
-        "fingerprint": "chrome",
-        "publicKey": "a89JsIKpeVClqRr4LykJGLaO-i5iObJUvhwNu4yv2CQ",
-        "shortId": "",
+        "serverName": "www.nvidia.com",
+        "fingerprint": "firefox",
+        "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
+        "shortId": "44e82fd7b97b14",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "www.epicgames.com",
-          "port": 2095,
+          "address": "144.21.43.119",
+          "port": 62145,
           "users": [
             {
-              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
               "encryption": "none"
             }
           ]
@@ -183,29 +170,22 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "free-claude-api.asshole.us.ci"
-        }
-      }
+      "network": "tcp",
+      "security": "none"
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "172.233.139.46",
-          "port": 53734,
+          "address": "143.47.182.253",
+          "port": 62145,
           "users": [
             {
-              "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
             }
           ]
         }
@@ -213,57 +193,49 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "qq",
-        "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
+      "security": "none"
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-09-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "172.235.38.85",
-          "port": 42942,
-          "users": [
-            {
-              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "qq",
-        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "aotocon.ggisopi.su",
+          "address": "35.246.34.105",
           "port": 443,
           "users": [
             {
-              "id": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
+              "id": "9743b4f9-24c3-4e53-8b03-c3b5cd9b71b2",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.cloudflare.com",
+        "fingerprint": "chrome",
+        "publicKey": "bx1ylgNlSmg4i-abKzPcSHGMlIE6gdf66Ysjv25ZrE4",
+        "shortId": "1b580f160d965b01",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "14ang88.snusoed.baby",
+          "port": 443,
+          "users": [
+            {
+              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -275,10 +247,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "aotocon.ggisopi.su",
-        "fingerprint": "firefox",
-        "publicKey": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
-        "shortId": "",
+        "serverName": "14ang88.snusoed.baby",
+        "fingerprint": "random",
+        "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
+        "shortId": "2e124af254a65e7c",
         "spiderX": ""
       }
     }
