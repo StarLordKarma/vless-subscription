@@ -1,28 +1,6 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "158.101.205.217",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -44,6 +22,36 @@
       "grpcSettings": {
         "serviceName": "vless",
         "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "164.37.100.194",
+          "port": 443,
+          "users": [
+            {
+              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "14ang88.snusoed.baby",
+        "fingerprint": "firefox",
+        "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
+        "shortId": "2e124af254a65e7c",
+        "spiderX": ""
       }
     }
   },
@@ -104,37 +112,7 @@
     }
   },
   {
-    "tag": "AUTO-05-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "14ang88.snusoed.baby",
-          "port": 443,
-          "users": [
-            {
-              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "14ang88.snusoed.baby",
-        "fingerprint": "random",
-        "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
-        "shortId": "2e124af254a65e7c",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -159,6 +137,36 @@
         "fingerprint": "firefox",
         "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
         "shortId": "626d38f0ea642e3b",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "14ang88.snusoed.baby",
+          "port": 443,
+          "users": [
+            {
+              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "14ang88.snusoed.baby",
+        "fingerprint": "random",
+        "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
+        "shortId": "2e124af254a65e7c",
         "spiderX": ""
       }
     }
@@ -260,7 +268,7 @@
       "vnext": [
         {
           "address": "77.110.104.238",
-          "port": 443,
+          "port": 2053,
           "users": [
             {
               "id": "937fbdad-d97b-4540-9136-de1886df866f",
@@ -274,14 +282,14 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.wikipedia.org",
-        "fingerprint": "random",
-        "publicKey": "lvBVTmcLFcPyhVE2MGeTd0ls2FNOvBD7UhJNEmvprUQ",
-        "shortId": "f182f2fcf956838e",
+        "serverName": "www.tagesschau.de",
+        "fingerprint": "firefox",
+        "publicKey": "sHEHsya9ZbC34uBUOzAfAO8u2b3Ik71hp4AKMGLvZxw",
+        "shortId": "facfeeb537603598",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "ru217125de65grpc",
+        "serviceName": "pl199grpc",
         "multiMode": false
       }
     }
