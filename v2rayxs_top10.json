@@ -56,36 +56,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "2.dzen-nl-1.com",
-          "port": 8443,
-          "users": [
-            {
-              "id": "bcb5a897-8cc4-4e21-ad96-c82fb3a9d72a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "2.dzen-nl-1.com",
-        "fingerprint": "chrome",
-        "publicKey": "gNIk9M0_JAgXNkEoWxPFBkZYyLBSbXEyRgpTg63W8xE",
-        "shortId": "19aa25f681923dc8",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-UK",
+    "tag": "AUTO-03-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -111,7 +82,7 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -141,7 +112,67 @@
     }
   },
   {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "45.149.172.74",
+          "port": 443,
+          "users": [
+            {
+              "id": "b2f2d18f-7a9d-411c-aa4e-5a20fe06defe",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.logitech.com",
+        "fingerprint": "firefox",
+        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
+        "shortId": "626d38f0ea642e3b",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.235.38.85",
+          "port": 42942,
+          "users": [
+            {
+              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.tesla.com",
+        "fingerprint": "chrome",
+        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+        "shortId": "a56d7d8da977f860",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -168,28 +199,6 @@
         "shortId": "2e124af254a65e7c",
         "spiderX": ""
       }
-    }
-  },
-  {
-    "tag": "AUTO-07-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "158.101.205.217",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
     }
   },
   {
@@ -251,17 +260,18 @@
     }
   },
   {
-    "tag": "AUTO-10-Switzerland",
+    "tag": "AUTO-10-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "p1real5.greewebservices.ir",
-          "port": 1270,
+          "address": "103.139.51.21",
+          "port": 443,
           "users": [
             {
-              "id": "f608f2b8-f258-4912-9726-3e755644da6b",
-              "encryption": "none"
+              "id": "71b91642-93ed-4923-8cab-877e19bfc2d6",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
@@ -271,10 +281,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "play.googleapis.com",
-        "fingerprint": "ios",
-        "publicKey": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-        "shortId": "9b60d3",
+        "serverName": "auth.figmafound.org",
+        "fingerprint": "firefox",
+        "publicKey": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
+        "shortId": "711ad7f475c35e5e",
         "spiderX": ""
       }
     }
