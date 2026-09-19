@@ -5,6 +5,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "172.239.239.53",
+          "port": 22746,
+          "users": [
+            {
+              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.intel.com",
+        "fingerprint": "firefox",
+        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+        "shortId": "d9fd4fa80238cd05",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "158.101.213.194",
           "port": 62145,
           "users": [
@@ -22,7 +52,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -47,28 +77,6 @@
           "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
         }
       }
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "158.101.211.111",
-          "port": 62145,
-          "users": [
-            {
-              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "none"
     }
   },
   {
@@ -107,36 +115,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "192.3.20.155",
-          "port": 8443,
-          "users": [
-            {
-              "id": "9a9a2876-404e-4cb0-8c9e-546f390a3bc0",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.debian.org",
-        "fingerprint": "random",
-        "publicKey": "8OtJJ5lKbMik_x628CcrqZczsPtiyyoFdNn7j4aneEs",
-        "shortId": "82eda5cc",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "162.35.96.21",
           "port": 8081,
           "users": [
@@ -158,7 +136,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -188,7 +166,7 @@
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -216,16 +194,16 @@
     }
   },
   {
-    "tag": "AUTO-09-Netherlands",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "hhhorp.plus-hit.ru",
-          "port": 443,
+          "address": "172.233.139.46",
+          "port": 53734,
           "users": [
             {
-              "id": "84a794a5-2420-4ca7-8e08-8d21571f36f3",
+              "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -237,16 +215,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "hhhorp.plus-hit.ru",
-        "fingerprint": "random",
-        "publicKey": "N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA",
-        "shortId": "7c8e3d4a9b1f26d3",
-        "spiderX": "/"
+        "serverName": "www.tesla.com",
+        "fingerprint": "qq",
+        "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
+        "shortId": "a56d7d8da977f860",
+        "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -271,6 +249,36 @@
         "fingerprint": "qq",
         "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
         "shortId": "a56d7d8da977f860",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "aotocon.ggisopi.su",
+          "port": 443,
+          "users": [
+            {
+              "id": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "aotocon.ggisopi.su",
+        "fingerprint": "firefox",
+        "publicKey": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
+        "shortId": "",
         "spiderX": ""
       }
     }
