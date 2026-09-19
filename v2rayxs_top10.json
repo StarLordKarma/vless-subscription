@@ -142,7 +142,37 @@
     }
   },
   {
-    "tag": "AUTO-06-UK",
+    "tag": "AUTO-06-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.235.38.85",
+          "port": 42942,
+          "users": [
+            {
+              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.tesla.com",
+        "fingerprint": "chrome",
+        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+        "shortId": "a56d7d8da977f860",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -172,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-07-SE",
+    "tag": "AUTO-08-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,7 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-08-FI",
+    "tag": "AUTO-09-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +262,7 @@
     }
   },
   {
-    "tag": "AUTO-09-EE",
+    "tag": "AUTO-10-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -258,39 +288,6 @@
         "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
         "shortId": "d98e7afec9c0c359",
         "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "77.110.104.238",
-          "port": 2053,
-          "users": [
-            {
-              "id": "937fbdad-d97b-4540-9136-de1886df866f",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tagesschau.de",
-        "fingerprint": "firefox",
-        "publicKey": "sHEHsya9ZbC34uBUOzAfAO8u2b3Ik71hp4AKMGLvZxw",
-        "shortId": "facfeeb537603598",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "pl199grpc",
-        "multiMode": false
       }
     }
   }
