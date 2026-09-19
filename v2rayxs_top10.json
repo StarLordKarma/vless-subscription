@@ -85,13 +85,12 @@
     "settings": {
       "vnext": [
         {
-          "address": "109.121.44.71",
-          "port": 443,
+          "address": "158.101.211.111",
+          "port": 62145,
           "users": [
             {
-              "id": "03446511-2806-4fc0-b02f-f10d2d3a33c6",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
             }
           ]
         }
@@ -99,14 +98,7 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.amd.com",
-        "fingerprint": "firefox",
-        "publicKey": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-        "shortId": "a7b2c9d4",
-        "spiderX": ""
-      }
+      "security": "none"
     }
   },
   {
@@ -115,7 +107,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "158.101.211.111",
+          "address": "158.101.209.32",
           "port": 62145,
           "users": [
             {
@@ -162,37 +154,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "109.121.44.41",
-          "port": 443,
-          "users": [
-            {
-              "id": "00706a0e-de50-40f0-b6e0-e50b8d727d88",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.amd.com",
-        "fingerprint": "qq",
-        "publicKey": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-        "shortId": "2c5d0e9f",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -222,7 +184,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -248,7 +210,7 @@
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -274,6 +236,34 @@
         "publicKey": "a89JsIKpeVClqRr4LykJGLaO-i5iObJUvhwNu4yv2CQ",
         "shortId": "",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.epicgames.com",
+          "port": 2095,
+          "users": [
+            {
+              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "free-claude-api.asshole.us.ci"
+        }
       }
     }
   }
