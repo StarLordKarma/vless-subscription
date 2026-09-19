@@ -5,6 +5,56 @@
     "settings": {
       "vnext": [
         {
+          "address": "144.21.43.119",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.epicgames.com",
+          "port": 2095,
+          "users": [
+            {
+              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "free-claude-api.asshole.us.ci"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "158.101.205.217",
           "port": 62145,
           "users": [
@@ -22,7 +72,7 @@
     }
   },
   {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-04-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -51,7 +101,7 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -81,7 +131,7 @@
     }
   },
   {
-    "tag": "AUTO-04-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -107,7 +157,7 @@
     }
   },
   {
-    "tag": "AUTO-05-UK",
+    "tag": "AUTO-07-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -137,7 +187,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -167,7 +217,7 @@
     }
   },
   {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-09-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -193,7 +243,7 @@
     }
   },
   {
-    "tag": "AUTO-08-UK",
+    "tag": "AUTO-10-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -218,66 +268,6 @@
         "fingerprint": "random",
         "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
         "shortId": "2e124af254a65e7c",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "185.23.19.210",
-          "port": 443,
-          "users": [
-            {
-              "id": "9bbd487f-8f84-4ad7-b897-681c3f7d95dc",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "popolop.mervi.icu",
-        "fingerprint": "firefox",
-        "publicKey": "GhOEyam40TU9q00D24U_Psl4bPGTheUMOG5U8UR72A4",
-        "shortId": "e07d62c8ec5de3ca",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "192.3.20.155",
-          "port": 8443,
-          "users": [
-            {
-              "id": "9a9a2876-404e-4cb0-8c9e-546f390a3bc0",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.debian.org",
-        "fingerprint": "random",
-        "publicKey": "8OtJJ5lKbMik_x628CcrqZczsPtiyyoFdNn7j4aneEs",
-        "shortId": "82eda5cc",
         "spiderX": ""
       }
     }
