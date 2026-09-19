@@ -161,37 +161,7 @@
     }
   },
   {
-    "tag": "AUTO-07-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "192.3.20.155",
-          "port": 8443,
-          "users": [
-            {
-              "id": "9a9a2876-404e-4cb0-8c9e-546f390a3bc0",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.debian.org",
-        "fingerprint": "random",
-        "publicKey": "8OtJJ5lKbMik_x628CcrqZczsPtiyyoFdNn7j4aneEs",
-        "shortId": "82eda5cc",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
+    "tag": "AUTO-07-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -221,7 +191,7 @@
     }
   },
   {
-    "tag": "AUTO-09-UK",
+    "tag": "AUTO-08-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -250,16 +220,16 @@
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-09-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "172.239.239.53",
-          "port": 22746,
+          "address": "filetransver-ultra.com",
+          "port": 443,
           "users": [
             {
-              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "id": "1fa3ded2-4946-45ac-9f39-2a0e501e3d1f",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -271,10 +241,40 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "firefox",
-        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
-        "shortId": "d9fd4fa80238cd05",
+        "serverName": "filetransver-ultra.com",
+        "fingerprint": "random",
+        "publicKey": "mk-fkkWvUHz2ubIOkr8kfDeglXowdCI3Z4OssjWIIwg",
+        "shortId": "2b145d99dc39e2cc",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "hyhhuh.mervi.icu",
+          "port": 443,
+          "users": [
+            {
+              "id": "9bbd487f-8f84-4ad7-b897-681c3f7d95dc",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "hyhhuh.mervi.icu",
+        "fingerprint": "random",
+        "publicKey": "wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8",
+        "shortId": "2997575f36da5a09",
         "spiderX": ""
       }
     }
