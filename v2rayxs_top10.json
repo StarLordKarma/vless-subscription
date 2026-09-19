@@ -1,6 +1,28 @@
 [
   {
-    "tag": "AUTO-01-UK",
+    "tag": "AUTO-01-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "158.101.205.217",
+          "port": 62145,
+          "users": [
+            {
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
+    }
+  },
+  {
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -22,36 +44,6 @@
       "grpcSettings": {
         "serviceName": "vless",
         "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "164.37.100.194",
-          "port": 443,
-          "users": [
-            {
-              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "14ang88.snusoed.baby",
-        "fingerprint": "firefox",
-        "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
-        "shortId": "2e124af254a65e7c",
-        "spiderX": ""
       }
     }
   },
@@ -262,32 +254,35 @@
     }
   },
   {
-    "tag": "AUTO-10-IR",
+    "tag": "AUTO-10-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "g2.kxpqus.bestxau.ir",
-          "port": 36171,
+          "address": "77.110.104.238",
+          "port": 443,
           "users": [
             {
-              "id": "ccc252f4-7f23-43b4-a8d5-6c0aee8633f0",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "937fbdad-d97b-4540-9136-de1886df866f",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
+      "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "play-apps-features.googleusercontent.com",
-        "fingerprint": "chrome",
-        "publicKey": "IYhfI8lsuJrFV8zzp1XXbh9sPkvBlBNOTtJwBubhxxw",
-        "shortId": "e4eb3ada03de9e92",
+        "serverName": "www.wikipedia.org",
+        "fingerprint": "random",
+        "publicKey": "lvBVTmcLFcPyhVE2MGeTd0ls2FNOvBD7UhJNEmvprUQ",
+        "shortId": "f182f2fcf956838e",
         "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "ru217125de65grpc",
+        "multiMode": false
       }
     }
   }
