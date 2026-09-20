@@ -147,11 +147,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "162.217.248.146",
-          "port": 8443,
+          "address": "172.235.38.85",
+          "port": 42942,
           "users": [
             {
-              "id": "5dec24d0-89b5-457a-81fd-7992e4c09e30",
+              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -163,46 +163,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "slfst14.ardor-cloud.ru",
-        "fingerprint": "firefox",
-        "publicKey": "P5iwWNdQXdXU1CRGUG6u9gxnDOl2U7uV7YcPyQg6hm0",
-        "shortId": "ba86eee333ed2be2",
+        "serverName": "www.tesla.com",
+        "fingerprint": "chrome",
+        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+        "shortId": "a56d7d8da977f860",
         "spiderX": ""
       }
     }
   },
   {
     "tag": "AUTO-07-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "64.49.12.93",
-          "port": 8443,
-          "users": [
-            {
-              "id": "5dec24d0-89b5-457a-81fd-7992e4c09e30",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "slfs7.ardor-cloud.ru",
-        "fingerprint": "firefox",
-        "publicKey": "pgC32QcmTtlI9VtIh1L96w6h3Wyr5g4JfvJ4XfrQLG0",
-        "shortId": "be86ddd822af1ddd",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -230,7 +200,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -260,7 +230,7 @@
     }
   },
   {
-    "tag": "AUTO-10-Switzerland",
+    "tag": "AUTO-09-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -283,6 +253,36 @@
       "realitySettings": {
         "serverName": "ch.cache-4d8a.com",
         "fingerprint": "chrome",
+        "publicKey": "lYVz8iVZI2XjTCw_XS9wi08P1DLXO0c7jQo-_xyw2xY",
+        "shortId": "9d84de9d9f7b85e9",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-Switzerland",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "179.43.162.252",
+          "port": 443,
+          "users": [
+            {
+              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ch.cache-4d8a.com",
+        "fingerprint": "firefox",
         "publicKey": "lYVz8iVZI2XjTCw_XS9wi08P1DLXO0c7jQo-_xyw2xY",
         "shortId": "9d84de9d9f7b85e9",
         "spiderX": ""
