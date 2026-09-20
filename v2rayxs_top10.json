@@ -1,34 +1,6 @@
 [
   {
-    "tag": "AUTO-01-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
-        "headers": {
-          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -54,7 +26,7 @@
     }
   },
   {
-    "tag": "AUTO-03-Switzerland",
+    "tag": "AUTO-02-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -84,7 +56,7 @@
     }
   },
   {
-    "tag": "AUTO-04-Switzerland",
+    "tag": "AUTO-03-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -114,16 +86,16 @@
     }
   },
   {
-    "tag": "AUTO-05-RU",
+    "tag": "AUTO-04-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "159.194.245.5",
+          "address": "gesmankos.sadiepinki.com",
           "port": 443,
           "users": [
             {
-              "id": "dcf8e133-09a2-4884-abf9-80356bb334ac",
+              "id": "c5694dc5-39fd-4a92-8430-3837baa522a3",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -135,46 +107,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "media.atlasparser.site",
-        "fingerprint": "safari",
-        "publicKey": "xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM",
-        "shortId": "a7c31f92",
+        "serverName": "gesmankos.sadiepinki.com",
+        "fingerprint": "firefox",
+        "publicKey": "rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs",
+        "shortId": "4fa44664f6a566d3",
         "spiderX": "/"
       }
     }
   },
   {
-    "tag": "AUTO-06-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "pl.node-edge09.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "pl.node-edge09.com",
-        "fingerprint": "qq",
-        "publicKey": "JoIT56dCrKkeYJWSPA6-rllSqlXYKPg1rC2w7D_xogU",
-        "shortId": "212a8beb0ea4817b",
-        "spiderX": "/"
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-BG",
+    "tag": "AUTO-05-BG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -204,37 +146,7 @@
     }
   },
   {
-    "tag": "AUTO-08-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "pl-waw.dontblockmepls.com",
-          "port": 2063,
-          "users": [
-            {
-              "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "rusbid.de",
-        "fingerprint": "firefox",
-        "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-IT",
+    "tag": "AUTO-06-IT",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -264,7 +176,40 @@
     }
   },
   {
-    "tag": "AUTO-10-EE",
+    "tag": "AUTO-07-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.77.7.122",
+          "port": 2053,
+          "users": [
+            {
+              "id": "36cd557b-2b3d-46d3-8071-c77dd9cf7623",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.nokia.com",
+        "fingerprint": "ios",
+        "publicKey": "TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs",
+        "shortId": "407f4d9be75efc56",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -289,6 +234,66 @@
         "fingerprint": "edge",
         "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
         "shortId": "d98e7afec9c0c359",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-LV",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "2.27.210.39",
+          "port": 443,
+          "users": [
+            {
+              "id": "9bbd487f-8f84-4ad7-b897-681c3f7d95dc",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ciccuc.mervi.icu",
+        "fingerprint": "firefox",
+        "publicKey": "3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw",
+        "shortId": "5029592ae5516948",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-SE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "auth.figmafound.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "71b91642-93ed-4923-8cab-877e19bfc2d6",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "auth.figmafound.org",
+        "fingerprint": "chrome",
+        "publicKey": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
+        "shortId": "711ad7f475c35e5e",
         "spiderX": ""
       }
     }
