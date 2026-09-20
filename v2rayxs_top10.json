@@ -142,37 +142,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.235.38.85",
-          "port": 42942,
-          "users": [
-            {
-              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "chrome",
-        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-UK",
+    "tag": "AUTO-06-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -197,6 +167,36 @@
         "fingerprint": "random",
         "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
         "shortId": "2e124af254a65e7c",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.235.38.85",
+          "port": 42942,
+          "users": [
+            {
+              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.tesla.com",
+        "fingerprint": "chrome",
+        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+        "shortId": "a56d7d8da977f860",
         "spiderX": ""
       }
     }
