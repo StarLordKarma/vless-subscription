@@ -87,36 +87,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "us.1905vpn.ru",
-          "port": 443,
-          "users": [
-            {
-              "id": "1397981f-401f-4896-a60c-898b359f4bde",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "us.1905vpn.ru",
-        "fingerprint": "firefox",
-        "publicKey": "J8BwNe_VefsV7CU7NVyCSAXiOGqA_juUdifl1f0NIQg",
-        "shortId": "9292a8cb3ba284d3",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "172.235.38.85",
           "port": 42942,
           "users": [
@@ -142,7 +112,7 @@
     }
   },
   {
-    "tag": "AUTO-06-USA",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -172,7 +142,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Switzerland",
+    "tag": "AUTO-06-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,7 +172,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Switzerland",
+    "tag": "AUTO-07-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -257,6 +227,36 @@
         "fingerprint": "firefox",
         "publicKey": "S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw",
         "shortId": "8319913f2e5f5711",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "us.1905vpn.ru",
+          "port": 443,
+          "users": [
+            {
+              "id": "1397981f-401f-4896-a60c-898b359f4bde",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "us.1905vpn.ru",
+        "fingerprint": "firefox",
+        "publicKey": "J8BwNe_VefsV7CU7NVyCSAXiOGqA_juUdifl1f0NIQg",
+        "shortId": "9292a8cb3ba284d3",
         "spiderX": ""
       }
     }
