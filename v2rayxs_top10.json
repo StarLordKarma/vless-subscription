@@ -250,16 +250,16 @@
     }
   },
   {
-    "tag": "AUTO-10-SE",
+    "tag": "AUTO-10-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "185.231.103.20",
+          "address": "jujujuj.mervi.icu",
           "port": 443,
           "users": [
             {
-              "id": "89104901-966e-4c7e-8e83-99d8712c5417",
+              "id": "9bbd487f-8f84-4ad7-b897-681c3f7d95dc",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -271,10 +271,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "se.convexia.net",
-        "fingerprint": "safari",
-        "publicKey": "dAywk2CpVoA14GcQBWxgkamea0yaLkF6jUmy4--vHAU",
-        "shortId": "fd",
+        "serverName": "jujujuj.mervi.icu",
+        "fingerprint": "random",
+        "publicKey": "j7_ysAZxK5vBkMqvu0r8_UUuR3Qp7Yml3fXFDGR5x3w",
+        "shortId": "573703f224b75e8c",
         "spiderX": ""
       }
     }
