@@ -1,36 +1,6 @@
 [
   {
-    "tag": "AUTO-01-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "157.254.174.14",
-          "port": 443,
-          "users": [
-            {
-              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "us.cache-4d8a.com",
-        "fingerprint": "firefox",
-        "publicKey": "S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw",
-        "shortId": "8319913f2e5f5711",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -56,7 +26,7 @@
     }
   },
   {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -82,7 +52,7 @@
     }
   },
   {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -112,7 +82,67 @@
     }
   },
   {
+    "tag": "AUTO-04-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "us.1905vpn.ru",
+          "port": 443,
+          "users": [
+            {
+              "id": "1397981f-401f-4896-a60c-898b359f4bde",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "us.1905vpn.ru",
+        "fingerprint": "firefox",
+        "publicKey": "J8BwNe_VefsV7CU7NVyCSAXiOGqA_juUdifl1f0NIQg",
+        "shortId": "9292a8cb3ba284d3",
+        "spiderX": ""
+      }
+    }
+  },
+  {
     "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.235.38.85",
+          "port": 42942,
+          "users": [
+            {
+              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.tesla.com",
+        "fingerprint": "chrome",
+        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+        "shortId": "a56d7d8da977f860",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -142,7 +172,37 @@
     }
   },
   {
-    "tag": "AUTO-06-Switzerland",
+    "tag": "AUTO-07-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "157.254.174.14",
+          "port": 443,
+          "users": [
+            {
+              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "us.cache-4d8a.com",
+        "fingerprint": "firefox",
+        "publicKey": "S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw",
+        "shortId": "8319913f2e5f5711",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -172,37 +232,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Switzerland",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "179.43.162.252",
-          "port": 443,
-          "users": [
-            {
-              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ch.cache-4d8a.com",
-        "fingerprint": "firefox",
-        "publicKey": "lYVz8iVZI2XjTCw_XS9wi08P1DLXO0c7jQo-_xyw2xY",
-        "shortId": "9d84de9d9f7b85e9",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-09-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +262,7 @@
     }
   },
   {
-    "tag": "AUTO-09-DE",
+    "tag": "AUTO-10-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -256,36 +286,6 @@
         "fingerprint": "firefox",
         "publicKey": "jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY",
         "shortId": "4d14da19b19cfc8c",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-LT",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "84.32.215.5",
-          "port": 443,
-          "users": [
-            {
-              "id": "c5694dc5-39fd-4a92-8430-3837baa522a3",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "lt.aether-runet.top",
-        "fingerprint": "chrome",
-        "publicKey": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
-        "shortId": "4fa44664f6a566d3",
         "spiderX": ""
       }
     }
