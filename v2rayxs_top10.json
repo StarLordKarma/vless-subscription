@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-UK",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "66.90.104.42",
-          "port": 2083,
+          "address": "188.114.97.6",
+          "port": 8080,
           "users": [
             {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "id": "50414e45-4c5f-5a45-5553-9568000eed47",
               "encryption": "none"
             }
           ]
@@ -17,27 +17,28 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
+      "network": "ws",
       "security": "none",
-      "grpcSettings": {
-        "serviceName": "vless",
-        "multiMode": false
+      "wsSettings": {
+        "path": "/stream/PANEL_ZEUS/9568000eed47/loc-1",
+        "headers": {
+          "Host": "urzpn8e9ub5s.shoameni2.workers.dev"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "164.37.100.194",
-          "port": 443,
+          "address": "158.101.194.120",
+          "port": 62145,
           "users": [
             {
-              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+              "encryption": "none"
             }
           ]
         }
@@ -45,27 +46,20 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "14ang88.snusoed.baby",
-        "fingerprint": "firefox",
-        "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
-        "shortId": "2e124af254a65e7c",
-        "spiderX": ""
-      }
+      "security": "none"
     }
   },
   {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "66.90.105.210",
-          "port": 2083,
+          "address": "92.5.225.155",
+          "port": 62145,
           "users": [
             {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "id": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
               "encryption": "none"
             }
           ]
@@ -73,12 +67,8 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "none",
-      "grpcSettings": {
-        "serviceName": "vless",
-        "multiMode": false
-      }
+      "network": "tcp",
+      "security": "none"
     }
   },
   {
@@ -87,11 +77,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "5.78.159.97",
+          "address": "us.cache-4d8a.com",
           "port": 443,
           "users": [
             {
-              "id": "b88a54a0-501c-4acf-930b-305354452f4e",
+              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -103,11 +93,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.yahoo.com",
+        "serverName": "us.cache-4d8a.com",
         "fingerprint": "firefox",
-        "publicKey": "XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE",
-        "shortId": "884dffd8e62a5c48",
-        "spiderX": ""
+        "publicKey": "S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw",
+        "shortId": "8319913f2e5f5711",
+        "spiderX": "/"
       }
     }
   },
@@ -117,13 +107,12 @@
     "settings": {
       "vnext": [
         {
-          "address": "45.149.172.74",
+          "address": "34.85.179.6",
           "port": 443,
           "users": [
             {
-              "id": "b2f2d18f-7a9d-411c-aa4e-5a20fe06defe",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "8ea1a178-2719-47b7-99d0-33d8dc361ba3",
+              "encryption": "none"
             }
           ]
         }
@@ -133,81 +122,110 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.logitech.com",
-        "fingerprint": "firefox",
-        "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
-        "shortId": "626d38f0ea642e3b",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "14ang88.snusoed.baby",
-          "port": 443,
-          "users": [
-            {
-              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "14ang88.snusoed.baby",
-        "fingerprint": "random",
-        "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
-        "shortId": "2e124af254a65e7c",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "172.235.38.85",
-          "port": 42942,
-          "users": [
-            {
-              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
+        "serverName": "www.cloudflare.com",
         "fingerprint": "chrome",
-        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-        "shortId": "a56d7d8da977f860",
+        "publicKey": "cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI",
+        "shortId": "c08efcd72d7e8389",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-08-SE",
+    "tag": "AUTO-06-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "103.139.51.21",
+          "address": "ch.cache-4d8a.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ch.cache-4d8a.com",
+        "fingerprint": "chrome",
+        "publicKey": "lYVz8iVZI2XjTCw_XS9wi08P1DLXO0c7jQo-_xyw2xY",
+        "shortId": "9d84de9d9f7b85e9",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.77.7.122",
+          "port": 8443,
+          "users": [
+            {
+              "id": "36cd557b-2b3d-46d3-8071-c77dd9cf7623",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.nokia.com",
+        "fingerprint": "ios",
+        "publicKey": "TqsHQWg0oFULyLiaXe9vuwYXmLR6mRLiL376GJbX2Cs",
+        "shortId": "407f4d9be75efc56",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "msk.linestring.ru",
+          "port": 443,
+          "users": [
+            {
+              "id": "901cb0b0-0185-4983-b42a-67c431fa2f10",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "storage.yandex.ru",
+        "fingerprint": "firefox",
+        "publicKey": "XNRqBVhMN7DRE0OnISDpLpIr2x7V6reBNg1BdBPP8jk",
+        "shortId": "29680d77",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-SE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "auth.figmafound.org",
           "port": 443,
           "users": [
             {
@@ -224,7 +242,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "auth.figmafound.org",
-        "fingerprint": "firefox",
+        "fingerprint": "random",
         "publicKey": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
         "shortId": "711ad7f475c35e5e",
         "spiderX": ""
@@ -232,16 +250,16 @@
     }
   },
   {
-    "tag": "AUTO-09-FI",
+    "tag": "AUTO-10-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "jujujuj.mervi.icu",
+          "address": "185.231.103.20",
           "port": 443,
           "users": [
             {
-              "id": "9bbd487f-8f84-4ad7-b897-681c3f7d95dc",
+              "id": "89104901-966e-4c7e-8e83-99d8712c5417",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -253,40 +271,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "jujujuj.mervi.icu",
-        "fingerprint": "random",
-        "publicKey": "j7_ysAZxK5vBkMqvu0r8_UUuR3Qp7Yml3fXFDGR5x3w",
-        "shortId": "573703f224b75e8c",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-EE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "5.181.201.36",
-          "port": 443,
-          "users": [
-            {
-              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "estomin1.vodniki.monster",
-        "fingerprint": "firefox",
-        "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
-        "shortId": "d98e7afec9c0c359",
+        "serverName": "se.convexia.net",
+        "fingerprint": "safari",
+        "publicKey": "dAywk2CpVoA14GcQBWxgkamea0yaLkF6jUmy4--vHAU",
+        "shortId": "fd",
         "spiderX": ""
       }
     }
