@@ -91,6 +91,36 @@
     "settings": {
       "vnext": [
         {
+          "address": "pl.node-edge09.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "pl.node-edge09.com",
+        "fingerprint": "qq",
+        "publicKey": "JoIT56dCrKkeYJWSPA6-rllSqlXYKPg1rC2w7D_xogU",
+        "shortId": "212a8beb0ea4817b",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "gesmankos.sadiepinki.com",
           "port": 443,
           "users": [
@@ -116,7 +146,7 @@
     }
   },
   {
-    "tag": "AUTO-05-BG",
+    "tag": "AUTO-06-BG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -142,36 +172,6 @@
         "publicKey": "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8",
         "shortId": "",
         "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-IT",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "italia.superbuba.top",
-          "port": 443,
-          "users": [
-            {
-              "id": "c5694dc5-39fd-4a92-8430-3837baa522a3",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "italia.superbuba.top",
-        "fingerprint": "firefox",
-        "publicKey": "G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw",
-        "shortId": "4fa44664f6a566d3",
-        "spiderX": "/"
       }
     }
   },
@@ -209,16 +209,16 @@
     }
   },
   {
-    "tag": "AUTO-08-EE",
+    "tag": "AUTO-08-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "estomin1.vodniki.monster",
+          "address": "89.125.227.112",
           "port": 443,
           "users": [
             {
-              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+              "id": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -230,10 +230,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "estomin1.vodniki.monster",
-        "fingerprint": "edge",
-        "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
-        "shortId": "d98e7afec9c0c359",
+        "serverName": "pl.node-edge09.com",
+        "fingerprint": "firefox",
+        "publicKey": "JoIT56dCrKkeYJWSPA6-rllSqlXYKPg1rC2w7D_xogU",
+        "shortId": "212a8beb0ea4817b",
         "spiderX": ""
       }
     }
@@ -269,16 +269,16 @@
     }
   },
   {
-    "tag": "AUTO-10-SE",
+    "tag": "AUTO-10-EE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "auth.figmafound.org",
+          "address": "estomin1.vodniki.monster",
           "port": 443,
           "users": [
             {
-              "id": "71b91642-93ed-4923-8cab-877e19bfc2d6",
+              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -290,10 +290,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "auth.figmafound.org",
-        "fingerprint": "chrome",
-        "publicKey": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
-        "shortId": "711ad7f475c35e5e",
+        "serverName": "estomin1.vodniki.monster",
+        "fingerprint": "edge",
+        "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
+        "shortId": "d98e7afec9c0c359",
         "spiderX": ""
       }
     }
