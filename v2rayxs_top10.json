@@ -262,17 +262,18 @@
     }
   },
   {
-    "tag": "AUTO-10-DE",
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "162.55.242.208",
-          "port": 2053,
+          "address": "172.233.139.46",
+          "port": 53734,
           "users": [
             {
-              "id": "659ffdfa-47d2-47d7-af40-5afe0907eead",
-              "encryption": "none"
+              "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
@@ -282,10 +283,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.cloudflare.com",
+        "serverName": "www.tesla.com",
         "fingerprint": "firefox",
-        "publicKey": "jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY",
-        "shortId": "4d14da19b19cfc8c",
+        "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
+        "shortId": "a56d7d8da977f860",
         "spiderX": ""
       }
     }
