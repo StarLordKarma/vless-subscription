@@ -209,7 +209,37 @@
     }
   },
   {
-    "tag": "AUTO-08-DE",
+    "tag": "AUTO-08-EE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "estomin1.vodniki.monster",
+          "port": 443,
+          "users": [
+            {
+              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "estomin1.vodniki.monster",
+        "fingerprint": "edge",
+        "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
+        "shortId": "d98e7afec9c0c359",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -239,7 +269,7 @@
     }
   },
   {
-    "tag": "AUTO-09-LV",
+    "tag": "AUTO-10-LV",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -264,36 +294,6 @@
         "fingerprint": "firefox",
         "publicKey": "3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw",
         "shortId": "5029592ae5516948",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-EE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "estomin1.vodniki.monster",
-          "port": 443,
-          "users": [
-            {
-              "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "estomin1.vodniki.monster",
-        "fingerprint": "edge",
-        "publicKey": "r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk",
-        "shortId": "d98e7afec9c0c359",
         "spiderX": ""
       }
     }
