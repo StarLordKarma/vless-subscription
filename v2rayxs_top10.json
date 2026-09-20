@@ -28,35 +28,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "104.18.20.94",
-          "port": 2095,
-          "users": [
-            {
-              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "free-claude-api.asshole.us.ci"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -82,37 +54,7 @@
     }
   },
   {
-    "tag": "AUTO-04-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "164.37.103.74",
-          "port": 443,
-          "users": [
-            {
-              "id": "e4306ea0-e11a-435c-9cf9-bf2c805b0c3b",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "free.halyard-online.org",
-        "fingerprint": "qq",
-        "publicKey": "I80mt8c1kRZwVPuHdYmm_2snW_BUTjrLmUEKxNuXhWE",
-        "shortId": "8bab58026280e6aa",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-Switzerland",
+    "tag": "AUTO-03-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -142,7 +84,7 @@
     }
   },
   {
-    "tag": "AUTO-06-Switzerland",
+    "tag": "AUTO-04-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -172,7 +114,37 @@
     }
   },
   {
-    "tag": "AUTO-07-DE",
+    "tag": "AUTO-05-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "159.194.245.5",
+          "port": 443,
+          "users": [
+            {
+              "id": "dcf8e133-09a2-4884-abf9-80356bb334ac",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "media.atlasparser.site",
+        "fingerprint": "safari",
+        "publicKey": "xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM",
+        "shortId": "a7c31f92",
+        "spiderX": "/"
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,7 +174,7 @@
     }
   },
   {
-    "tag": "AUTO-08-BG",
+    "tag": "AUTO-07-BG",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -226,6 +198,36 @@
         "serverName": "mzone.bg.3cloudhost.com",
         "fingerprint": "safari",
         "publicKey": "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "pl-waw.dontblockmepls.com",
+          "port": 2063,
+          "users": [
+            {
+              "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "rusbid.de",
+        "fingerprint": "firefox",
+        "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
         "shortId": "",
         "spiderX": ""
       }
