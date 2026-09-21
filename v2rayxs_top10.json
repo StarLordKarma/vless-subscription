@@ -117,36 +117,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "172.235.38.85",
-          "port": 42942,
-          "users": [
-            {
-              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.tesla.com",
-        "fingerprint": "chrome",
-        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-        "shortId": "a56d7d8da977f860",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "157.254.174.14",
           "port": 443,
           "users": [
@@ -172,7 +142,7 @@
     }
   },
   {
-    "tag": "AUTO-07-Switzerland",
+    "tag": "AUTO-06-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -202,7 +172,7 @@
     }
   },
   {
-    "tag": "AUTO-08-Switzerland",
+    "tag": "AUTO-07-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,7 +202,7 @@
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -257,6 +227,36 @@
         "fingerprint": "firefox",
         "publicKey": "S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw",
         "shortId": "8319913f2e5f5711",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "172.235.38.85",
+          "port": 42942,
+          "users": [
+            {
+              "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.tesla.com",
+        "fingerprint": "chrome",
+        "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+        "shortId": "a56d7d8da977f860",
         "spiderX": ""
       }
     }
