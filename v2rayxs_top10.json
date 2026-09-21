@@ -258,16 +258,16 @@
     }
   },
   {
-    "tag": "AUTO-10-Netherlands",
+    "tag": "AUTO-10-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "172.239.239.53",
-          "port": 22746,
+          "address": "172.233.139.46",
+          "port": 53734,
           "users": [
             {
-              "id": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+              "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -279,10 +279,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.intel.com",
-        "fingerprint": "firefox",
-        "publicKey": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
-        "shortId": "d9fd4fa80238cd05",
+        "serverName": "www.tesla.com",
+        "fingerprint": "edge",
+        "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
+        "shortId": "a56d7d8da977f860",
         "spiderX": ""
       }
     }
