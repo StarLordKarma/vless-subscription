@@ -103,13 +103,13 @@ def main():
 
     enriched.sort(key=lambda x: (x[0], x[1]))
     selected = enriched[:COUNT]
-    if len(selected) != COUNT:
-        raise SystemExit("Need exactly %d working candidates, got %d" % (COUNT, len(selected)))
+    if not selected:
+        raise SystemExit("No working candidates; keeping the last published bundle")
 
     outbounds = [outbound_from_link(link, i, code) for i, (_, _, link, code) in enumerate(selected, 1)]
     OUT.write_text(json.dumps(outbounds, indent=2, ensure_ascii=True) + "\n")
 
-    print("Created %d automatic V2RayXS outbounds" % len(outbounds))
+    print("Created %d automatic V2RayXS outbounds (maximum %d)" % (len(outbounds), COUNT))
     print("Selected countries: %s" % ", ".join(x["tag"].split("-", 2)[-1] for x in outbounds))
 
 

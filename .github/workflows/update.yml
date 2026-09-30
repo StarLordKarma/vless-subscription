@@ -13,19 +13,26 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: v2rayxs-hourly-update
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download upstream VLESS list
         run: |
           curl -fL --retry 3 \
             "https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/speed_tested.txt" \
             -o speed_tested.txt
+          test -s speed_tested.txt
+          grep -q '^vless://' speed_tested.txt
 
       - name: Normalize links for V2RayXS 1.5.9
         run: |
@@ -121,15 +128,16 @@ jobs:
           print(f"Working unique={len(working)} Gemini unique={len(gemini)} candidates={len(candidates)}")
           PY
 
-      - name: Build V2RayXS top-10 bundle
+      - name: Build V2RayXS bundle (up to 10 servers)
         run: |
           python3 scripts/build_v2rayxs_outbounds.py
           python3 -m json.tool v2rayxs_top10.json >/dev/null
-          test "$(python3 - <<'PY'
+          python3 - <<'PY'
           import json
-          print(len(json.load(open('v2rayxs_top10.json'))))
+          count = len(json.load(open('v2rayxs_top10.json')))
+          assert 1 <= count <= 10, f'Expected 1..10 profiles, got {count}'
+          print(f'Validated {count} V2RayXS profiles')
           PY
-          )" = "10"
 
       - name: Publish only the Mac server bundle
         run: |

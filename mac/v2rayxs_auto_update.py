@@ -94,8 +94,8 @@ def main():
         print("Invalid server bundle: %s" % e)
         return 2
 
-    if not isinstance(new_auto, list) or len(new_auto) != 10:
-        print("Server bundle does not contain exactly 10 profiles; keeping current servers")
+    if not isinstance(new_auto, list) or not (1 <= len(new_auto) <= 10):
+        print("Server bundle does not contain between 1 and 10 profiles; keeping current servers")
         return 3
 
     if not export_prefs(prefs):
@@ -156,7 +156,7 @@ def main():
 
     time.sleep(0.5)
     open_app()
-    print("Updated 10 automatic V2RayXS servers; AUTO-01 selected")
+    print("Updated %d automatic V2RayXS servers; AUTO-01 selected" % len(new_auto))
     return 0
 
 
