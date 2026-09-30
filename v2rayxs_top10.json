@@ -5,36 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "nl.vpnifty.ru",
-          "port": 18443,
-          "users": [
-            {
-              "id": "a85fe87b-0fba-4657-9a0e-35ef48c43ef4",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nl.vpnifty.ru",
-        "fingerprint": "edge",
-        "publicKey": "7cjXiyeAfM-T8WIAKKfqXtNn4Myv0Tm8N0OaXm2QAkU",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "slowkd.sadiepinki.com",
           "port": 443,
           "users": [
@@ -60,37 +30,7 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "us-2886e62c11.sishka.network",
-          "port": 443,
-          "users": [
-            {
-              "id": "8e6104da-f178-49ea-b559-1fd69562baae",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "us-2886e62c11.sishka.network",
-        "fingerprint": "edge",
-        "publicKey": "uYiZWRgbowvS9uOhVZTe0FBS1pLzA3QMyQ_NfDh4_h8",
-        "shortId": "573ce23c40deba10",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -114,6 +54,66 @@
         "fingerprint": "chrome",
         "publicKey": "L1S0DpFtHPBeyENZUvJPcrFZIct6kcHUPxuzNaGXIFY",
         "shortId": "4c69c4b51c580d60",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "nl.vpnifty.ru",
+          "port": 18443,
+          "users": [
+            {
+              "id": "a85fe87b-0fba-4657-9a0e-35ef48c43ef4",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nl.vpnifty.ru",
+        "fingerprint": "edge",
+        "publicKey": "7cjXiyeAfM-T8WIAKKfqXtNn4Myv0Tm8N0OaXm2QAkU",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "nl1.miyazono-kaori.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "a266761e-a42a-4be2-b1af-804062e91ef7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.philips.com",
+        "fingerprint": "random",
+        "publicKey": "AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw",
+        "shortId": "92dca6",
         "spiderX": ""
       }
     }
@@ -208,7 +208,37 @@
     }
   },
   {
-    "tag": "AUTO-08-ES",
+    "tag": "AUTO-08-HK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "bgroup.hk1.ilovegairport.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "8079ccd4-4b4b-44e2-92f0-8f0367ad9c24",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ap-east-1.console.aws.amazon.com",
+        "fingerprint": "chrome",
+        "publicKey": "Z0sxSuzxnWYa5FNTZ-W4ImxQd674VG4KfmOBqlcudjU",
+        "shortId": "7c7ad24684",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-ES",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -232,36 +262,6 @@
         "fingerprint": "chrome",
         "publicKey": "lM9EQ1rZH9inQjrZesuqgldsXYN_yfT5-tqhPfbyen4",
         "shortId": "1c9e101e99bf86bb",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "pl-35111f2d5f.sishka.network",
-          "port": 443,
-          "users": [
-            {
-              "id": "8e6104da-f178-49ea-b559-1fd69562baae",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "pl-35111f2d5f.sishka.network",
-        "fingerprint": "edge",
-        "publicKey": "uYiZWRgbowvS9uOhVZTe0FBS1pLzA3QMyQ_NfDh4_h8",
-        "shortId": "0ececd9b2731357d",
         "spiderX": ""
       }
     }
