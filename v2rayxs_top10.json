@@ -46,16 +46,16 @@
     }
   },
   {
-    "tag": "AUTO-03-UK",
+    "tag": "AUTO-03-Switzerland",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "at-nick.failspace.top",
+          "address": "45.90.59.119",
           "port": 443,
           "users": [
             {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "id": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -65,7 +65,43 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "tls"
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "shvec.mtmajestic.space",
+        "fingerprint": "safari",
+        "publicKey": "aHFq0S4UJBSUr5it5_mw4JN4sPG6lnHjdYXsWJVVdXk",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "34.48.220.167",
+          "port": 443,
+          "users": [
+            {
+              "id": "8ea1a178-2719-47b7-99d0-33d8dc361ba3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.cloudflare.com",
+        "fingerprint": "chrome",
+        "publicKey": "cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI",
+        "shortId": "c08efcd72d7e8389",
+        "spiderX": ""
+      }
     }
   }
 ]
