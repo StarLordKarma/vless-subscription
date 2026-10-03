@@ -23,60 +23,7 @@
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "nilka-new-2.failspace.top",
-          "port": 443,
-          "users": [
-            {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-03-Switzerland",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.90.59.119",
-          "port": 443,
-          "users": [
-            {
-              "id": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "shvec.mtmajestic.space",
-        "fingerprint": "safari",
-        "publicKey": "aHFq0S4UJBSUr5it5_mw4JN4sPG6lnHjdYXsWJVVdXk",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -102,6 +49,29 @@
         "shortId": "c08efcd72d7e8389",
         "spiderX": ""
       }
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "nilka-new-2.failspace.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
     }
   }
 ]
