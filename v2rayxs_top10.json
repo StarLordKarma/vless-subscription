@@ -1,11 +1,11 @@
 [
   {
-    "tag": "AUTO-01-PL",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "poland-good.failspace.top",
+          "address": "cool-place.failspace.top",
           "port": 443,
           "users": [
             {
@@ -23,16 +23,16 @@
     }
   },
   {
-    "tag": "AUTO-02-PL",
+    "tag": "AUTO-02-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "pol-pol-poland.failspace.top",
+          "address": "31.77.15.221",
           "port": 443,
           "users": [
             {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "id": "a5dd2dd9-0995-449e-be67-4a409890dc42",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -42,30 +42,14 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-03-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "polkadotnewone.failspace.top",
-          "port": 443,
-          "users": [
-            {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "drhvv.huinaduok.fans",
+        "fingerprint": "firefox",
+        "publicKey": "XNDo_IssePPu4qVW3xiLE_87CEqoS6F1iLj0g3Q89G0",
+        "shortId": "da4d87fa",
+        "spiderX": ""
+      }
     }
   }
 ]
