@@ -46,53 +46,7 @@
     }
   },
   {
-    "tag": "AUTO-03-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "poland-good.failspace.top",
-          "port": 443,
-          "users": [
-            {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-04-AT",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "at-tati.failspace.top",
-          "port": 443,
-          "users": [
-            {
-              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-05-SE",
+    "tag": "AUTO-03-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -122,16 +76,38 @@
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-04-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "de.realfast.click",
+          "address": "pl.flen-vpn.xyz",
+          "port": 8443,
+          "users": [
+            {
+              "id": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-05-PL",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "pol-pol-poland.failspace.top",
           "port": 443,
           "users": [
             {
-              "id": "b3775ef9-979c-4aec-b576-3a73aa323798",
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -141,23 +117,39 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "de.realfast.click",
-        "fingerprint": "qq",
-        "publicKey": "x-xLSUDGxwcHdJud7sJlNWPDpQcRBAa8zGBjBLqRbFc",
-        "shortId": "48dd07dc65590f05",
-        "spiderX": ""
-      }
+      "security": "tls"
     }
   },
   {
-    "tag": "AUTO-07-PL",
+    "tag": "AUTO-06-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "pol-pol-poland.failspace.top",
+          "address": "poland-good.failspace.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-07-AT",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "at-tati.failspace.top",
           "port": 443,
           "users": [
             {
