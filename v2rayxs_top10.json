@@ -23,16 +23,85 @@
     }
   },
   {
-    "tag": "AUTO-02-DE",
+    "tag": "AUTO-02-SK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "31.77.15.221",
+          "address": "polkadot03.failspace.top",
           "port": 443,
           "users": [
             {
-              "id": "a5dd2dd9-0995-449e-be67-4a409890dc42",
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-03-PL",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "poland-good.failspace.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-04-AT",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "at-tati.failspace.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-05-SE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "143.246.199.124",
+          "port": 443,
+          "users": [
+            {
+              "id": "79ccb156-bfc6-11f1-9811-525400d1d4f7",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -44,12 +113,88 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "drhvv.huinaduok.fans",
-        "fingerprint": "firefox",
-        "publicKey": "XNDo_IssePPu4qVW3xiLE_87CEqoS6F1iLj0g3Q89G0",
-        "shortId": "da4d87fa",
+        "serverName": "www.blocket.se",
+        "fingerprint": "safari",
+        "publicKey": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c",
+        "shortId": "",
         "spiderX": ""
       }
+    }
+  },
+  {
+    "tag": "AUTO-06-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "de.realfast.click",
+          "port": 443,
+          "users": [
+            {
+              "id": "b3775ef9-979c-4aec-b576-3a73aa323798",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de.realfast.click",
+        "fingerprint": "qq",
+        "publicKey": "x-xLSUDGxwcHdJud7sJlNWPDpQcRBAa8zGBjBLqRbFc",
+        "shortId": "48dd07dc65590f05",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-PL",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "pol-pol-poland.failspace.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-08-PL",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "polkadotnewone.failspace.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
     }
   }
 ]
