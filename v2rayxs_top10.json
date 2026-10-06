@@ -1,16 +1,17 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "mo.asrarshimi.ir",
-          "port": 4040,
+          "address": "91.208.92.210",
+          "port": 443,
           "users": [
             {
-              "id": "59ab9bbf-3f08-4992-bbf3-4faddceb8e49",
-              "encryption": "none"
+              "id": "8fc806fa-350b-4548-937a-2bf35f7fe7eb",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
@@ -20,68 +21,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.actionvfx.com",
-        "fingerprint": "chrome",
-        "publicKey": "_OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk",
-        "shortId": "73693dea6faae051",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "fi1d.lynch.ir",
-          "port": 8080,
-          "users": [
-            {
-              "id": "59ab9bbf-3f08-4992-bbf3-4faddceb8e49",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.actionvfx.com",
-        "fingerprint": "chrome",
-        "publicKey": "_OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk",
-        "shortId": "73693dea6faae051",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "91.107.165.46",
-          "port": 8080,
-          "users": [
-            {
-              "id": "59ab9bbf-3f08-4992-bbf3-4faddceb8e49",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.actionvfx.com",
-        "fingerprint": "firefox",
-        "publicKey": "_OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk",
-        "shortId": "73693dea6faae051",
+        "serverName": "uk1.sky-vault.top",
+        "fingerprint": "safari",
+        "publicKey": "_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0",
+        "shortId": "ae64c9b46bff174a",
         "spiderX": ""
       }
     }
