@@ -1,15 +1,43 @@
 [
   {
-    "tag": "AUTO-01-DE",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "50.7.157.237",
+          "address": "sub-production-6a16.up.railway.app",
           "port": 443,
           "users": [
             {
-              "id": "a6be94fc-e742-4714-8a38-c8d7410ae066",
+              "id": "786c817c-bf75-4f36-8195-187ae5fd0ff6",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/ws/27894f08-51ae-4f95-aca9-c3e66d060b56?ed=2560",
+        "headers": {
+          "Host": "sub-production-6a16.up.railway.app"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "kostas6.api3-max.ru",
+          "port": 443,
+          "users": [
+            {
+              "id": "cdd6bfce-781a-4454-b7d5-4778abb5c24f",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -19,13 +47,57 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "edge-fr.extazy.net",
-        "fingerprint": "firefox",
-        "publicKey": "ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY",
-        "shortId": "",
-        "spiderX": ""
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-03-AL",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "alb1.keepverify.net",
+          "port": 8443,
+          "users": [
+            {
+              "id": "595a6246-d7b0-48bc-a5f0-17068aec2e88",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-04-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "146.75.119.82",
+          "port": 80,
+          "users": [
+            {
+              "id": "210b7901-4b65-48ca-a3d6-532b7ab27262",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "ws/?ed=2048/@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1/?2048",
+        "headers": {
+          "Host": "rb24.ir"
+        }
       }
     }
   }
