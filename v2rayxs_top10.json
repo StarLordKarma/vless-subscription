@@ -1,39 +1,6 @@
 [
   {
-    "tag": "AUTO-01-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.58.95.10",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "de-gdd-1.unturned-rust-dead.lol",
-        "fingerprint": "random",
-        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "gdd-grpc",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -66,68 +33,7 @@
     }
   },
   {
-    "tag": "AUTO-03-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "marz.zovip2.ir",
-          "port": 443,
-          "users": [
-            {
-              "id": "a95c18d0-1b39-4bc7-8521-b62b5ab3f3f7",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/gropcdn",
-        "headers": {
-          "Host": "marz.zovip2.ir"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "germany02.azotvpn.xyz",
-          "port": 8443,
-          "users": [
-            {
-              "id": "5a96c1fc-f167-44b9-9020-8f6867537d14",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "germany02.azotvpn.xyz",
-        "fingerprint": "random",
-        "publicKey": "kS4k7TysigG-AXfCSVeP25qYLNL2opZbPks9dwLrxFw",
-        "shortId": "07c24b8f3ed39da9",
-        "spiderX": "/"
-      },
-      "grpcSettings": {
-        "serviceName": "",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-FI",
+    "tag": "AUTO-02-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -160,12 +66,78 @@
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-03-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "150.241.79.149",
+          "address": "de-gdd-1.unturned-rust-dead.lol",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-ID",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.58.95.10",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "germany02.azotvpn.xyz",
           "port": 8443,
           "users": [
             {
@@ -184,7 +156,7 @@
         "fingerprint": "random",
         "publicKey": "kS4k7TysigG-AXfCSVeP25qYLNL2opZbPks9dwLrxFw",
         "shortId": "07c24b8f3ed39da9",
-        "spiderX": ""
+        "spiderX": "/"
       },
       "grpcSettings": {
         "serviceName": "",
