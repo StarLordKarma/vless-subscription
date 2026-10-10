@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-RU",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "viksa.subsvdragontoo.online",
-          "port": 6443,
+          "address": "31.58.95.10",
+          "port": 443,
           "users": [
             {
-              "id": "d1004cfe-c279-e865-d865-71964dbdf85d",
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
               "encryption": "none"
             }
           ]
@@ -17,27 +17,32 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "viksa.subsvdragontoo.online"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-02-RU",
+    "tag": "AUTO-02-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "video.save-files.online",
-          "port": 443,
+          "address": "netherlands01.azotvpn.xyz",
+          "port": 8443,
           "users": [
             {
-              "id": "d1004cfe-c279-e865-d865-71964dbdf85d",
+              "id": "5a96c1fc-f167-44b9-9020-8f6867537d14",
               "encryption": "none"
             }
           ]
@@ -45,18 +50,51 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/live/hls/channel/7c4b8e13",
-        "headers": {
-          "Host": "video.save-files.online"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "netherlands01.azotvpn.xyz",
+        "fingerprint": "random",
+        "publicKey": "vCKZyl57EU96pz3eDYT_gAoV9czoH0EMtfYReMFk9V8",
+        "shortId": "cfe6eef6fab412ec",
+        "spiderX": "/"
+      },
+      "grpcSettings": {
+        "serviceName": "",
+        "multiMode": false
       }
     }
   },
   {
     "tag": "AUTO-03-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "marz.zovip2.ir",
+          "port": 443,
+          "users": [
+            {
+              "id": "a95c18d0-1b39-4bc7-8521-b62b5ab3f3f7",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/gropcdn",
+        "headers": {
+          "Host": "marz.zovip2.ir"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -89,12 +127,12 @@
     }
   },
   {
-    "tag": "AUTO-04-FI",
+    "tag": "AUTO-05-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "finland02.azotvpn.xyz",
+          "address": "finland01.azotvpn.xyz",
           "port": 8443,
           "users": [
             {
@@ -109,10 +147,10 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "finland02.azotvpn.xyz",
-        "fingerprint": "edge",
-        "publicKey": "fQ1M2sO50w5A3oM55Hfs8vmZ320I8VaKdzRqeXOMMnQ",
-        "shortId": "07f508fe5d2355d3",
+        "serverName": "finland01.azotvpn.xyz",
+        "fingerprint": "random",
+        "publicKey": "WEkSa9PG8Ae99LaaGpDizPY9ggsFFNtTTg5fxql-Qnw",
+        "shortId": "487aed05a538c936",
         "spiderX": "/"
       },
       "grpcSettings": {
@@ -122,68 +160,7 @@
     }
   },
   {
-    "tag": "AUTO-05-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "spb.ai-boost.tech",
-          "port": 443,
-          "users": [
-            {
-              "id": "e2599b64-2eaa-4b81-b2bc-738605ecfeec",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/bKGK1ZI0PzpQz3OeEeq1",
-        "headers": {
-          "Host": "spb.ai-boost.tech"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "ru-1-2.unturned-rust-dead.lol",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ru-1-2.unturned-rust-dead.lol",
-        "fingerprint": "random",
-        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "ru-api",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-DE",
+    "tag": "AUTO-06-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
