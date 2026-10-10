@@ -1,15 +1,48 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-FR",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "sub-production-6a16.up.railway.app",
+          "address": "122.8.45.3",
+          "port": 8443,
+          "users": [
+            {
+              "id": "8ff8938c-49b6-b22f-a934-b55e91154ca3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.hp.com",
+        "fingerprint": "chrome",
+        "publicKey": "QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "ap2.directly.chat",
           "port": 443,
           "users": [
             {
-              "id": "786c817c-bf75-4f36-8195-187ae5fd0ff6",
+              "id": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
               "encryption": "none"
             }
           ]
@@ -20,70 +53,22 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/ws/27894f08-51ae-4f95-aca9-c3e66d060b56?ed=2560",
-        "headers": {
-          "Host": "sub-production-6a16.up.railway.app"
-        }
+        "path": "/md/1",
+        "headers": {}
       }
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-03-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "kostas6.api3-max.ru",
-          "port": 443,
+          "address": "31.59.210.26",
+          "port": 2088,
           "users": [
             {
-              "id": "cdd6bfce-781a-4454-b7d5-4778abb5c24f",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-03-AL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "alb1.keepverify.net",
-          "port": 8443,
-          "users": [
-            {
-              "id": "595a6246-d7b0-48bc-a5f0-17068aec2e88",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-04-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "146.75.119.82",
-          "port": 80,
-          "users": [
-            {
-              "id": "210b7901-4b65-48ca-a3d6-532b7ab27262",
+              "id": "5413edfb-08d6-4fba-b51c-809c04feb127",
               "encryption": "none"
             }
           ]
@@ -91,13 +76,18 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "ws/?ed=2048/@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1/?2048",
-        "headers": {
-          "Host": "rb24.ir"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.yandex.ru",
+        "fingerprint": "firefox",
+        "publicKey": "Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg",
+        "shortId": "b1ad165f903c62fe",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "astracat",
+        "multiMode": false
       }
     }
   }
