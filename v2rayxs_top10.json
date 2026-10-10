@@ -33,16 +33,16 @@
     }
   },
   {
-    "tag": "AUTO-02-RU",
+    "tag": "AUTO-02-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "ap2.directly.chat",
-          "port": 443,
+          "address": "146.75.119.82",
+          "port": 80,
           "users": [
             {
-              "id": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+              "id": "83324aab-2981-4036-a7a4-1692d732d82b",
               "encryption": "none"
             }
           ]
@@ -51,43 +51,12 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
-        "path": "/md/1",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.59.210.26",
-          "port": 2088,
-          "users": [
-            {
-              "id": "5413edfb-08d6-4fba-b51c-809c04feb127",
-              "encryption": "none"
-            }
-          ]
+        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
+        "headers": {
+          "Host": "rb24.ir"
         }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.yandex.ru",
-        "fingerprint": "firefox",
-        "publicKey": "Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg",
-        "shortId": "b1ad165f903c62fe",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "astracat",
-        "multiMode": false
       }
     }
   }
