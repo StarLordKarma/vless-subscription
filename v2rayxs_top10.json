@@ -5,11 +5,176 @@
     "settings": {
       "vnext": [
         {
-          "address": "pablo-panel-production-06ed.up.railway.app",
+          "address": "94.26.3.25",
           "port": 443,
           "users": [
             {
-              "id": "4df549be-34c2-4b2a-ac1e-48dce51858d3",
+              "id": "6d5c8390-69fb-4bcf-a2f9-d7f850aaf2cc",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "optim.tildacdn.pub",
+        "fingerprint": "random",
+        "publicKey": "54D9VU01h1iNtBP1XVSrQJr_7Cabjg8VC692kjT_VEg",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "ebl",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-ID",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.58.95.11",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-ID",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "de-gdd-1.unturned-rust-dead.lol",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-FR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "195.177.94.131",
+          "port": 443,
+          "users": [
+            {
+              "id": "6d5c8390-69fb-4bcf-a2f9-d7f850aaf2cc",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "optim.tildacdn.pub",
+        "fingerprint": "random",
+        "publicKey": "54D9VU01h1iNtBP1XVSrQJr_7Cabjg8VC692kjT_VEg",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "ebl",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-ID",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.58.95.10",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "146.75.119.82",
+          "port": 80,
+          "users": [
+            {
+              "id": "83914feb-8d46-45d5-9683-132ff1d86d80",
               "encryption": "none"
             }
           ]
@@ -18,134 +183,12 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
-        "path": "/ws/4df549be-34c2-4b2a-ac1e-48dce51858d3",
+        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
         "headers": {
-          "Host": "pablo-panel-production-06ed.up.railway.app"
+          "Host": "rb24.ir"
         }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "nl-s-1.pythonmakemigreat.wiki",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nl-s-1.pythonmakemigreat.wiki",
-        "fingerprint": "firefox",
-        "publicKey": "ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg",
-        "shortId": "78f97d82e16aaad6",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-FR",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "122.8.45.3",
-          "port": 8443,
-          "users": [
-            {
-              "id": "8ff8938c-49b6-b22f-a934-b55e91154ca3",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.hp.com",
-        "fingerprint": "chrome",
-        "publicKey": "QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "renderer-bridge-2-114.mirra.now",
-          "port": 443,
-          "users": [
-            {
-              "id": "8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "VideoRenderer",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.59.210.32",
-          "port": 443,
-          "users": [
-            {
-              "id": "5413edfb-08d6-4fba-b51c-809c04feb127",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.yandex.ru",
-        "fingerprint": "firefox",
-        "publicKey": "qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA",
-        "shortId": "7ec4374ffc6308fd",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "astracat",
-        "multiMode": false
       }
     }
   }
