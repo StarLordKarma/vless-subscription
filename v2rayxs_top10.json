@@ -1,6 +1,262 @@
 [
   {
-    "tag": "AUTO-01-ID",
+    "tag": "AUTO-01-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "spkdgni-production.up.railway.app",
+          "port": 443,
+          "users": [
+            {
+              "id": "d12b2e29-1dee-4c56-aa8d-35d153f9b043",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/ws/d12b2e29-1dee-4c56-aa8d-35d153f9b043",
+        "headers": {
+          "Host": "spkdgni-production.up.railway.app"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "nl-s-1.pythonmakemigreat.wiki",
+          "port": 443,
+          "users": [
+            {
+              "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nl-s-1.pythonmakemigreat.wiki",
+        "fingerprint": "firefox",
+        "publicKey": "ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg",
+        "shortId": "78f97d82e16aaad6",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "93.188.184.150",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ru-1-2.unturned-rust-dead.lol",
+        "fingerprint": "ios",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "ru-api",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "selgw.phantom.direct",
+          "port": 443,
+          "users": [
+            {
+              "id": "54c4bece-fa4f-4ac3-9c19-7c12b379cd0a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "selgw.phantom.direct",
+        "fingerprint": "firefox",
+        "publicKey": "kxjx6ax6xfttNS6CSzgLVZZlKmvQ8d5EPY9ELQQjvkM",
+        "shortId": "10600edc6cfa209e",
+        "spiderX": "/"
+      },
+      "grpcSettings": {
+        "serviceName": "grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "185.91.52.86",
+          "port": 443,
+          "users": [
+            {
+              "id": "54c4bece-fa4f-4ac3-9c19-7c12b379cd0a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "selgw.phantom.direct",
+        "fingerprint": "firefox",
+        "publicKey": "kxjx6ax6xfttNS6CSzgLVZZlKmvQ8d5EPY9ELQQjvkM",
+        "shortId": "10600edc6cfa209e",
+        "spiderX": "/"
+      },
+      "grpcSettings": {
+        "serviceName": "grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-FR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "122.8.45.3",
+          "port": 8443,
+          "users": [
+            {
+              "id": "8ff8938c-49b6-b22f-a934-b55e91154ca3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.hp.com",
+        "fingerprint": "chrome",
+        "publicKey": "QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "87.228.92.114",
+          "port": 25481,
+          "users": [
+            {
+              "id": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.bing.com",
+        "fingerprint": "firefox",
+        "publicKey": "mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E",
+        "shortId": "3b84fc70657725af",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "8cb5baa18cd7",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-ID",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.58.95.11",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -33,7 +289,7 @@
     }
   },
   {
-    "tag": "AUTO-02-ID",
+    "tag": "AUTO-10-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
