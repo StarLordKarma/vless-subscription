@@ -5,11 +5,39 @@
     "settings": {
       "vnext": [
         {
-          "address": "94.26.3.25",
+          "address": "sinavm4.soft10.ir",
+          "port": 8443,
+          "users": [
+            {
+              "id": "d099df58-2b19-437a-b3ca-1173110a3550",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "headers": {
+          "Host": "sinavm6.soft10.ir"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "144.31.14.154",
           "port": 443,
           "users": [
             {
-              "id": "6d5c8390-69fb-4bcf-a2f9-d7f850aaf2cc",
+              "id": "62610fc6-8333-41f9-9258-08915e4343ab",
               "encryption": "none"
             }
           ]
@@ -20,25 +48,25 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "optim.tildacdn.pub",
-        "fingerprint": "random",
-        "publicKey": "54D9VU01h1iNtBP1XVSrQJr_7Cabjg8VC692kjT_VEg",
-        "shortId": "",
+        "serverName": "videodrive.top",
+        "fingerprint": "firefox",
+        "publicKey": "4M1ICsQDNmsXLWeCDCQ2mxRxJqx1vEDjSpmxNyJYhU4",
+        "shortId": "dd659fa128689d2a",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "ebl",
+        "serviceName": "",
         "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-02-ID",
+    "tag": "AUTO-03-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "31.58.95.11",
+          "address": "93.188.184.150",
           "port": 443,
           "users": [
             {
@@ -53,20 +81,53 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "serverName": "ru-1-2.unturned-rust-dead.lol",
         "fingerprint": "random",
         "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
         "shortId": "",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "gdd-grpc",
+        "serviceName": "ru-api",
         "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-03-ID",
+    "tag": "AUTO-04-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "109.172.54.135",
+          "port": 8444,
+          "users": [
+            {
+              "id": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "github.com",
+        "fingerprint": "chrome",
+        "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "GunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -99,40 +160,7 @@
     }
   },
   {
-    "tag": "AUTO-04-FR",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "195.177.94.131",
-          "port": 443,
-          "users": [
-            {
-              "id": "6d5c8390-69fb-4bcf-a2f9-d7f850aaf2cc",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "optim.tildacdn.pub",
-        "fingerprint": "random",
-        "publicKey": "54D9VU01h1iNtBP1XVSrQJr_7Cabjg8VC692kjT_VEg",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "ebl",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-ID",
+    "tag": "AUTO-06-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -165,16 +193,16 @@
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-07-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "146.75.119.82",
-          "port": 80,
+          "address": "31.58.95.11",
+          "port": 443,
           "users": [
             {
-              "id": "83914feb-8d46-45d5-9683-132ff1d86d80",
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
               "encryption": "none"
             }
           ]
@@ -182,13 +210,18 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
-        "headers": {
-          "Host": "rb24.ir"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
       }
     }
   }
