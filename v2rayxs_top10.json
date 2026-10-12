@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "sinavm4.soft10.ir",
-          "port": 8443,
+          "address": "cdn-origin.lovkisport.blog",
+          "port": 443,
           "users": [
             {
-              "id": "d099df58-2b19-437a-b3ca-1173110a3550",
+              "id": "7ab3c77e-8fcc-4848-918f-cae3d4eac794",
               "encryption": "none"
             }
           ]
@@ -17,27 +17,25 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
+      "network": "grpc",
       "security": "tls",
-      "wsSettings": {
-        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM",
-        "headers": {
-          "Host": "sinavm6.soft10.ir"
-        }
+      "grpcSettings": {
+        "serviceName": "grpc",
+        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-02-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "144.31.14.154",
+          "address": "ru-1-2.unturned-rust-dead.lol",
           "port": 443,
           "users": [
             {
-              "id": "62610fc6-8333-41f9-9258-08915e4343ab",
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
               "encryption": "none"
             }
           ]
@@ -48,14 +46,14 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "videodrive.top",
-        "fingerprint": "firefox",
-        "publicKey": "4M1ICsQDNmsXLWeCDCQ2mxRxJqx1vEDjSpmxNyJYhU4",
-        "shortId": "dd659fa128689d2a",
+        "serverName": "ru-1-2.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "",
+        "serviceName": "ru-api",
         "multiMode": false
       }
     }
@@ -94,16 +92,16 @@
     }
   },
   {
-    "tag": "AUTO-04-FI",
+    "tag": "AUTO-04-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "109.172.54.135",
-          "port": 8444,
+          "address": "185.86.145.78",
+          "port": 8443,
           "users": [
             {
-              "id": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+              "id": "2292dd55-db84-45e3-89bc-9a23fd904b22",
               "encryption": "none"
             }
           ]
@@ -114,29 +112,29 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "github.com",
-        "fingerprint": "chrome",
-        "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-        "shortId": "",
+        "serverName": "idlecore.me",
+        "fingerprint": "random",
+        "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
+        "shortId": "a1b2c3d4",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "GunService",
+        "serviceName": "",
         "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-05-ID",
+    "tag": "AUTO-05-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "de-gdd-1.unturned-rust-dead.lol",
+          "address": "31.59.210.32",
           "port": 443,
           "users": [
             {
-              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "id": "5413edfb-08d6-4fba-b51c-809c04feb127",
               "encryption": "none"
             }
           ]
@@ -147,14 +145,14 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "de-gdd-1.unturned-rust-dead.lol",
-        "fingerprint": "random",
-        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
-        "shortId": "",
+        "serverName": "www.yandex.ru",
+        "fingerprint": "safari",
+        "publicKey": "qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA",
+        "shortId": "7ec4374ffc6308fd",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "gdd-grpc",
+        "serviceName": "astracat",
         "multiMode": false
       }
     }
@@ -165,7 +163,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "31.58.95.10",
+          "address": "31.58.95.11",
           "port": 443,
           "users": [
             {
@@ -198,7 +196,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "31.58.95.11",
+          "address": "31.58.95.10",
           "port": 443,
           "users": [
             {
@@ -222,6 +220,67 @@
       "grpcSettings": {
         "serviceName": "gdd-grpc",
         "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-ID",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "de-gdd-1.unturned-rust-dead.lol",
+          "port": 443,
+          "users": [
+            {
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
+        "fingerprint": "random",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "gdd-grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-IR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "toping.zovip2.ir",
+          "port": 443,
+          "users": [
+            {
+              "id": "9f9b66ba-e964-4e0e-be38-293134868a67",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/gropcdn",
+        "headers": {
+          "Host": "toping.zovip2.ir"
+        }
       }
     }
   }
