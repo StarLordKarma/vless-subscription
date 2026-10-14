@@ -5,39 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "193.233.74.6",
-          "port": 8444,
-          "users": [
-            {
-              "id": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "github.com",
-        "fingerprint": "firefox",
-        "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-        "shortId": "457fab2ac885dbe0",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "GunService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "ragnarok-vpn.ru",
           "port": 8443,
           "users": [
@@ -60,6 +27,28 @@
         "shortId": "5bfa1416",
         "spiderX": ""
       }
+    }
+  },
+  {
+    "tag": "AUTO-02-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "milo.rubinaz.xyz",
+          "port": 8080,
+          "users": [
+            {
+              "id": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "none"
     }
   }
 ]
