@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-ID",
+    "tag": "AUTO-01-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "31.58.95.11",
-          "port": 443,
+          "address": "193.233.74.6",
+          "port": 8444,
           "users": [
             {
-              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+              "id": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
               "encryption": "none"
             }
           ]
@@ -20,86 +20,20 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "de-gdd-1.unturned-rust-dead.lol",
-        "fingerprint": "random",
-        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
-        "shortId": "",
+        "serverName": "github.com",
+        "fingerprint": "firefox",
+        "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+        "shortId": "457fab2ac885dbe0",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "gdd-grpc",
+        "serviceName": "GunService",
         "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-02-ID",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.58.95.10",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "de-gdd-1.unturned-rust-dead.lol",
-        "fingerprint": "random",
-        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "gdd-grpc",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-ID",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "de-gdd-1.unturned-rust-dead.lol",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "de-gdd-1.unturned-rust-dead.lol",
-        "fingerprint": "random",
-        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "gdd-grpc",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-DE",
+    "tag": "AUTO-02-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
