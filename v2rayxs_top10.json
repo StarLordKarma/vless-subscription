@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "video-origin.lovkisport.blog",
-          "port": 443,
+          "address": "146.75.119.82",
+          "port": 80,
           "users": [
             {
-              "id": "f310a861-cca2-4f6f-8db2-30102fccd0ae",
+              "id": "b434e547-645f-4060-92c0-6b9d0a905590",
               "encryption": "none"
             }
           ]
@@ -17,101 +17,18 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "grpc",
-        "multiMode": false
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "ws/?ed=2048/@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1@VPNine1/?2048",
+        "headers": {
+          "Host": "rb24.ir"
+        }
       }
     }
   },
   {
     "tag": "AUTO-02-ID",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "de-gdd-1.unturned-rust-dead.lol",
-          "port": 443,
-          "users": [
-            {
-              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "de-gdd-1.unturned-rust-dead.lol",
-        "fingerprint": "random",
-        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "gdd-grpc",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "dk.kosmolet.me",
-          "port": 2053,
-          "users": [
-            {
-              "id": "4698388f-2a3a-48ce-a4b2-ef2d3e14b05c",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/hanami",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "sora.kosmolet.xyz",
-          "port": 2053,
-          "users": [
-            {
-              "id": "4698388f-2a3a-48ce-a4b2-ef2d3e14b05c",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/hanami",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -144,66 +61,7 @@
     }
   },
   {
-    "tag": "AUTO-06-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "46.182.24.240",
-          "port": 443,
-          "users": [
-            {
-              "id": "4330a14e-455d-4b89-82d1-179efb3d0a32",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "max.ru",
-        "fingerprint": "random",
-        "publicKey": "Ed29G1bO6isJRo8iGPm7W_9c4mVFqHUilPmDP0llJW8",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "grpc-32d2699be001e4f1",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "lalibobi.online",
-          "port": 443,
-          "users": [
-            {
-              "id": "30292475-4666-4c26-bcb2-338a0919958b",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "lalibobi.orbit.v3.Connect",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-ID",
+    "tag": "AUTO-03-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -236,49 +94,46 @@
     }
   },
   {
-    "tag": "AUTO-09-RU",
+    "tag": "AUTO-04-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "tr2.h1cloud.net",
-          "port": 25375,
+          "address": "ragnarok-vpn.ru",
+          "port": 8443,
           "users": [
             {
-              "id": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
-              "encryption": "none"
+              "id": "b7df9363-087b-48f7-a4ca-6e988ebf7f35",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "grpc",
+      "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.bing.com",
-        "fingerprint": "random",
-        "publicKey": "PdiXtqIEtNpVRKgB1WCKnmIOC7yJ-VR4uUe1uYjcqXM",
-        "shortId": "8e2a0cd6de5dc50a",
+        "serverName": "amd.com",
+        "fingerprint": "edge",
+        "publicKey": "aV7fW5RmH-i6HzOiqnFlMwV_ZgfuutMpeWWfEaJBsTM",
+        "shortId": "5bfa1416",
         "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "05195f917c82",
-        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-10-RU",
+    "tag": "AUTO-05-ID",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "45.133.151.176",
-          "port": 25375,
+          "address": "de-gdd-1.unturned-rust-dead.lol",
+          "port": 443,
           "users": [
             {
-              "id": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
+              "id": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
               "encryption": "none"
             }
           ]
@@ -289,14 +144,14 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.bing.com",
+        "serverName": "de-gdd-1.unturned-rust-dead.lol",
         "fingerprint": "random",
-        "publicKey": "PdiXtqIEtNpVRKgB1WCKnmIOC7yJ-VR4uUe1uYjcqXM",
-        "shortId": "8e2a0cd6de5dc50a",
+        "publicKey": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+        "shortId": "",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "05195f917c82",
+        "serviceName": "gdd-grpc",
         "multiMode": false
       }
     }
