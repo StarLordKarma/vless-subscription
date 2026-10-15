@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "skycitybox-bidarbash.sbs",
-          "port": 443,
+          "address": "62.60.159.81",
+          "port": 2053,
           "users": [
             {
-              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+              "id": "fc00adfb-232a-46ce-8b93-0c70e516aa8a",
               "encryption": "none"
             }
           ]
@@ -17,43 +17,51 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/zoodi",
-        "headers": {
-          "Host": "skycitybox-bidarbash.sbs"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.samsung.com",
+        "fingerprint": "chrome",
+        "publicKey": "ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw",
+        "shortId": "d0ea1847066af5a6",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "grpce5bb9e71",
+        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-02-DE",
+    "tag": "AUTO-02-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "ragnarok-vpn.ru",
-          "port": 8443,
+          "address": "fi-p1.h1cloud.net",
+          "port": 25481,
           "users": [
             {
-              "id": "b7df9363-087b-48f7-a4ca-6e988ebf7f35",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
+      "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "amd.com",
-        "fingerprint": "edge",
-        "publicKey": "aV7fW5RmH-i6HzOiqnFlMwV_ZgfuutMpeWWfEaJBsTM",
-        "shortId": "5bfa1416",
+        "serverName": "www.bing.com",
+        "fingerprint": "chrome",
+        "publicKey": "mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E",
+        "shortId": "3b84fc70657725af",
         "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "8cb5baa18cd7",
+        "multiMode": false
       }
     }
   }
