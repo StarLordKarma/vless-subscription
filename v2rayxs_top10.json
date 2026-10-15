@@ -1,6 +1,34 @@
 [
   {
-    "tag": "AUTO-01-DE",
+    "tag": "AUTO-01-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "193.233.130.118",
+          "port": 14430,
+          "users": [
+            {
+              "id": "dfc3077e-b013-4fcb-a500-df3e210e88b0",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/vless",
+        "headers": {
+          "Host": "193.233.130.118"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -30,7 +58,7 @@
     }
   },
   {
-    "tag": "AUTO-02-DE",
+    "tag": "AUTO-03-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
