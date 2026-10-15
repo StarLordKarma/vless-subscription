@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "193.233.130.118",
-          "port": 14430,
+          "address": "147.45.139.187",
+          "port": 2054,
           "users": [
             {
-              "id": "dfc3077e-b013-4fcb-a500-df3e210e88b0",
+              "id": "2b173b69-8045-4fb8-b713-6db630337970",
               "encryption": "none"
             }
           ]
@@ -17,18 +17,56 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vless",
-        "headers": {
-          "Host": "193.233.130.118"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.ibm.com",
+        "fingerprint": "chrome",
+        "publicKey": "ZHNVnPSNIvQi7Sunb-pIN7sinF7iwVCmkVdyOtSgNiI",
+        "shortId": "",
+        "spiderX": "/"
+      },
+      "grpcSettings": {
+        "serviceName": "grpc-tunnel",
+        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-02-DE",
+    "tag": "AUTO-02-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "72.56.246.80",
+          "port": 443,
+          "users": [
+            {
+              "id": "2b173b69-8045-4fb8-b713-6db630337970",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "dl.google.com",
+        "fingerprint": "edge",
+        "publicKey": "ohYKVa5uVRwqzZndETnytrSXE63zaUFVNN1_T4eTHnc",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "grpc-tunnel",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -58,16 +96,110 @@
     }
   },
   {
-    "tag": "AUTO-03-DE",
+    "tag": "AUTO-04-AT",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "milo.rubinaz.xyz",
-          "port": 8080,
+          "address": "62.83.11.211",
+          "port": 2087,
           "users": [
             {
-              "id": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
+              "id": "2b173b69-8045-4fb8-b713-6db630337970",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "at3.tsumshop.org",
+        "fingerprint": "random",
+        "publicKey": "RNE9785FGHj63g_Dht-Cx0FzOPpdTPXgMFIYHurOVys",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "fortress-tunnel",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-CY",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.csgo.net",
+          "port": 2095,
+          "users": [
+            {
+              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "openapi.next-ai.us.ci"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-AT",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "159.195.254.252",
+          "port": 2054,
+          "users": [
+            {
+              "id": "2b173b69-8045-4fb8-b713-6db630337970",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.ibm.com",
+        "fingerprint": "chrome",
+        "publicKey": "CCqDL--XyZoTpj5A7XSvTpc7cRvGrH493K-nVrZ8O3U",
+        "shortId": "",
+        "spiderX": "/"
+      },
+      "grpcSettings": {
+        "serviceName": "grpc-tunnel",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "45.133.151.186",
+          "port": 25393,
+          "users": [
+            {
+              "id": "d54a7512-dda3-4218-8ae7-c591d300fd7c",
               "encryption": "none"
             }
           ]
@@ -76,7 +208,14 @@
     },
     "streamSettings": {
       "network": "tcp",
-      "security": "none"
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.samsung.com",
+        "fingerprint": "firefox",
+        "publicKey": "04F4vhrx_H_SHsrsVw1eCpwlysu4kL3hTl9GAr00XkI",
+        "shortId": "bcc707a7148e4a0c",
+        "spiderX": ""
+      }
     }
   }
 ]
