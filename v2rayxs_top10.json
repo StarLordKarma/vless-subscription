@@ -1,6 +1,39 @@
 [
   {
-    "tag": "AUTO-01-SE",
+    "tag": "AUTO-01-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "31.76.246.42",
+          "port": 706,
+          "users": [
+            {
+              "id": "e5544327-834c-455a-9db5-2454c788fa17",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.amd.com",
+        "fingerprint": "firefox",
+        "publicKey": "6ABNRK-j4hVgo-DwsX3zxMSjMOuudrVZRxLde3XB530",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-SE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -28,39 +61,6 @@
       },
       "grpcSettings": {
         "serviceName": "grpce5bb9e71",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "fi-p1.h1cloud.net",
-          "port": 25481,
-          "users": [
-            {
-              "id": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.bing.com",
-        "fingerprint": "chrome",
-        "publicKey": "mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E",
-        "shortId": "3b84fc70657725af",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "8cb5baa18cd7",
         "multiMode": false
       }
     }
