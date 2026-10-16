@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-SE",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "62.60.159.81",
-          "port": 2053,
+          "address": "skycitybox-bidarbash.sbs",
+          "port": 443,
           "users": [
             {
-              "id": "fc00adfb-232a-46ce-8b93-0c70e516aa8a",
+              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
               "encryption": "none"
             }
           ]
@@ -17,18 +17,13 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.samsung.com",
-        "fingerprint": "chrome",
-        "publicKey": "ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw",
-        "shortId": "d0ea1847066af5a6",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "grpce5bb9e71",
-        "multiMode": false
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/zoodi",
+        "headers": {
+          "Host": "skycitybox-bidarbash.sbs"
+        }
       }
     }
   }
