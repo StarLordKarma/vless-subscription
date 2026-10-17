@@ -28,7 +28,40 @@
     }
   },
   {
-    "tag": "AUTO-02-RU",
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "157.228.132.79",
+          "port": 2054,
+          "users": [
+            {
+              "id": "cdc72f62-1697-4644-b5a9-ca6308584c86",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "cloud.ibm.com",
+        "fingerprint": "firefox",
+        "publicKey": "UgJ0ENqGGX-ch2mLdRZiw67OhU3Dqz7rDYCPKcdnn0w",
+        "shortId": "d3d9e08a74807928",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -54,46 +87,16 @@
     }
   },
   {
-    "tag": "AUTO-03-PL",
+    "tag": "AUTO-04-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "revers.bachidze.com",
+          "address": "studio.10media.top",
           "port": 443,
           "users": [
             {
-              "id": "8a9c586c-4b2c-49e5-9e78-97408bf58500",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "poland.travel",
-        "fingerprint": "random",
-        "publicKey": "TIKEWdxQBblFGWMQmQWserNef8P1rqJCfCLLi-KB32s",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "sdcdethyerft.localip.ir",
-          "port": 2087,
-          "users": [
-            {
-              "id": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
+              "id": "9cb8d71c-fe06-4402-a591-eaa1f173b890",
               "encryption": "none"
             }
           ]
@@ -101,13 +104,11 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
+      "network": "grpc",
       "security": "tls",
-      "wsSettings": {
-        "path": "/hokm",
-        "headers": {
-          "Host": "sdcdethyerft.localip.ir"
-        }
+      "grpcSettings": {
+        "serviceName": "studiofeed",
+        "multiMode": false
       }
     }
   }
