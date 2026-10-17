@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "skycitybox-bidarbash.sbs",
+          "address": "testuiwrty-production.up.railway.app",
           "port": 443,
           "users": [
             {
-              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+              "id": "b64a14b9-c7aa-db05-6836-2fc627190b17",
               "encryption": "none"
             }
           ]
@@ -20,9 +20,9 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/zoodi",
+        "path": "/ws/b64a14b9-c7aa-db05-6836-2fc627190b17",
         "headers": {
-          "Host": "skycitybox-bidarbash.sbs"
+          "Host": "testuiwrty-production.up.railway.app"
         }
       }
     }
@@ -33,11 +33,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "www.epicgames.com",
-          "port": 2095,
+          "address": "us-4bf85a22b1.shamanapp.online",
+          "port": 10453,
           "users": [
             {
-              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+              "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
               "encryption": "none"
             }
           ]
@@ -45,13 +45,117 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "openapi.pure-ai.us.ci"
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.google.com",
+        "fingerprint": "random",
+        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "162.35.126.130",
+          "port": 10453,
+          "users": [
+            {
+              "id": "44be1ab8-f3f9-420c-a6ed-e4c249dd37a9",
+              "encryption": "none"
+            }
+          ]
         }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.google.com",
+        "fingerprint": "random",
+        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-FR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "95.163.152.205",
+          "port": 8443,
+          "users": [
+            {
+              "id": "a4b5dc53-2eee-4c5e-ac43-d8f0fdc36a40",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.rutube.ru",
+        "fingerprint": "firefox",
+        "publicKey": "-4Pl-pR8KrwgKJXXSeSqpIAhKgic55vhu3ll3MR75wY",
+        "shortId": "44e753a7281b40d7",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "api.v1.Sync",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "193.233.74.6",
+          "port": 8444,
+          "users": [
+            {
+              "id": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "github.com",
+        "fingerprint": "firefox",
+        "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+        "shortId": "457fab2ac885dbe0",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "GunService",
+        "multiMode": false
       }
     }
   }
