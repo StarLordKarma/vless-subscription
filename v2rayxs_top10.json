@@ -5,6 +5,39 @@
     "settings": {
       "vnext": [
         {
+          "address": "us-4bf85a22b1.shamanapp.online",
+          "port": 10453,
+          "users": [
+            {
+              "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.google.com",
+        "fingerprint": "random",
+        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "162.35.126.130",
           "port": 10453,
           "users": [
@@ -21,100 +54,13 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "www.google.com",
-        "fingerprint": "chrome",
+        "fingerprint": "firefox",
         "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
         "shortId": "",
         "spiderX": ""
       },
       "grpcSettings": {
         "serviceName": "TunService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "gpt.prem-ai.shop",
-          "port": 443,
-          "users": [
-            {
-              "id": "c19ecc7f-8312-4d9d-90c9-1a997d82d3c5",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/stream/v1/session/media",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-CY",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "www.csgo.net",
-          "port": 2095,
-          "users": [
-            {
-              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "openapi.pure-ai.us.ci"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "ru6.my-cdn.org",
-          "port": 23688,
-          "users": [
-            {
-              "id": "c19ecc7f-8312-4d9d-90c9-1a997d82d3c5",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "apple.com",
-        "fingerprint": "qq",
-        "publicKey": "kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk",
-        "shortId": "f679b4f2",
-        "spiderX": "/"
-      },
-      "grpcSettings": {
-        "serviceName": "awarecricketer",
         "multiMode": false
       }
     }
