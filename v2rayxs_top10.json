@@ -5,6 +5,34 @@
     "settings": {
       "vnext": [
         {
+          "address": "redcloudport-bidarbash.sbs",
+          "port": 443,
+          "users": [
+            {
+              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/zoodi",
+        "headers": {
+          "Host": "redcloudport-bidarbash.sbs"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "www.epicgames.com",
           "port": 2095,
           "users": [
@@ -28,7 +56,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -61,7 +89,7 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -89,6 +117,39 @@
       },
       "grpcSettings": {
         "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "157.228.149.211",
+          "port": 2054,
+          "users": [
+            {
+              "id": "cdc72f62-1697-4644-b5a9-ca6308584c86",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "cloud.ibm.com",
+        "fingerprint": "firefox",
+        "publicKey": "UgJ0ENqGGX-ch2mLdRZiw67OhU3Dqz7rDYCPKcdnn0w",
+        "shortId": "d3d9e08a74807928",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "grpc",
         "multiMode": false
       }
     }
