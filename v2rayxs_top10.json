@@ -5,6 +5,34 @@
     "settings": {
       "vnext": [
         {
+          "address": "mkoshjs-production.up.railway.app",
+          "port": 443,
+          "users": [
+            {
+              "id": "38d39186-3235-f8a4-86e3-b50fc6e4b308",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/ws/38d39186-3235-f8a4-86e3-b50fc6e4b308",
+        "headers": {
+          "Host": "mkoshjs-production.up.railway.app"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "redcloudport-bidarbash.sbs",
           "port": 443,
           "users": [
@@ -28,12 +56,12 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "www.epicgames.com",
+          "address": "www.wto.org",
           "port": 2095,
           "users": [
             {
@@ -52,105 +80,6 @@
         "headers": {
           "Host": "openapi.pure-ai.us.ci"
         }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "us-4bf85a22b1.shamanapp.online",
-          "port": 10453,
-          "users": [
-            {
-              "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.google.com",
-        "fingerprint": "random",
-        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "162.35.126.130",
-          "port": 10453,
-          "users": [
-            {
-              "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.google.com",
-        "fingerprint": "firefox",
-        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "157.228.149.211",
-          "port": 2054,
-          "users": [
-            {
-              "id": "cdc72f62-1697-4644-b5a9-ca6308584c86",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "cloud.ibm.com",
-        "fingerprint": "firefox",
-        "publicKey": "UgJ0ENqGGX-ch2mLdRZiw67OhU3Dqz7rDYCPKcdnn0w",
-        "shortId": "d3d9e08a74807928",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "grpc",
-        "multiMode": false
       }
     }
   }
