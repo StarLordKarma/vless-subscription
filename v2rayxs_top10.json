@@ -5,7 +5,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "us-4bf85a22b1.shamanapp.online",
+          "address": "162.35.126.130",
           "port": 10453,
           "users": [
             {
@@ -21,7 +21,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "www.google.com",
-        "fingerprint": "random",
+        "fingerprint": "chrome",
         "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
         "shortId": "",
         "spiderX": ""
@@ -33,16 +33,16 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-02-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "162.35.126.130",
-          "port": 10453,
+          "address": "gpt.prem-ai.shop",
+          "port": 443,
           "users": [
             {
-              "id": "44be1ab8-f3f9-420c-a6ed-e4c249dd37a9",
+              "id": "c19ecc7f-8312-4d9d-90c9-1a997d82d3c5",
               "encryption": "none"
             }
           ]
@@ -50,32 +50,25 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.google.com",
-        "fingerprint": "random",
-        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/stream/v1/session/media",
+        "headers": {}
       }
     }
   },
   {
-    "tag": "AUTO-03-FR",
+    "tag": "AUTO-03-CY",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "95.163.152.205",
-          "port": 8443,
+          "address": "www.csgo.net",
+          "port": 2095,
           "users": [
             {
-              "id": "a4b5dc53-2eee-4c5e-ac43-d8f0fdc36a40",
+              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
               "encryption": "none"
             }
           ]
@@ -83,32 +76,27 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.rutube.ru",
-        "fingerprint": "firefox",
-        "publicKey": "-4Pl-pR8KrwgKJXXSeSqpIAhKgic55vhu3ll3MR75wY",
-        "shortId": "44e753a7281b40d7",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "api.v1.Sync",
-        "multiMode": false
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "openapi.pure-ai.us.ci"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-04-DE",
+    "tag": "AUTO-04-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "193.233.74.6",
-          "port": 8444,
+          "address": "ru6.my-cdn.org",
+          "port": 23688,
           "users": [
             {
-              "id": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+              "id": "c19ecc7f-8312-4d9d-90c9-1a997d82d3c5",
               "encryption": "none"
             }
           ]
@@ -119,14 +107,14 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "github.com",
-        "fingerprint": "firefox",
-        "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-        "shortId": "457fab2ac885dbe0",
-        "spiderX": ""
+        "serverName": "apple.com",
+        "fingerprint": "qq",
+        "publicKey": "kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk",
+        "shortId": "f679b4f2",
+        "spiderX": "/"
       },
       "grpcSettings": {
-        "serviceName": "GunService",
+        "serviceName": "awarecricketer",
         "multiMode": false
       }
     }
