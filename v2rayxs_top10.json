@@ -5,34 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "testuiwrty-production.up.railway.app",
-          "port": 443,
-          "users": [
-            {
-              "id": "b64a14b9-c7aa-db05-6836-2fc627190b17",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/ws/b64a14b9-c7aa-db05-6836-2fc627190b17",
-        "headers": {
-          "Host": "testuiwrty-production.up.railway.app"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "us-4bf85a22b1.shamanapp.online",
           "port": 10453,
           "users": [
@@ -61,7 +33,7 @@
     }
   },
   {
-    "tag": "AUTO-03-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -94,7 +66,7 @@
     }
   },
   {
-    "tag": "AUTO-04-FR",
+    "tag": "AUTO-03-FR",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -127,7 +99,7 @@
     }
   },
   {
-    "tag": "AUTO-05-DE",
+    "tag": "AUTO-04-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
