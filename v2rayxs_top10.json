@@ -5,11 +5,39 @@
     "settings": {
       "vnext": [
         {
-          "address": "162.35.126.130",
-          "port": 10453,
+          "address": "redcloudport-bidarbash.sbs",
+          "port": 443,
           "users": [
             {
-              "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
+              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/zoodi",
+        "headers": {
+          "Host": "redcloudport-bidarbash.sbs"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "89.169.54.163",
+          "port": 8443,
+          "users": [
+            {
+              "id": "7710373d-abbb-4d6e-88cc-12702fb70aee",
               "encryption": "none"
             }
           ]
@@ -20,14 +48,14 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.google.com",
+        "serverName": "de.ataloqe.com",
         "fingerprint": "firefox",
-        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
-        "shortId": "",
+        "publicKey": "SCdM-SIhOQOCMN0Mq1tomLtD4jwYTB3Wk7ByeApjcgU",
+        "shortId": "4d8f2a9c1e7b6f34",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "TunService",
+        "serviceName": "grpc",
         "multiMode": false
       }
     }
