@@ -61,34 +61,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "www.wto.org",
-          "port": 2095,
-          "users": [
-            {
-              "id": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "openapi.pure-ai.us.ci"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "162.35.126.130",
           "port": 10453,
           "users": [
@@ -113,67 +85,6 @@
       "grpcSettings": {
         "serviceName": "TunService",
         "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-UK",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.76.246.14",
-          "port": 706,
-          "users": [
-            {
-              "id": "9780207b-d02a-493a-9bf1-ebc1a4486b34",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.amd.com",
-        "fingerprint": "firefox",
-        "publicKey": "6ABNRK-j4hVgo-DwsX3zxMSjMOuudrVZRxLde3XB530",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-IR",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "tr4.geekandtips.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "4abd26d4-2e31-49ef-ae92-cd87b216bae4",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "tr4.geekandtips.com"
-        }
       }
     }
   }
