@@ -28,7 +28,40 @@
     }
   },
   {
-    "tag": "AUTO-02-DE",
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "us-4bf85a22b1.shamanapp.online",
+          "port": 10453,
+          "users": [
+            {
+              "id": "b3a11068-1a7e-4643-85de-7c82cce46943",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.google.com",
+        "fingerprint": "random",
+        "publicKey": "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -49,7 +82,7 @@
       "security": "reality",
       "realitySettings": {
         "serverName": "de.ataloqe.com",
-        "fingerprint": "firefox",
+        "fingerprint": "chrome",
         "publicKey": "SCdM-SIhOQOCMN0Mq1tomLtD4jwYTB3Wk7ByeApjcgU",
         "shortId": "4d8f2a9c1e7b6f34",
         "spiderX": ""
