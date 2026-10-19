@@ -5,62 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "mkoshjs-production.up.railway.app",
-          "port": 443,
-          "users": [
-            {
-              "id": "38d39186-3235-f8a4-86e3-b50fc6e4b308",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/ws/38d39186-3235-f8a4-86e3-b50fc6e4b308",
-        "headers": {
-          "Host": "mkoshjs-production.up.railway.app"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "redcloudport-bidarbash.sbs",
-          "port": 443,
-          "users": [
-            {
-              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/zoodi",
-        "headers": {
-          "Host": "redcloudport-bidarbash.sbs"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "162.35.126.130",
           "port": 10453,
           "users": [
@@ -84,6 +28,72 @@
       },
       "grpcSettings": {
         "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "82.97.250.65",
+          "port": 575,
+          "users": [
+            {
+              "id": "7eecba82-6a8a-4f6a-bff9-baa092931150",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.apple.com",
+        "fingerprint": "chrome",
+        "publicKey": "1XIlqSLyGHU0SpiO3MPhDJADm3em_ggYba-3dBIqRRA",
+        "shortId": "96ef740f897a1731",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "grpc",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "157.22.241.124",
+          "port": 8456,
+          "users": [
+            {
+              "id": "a346c521-7a7f-452b-9356-a4893feb5982",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "github.com",
+        "fingerprint": "firefox",
+        "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+        "shortId": "457fab2ac885dbe0",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "GunService",
         "multiMode": false
       }
     }
