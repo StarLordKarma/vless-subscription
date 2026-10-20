@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "redcloudport-bidarbash.sbs",
+          "address": "uitestytrio-production.up.railway.app",
           "port": 443,
           "users": [
             {
-              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+              "id": "a142a191-e107-6bd4-7349-530e27d6cc17",
               "encryption": "none"
             }
           ]
@@ -20,9 +20,9 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/zoodi",
+        "path": "/ws/a142a191-e107-6bd4-7349-530e27d6cc17",
         "headers": {
-          "Host": "redcloudport-bidarbash.sbs"
+          "Host": "uitestytrio-production.up.railway.app"
         }
       }
     }
