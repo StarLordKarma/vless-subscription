@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "uitestytrio-production.up.railway.app",
+          "address": "uiuxtestdfgh-production.up.railway.app",
           "port": 443,
           "users": [
             {
-              "id": "a142a191-e107-6bd4-7349-530e27d6cc17",
+              "id": "01f71c9f-fa9b-449d-2ee2-79a2f14de293",
               "encryption": "none"
             }
           ]
@@ -20,10 +20,98 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/ws/a142a191-e107-6bd4-7349-530e27d6cc17",
+        "path": "/ws/01f71c9f-fa9b-449d-2ee2-79a2f14de293",
         "headers": {
-          "Host": "uitestytrio-production.up.railway.app"
+          "Host": "uiuxtestdfgh-production.up.railway.app"
         }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "redrocketnode-bidarbash.sbs",
+          "port": 443,
+          "users": [
+            {
+              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/zoodi",
+        "headers": {
+          "Host": "redrocketnode-bidarbash.sbs"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "103.24.207.40",
+          "port": 444,
+          "users": [
+            {
+              "id": "258d8fc5-206c-48fd-88df-169dbbe44d3f",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "vextor.win",
+        "fingerprint": "firefox",
+        "publicKey": "P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "de.puflino.com",
+          "port": 443,
+          "users": [
+            {
+              "id": "258d8fc5-206c-48fd-88df-169dbbe44d3f",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "edge-fr.extazy.net",
+        "fingerprint": "firefox",
+        "publicKey": "ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY",
+        "shortId": "",
+        "spiderX": ""
       }
     }
   }
