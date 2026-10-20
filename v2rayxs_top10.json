@@ -28,35 +28,7 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "redrocketnode-bidarbash.sbs",
-          "port": 443,
-          "users": [
-            {
-              "id": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/zoodi",
-        "headers": {
-          "Host": "redrocketnode-bidarbash.sbs"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-RU",
+    "tag": "AUTO-02-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -86,7 +58,7 @@
     }
   },
   {
-    "tag": "AUTO-04-DE",
+    "tag": "AUTO-03-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
