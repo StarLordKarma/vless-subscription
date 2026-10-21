@@ -1,34 +1,6 @@
 [
   {
-    "tag": "AUTO-01-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "uiuxtestdfgh-production.up.railway.app",
-          "port": 443,
-          "users": [
-            {
-              "id": "01f71c9f-fa9b-449d-2ee2-79a2f14de293",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/ws/01f71c9f-fa9b-449d-2ee2-79a2f14de293",
-        "headers": {
-          "Host": "uiuxtestdfgh-production.up.railway.app"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-RU",
+    "tag": "AUTO-01-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -54,6 +26,39 @@
         "publicKey": "P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0",
         "shortId": "",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "193.148.253.53",
+          "port": 25363,
+          "users": [
+            {
+              "id": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.chip.de",
+        "fingerprint": "firefox",
+        "publicKey": "shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU",
+        "shortId": "7a8e24da4eb2c1b5",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "43f41cd7fee0",
+        "multiMode": false
       }
     }
   },
