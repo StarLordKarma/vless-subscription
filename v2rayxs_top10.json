@@ -1,45 +1,15 @@
 [
   {
-    "tag": "AUTO-01-RU",
+    "tag": "AUTO-01-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "103.24.207.40",
-          "port": 444,
+          "address": "hw3.divarkhaghazi.com",
+          "port": 465,
           "users": [
             {
-              "id": "258d8fc5-206c-48fd-88df-169dbbe44d3f",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "vextor.win",
-        "fingerprint": "firefox",
-        "publicKey": "P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "193.148.253.53",
-          "port": 25363,
-          "users": [
-            {
-              "id": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+              "id": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
               "encryption": "none"
             }
           ]
@@ -47,48 +17,13 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.chip.de",
-        "fingerprint": "firefox",
-        "publicKey": "shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU",
-        "shortId": "7a8e24da4eb2c1b5",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "43f41cd7fee0",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "de.puflino.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "258d8fc5-206c-48fd-88df-169dbbe44d3f",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "hw3.divarkhaghazi.com."
         }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "edge-fr.extazy.net",
-        "fingerprint": "firefox",
-        "publicKey": "ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY",
-        "shortId": "",
-        "spiderX": ""
       }
     }
   }
