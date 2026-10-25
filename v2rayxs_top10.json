@@ -1,6 +1,64 @@
 [
   {
-    "tag": "AUTO-01-FI",
+    "tag": "AUTO-01-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "vl.cocopon.top",
+          "port": 443,
+          "users": [
+            {
+              "id": "44f06ad1-982c-4e03-849f-899c1c8dc14f",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "vl.cocopon.top"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "92.53.119.212",
+          "port": 40849,
+          "users": [
+            {
+              "id": "1ef7d97f-3aa5-0001-8521-84cf4794bf7a",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ru-hub10.lovely.my",
+        "fingerprint": "firefox",
+        "publicKey": "jkVcZ_b3iWs2FcSjC8Mb1NoRuwPgCH9HpeOOYAXBSU0",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
