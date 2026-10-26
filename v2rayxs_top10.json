@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn.ir53.indevs.in",
-          "port": 443,
+          "address": "sinavm7.soft10.ir",
+          "port": 2096,
           "users": [
             {
-              "id": "511ea264-7344-4759-9462-1f781631453c",
+              "id": "6fdef8d7-4c49-4e6e-93ec-c24ef7c41802",
               "encryption": "none"
             }
           ]
@@ -20,9 +20,9 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/varzesh3.com",
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM",
         "headers": {
-          "Host": "cdn.ir53.indevs.in"
+          "Host": "sinavm7.soft10.ir"
         }
       }
     }
@@ -33,11 +33,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "panel.frojbrpibj124.workers.dev",
-          "port": 443,
+          "address": "104.18.27.94",
+          "port": 8080,
           "users": [
             {
-              "id": "230ca1c7-75ab-4837-8bdd-c8d935b31753",
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
               "encryption": "none"
             }
           ]
@@ -46,26 +46,26 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
-          "Host": "panel.frojbrpibj124.workers.dev"
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "nl8.pad-sservice.lat",
-          "port": 8443,
+          "address": "www.gov.se",
+          "port": 8080,
           "users": [
             {
-              "id": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
               "encryption": "none"
             }
           ]
@@ -74,26 +74,26 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
-        "path": "/NL8W",
+        "path": "/",
         "headers": {
-          "Host": "nl8.pad-service.com"
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-04-RU",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "46.8.29.17",
-          "port": 443,
+          "address": "104.18.26.94",
+          "port": 8080,
           "users": [
             {
-              "id": "b2d5eabe-b95b-41ac-950c-79e7a5535416",
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
               "encryption": "none"
             }
           ]
@@ -101,48 +101,41 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "deti-online.com",
-        "fingerprint": "chrome",
-        "publicKey": "y8tdYYF4byfHuyhCUb0x8SLK2gjmhKLK_wr-QVb3Dko",
-        "shortId": "2fd2739b0851f9e4",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "skazki",
-        "multiMode": false
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-05-FI",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "fi17-node.rumedia-cdn.com",
-          "port": 8443,
+          "address": "104.19.173.68",
+          "port": 8080,
           "users": [
             {
-              "id": "d1641bc6-3757-43db-815a-9b3f4d9b0d7e",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "2500e602-671c-4654-a602-c518b7282167",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.nokia.com",
-        "fingerprint": "firefox",
-        "publicKey": "14YyFG_j2yPEUu-gO_G9GqCqRiZ0DIUgzReV9CZvOAk",
-        "shortId": "",
-        "spiderX": ""
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+        }
       }
     }
   },
@@ -170,118 +163,6 @@
         "path": "/",
         "headers": {
           "Host": "hw3.divarkhaghazi.com."
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-AT",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "au5.pad-sservice.lat",
-          "port": 8443,
-          "users": [
-            {
-              "id": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/AU5W",
-        "headers": {
-          "Host": "au5.pad-sservice.lat"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-AT",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "au2.pad-sservice.lat",
-          "port": 8443,
-          "users": [
-            {
-              "id": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/A11U",
-        "headers": {
-          "Host": "au2.pad-service.com"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "de4.pad-sservice.lat",
-          "port": 8443,
-          "users": [
-            {
-              "id": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/D14E",
-        "headers": {
-          "Host": "de4.pad-service.com"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "de6.pad-sservice.lat",
-          "port": 443,
-          "users": [
-            {
-              "id": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/DE6W",
-        "headers": {
-          "Host": "de6.pad-service.com"
         }
       }
     }
