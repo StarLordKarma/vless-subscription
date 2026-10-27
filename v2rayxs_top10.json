@@ -5,6 +5,34 @@
     "settings": {
       "vnext": [
         {
+          "address": "ava.game.naver.com",
+          "port": 80,
+          "users": [
+            {
+              "id": "d4d2b0c0-2102-4b59-b281-0dd54a2287de",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/sg-vyn",
+        "headers": {
+          "Host": "ava.game.naver.com.vff67.eu.cc"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "ccc.010304.xyz",
           "port": 443,
           "users": [
@@ -28,16 +56,16 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-03-IR",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.25.199.149",
-          "port": 80,
+          "address": "ar.vipsharifi.ir",
+          "port": 2084,
           "users": [
             {
-              "id": "50414e45-4c5f-5a45-5553-5dd075c8ae9b",
+              "id": "95d31eef-d6bc-4f0e-90c5-f74851704cdd",
               "encryption": "none"
             }
           ]
@@ -46,133 +74,12 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "none",
+      "security": "tls",
       "wsSettings": {
-        "path": "/api/ws",
+        "path": "Ed/",
         "headers": {
-          "Host": "web-app-gjn19f.z0zxy6ehuwgs.workers.dev"
+          "Host": "ar.vipsharifi.ir"
         }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "122.8.46.6",
-          "port": 8443,
-          "users": [
-            {
-              "id": "5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "download.nvidia.com",
-        "fingerprint": "chrome",
-        "publicKey": "D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "147.78.182.6",
-          "port": 8443,
-          "users": [
-            {
-              "id": "5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "www.epson.com",
-        "fingerprint": "chrome",
-        "publicKey": "Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-SG",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "sg003.zestapp778.com",
-          "port": 443,
-          "users": [
-            {
-              "id": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-06-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "83.143.106.9",
-          "port": 8443,
-          "users": [
-            {
-              "id": "5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "res.cdn.office.net",
-        "fingerprint": "chrome",
-        "publicKey": "4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
       }
     }
   }
