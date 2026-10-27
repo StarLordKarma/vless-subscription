@@ -5,151 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "104.21.227.134",
-          "port": 80,
-          "users": [
-            {
-              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY",
-        "headers": {
-          "Host": "elenaaaaaaaaaa.cloudns.pro"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.98.112",
-          "port": 80,
-          "users": [
-            {
-              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY",
-        "headers": {
-          "Host": "elenaaaaaaaaaa.cloudns.pro."
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 8080,
-          "users": [
-            {
-              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560",
-        "headers": {
-          "Host": "elenaaaaaaaaaa.cloudns.pro"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "188.114.97.6",
-          "port": 80,
-          "users": [
-            {
-              "id": "e51453d3-7972-44d7-a657-ed89520f48b6",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/au-do",
-        "headers": {
-          "Host": "web.whatsapp.com.r3xxe.eu.cc"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "141.193.213.30",
-          "port": 8880,
-          "users": [
-            {
-              "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime23.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "vless3.gem-audio2.us.ci",
+          "address": "ccc.010304.xyz",
           "port": 443,
           "users": [
             {
-              "id": "f14f0e7d-bcb0-416b-855a-17344b0242b9",
+              "id": "d342d11e-d224-4463-b982-532309285094",
               "encryption": "none"
             }
           ]
@@ -161,21 +21,23 @@
       "security": "tls",
       "wsSettings": {
         "path": "/",
-        "headers": {}
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-07-USA",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.26.12.31",
-          "port": 8080,
+          "address": "104.25.199.149",
+          "port": 80,
           "users": [
             {
-              "id": "3e06b1db-2efb-446e-ba2d-68850dfd2f9d",
+              "id": "50414e45-4c5f-5a45-5553-5dd075c8ae9b",
               "encryption": "none"
             }
           ]
@@ -186,24 +48,24 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/",
+        "path": "/api/ws",
         "headers": {
-          "Host": "bdfba-cool-tree-b580.v8fz4kbv.workers.dev"
+          "Host": "web-app-gjn19f.z0zxy6ehuwgs.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-08-USA",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.21.70.21",
-          "port": 8080,
+          "address": "122.8.46.6",
+          "port": 8443,
           "users": [
             {
-              "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+              "id": "5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f",
               "encryption": "none"
             }
           ]
@@ -211,27 +73,32 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime36.workers.dev"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "download.nvidia.com",
+        "fingerprint": "chrome",
+        "publicKey": "D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-09-USA",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "ip.sb",
-          "port": 8080,
+          "address": "147.78.182.6",
+          "port": 8443,
           "users": [
             {
-              "id": "3e06b1db-2efb-446e-ba2d-68850dfd2f9d",
+              "id": "5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f",
               "encryption": "none"
             }
           ]
@@ -239,27 +106,32 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "bdfba-cool-tree-b580.v8fz4kbv.workers.dev"
-        }
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.epson.com",
+        "fingerprint": "chrome",
+        "publicKey": "Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-10-USA",
+    "tag": "AUTO-05-SG",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "www.gov.se",
-          "port": 8080,
+          "address": "sg003.zestapp778.com",
+          "port": 443,
           "users": [
             {
-              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "id": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
               "encryption": "none"
             }
           ]
@@ -267,13 +139,40 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+  {
+    "tag": "AUTO-06-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "83.143.106.9",
+          "port": 8443,
+          "users": [
+            {
+              "id": "5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f",
+              "encryption": "none"
+            }
+          ]
         }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "res.cdn.office.net",
+        "fingerprint": "chrome",
+        "publicKey": "4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
       }
     }
   }
