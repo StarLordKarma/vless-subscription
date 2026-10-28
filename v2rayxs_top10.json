@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-DE",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "hw7.divarkhaghazi.com",
-          "port": 465,
+          "address": "fr.privatevip.ir",
+          "port": 451,
           "users": [
             {
-              "id": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
+              "id": "7c730089-1791-4828-89b2-86e7e1663063",
               "encryption": "none"
             }
           ]
@@ -18,38 +18,42 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
         "path": "/",
         "headers": {
-          "Host": "hw7.divarkhaghazi.com."
+          "Host": "fr.privatevip.ir"
         }
       }
     }
   },
   {
-    "tag": "AUTO-02-FI",
+    "tag": "AUTO-02-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "hw3.divarkhaghazi.com.",
-          "port": 465,
+          "address": "93.152.223.244",
+          "port": 443,
           "users": [
             {
-              "id": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
-              "encryption": "none"
+              "id": "706bce83-91db-4260-b175-cba29145cd56",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {}
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ddk5-ger.newagetechnologies.live",
+        "fingerprint": "qq",
+        "publicKey": "yKwDGqOdkC_nEPOQHMvAQLPcPK8YHskv_opYoY66Yk8",
+        "shortId": "",
+        "spiderX": ""
       }
     }
   },
@@ -80,6 +84,118 @@
         "publicKey": "JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs",
         "shortId": "",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "de.privatevip.ir",
+          "port": 443,
+          "users": [
+            {
+              "id": "7c730089-1791-4828-89b2-86e7e1663063",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "play.google.com"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "hw7.divarkhaghazi.com",
+          "port": 465,
+          "users": [
+            {
+              "id": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "hw7.divarkhaghazi.com."
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "gb.privatevip.ir",
+          "port": 449,
+          "users": [
+            {
+              "id": "7c730089-1791-4828-89b2-86e7e1663063",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "gb.privatevip.ir"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "lvi.su",
+          "port": 443,
+          "users": [
+            {
+              "id": "7b91b2c3-8af3-449b-a555-00c9460989f4",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2",
+        "headers": {
+          "Host": "lvi.su"
+        }
       }
     }
   }
