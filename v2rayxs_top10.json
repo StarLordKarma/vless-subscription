@@ -5,11 +5,39 @@
     "settings": {
       "vnext": [
         {
-          "address": "cfnode-11ivy8.pages.dev",
+          "address": "support.zoom.us",
+          "port": 8080,
+          "users": [
+            {
+              "id": "c2333ef1-9a43-493f-a4cf-95d8aae10faf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/cs",
+        "headers": {
+          "Host": "asia.csmaster.store"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "5.149.248.151",
           "port": 443,
           "users": [
             {
-              "id": "2ea2719c-23e1-4cde-b192-c8652d55d9e5",
+              "id": "502d54dd-3eda-49fc-b7d5-292a96042829",
               "encryption": "none"
             }
           ]
@@ -17,109 +45,60 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {}
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nla.kosmosapp.net",
+        "fingerprint": "firefox",
+        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+        "shortId": "27350908de933e09",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "neurex",
+        "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-02-FI",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "hw6.divarkhaghazi.com",
-          "port": 465,
-          "users": [
-            {
-              "id": "09f30c46-3964-41ce-882a-72aee83ddd42",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "hw6.divarkhaghazi.com."
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-FI",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "hw3.divarkhaghazi.com.",
-          "port": 465,
-          "users": [
-            {
-              "id": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "hw3.divarkhaghazi.com."
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-FI",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "hw3.divarkhaghazi.com",
-          "port": 465,
-          "users": [
-            {
-              "id": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "hw3.divarkhaghazi.com."
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "93.152.223.244",
+          "address": "vpn.cintaku.qzz.io",
           "port": 443,
           "users": [
             {
-              "id": "706bce83-91db-4260-b175-cba29145cd56",
+              "id": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/vlessws",
+        "headers": {
+          "Host": "vpn.cintaku.qzz.io"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "201.58.183.99",
+          "port": 443,
+          "users": [
+            {
+              "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -131,9 +110,39 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "ddk5-ger.newagetechnologies.live",
+        "serverName": "geminilanzerotte.live",
         "fingerprint": "qq",
-        "publicKey": "yKwDGqOdkC_nEPOQHMvAQLPcPK8YHskv_opYoY66Yk8",
+        "publicKey": "_aURfmVUjvCRZipDI2eqMO0VQa64BJRGYFOdlBFi1XQ",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "201.58.183.42",
+          "port": 443,
+          "users": [
+            {
+              "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "13oktober.live",
+        "fingerprint": "qq",
+        "publicKey": "y0wgEdmPNIKlAMJHeC0teOW_fBnX8tmRE8n1CwOZSwU",
         "shortId": "",
         "spiderX": ""
       }
