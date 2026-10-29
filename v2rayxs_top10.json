@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "fr.privatevip.ir",
-          "port": 451,
+          "address": "141.193.213.30",
+          "port": 8880,
           "users": [
             {
-              "id": "7c730089-1791-4828-89b2-86e7e1663063",
+              "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
               "encryption": "none"
             }
           ]
@@ -22,82 +22,78 @@
       "wsSettings": {
         "path": "/",
         "headers": {
-          "Host": "fr.privatevip.ir"
+          "Host": "vms.lifetime23.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-02-DE",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "93.152.223.244",
-          "port": 443,
+          "address": "104.25.199.149",
+          "port": 80,
           "users": [
             {
-              "id": "706bce83-91db-4260-b175-cba29145cd56",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "50414e45-4c5f-5a45-5553-5dd075c8ae9b",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ddk5-ger.newagetechnologies.live",
-        "fingerprint": "qq",
-        "publicKey": "yKwDGqOdkC_nEPOQHMvAQLPcPK8YHskv_opYoY66Yk8",
-        "shortId": "",
-        "spiderX": ""
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/api/ws",
+        "headers": {
+          "Host": "web-app-gjn19f.z0zxy6ehuwgs.workers.dev"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-03-BG",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "131.123.42.250",
-          "port": 8443,
+          "address": "188.114.97.6",
+          "port": 80,
           "users": [
             {
-              "id": "2da85937-93d9-4509-8491-63b1921cf447",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "e51453d3-7972-44d7-a657-ed89520f48b6",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "timeline.www.cloudflare.com",
-        "fingerprint": "firefox",
-        "publicKey": "JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs",
-        "shortId": "",
-        "spiderX": ""
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/au-do",
+        "headers": {
+          "Host": "web.whatsapp.com.r3xxe.eu.cc"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-04-DE",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "de.privatevip.ir",
-          "port": 443,
+          "address": "104.21.227.134",
+          "port": 80,
           "users": [
             {
-              "id": "7c730089-1791-4828-89b2-86e7e1663063",
+              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
               "encryption": "none"
             }
           ]
@@ -110,22 +106,50 @@
       "wsSettings": {
         "path": "/",
         "headers": {
-          "Host": "play.google.com"
+          "Host": "elenaaaaaaaaaa.cloudns.pro"
         }
       }
     }
   },
   {
-    "tag": "AUTO-05-DE",
+    "tag": "AUTO-05-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "hw7.divarkhaghazi.com",
-          "port": 465,
+          "address": "172.67.75.172",
+          "port": 8080,
           "users": [
             {
-              "id": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
+              "id": "3e06b1db-2efb-446e-ba2d-68850dfd2f9d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "bdfba-cool-tree-b580.v8fz4kbv.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "panel.frojbrpibj124.workers.dev",
+          "port": 443,
+          "users": [
+            {
+              "id": "230ca1c7-75ab-4837-8bdd-c8d935b31753",
               "encryption": "none"
             }
           ]
@@ -138,22 +162,22 @@
       "wsSettings": {
         "path": "/",
         "headers": {
-          "Host": "hw7.divarkhaghazi.com."
+          "Host": "panel.frojbrpibj124.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-06-DE",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "gb.privatevip.ir",
-          "port": 449,
+          "address": "www.gov.se",
+          "port": 8080,
           "users": [
             {
-              "id": "7c730089-1791-4828-89b2-86e7e1663063",
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
               "encryption": "none"
             }
           ]
@@ -166,22 +190,50 @@
       "wsSettings": {
         "path": "/",
         "headers": {
-          "Host": "gb.privatevip.ir"
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-07-DE",
+    "tag": "AUTO-08-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "lvi.su",
+          "address": "104.18.26.94",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "vless.gem-audio2.us.ci",
           "port": 443,
           "users": [
             {
-              "id": "7b91b2c3-8af3-449b-a555-00c9460989f4",
+              "id": "f14f0e7d-bcb0-416b-855a-17344b0242b9",
               "encryption": "none"
             }
           ]
@@ -192,9 +244,35 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2",
+        "path": "/",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.18.27.94",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
         "headers": {
-          "Host": "lvi.su"
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
         }
       }
     }
