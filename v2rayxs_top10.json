@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "150.251.143.86",
-          "port": 8443,
+          "address": "fast.145779.xyz",
+          "port": 2053,
           "users": [
             {
-              "id": "c29fa587-b10d-445d-b7e3-eaa6d1bd1330",
+              "id": "c83f15bf-1817-4ec8-a19f-6393d226434c",
               "encryption": "none"
             }
           ]
@@ -17,23 +17,46 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "est1.srv.luckdns.fun",
-        "fingerprint": "firefox",
-        "publicKey": "ASRlLIMLrchtPN9Jc8hC3HPjcDU_xzZlnQj2rcdUJ1k",
-        "shortId": "c5787235",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "Windows.Update",
-        "multiMode": false
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-02-DE",
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "piracy-android.video-streams.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "e20c9b29-4d10-4311-80f2-feeb21450230",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/ws",
+        "headers": {
+          "Host": "piracy-android.video-streams.org"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -63,16 +86,16 @@
     }
   },
   {
-    "tag": "AUTO-03-JP",
+    "tag": "AUTO-04-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "31.76.91.238",
+          "address": "62.60.229.216",
           "port": 443,
           "users": [
             {
-              "id": "a6be8b6d-3033-4a99-b9bd-75e2ab12cfd0",
+              "id": "706bce83-91db-4260-b175-cba29145cd56",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -84,11 +107,69 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "japan.selfsteal.com",
-        "fingerprint": "firefox",
-        "publicKey": "OnFi4-dm6Pf7o5CboFwfhbIA539vVtsd7ZYlPnWJVxo",
-        "shortId": "f336420d3cd15950",
+        "serverName": "aezaf1.uni-plan.com",
+        "fingerprint": "qq",
+        "publicKey": "eh8WqxaSUlfNmlGzFLYFYrJzk1novnvfU6qmaLLOiX4",
+        "shortId": "72d410ce5f2036c9",
         "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "193.8.215.116",
+          "port": 8443,
+          "users": [
+            {
+              "id": "706bce83-91db-4260-b175-cba29145cd56",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "aezau1.uni-plan.com",
+        "fingerprint": "firefox",
+        "publicKey": "HhT-m2xbI4X_o99Hzkh40v-r32sIydYNCbA7Bnqh7AY",
+        "shortId": "8f0f92607e5b353c",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "business.lesotorg-kirov.ru",
+          "port": 443,
+          "users": [
+            {
+              "id": "8f763a7f-4cda-4db1-90e3-9aeae0860dc0",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/chws",
+        "headers": {
+          "Host": "business.lesotorg-kirov.ru"
+        }
       }
     }
   }
