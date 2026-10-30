@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "support.zoom.us",
-          "port": 8080,
+          "address": "141.193.213.30",
+          "port": 8880,
           "users": [
             {
-              "id": "c2333ef1-9a43-493f-a4cf-95d8aae10faf",
+              "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
               "encryption": "none"
             }
           ]
@@ -20,24 +20,24 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/cs",
+        "path": "/",
         "headers": {
-          "Host": "asia.csmaster.store"
+          "Host": "vms.lifetime23.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-02-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "5.149.248.151",
-          "port": 443,
+          "address": "89.116.46.50",
+          "port": 8880,
           "users": [
             {
-              "id": "502d54dd-3eda-49fc-b7d5-292a96042829",
+              "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
               "encryption": "none"
             }
           ]
@@ -45,18 +45,13 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nla.kosmosapp.net",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/?ed",
+        "headers": {
+          "Host": "vms.lifetime07.workers.dev"
+        }
       }
     }
   },
@@ -66,11 +61,151 @@
     "settings": {
       "vnext": [
         {
-          "address": "vpn.cintaku.qzz.io",
-          "port": 443,
+          "address": "188.114.97.6",
+          "port": 8080,
           "users": [
             {
-              "id": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
+              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560",
+        "headers": {
+          "Host": "elenaaaaaaaaaa.cloudns.pro"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.97.6",
+          "port": 80,
+          "users": [
+            {
+              "id": "6faeb6a0-5055-4e4b-8fb1-ffd77e57aefa",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/au-do",
+        "headers": {
+          "Host": "somersby.pt.r3xxe.eu.cc"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.21.70.21",
+          "port": 8080,
+          "users": [
+            {
+              "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime11.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.digitalocean.com",
+          "port": 8080,
+          "users": [
+            {
+              "id": "2500e602-671c-4654-a602-c518b7282167",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.18.26.94",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-KZ",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "3h-kazakhstan1.09vpn.com",
+          "port": 8443,
+          "users": [
+            {
+              "id": "2424febb-43cb-488d-bdd1-401e923c8e48",
               "encryption": "none"
             }
           ]
@@ -81,70 +216,8 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/vlessws",
-        "headers": {
-          "Host": "vpn.cintaku.qzz.io"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "201.58.183.99",
-          "port": 443,
-          "users": [
-            {
-              "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "geminilanzerotte.live",
-        "fingerprint": "qq",
-        "publicKey": "_aURfmVUjvCRZipDI2eqMO0VQa64BJRGYFOdlBFi1XQ",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "201.58.183.42",
-          "port": 443,
-          "users": [
-            {
-              "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "13oktober.live",
-        "fingerprint": "qq",
-        "publicKey": "y0wgEdmPNIKlAMJHeC0teOW_fBnX8tmRE8n1CwOZSwU",
-        "shortId": "",
-        "spiderX": ""
+        "path": "/vless/",
+        "headers": {}
       }
     }
   }
