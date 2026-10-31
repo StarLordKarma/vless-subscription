@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "fast.145779.xyz",
-          "port": 2053,
+          "address": "135.106.153.131",
+          "port": 443,
           "users": [
             {
-              "id": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+              "id": "a5212bcb-ab85-459a-bec6-9f259eeeebfa",
               "encryption": "none"
             }
           ]
@@ -17,13 +17,14 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/ws-tesla",
-        "headers": {
-          "Host": "fast.145779.xyz"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "rug.tems.bet",
+        "fingerprint": "firefox",
+        "publicKey": "OIWmjOL9lOxVRm-ejEvQf_G-Km-5Rw3L-w5d8rhVzQw",
+        "shortId": "69b1363a7dfd97d3",
+        "spiderX": ""
       }
     }
   }
