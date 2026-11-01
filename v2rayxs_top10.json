@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-RU",
+    "tag": "AUTO-01-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "135.106.153.131",
-          "port": 443,
+          "address": "hw14.roghanmo.com",
+          "port": 465,
           "users": [
             {
-              "id": "a5212bcb-ab85-459a-bec6-9f259eeeebfa",
+              "id": "98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8",
               "encryption": "none"
             }
           ]
@@ -17,14 +17,13 @@
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "rug.tems.bet",
-        "fingerprint": "firefox",
-        "publicKey": "OIWmjOL9lOxVRm-ejEvQf_G-Km-5Rw3L-w5d8rhVzQw",
-        "shortId": "69b1363a7dfd97d3",
-        "spiderX": ""
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "hw14.roghanmo.com"
+        }
       }
     }
   }
