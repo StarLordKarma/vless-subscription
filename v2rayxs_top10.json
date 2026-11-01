@@ -1,6 +1,150 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "cdn-waw.edgeptr.org",
+          "port": 8080,
+          "users": [
+            {
+              "id": "e9eee695-a376-45b7-8286-1204e18dce5a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "179.236.130.201",
+          "port": 443,
+          "users": [
+            {
+              "id": "12b38dd4-d74c-4222-a58f-eee6940634d8",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "eu121.cdn77.icu",
+        "fingerprint": "firefox",
+        "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+        "shortId": "1ed136481e0ede74",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.21.70.21",
+          "port": 8080,
+          "users": [
+            {
+              "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime11.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "94.183.206.48",
+          "port": 7443,
+          "users": [
+            {
+              "id": "12776e55-6230-48b9-b069-1bb8a04b4237",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "optim.tildacdn.pub",
+        "fingerprint": "firefox",
+        "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "ebl",
+        "multiMode": true
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.19.233.159",
+          "port": 80,
+          "users": [
+            {
+              "id": "50414e45-4c5f-5a45-5553-5dd075c8ae9b",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/api/ws",
+        "headers": {
+          "Host": "web-app-gjn19f.z0zxy6ehuwgs.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -9,7 +153,7 @@
           "port": 443,
           "users": [
             {
-              "id": "754aa943-ab43-41ec-9791-c0e77d9fbfef",
+              "id": "d3117332-c109-48ea-9125-954999131651",
               "encryption": "none"
             }
           ]
@@ -33,16 +177,16 @@
     }
   },
   {
-    "tag": "AUTO-02-USA",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "lat.wawojk.dpdns.org",
+          "address": "bounded-crammed.video-streams.org",
           "port": 443,
           "users": [
             {
-              "id": "8c6ce8eb-57ba-4fc3-a365-a20617a1d1bc",
+              "id": "91c35e01-00bf-41f5-94e4-71539222d255",
               "encryption": "none"
             }
           ]
@@ -53,24 +197,24 @@
       "network": "ws",
       "security": "tls",
       "wsSettings": {
-        "path": "/539f787d-f800-404d-a3cd-94828ada6b3f-vm",
+        "path": "/ws",
         "headers": {
-          "Host": "lat.wawojk.dpdns.org"
+          "Host": "bounded-crammed.video-streams.org"
         }
       }
     }
   },
   {
-    "tag": "AUTO-03-RU",
+    "tag": "AUTO-08-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "189.74.106.74",
+          "address": "31.77.143.70",
           "port": 443,
           "users": [
             {
-              "id": "df7b592d-89c4-4693-86b3-c9ce76bf1d10",
+              "id": "24b5a8bc-3648-42e1-b02d-227ceeead1c9",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -82,46 +226,16 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "api.setevoypriliv.cc",
-        "fingerprint": "safari",
-        "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-        "shortId": "a8",
+        "serverName": "ru3.ghostyconnect.org",
+        "fingerprint": "firefox",
+        "publicKey": "gyxmHhZGVwv__xhL9xgbC5IViZ4SOqp3Naosi-CPqQs",
+        "shortId": "",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-04-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "189.74.106.132",
-          "port": 443,
-          "users": [
-            {
-              "id": "77755b10-51fe-4147-b89e-46ec0d6516e8",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "api.setevoypriliv.cc",
-        "fingerprint": "safari",
-        "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-        "shortId": "a8",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-RU",
+    "tag": "AUTO-09-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -150,32 +264,30 @@
     }
   },
   {
-    "tag": "AUTO-06-FI",
+    "tag": "AUTO-10-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "13.140.94.191",
+          "address": "lvi.su",
           "port": 443,
           "users": [
             {
-              "id": "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "7b91b2c3-8af3-449b-a555-00c9460989f4",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "tradingview.com",
-        "fingerprint": "firefox",
-        "publicKey": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
-        "shortId": "8f3c6e2a1b5d4f09",
-        "spiderX": ""
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2",
+        "headers": {
+          "Host": "lvi.su"
+        }
       }
     }
   }
