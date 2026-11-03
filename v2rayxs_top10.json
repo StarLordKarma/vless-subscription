@@ -1,48 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "79.141.164.83",
-          "port": 443,
+          "address": "94.247.142.1",
+          "port": 2095,
           "users": [
             {
-              "id": "0760406c-3f19-47b1-b332-f59270adf431",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nlb.kosmosapp.net",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "lvi.su",
-          "port": 443,
-          "users": [
-            {
-              "id": "7b91b2c3-8af3-449b-a555-00c9460989f4",
+              "id": "8cacef8e-6975-46c9-94cb-212a3cfaa0bc",
               "encryption": "none"
             }
           ]
@@ -51,11 +18,11 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
-        "path": "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "lvi.su"
+          "Host": "io8Fath-xBp15rGk-v3.io8Fath.woRKers.dEV"
         }
       }
     }
