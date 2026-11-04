@@ -1,106 +1,15 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "radar.cloudflare.com",
-          "port": 8080,
-          "users": [
-            {
-              "id": "cfa71937-73d5-4eb8-9b25-eadecd944803",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "sh-harand.shcharand00.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "154.21.89.67",
-          "port": 18889,
-          "users": [
-            {
-              "id": "da03af6b-a490-4064-8100-d91194e086b6",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "dmit.shiinayane.com",
-        "fingerprint": "firefox",
-        "publicKey": "HH7pKVkvqwZBs9yeZ6ffYZ1ColfFNT94Yek4GC4NLFs",
-        "shortId": "",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "79.141.164.125",
+          "address": "201.10.90.113",
           "port": 443,
           "users": [
             {
-              "id": "8976c40a-e01f-41cf-831f-8219f8edf0ff",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nla.kosmosapp.net",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "31.77.149.194",
-          "port": 2063,
-          "users": [
-            {
-              "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+              "id": "610ac982-04eb-34c0-80b1-5dd3c2ca131e",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -112,9 +21,9 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "rusbid.de",
+        "serverName": "undef-aut-0.undef.network",
         "fingerprint": "firefox",
-        "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
+        "publicKey": "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg",
         "shortId": "",
         "spiderX": ""
       }
