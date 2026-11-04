@@ -1,15 +1,74 @@
 [
   {
-    "tag": "AUTO-01-UK",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "94.247.142.1",
-          "port": 2095,
+          "address": "903.rtgpu.com",
+          "port": 443,
           "users": [
             {
-              "id": "8cacef8e-6975-46c9-94cb-212a3cfaa0bc",
+              "id": "c6438331-a79b-4471-fd5e-42c2eeac29fa",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/nmd2",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "79.141.164.83",
+          "port": 443,
+          "users": [
+            {
+              "id": "0760406c-3f19-47b1-b332-f59270adf431",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nlb.kosmosapp.net",
+        "fingerprint": "firefox",
+        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+        "shortId": "27350908de933e09",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "neurex",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "champion.xn--kivt58h.lol",
+          "port": 80,
+          "users": [
+            {
+              "id": "ed2864f9-37b3-4222-8c54-014aedc400a2",
               "encryption": "none"
             }
           ]
@@ -20,10 +79,43 @@
       "network": "ws",
       "security": "none",
       "wsSettings": {
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "io8Fath-xBp15rGk-v3.io8Fath.woRKers.dEV"
+          "Host": "ak.mcdonaldshamburgergoodgoodgood.xyz"
         }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "79.141.164.125",
+          "port": 443,
+          "users": [
+            {
+              "id": "99900f66-f01e-4f3a-a4c6-265a19a8af76",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nla.kosmosapp.net",
+        "fingerprint": "firefox",
+        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+        "shortId": "27350908de933e09",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "neurex",
+        "multiMode": false
       }
     }
   }
