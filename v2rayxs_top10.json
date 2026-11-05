@@ -1,31 +1,284 @@
 [
   {
-    "tag": "AUTO-01-PL",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "201.10.90.113",
-          "port": 443,
+          "address": "radar.cloudflare.com",
+          "port": 8080,
           "users": [
             {
-              "id": "610ac982-04eb-34c0-80b1-5dd3c2ca131e",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "cfa71937-73d5-4eb8-9b25-eadecd944803",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sh-harand.shcharand00.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "edge-relay-c9db.edge-edge-relay-be8e.workers.dev",
+          "port": 443,
+          "users": [
+            {
+              "id": "8a540f3b-04c7-4e22-924a-51a0b6fad164",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/admin/proxyip=undefined",
+        "headers": {
+          "Host": "edge-relay-c9db.edge-edge-relay-be8e.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.18.27.94",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "ld.235231.xyz",
+          "port": 443,
+          "users": [
+            {
+              "id": "65d3f9b3-d289-4a8e-9c87-90bba156de30",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "ld.235231.xyz"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.18.26.94",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.digitalocean.com",
+          "port": 8080,
+          "users": [
+            {
+              "id": "2500e602-671c-4654-a602-c518b7282167",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.gov.se",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "raverno.online",
+          "port": 443,
+          "users": [
+            {
+              "id": "7feec880-56f0-4425-9313-e2e340206284",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "raverno.grpc2",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "k9-85j.pages.dev",
+          "port": 443,
+          "users": [
+            {
+              "id": "3dc83518-4002-485e-a066-d3bbcaaa2b2e",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/1WWzkWgNslKTcceU?ed=2560",
+        "headers": {
+          "Host": "k9-85j.pages.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "79.141.164.124",
+          "port": 443,
+          "users": [
+            {
+              "id": "78c6b54f-3057-4af2-9ceb-1d1e3b12c623",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "undef-aut-0.undef.network",
+        "serverName": "nla.kosmosapp.net",
         "fingerprint": "firefox",
-        "publicKey": "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg",
-        "shortId": "",
+        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+        "shortId": "27350908de933e09",
         "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "neurex",
+        "multiMode": false
       }
     }
   }
