@@ -1,15 +1,71 @@
 [
   {
-    "tag": "AUTO-01-FI",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "122.8.47.4",
+          "address": "188.114.97.6",
+          "port": 8080,
+          "users": [
+            {
+              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560",
+        "headers": {
+          "Host": "elenaaaaaaaaaa.cloudns.pro"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.97.6",
+          "port": 80,
+          "users": [
+            {
+              "id": "e89f9d3c-d924-4684-ad0e-a1e9d8c780e7",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/sg-amz",
+        "headers": {
+          "Host": "unnes.ac.id.r3xxe.eu.cc"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "147.78.182.7",
           "port": 8443,
           "users": [
             {
-              "id": "ffaa2141-759b-424f-f28c-23dbeae00f10",
+              "id": "1c80222f-9fd9-db7b-c1ae-86c82c158b9d",
               "encryption": "none"
             }
           ]
@@ -20,9 +76,234 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "www.philips.com",
-        "fingerprint": "chrome",
-        "publicKey": "Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ",
+        "serverName": "www.epson.com",
+        "fingerprint": "firefox",
+        "publicKey": "Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "213.108.21.173",
+          "port": 443,
+          "users": [
+            {
+              "id": "c1fdf1e6-6370-4bad-a866-f80f27f5e785",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nl1.kids-games.ru",
+        "fingerprint": "firefox",
+        "publicKey": "oSbyJBoI2JTEva2ks51kmUCA7z-iFUcoGYCk-ciEaDU",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "13.143.192.200",
+          "port": 443,
+          "users": [
+            {
+              "id": "caedb3a1-6395-40b9-a9a8-4b9694eb224a",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "kulek.tech",
+        "fingerprint": "firefox",
+        "publicKey": "gOzBi_a99jyGQyM5tVwDpi7EQ_3eaj-v15mHOTs9xkY",
+        "shortId": "",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "122.8.46.9",
+          "port": 8443,
+          "users": [
+            {
+              "id": "1c80222f-9fd9-db7b-c1ae-86c82c158b9d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "cdn.steamstatic.com",
+        "fingerprint": "firefox",
+        "publicKey": "sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-DE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "178.20.28.3",
+          "port": 8443,
+          "users": [
+            {
+              "id": "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "res.cdn.office.net",
+        "fingerprint": "firefox",
+        "publicKey": "4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "122.8.47.2",
+          "port": 8443,
+          "users": [
+            {
+              "id": "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.hp.com",
+        "fingerprint": "firefox",
+        "publicKey": "QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "122.8.47.5",
+          "port": 8443,
+          "users": [
+            {
+              "id": "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "download.nvidia.com",
+        "fingerprint": "firefox",
+        "publicKey": "skXBkyphBIt0TWVM0R5U3U-8UG0cuW00ONkaQpJ-OxU",
+        "shortId": "",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "TunService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "122.8.46.7",
+          "port": 8443,
+          "users": [
+            {
+              "id": "1c80222f-9fd9-db7b-c1ae-86c82c158b9d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "download.nvidia.com",
+        "fingerprint": "firefox",
+        "publicKey": "wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk",
         "shortId": "",
         "spiderX": ""
       },
