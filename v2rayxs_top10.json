@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "fetch.mediacorphub.org",
+          "address": "fs.qicai99.com",
           "port": 443,
           "users": [
             {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
               "encryption": "none"
             }
           ]
@@ -17,245 +17,43 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
+      "network": "ws",
       "security": "tls",
-      "grpcSettings": {
-        "serviceName": "api.v1.FeedService",
-        "multiMode": false
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "fs.qicai99.com"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-02-BR",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "tracker.mediacorphub.org",
-          "port": 443,
+          "address": "109.104.155.131",
+          "port": 2053,
           "users": [
             {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
+              "id": "bb3723d7-462e-442c-9472-496750476f45",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "home.v1.ObjectService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "edge.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "hub.v1.ObjectService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "net.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "home.v2.MetricsService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "gateway.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "home.v1.ObjectService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "app.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "stats.v2.StreamService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "rpc.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "api.v1.FeedService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "cdn.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "stats.v2.StreamService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "relay.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "api.v1.FeedService",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-Netherlands",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "stats.mediacorphub.org",
-          "port": 443,
-          "users": [
-            {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "gw.v2.PushService",
-        "multiMode": false
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "dir-br1.filesapp.org",
+        "fingerprint": "firefox",
+        "publicKey": "MwJoFytMWCLdwCCt0cSTM8L6ZzYKxlZbFMML_3nnJms",
+        "shortId": "508118120e886b5a",
+        "spiderX": ""
       }
     }
   }
