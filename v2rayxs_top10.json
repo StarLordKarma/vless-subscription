@@ -1,6 +1,62 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "cdn-nl.vpnserverhub.com",
+          "port": 8080,
+          "users": [
+            {
+              "id": "7e3591fa-3583-4718-b088-4f047f6b74d6",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "",
+      "wsSettings": {
+        "path": "/vpn-secure-cdn",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "50.7.227.78",
+          "port": 443,
+          "users": [
+            {
+              "id": "90157e25-cee1-4217-921e-91f300bc1a24",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "50.7.227.78",
+        "fingerprint": "firefox",
+        "publicKey": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+        "shortId": "428ef87fd47a3a32",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -30,16 +86,16 @@
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "stats.mediacorphub.org",
+          "address": "141.193.154.198",
           "port": 443,
           "users": [
             {
-              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "id": "b8d08151-73bd-4567-afac-8b4a01daff78",
               "encryption": "none"
             }
           ]
@@ -47,21 +103,24 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "tls",
-      "grpcSettings": {
-        "serviceName": "gw.v2.PushService",
-        "multiMode": false
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "cloudflare.com",
+        "fingerprint": "firefox",
+        "publicKey": "ZsBXnmtXqG_bOX7M10A1DGtds_Ch-NuvJNlGNl9-OEU",
+        "shortId": "be4d24310c27",
+        "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-05-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "hub.mediacorphub.org",
+          "address": "edge.mediacorphub.org",
           "port": 443,
           "users": [
             {
@@ -82,7 +141,59 @@
     }
   },
   {
-    "tag": "AUTO-04-Netherlands",
+    "tag": "AUTO-06-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "get.mediacorphub.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "gw.v2.PushService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "assets.mediacorphub.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "hub.v1.ObjectService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -108,7 +219,33 @@
     }
   },
   {
-    "tag": "AUTO-05-FR",
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "hub.mediacorphub.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "hub.v1.ObjectService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-FR",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -134,34 +271,6 @@
         "publicKey": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
         "shortId": "428ef87fd47a3a32",
         "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "mbr.rkn-pediki.site",
-          "port": 443,
-          "users": [
-            {
-              "id": "2b5962e8-1ec2-0001-bdab-cefa57555d2a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/session",
-        "headers": {
-          "Host": "mbr.rkn-pediki.site"
-        }
       }
     }
   }
