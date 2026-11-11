@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "94.183.164.141",
-          "port": 7443,
+          "address": "web-production-416e4892.up.railway.app",
+          "port": 443,
           "users": [
             {
-              "id": "25ce9135-58c0-46fb-97ad-a39eeff459e9",
+              "id": "2afe043f-7ab2-465c-b3b1-f1060ff77a7f",
               "encryption": "none"
             }
           ]
@@ -17,18 +17,69 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "optim.tildacdn.pub",
-        "fingerprint": "firefox",
-        "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "ebl",
-        "multiMode": true
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/ws/2afe043f-7ab2-465c-b3b1-f1060ff77a7f",
+        "headers": {
+          "Host": "web-production-416e4892.up.railway.app"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-FR",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "xray-laofru8r-lunar-pixel-8.cloady.io",
+          "port": 443,
+          "users": [
+            {
+              "id": "69fd8f7d-bb80-1be5-3219-23acb78f4a63",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/810122fee58cdd26",
+        "headers": {
+          "Host": "xray-laofru8r-lunar-pixel-8.cloady.io"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-IN",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "xray-bprkdwje-clever-comet-4.cloady.io",
+          "port": 443,
+          "users": [
+            {
+              "id": "f1a7e2c8-b140-50d1-8acf-e62090f96599",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/27dbf143acdd7bca",
+        "headers": {
+          "Host": "xray-bprkdwje-clever-comet-4.cloady.io"
+        }
       }
     }
   }
