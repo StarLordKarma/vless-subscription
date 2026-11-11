@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "web-production-416e4892.up.railway.app",
-          "port": 443,
+          "address": "cdn-nl.vpnserverhub.com",
+          "port": 8080,
           "users": [
             {
-              "id": "2afe043f-7ab2-465c-b3b1-f1060ff77a7f",
+              "id": "a9b95914-dd1d-466a-b628-0e603a76383e",
               "encryption": "none"
             }
           ]
@@ -18,26 +18,24 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "",
       "wsSettings": {
-        "path": "/ws/2afe043f-7ab2-465c-b3b1-f1060ff77a7f",
-        "headers": {
-          "Host": "web-production-416e4892.up.railway.app"
-        }
+        "path": "/vpn-secure-cdn",
+        "headers": {}
       }
     }
   },
   {
-    "tag": "AUTO-02-FR",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "xray-laofru8r-lunar-pixel-8.cloady.io",
+          "address": "141.193.154.198",
           "port": 443,
           "users": [
             {
-              "id": "69fd8f7d-bb80-1be5-3219-23acb78f4a63",
+              "id": "b8d08151-73bd-4567-afac-8b4a01daff78",
               "encryption": "none"
             }
           ]
@@ -45,27 +43,28 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/810122fee58cdd26",
-        "headers": {
-          "Host": "xray-laofru8r-lunar-pixel-8.cloady.io"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "cloudflare.com",
+        "fingerprint": "firefox",
+        "publicKey": "ZsBXnmtXqG_bOX7M10A1DGtds_Ch-NuvJNlGNl9-OEU",
+        "shortId": "be4d24310c27",
+        "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-03-IN",
+    "tag": "AUTO-03-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "xray-bprkdwje-clever-comet-4.cloady.io",
+          "address": "hub.mediacorphub.org",
           "port": 443,
           "users": [
             {
-              "id": "f1a7e2c8-b140-50d1-8acf-e62090f96599",
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
               "encryption": "none"
             }
           ]
@@ -73,13 +72,214 @@
       ]
     },
     "streamSettings": {
-      "network": "ws",
+      "network": "grpc",
       "security": "tls",
-      "wsSettings": {
-        "path": "/27dbf143acdd7bca",
-        "headers": {
-          "Host": "xray-bprkdwje-clever-comet-4.cloady.io"
+      "grpcSettings": {
+        "serviceName": "hub.v1.ObjectService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "api.mediacorphub.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "encryption": "none"
+            }
+          ]
         }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "gw.v2.PushService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "9.247.54.228",
+          "port": 443,
+          "users": [
+            {
+              "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "717252g.nl8.h1clayd.click",
+        "fingerprint": "firefox",
+        "publicKey": "PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU",
+        "shortId": "d3bd772514c87d28",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "204adda7e3da",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "get.mediacorphub.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "gw.v2.PushService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "edge.mediacorphub.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "hub.v1.ObjectService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "stats.mediacorphub.org",
+          "port": 443,
+          "users": [
+            {
+              "id": "1653818d-532e-46be-b825-384107fb7c3a",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "tls",
+      "grpcSettings": {
+        "serviceName": "gw.v2.PushService",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-EE",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "196.196.148.63",
+          "port": 443,
+          "users": [
+            {
+              "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "717252g.nl8.h1clayd.click",
+        "fingerprint": "firefox",
+        "publicKey": "PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU",
+        "shortId": "d3bd772514c87d28",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "204adda7e3da",
+        "multiMode": false
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "136.234.9.28",
+          "port": 443,
+          "users": [
+            {
+              "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "grpc",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "717252g.nl8.h1clayd.click",
+        "fingerprint": "firefox",
+        "publicKey": "PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU",
+        "shortId": "d3bd772514c87d28",
+        "spiderX": ""
+      },
+      "grpcSettings": {
+        "serviceName": "204adda7e3da",
+        "multiMode": false
       }
     }
   }
