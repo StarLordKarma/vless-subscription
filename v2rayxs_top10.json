@@ -5,95 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn-nl.vpnserverhub.com",
-          "port": 8080,
-          "users": [
-            {
-              "id": "8573f3c6-2e80-4b63-9270-602548925b34",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "",
-      "wsSettings": {
-        "path": "/vpn-secure-cdn",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-Switzerland",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "193.228.128.230",
-          "port": 443,
-          "users": [
-            {
-              "id": "de404269-a97c-4f49-9efb-43509c2afa09",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ch.primarymaster.online",
-        "fingerprint": "firefox",
-        "publicKey": "rS6r3PZQHZp31tnOmJAuCme4xJgsak_JsZ5hTPwpuiY",
-        "shortId": "8b8dd8a1c0c468d3",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "48.102.169.194",
-          "port": 8443,
-          "users": [
-            {
-              "id": "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "tradingview.com",
-        "fingerprint": "firefox",
-        "publicKey": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
-        "shortId": "8f3c6e2a1b5d4f09",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "84.32.61.133",
           "port": 443,
           "users": [
@@ -119,72 +30,16 @@
     }
   },
   {
-    "tag": "AUTO-05-USA",
+    "tag": "AUTO-02-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.18.20.212",
-          "port": 8080,
-          "users": [
-            {
-              "id": "ab5a19cf-cadc-4648-a5e9-b510aca8f732",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "akanode.madvpn.us.kg"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "mbr.rkn-pediki.site",
+          "address": "203.23.179.123",
           "port": 443,
           "users": [
             {
-              "id": "2b5962e8-1ec2-0001-bdab-cefa57555d2a",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/session",
-        "headers": {
-          "Host": "mbr.rkn-pediki.site"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "80.47.11.123",
-          "port": 443,
-          "users": [
-            {
-              "id": "fa081e9f-7574-4e18-8928-31aa5ac923c7",
+              "id": "fa081e9f-7574-0002-8928-31aa5ac923c7",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -196,37 +51,7 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "pl8.lazeroe.com",
-        "fingerprint": "firefox",
-        "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-        "shortId": "868419504747f6de",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "195.3.223.124",
-          "port": 443,
-          "users": [
-            {
-              "id": "fa081e9f-7574-4e18-8928-31aa5ac923c7",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "tcppl6.lazeroe.com",
+        "serverName": "de1-b.sbcweb.net",
         "fingerprint": "firefox",
         "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
         "shortId": "868419504747f6de",
