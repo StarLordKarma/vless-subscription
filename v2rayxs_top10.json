@@ -9,7 +9,7 @@
           "port": 8080,
           "users": [
             {
-              "id": "e939d116-74aa-4730-845f-ea0e78f24abb",
+              "id": "ecaad3a3-d099-4718-8034-23d6185a0ce2",
               "encryption": "none"
             }
           ]
@@ -26,32 +26,35 @@
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-02-PL",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "93.152.215.172",
+          "address": "13e1cfg.plp1.h1cloud.net",
           "port": 443,
           "users": [
             {
-              "id": "6db6b948-655f-4f68-a9e7-865050e05b31",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "55458d10-24ab-4ea6-a522-13741b546f2a",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
+      "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "93.152.215.172",
-        "fingerprint": "firefox",
-        "publicKey": "_bGFsLP1Vw7sK0g6oervHFV00C5O3q7X3x_aOo-zhWI",
-        "shortId": "672cac",
-        "spiderX": ""
+        "serverName": "13e1cfg.plp1.h1cloud.net",
+        "fingerprint": "chrome",
+        "publicKey": "cWC6AGVZ9ke_eCTWXEB-eLdf670CuoP9zP-1k8DrPxo",
+        "shortId": "8ae9cc8c9447c95a",
+        "spiderX": "/"
+      },
+      "grpcSettings": {
+        "serviceName": "d5d6142b8b66",
+        "multiMode": false
       }
     }
   },
@@ -61,41 +64,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "138.124.254.181",
-          "port": 443,
+          "address": "212.41.8.76",
+          "port": 13443,
           "users": [
             {
-              "id": "a5a8ffd9-17b9-000b-840d-bb69289f94fc",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "lywd3zccl0w7a4ih.customer.velacdn.com",
-        "fingerprint": "firefox",
-        "publicKey": "iKYXOJoOvOk71UnjIzyEj502_nBalSNLJRWjKTf1fQc",
-        "shortId": "f3bc3272312b46e9",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "79.98.38.24",
-          "port": 443,
-          "users": [
-            {
-              "id": "7d718630-7a1a-4af8-9332-aa0610634e8a",
+              "id": "a628c583-24a8-4ce5-98ad-c6458abf1cc4",
               "encryption": "none"
             }
           ]
@@ -106,29 +79,29 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "api.alder.lalibobi.online",
+        "serverName": "s3.storage.selcloud.ru",
         "fingerprint": "firefox",
-        "publicKey": "tKzo0qk-NJCNnmxmSgP7uGmd9VHKiTG2L-YqXYGj4Dc",
-        "shortId": "203242200f9d16be",
+        "publicKey": "d2B_vurRVKXLrK0ib-0sTtQuI3VDdaj8ZKTXgEPwAlc",
+        "shortId": "9de815e2",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "shop.v1.Catalog",
+        "serviceName": "grpc",
         "multiMode": false
       }
     }
   },
   {
-    "tag": "AUTO-05-PL",
+    "tag": "AUTO-04-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "api.alder.lalibobi.online",
-          "port": 443,
+          "address": "212.41.8.76",
+          "port": 11443,
           "users": [
             {
-              "id": "7d718630-7a1a-4af8-9332-aa0610634e8a",
+              "id": "a628c583-24a8-4ce5-98ad-c6458abf1cc4",
               "encryption": "none"
             }
           ]
@@ -139,43 +112,15 @@
       "network": "grpc",
       "security": "reality",
       "realitySettings": {
-        "serverName": "api.alder.lalibobi.online",
+        "serverName": "s3.storage.selcloud.ru",
         "fingerprint": "firefox",
-        "publicKey": "tKzo0qk-NJCNnmxmSgP7uGmd9VHKiTG2L-YqXYGj4Dc",
-        "shortId": "203242200f9d16be",
+        "publicKey": "LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28",
+        "shortId": "9edc24fc",
         "spiderX": ""
       },
       "grpcSettings": {
-        "serviceName": "shop.v1.Catalog",
+        "serviceName": "cas-hu",
         "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "5674-4.seenode.app",
-          "port": 443,
-          "users": [
-            {
-              "id": "510e8bc2-020c-412a-9caa-b036031268e8",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/api/v1/live",
-        "headers": {
-          "Host": "5674-4.seenode.app"
-        }
       }
     }
   }
