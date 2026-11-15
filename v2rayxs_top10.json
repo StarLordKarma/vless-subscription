@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "ws137.mydosss.ccwu.cc",
-          "port": 443,
+          "address": "cdn-nl.vpnserverhub.com",
+          "port": 8080,
           "users": [
             {
-              "id": "44be961e-c60d-463c-86d6-50ce6d8866c5",
+              "id": "d54061b7-f698-4a0e-aa6c-c565d2cc42b0",
               "encryption": "none"
             }
           ]
@@ -18,12 +18,40 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "",
       "wsSettings": {
-        "path": "/3b575ddc8596",
-        "headers": {
-          "Host": "ws137.mydosss.ccwu.cc"
+        "path": "/vpn-secure-cdn",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-HK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "91.213.186.45",
+          "port": 38521,
+          "users": [
+            {
+              "id": "71327a90-b9c4-4385-b850-4d3c5832d9cc",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
         }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "www.paypal.com",
+        "fingerprint": "firefox",
+        "publicKey": "5Uk63lFOn1Z3gmImXWrXbvQ0b9gXTOiY_VWuI898Vmk",
+        "shortId": "",
+        "spiderX": ""
       }
     }
   }
