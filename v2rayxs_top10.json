@@ -5,11 +5,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn-nl.vpnserverhub.com",
-          "port": 8080,
+          "address": "platform103.golnamakcert.top",
+          "port": 80,
           "users": [
             {
-              "id": "d52531f2-3b44-47a0-b60f-de7b1297d5e8",
+              "id": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
               "encryption": "none"
             }
           ]
@@ -18,9 +18,9 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "",
+      "security": "none",
       "wsSettings": {
-        "path": "/vpn-secure-cdn",
+        "path": "/platform103",
         "headers": {}
       }
     }
@@ -31,11 +31,11 @@
     "settings": {
       "vnext": [
         {
-          "address": "fr-free.fastestrelay.com",
-          "port": 443,
+          "address": "104.17.3.81",
+          "port": 80,
           "users": [
             {
-              "id": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
+              "id": "fdd8f4d0-4500-11ef-8227-1577c1651679",
               "encryption": "none"
             }
           ]
@@ -44,12 +44,99 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
-        "path": "/700gvl",
+        "path": "/",
         "headers": {
-          "Host": "fr-free.fastestrelay.com"
+          "Host": "sg-vless-ws.bypass.id"
         }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "37.49.225.52",
+          "port": 443,
+          "users": [
+            {
+              "id": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "api-ns-ctl.galioncc.com",
+        "fingerprint": "firefox",
+        "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+        "shortId": "868419504747f6de",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-KZ",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "91.217.10.237",
+          "port": 443,
+          "users": [
+            {
+              "id": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "api-ns-mgr.galioncc.com",
+        "fingerprint": "firefox",
+        "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+        "shortId": "868419504747f6de",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-LT",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "84.32.51.135",
+          "port": 443,
+          "users": [
+            {
+              "id": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "svc-io-mgr.galioncc.com",
+        "fingerprint": "firefox",
+        "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+        "shortId": "a7d309e4c16b825f",
+        "spiderX": ""
       }
     }
   }
