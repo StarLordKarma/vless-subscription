@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-UK",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "48.103.120.13",
+          "address": "xray-ckc68nno-swift-harbor-8.cloady.io",
           "port": 443,
           "users": [
             {
-              "id": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+              "id": "b004e898-f6cf-54a5-d281-f063d741ad53",
               "encryption": "none"
             }
           ]
@@ -17,43 +17,13 @@
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "svc-ns-cfg.galioncc.com",
-        "fingerprint": "firefox",
-        "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-        "shortId": "868419504747f6de",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "48.103.120.10",
-          "port": 443,
-          "users": [
-            {
-              "id": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
-              "encryption": "none"
-            }
-          ]
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/3e0261245277336d",
+        "headers": {
+          "Host": "xray-ckc68nno-swift-harbor-8.cloady.io"
         }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "net-rt-mgr.galioncc.com",
-        "fingerprint": "firefox",
-        "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-        "shortId": "868419504747f6de",
-        "spiderX": ""
       }
     }
   }
