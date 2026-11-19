@@ -1,29 +1,31 @@
 [
   {
-    "tag": "AUTO-01-UK",
+    "tag": "AUTO-01-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "xray-ckc68nno-swift-harbor-8.cloady.io",
+          "address": "89.169.2.136",
           "port": 443,
           "users": [
             {
-              "id": "b004e898-f6cf-54a5-d281-f063d741ad53",
-              "encryption": "none"
+              "id": "1547ed3d-3bb7-4153-afdc-8eb3e9373c84",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/3e0261245277336d",
-        "headers": {
-          "Host": "xray-ckc68nno-swift-harbor-8.cloady.io"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "node-kz-1.nztpro.com",
+        "fingerprint": "firefox",
+        "publicKey": "cOnDGs0VQDa-LnjQNWLb1w2jyso0EqZ0epfDCTrNrA8",
+        "shortId": "274aec426d8627f2",
+        "spiderX": ""
       }
     }
   }
