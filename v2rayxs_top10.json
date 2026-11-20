@@ -1,83 +1,31 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "154.12.49.239",
-          "port": 80,
+          "address": "88.210.62.122",
+          "port": 443,
           "users": [
             {
-              "id": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-              "encryption": "none"
+              "id": "b392873f-82a2-01f4-ac46-303dd8d4f388",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/platform103",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "170.114.46.6",
-          "port": 80,
-          "users": [
-            {
-              "id": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "matrix.learnpodedu.com"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "support.zoom.us",
-          "port": 80,
-          "users": [
-            {
-              "id": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "matrix.learnpodedu.com"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "gateway.dzen-nl-1.com",
+        "fingerprint": "firefox",
+        "publicKey": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
+        "shortId": "0a6ba2716a409da6",
+        "spiderX": ""
       }
     }
   }
