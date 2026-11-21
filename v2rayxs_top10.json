@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-FR",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "leviko-fr7730.shopingggg.ir",
+          "address": "support.zoom.us",
           "port": 80,
           "users": [
             {
-              "id": "c762af05-2e92-4133-bc30-8cf45dd40a28",
+              "id": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
               "encryption": "none"
             }
           ]
@@ -18,17 +18,47 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "",
+      "security": "none",
       "wsSettings": {
         "path": "/",
         "headers": {
-          "Host": "suh.cryptofront.uk"
+          "Host": "matrix.learnpodedu.com"
         }
       }
     }
   },
   {
     "tag": "AUTO-02-FI",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "144.31.90.237",
+          "port": 8445,
+          "users": [
+            {
+              "id": "cac10246-5b76-4809-9fd0-417c58a3ca90",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "portal.gifmems.com",
+        "fingerprint": "firefox",
+        "publicKey": "32eua16pKE179lLHv-VNZGrX287qQFMXA3n0VgEzNTQ",
+        "shortId": "b3a633bc754b648d",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-FI",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -61,16 +91,16 @@
     }
   },
   {
-    "tag": "AUTO-03-FI",
+    "tag": "AUTO-04-DE",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "45.144.52.205",
-          "port": 443,
+          "address": "2.28.45.87",
+          "port": 8080,
           "users": [
             {
-              "id": "78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c",
+              "id": "6c49810a-e6e7-4948-8061-6f6243b0124d",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -82,44 +112,11 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "fi.convert-cloud.guru",
+        "serverName": "ssh.webdade.com",
         "fingerprint": "firefox",
-        "publicKey": "9kQGK7IuVFWU9xCb4g9ygL1CEv87QmVZJzWLz74pTSc",
-        "shortId": "",
+        "publicKey": "aiFPeLurQNAOYZhwdXsYwxCxBgw6qg8rt0UvdrdNPTY",
+        "shortId": "ed516450fce897dd",
         "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "62.233.39.5",
-          "port": 8443,
-          "users": [
-            {
-              "id": "4fabeed0-790e-9724-8f12-138ed31ac60e",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "cdn.steamstatic.com",
-        "fingerprint": "firefox",
-        "publicKey": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "TunService",
-        "multiMode": false
       }
     }
   }
