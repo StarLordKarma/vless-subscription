@@ -5,11 +5,39 @@
     "settings": {
       "vnext": [
         {
-          "address": "support.zoom.us",
+          "address": "172.64.147.85",
           "port": 80,
           "users": [
             {
-              "id": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
+              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "",
+      "wsSettings": {
+        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560",
+        "headers": {
+          "Host": "elenaaaaaaaaaa.cloudns.pro"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "188.114.98.112",
+          "port": 80,
+          "users": [
+            {
+              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
               "encryption": "none"
             }
           ]
@@ -22,52 +50,22 @@
       "wsSettings": {
         "path": "/",
         "headers": {
-          "Host": "matrix.learnpodedu.com"
+          "Host": "elenaaaaaaaaaa.cloudns.pro."
         }
       }
     }
   },
   {
-    "tag": "AUTO-02-FI",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "144.31.90.237",
-          "port": 8445,
+          "address": "188.114.97.6",
+          "port": 8080,
           "users": [
             {
-              "id": "cac10246-5b76-4809-9fd0-417c58a3ca90",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "portal.gifmems.com",
-        "fingerprint": "firefox",
-        "publicKey": "32eua16pKE179lLHv-VNZGrX287qQFMXA3n0VgEzNTQ",
-        "shortId": "b3a633bc754b648d",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-FI",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.144.52.205",
-          "port": 4243,
-          "users": [
-            {
-              "id": "78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c",
+              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
               "encryption": "none"
             }
           ]
@@ -75,48 +73,209 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "fi.convert-cloud.guru",
-        "fingerprint": "firefox",
-        "publicKey": "vCHucdoD_m-TKVHS7si1akKgP6r4dvTLUX8y1TTZQG4",
-        "shortId": "",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "ns",
-        "multiMode": false
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560",
+        "headers": {
+          "Host": "elenaaaaaaaaaa.cloudns.pro"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-04-DE",
+    "tag": "AUTO-04-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "2.28.45.87",
+          "address": "104.19.173.68",
           "port": 8080,
           "users": [
             {
-              "id": "6c49810a-e6e7-4948-8061-6f6243b0124d",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "2500e602-671c-4654-a602-c518b7282167",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ssh.webdade.com",
-        "fingerprint": "firefox",
-        "publicKey": "aiFPeLurQNAOYZhwdXsYwxCxBgw6qg8rt0UvdrdNPTY",
-        "shortId": "ed516450fce897dd",
-        "spiderX": ""
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.21.227.134",
+          "port": 80,
+          "users": [
+            {
+              "id": "0991a0c4-0ee5-4213-af89-7ad589f853f3",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "elenaaaaaaaaaa.cloudns.pro"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-06-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.18.26.94",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-07-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "radar.cloudflare.com",
+          "port": 8080,
+          "users": [
+            {
+              "id": "cfa71937-73d5-4eb8-9b25-eadecd944803",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sh-harand.shcharand00.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-08-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.26.13.31",
+          "port": 8080,
+          "users": [
+            {
+              "id": "3e06b1db-2efb-446e-ba2d-68850dfd2f9d",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "bdfba-cool-tree-b580.v8fz4kbv.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.hcaptcha.com",
+          "port": 80,
+          "users": [
+            {
+              "id": "d2a90ced-5cca-485a-8d25-f3ae38049151",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "worker3.xoxid22463.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.gov.se",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
       }
     }
   }
