@@ -5,62 +5,30 @@
     "settings": {
       "vnext": [
         {
-          "address": "206.245.132.182",
+          "address": "kozel.cc.cd",
           "port": 443,
           "users": [
             {
-              "id": "85b8b4a4-d9c6-4357-a016-3a3ee04bf984",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
+              "id": "3b01a777-55e7-49f6-8637-d94ee69607c6",
+              "encryption": "none"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "us.superspidy.com",
-        "fingerprint": "firefox",
-        "publicKey": "4mu0D7iJitheVteSBXEPt72-FH8G_TUoJ18sXLG5GDk",
-        "shortId": "332457cec312a4ab",
-        "spiderX": ""
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/118.151.222.66=17317",
+        "headers": {
+          "Host": "kozel.cc.cd"
+        }
       }
     }
   },
   {
     "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "150.241.83.233",
-          "port": 443,
-          "users": [
-            {
-              "id": "1f2836d7-e9ef-47d7-a9c4-1037077ae8d7",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "us1.videoharpaeva.online",
-        "fingerprint": "firefox",
-        "publicKey": "7tZfo92yG27sEdMCBO3bg-qmlAypOutEMbjFsL73QQ8",
-        "shortId": "e6e56b5f668e9c77",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
@@ -84,89 +52,6 @@
         "headers": {
           "Host": "sg-vless-ws.bypass.id"
         }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "144.31.62.22",
-          "port": 443,
-          "users": [
-            {
-              "id": "85b8b4a4-d9c6-4357-a016-3a3ee04bf984",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "de.superspidy.com",
-        "fingerprint": "firefox",
-        "publicKey": "KxfzsDIYTVadr9WuSIA50_uOGvRc314DJ9xWKDviWjs",
-        "shortId": "0f673feb52601022",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "176.124.33.92",
-          "port": 443,
-          "users": [
-            {
-              "id": "04920673-035c-410d-94e4-5b1469d3fb6f",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "tls"
-    }
-  },
-  {
-    "tag": "AUTO-06-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "193.23.202.17",
-          "port": 443,
-          "users": [
-            {
-              "id": "1f2836d7-e9ef-47d7-a9c4-1037077ae8d7",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nl1.videoharpaeva.online",
-        "fingerprint": "firefox",
-        "publicKey": "TE1qGUb4N4LesuXPdW647MUSOeU_aLhdvueCa_4P5no",
-        "shortId": "7f551e4657ac6e26",
-        "spiderX": ""
       }
     }
   }
