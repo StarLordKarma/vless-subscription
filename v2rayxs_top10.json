@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Netherlands",
+    "tag": "AUTO-01-RU",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "194.85.249.29",
-          "port": 443,
+          "address": "84.23.52.120",
+          "port": 34443,
           "users": [
             {
-              "id": "b7791707-83d9-444b-9d05-f5c99e90acd4",
+              "id": "7cbd9bf9-a3b1-4257-8406-df6109cd882f",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -21,10 +21,10 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "n1.sklserv.com",
+        "serverName": "ru.sparxiecn.com",
         "fingerprint": "firefox",
-        "publicKey": "GqhAFTkRQ1HkNXyF2dUl3wUzJDHfgx3O9qocK01SLWU",
-        "shortId": "38e0c84b27d01e0d",
+        "publicKey": "NBiCX_Tj3BeMAyG-GbLLKpGjW_qacm3A2Mz5mN8v3Xk",
+        "shortId": "ab532d3308daa67b",
         "spiderX": ""
       }
     }
