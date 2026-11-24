@@ -1,57 +1,31 @@
 [
   {
-    "tag": "AUTO-01-USA",
+    "tag": "AUTO-01-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "kozel.cc.cd",
+          "address": "194.85.249.29",
           "port": 443,
           "users": [
             {
-              "id": "3b01a777-55e7-49f6-8637-d94ee69607c6",
-              "encryption": "none"
+              "id": "b7791707-83d9-444b-9d05-f5c99e90acd4",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
             }
           ]
         }
       ]
     },
     "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/118.151.222.66=17317",
-        "headers": {
-          "Host": "kozel.cc.cd"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "104.17.3.81",
-          "port": 80,
-          "users": [
-            {
-              "id": "fdd8f4d0-4500-11ef-8227-1577c1651679",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "sg-vless-ws.bypass.id"
-        }
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "n1.sklserv.com",
+        "fingerprint": "firefox",
+        "publicKey": "GqhAFTkRQ1HkNXyF2dUl3wUzJDHfgx3O9qocK01SLWU",
+        "shortId": "38e0c84b27d01e0d",
+        "spiderX": ""
       }
     }
   }
