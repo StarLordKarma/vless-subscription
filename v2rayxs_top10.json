@@ -1,15 +1,69 @@
 [
   {
-    "tag": "AUTO-01-RU",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "84.23.52.120",
-          "port": 34443,
+          "address": "cdn-nl.vpnserverhub.com",
+          "port": 8080,
           "users": [
             {
-              "id": "7cbd9bf9-a3b1-4257-8406-df6109cd882f",
+              "id": "93ad7771-2a98-4933-8001-3b0c20fa88dd",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/vpn-secure-cdn",
+        "headers": {}
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "axe.mastopen14.ir",
+          "port": 443,
+          "users": [
+            {
+              "id": "83825c32-f2a9-4501-aa30-4131ecb40bbf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/f13eb798-4cc9-41b0-a955-88a2fb289821",
+        "headers": {
+          "Host": "mojito1703.mastopen14.ir"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "189.74.115.3",
+          "port": 443,
+          "users": [
+            {
+              "id": "2c15650f-8cb6-4b68-9501-0de4ec432082",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -21,10 +75,70 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "ru.sparxiecn.com",
+        "serverName": "api.mediaroshcha.cc",
         "fingerprint": "firefox",
-        "publicKey": "NBiCX_Tj3BeMAyG-GbLLKpGjW_qacm3A2Mz5mN8v3Xk",
-        "shortId": "ab532d3308daa67b",
+        "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+        "shortId": "a8",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "176.123.162.82",
+          "port": 443,
+          "users": [
+            {
+              "id": "9df9ee1a-0671-4c6c-93c7-65598fb946f7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "rukzmicro1.gangplatform.com",
+        "fingerprint": "qq",
+        "publicKey": "3xhvTr_v46NYSlw1yF6nWUjX6ZVHGfI0a0Wuao6lGVs",
+        "shortId": "a8b3db4bfe222a8c",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-RU",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "193.160.208.21",
+          "port": 443,
+          "users": [
+            {
+              "id": "9df9ee1a-0671-4c6c-93c7-65598fb946f7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "ruitaliamicro2.gangplatform.com",
+        "fingerprint": "qq",
+        "publicKey": "W7AD8d4R4-7TQW3-m5wJ0aJHzBcjPVdJF22jr2rP03A",
+        "shortId": "8f88b244f4fa8a69",
         "spiderX": ""
       }
     }
