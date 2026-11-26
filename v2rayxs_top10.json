@@ -5,60 +5,6 @@
     "settings": {
       "vnext": [
         {
-          "address": "cdn-nl.vpnserverhub.com",
-          "port": 8080,
-          "users": [
-            {
-              "id": "b4ce0b7d-6e59-4f35-83b3-d921486e42c3",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "none",
-      "wsSettings": {
-        "path": "/vpn-secure-cdn",
-        "headers": {}
-      }
-    }
-  },
-  {
-    "tag": "AUTO-02-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "delicate-tree-9749.vpnetwork3567.workers.dev",
-          "port": 443,
-          "users": [
-            {
-              "id": "963A4918-A630-29DA-A873-093CDF8AD784",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "ws",
-      "security": "tls",
-      "wsSettings": {
-        "path": "/",
-        "headers": {
-          "Host": "delicate-tree-9749.vpnetwork3567.workers.dev"
-        }
-      }
-    }
-  },
-  {
-    "tag": "AUTO-03-USA",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
           "address": "104.17.3.81",
           "port": 80,
           "users": [
@@ -78,6 +24,94 @@
         "headers": {
           "Host": "sg-vless-ws.bypass.id"
         }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "xinnusvpn.duckdns.org",
+          "port": 8443,
+          "users": [
+            {
+              "id": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/wsnl",
+        "headers": {
+          "Host": "xinnusvpn.duckdns.org"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-ES",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "145.249.109.248",
+          "port": 443,
+          "users": [
+            {
+              "id": "5dd4822d-b8dc-49dd-84b6-c3ea44ef42f7",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "mcsp.67resserv67.info",
+        "fingerprint": "firefox",
+        "publicKey": "gM_rANbedeIHB3Y1ltLG60xS1i2TuYt0PKgAgC1TzR4",
+        "shortId": "29455a3a790acbd0",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-MD",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "85.120.252.86",
+          "port": 443,
+          "users": [
+            {
+              "id": "c0742f77-5495-43bf-b007-88d368774d7c",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "molda.thewalkingded.life",
+        "fingerprint": "firefox",
+        "publicKey": "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk",
+        "shortId": "ff776ff77be48b88",
+        "spiderX": ""
       }
     }
   }
