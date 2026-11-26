@@ -1,15 +1,15 @@
 [
   {
-    "tag": "AUTO-01-Norway",
+    "tag": "AUTO-01-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "104.233.8.78",
-          "port": 443,
+          "address": "cdn-nl.vpnserverhub.com",
+          "port": 8080,
           "users": [
             {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
+              "id": "b4ce0b7d-6e59-4f35-83b3-d921486e42c3",
               "encryption": "none"
             }
           ]
@@ -17,32 +17,25 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "noa.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/vpn-secure-cdn",
+        "headers": {}
       }
     }
   },
   {
-    "tag": "AUTO-02-UK",
+    "tag": "AUTO-02-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "185.81.113.253",
+          "address": "delicate-tree-9749.vpnetwork3567.workers.dev",
           "port": 443,
           "users": [
             {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
+              "id": "963A4918-A630-29DA-A873-093CDF8AD784",
               "encryption": "none"
             }
           ]
@@ -50,32 +43,27 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "gba.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "delicate-tree-9749.vpnetwork3567.workers.dev"
+        }
       }
     }
   },
   {
-    "tag": "AUTO-03-Netherlands",
+    "tag": "AUTO-03-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "5.255.99.21",
-          "port": 443,
+          "address": "104.17.3.81",
+          "port": 80,
           "users": [
             {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
+              "id": "fdd8f4d0-4500-11ef-8227-1577c1651679",
               "encryption": "none"
             }
           ]
@@ -83,237 +71,13 @@
       ]
     },
     "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "nlc.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-04-RU",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "201.24.123.238",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sg-vless-ws.bypass.id"
         }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "rua.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-05-DE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "46.28.69.173",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "dec.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-06-AM",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "91.195.255.172",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "amb.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-07-PL",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "212.2.34.15",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "plb.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-08-SE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "79.141.174.123",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "sea.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
-      }
-    }
-  },
-  {
-    "tag": "AUTO-09-EE",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "80.79.121.147",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "eec.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      }
-    }
-  },
-  {
-    "tag": "AUTO-10-IT",
-    "protocol": "vless",
-    "settings": {
-      "vnext": [
-        {
-          "address": "194.180.207.145",
-          "port": 443,
-          "users": [
-            {
-              "id": "f8cb3c89-32af-4255-bebc-d90aad175069",
-              "encryption": "none"
-            }
-          ]
-        }
-      ]
-    },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "serverName": "ita.899themes.pro",
-        "fingerprint": "firefox",
-        "publicKey": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
-        "shortId": "27350908de933e09",
-        "spiderX": ""
-      },
-      "grpcSettings": {
-        "serviceName": "neurex",
-        "multiMode": false
       }
     }
   }
