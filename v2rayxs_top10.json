@@ -5,6 +5,120 @@
     "settings": {
       "vnext": [
         {
+          "address": "104.19.173.68",
+          "port": 8080,
+          "users": [
+            {
+              "id": "2500e602-671c-4654-a602-c518b7282167",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-02-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "www.gov.se",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-03-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "104.18.26.94",
+          "port": 8080,
+          "users": [
+            {
+              "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+              "encryption": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "none",
+      "wsSettings": {
+        "path": "/",
+        "headers": {
+          "Host": "sdf23g-billowing-moon-348e.mzm468gc.workers.dev"
+        }
+      }
+    }
+  },
+  {
+    "tag": "AUTO-04-UK",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "64.130.46.4",
+          "port": 443,
+          "users": [
+            {
+              "id": "2098ca45-e61c-0018-ad7d-8badb6b154f4",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "uk-lon1.connect.accessboy.com",
+        "fingerprint": "firefox",
+        "publicKey": "1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4",
+        "shortId": "1c5869a95671bcb0",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-05-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
           "address": "104.17.3.81",
           "port": 80,
           "users": [
@@ -28,16 +142,16 @@
     }
   },
   {
-    "tag": "AUTO-02-Netherlands",
+    "tag": "AUTO-06-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "xinnusvpn.duckdns.org",
-          "port": 8443,
+          "address": "radar.cloudflare.com",
+          "port": 8080,
           "users": [
             {
-              "id": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+              "id": "cfa71937-73d5-4eb8-9b25-eadecd944803",
               "encryption": "none"
             }
           ]
@@ -46,26 +160,26 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
+      "security": "none",
       "wsSettings": {
-        "path": "/wsnl",
+        "path": "/",
         "headers": {
-          "Host": "xinnusvpn.duckdns.org"
+          "Host": "sh-harand.shcharand00.workers.dev"
         }
       }
     }
   },
   {
-    "tag": "AUTO-03-ES",
+    "tag": "AUTO-07-USA",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "145.249.109.248",
+          "address": "152.232.82.194",
           "port": 443,
           "users": [
             {
-              "id": "5dd4822d-b8dc-49dd-84b6-c3ea44ef42f7",
+              "id": "aba7e731-72aa-427e-ba2f-123477fc2887",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -77,25 +191,25 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "mcsp.67resserv67.info",
+        "serverName": "api.videobereg.cc",
         "fingerprint": "firefox",
-        "publicKey": "gM_rANbedeIHB3Y1ltLG60xS1i2TuYt0PKgAgC1TzR4",
-        "shortId": "29455a3a790acbd0",
+        "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+        "shortId": "a8",
         "spiderX": ""
       }
     }
   },
   {
-    "tag": "AUTO-04-MD",
+    "tag": "AUTO-08-Netherlands",
     "protocol": "vless",
     "settings": {
       "vnext": [
         {
-          "address": "85.120.252.86",
+          "address": "84.32.108.50",
           "port": 443,
           "users": [
             {
-              "id": "c0742f77-5495-43bf-b007-88d368774d7c",
+              "id": "2098ca45-e61c-0015-ad7d-8badb6b154f4",
               "encryption": "none",
               "flow": "xtls-rprx-vision"
             }
@@ -107,10 +221,70 @@
       "network": "tcp",
       "security": "reality",
       "realitySettings": {
-        "serverName": "molda.thewalkingded.life",
+        "serverName": "nl-ams1.connect.accessboy.com",
         "fingerprint": "firefox",
-        "publicKey": "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk",
-        "shortId": "ff776ff77be48b88",
+        "publicKey": "1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4",
+        "shortId": "1c5869a95671bcb0",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-09-Netherlands",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "94.183.152.206",
+          "port": 443,
+          "users": [
+            {
+              "id": "5de17b74-d5f0-4da8-9b89-9e05bdb2e583",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "nn1.poka-poka.xyz",
+        "fingerprint": "qq",
+        "publicKey": "_R7n8YpQYZ8RwTQ9RA2k9dWRS5UfxY-KwzHbDB_heFo",
+        "shortId": "f2f916eb0ae89aba",
+        "spiderX": ""
+      }
+    }
+  },
+  {
+    "tag": "AUTO-10-USA",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "176.126.122.236",
+          "port": 443,
+          "users": [
+            {
+              "id": "10487656-1077-41c5-b73c-e46c444b8b9a",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "game.worldoftanks.com",
+        "fingerprint": "firefox",
+        "publicKey": "6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4",
+        "shortId": "",
         "spiderX": ""
       }
     }
